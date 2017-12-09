@@ -11,4 +11,4 @@ jobs:
           command: ls files/
       - run:
           name: Combine all files to releases
-          command: cat files/* > releases/vtbb.sct
+          command: cat files/* > release/vtbb.sct
