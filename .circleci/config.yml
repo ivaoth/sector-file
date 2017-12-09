@@ -5,12 +5,16 @@ jobs:
     docker:
       - image: debian:stretch
     steps:
+      - checkout
       - run:
           name: List Active Files
           command: ls files/
       - run:
-          name: Combine all files to releases
-          command: cat files/* > release/vtbb.sct
+          name: Creating directory
+          command: mkdir result
+      - run:
+          name: Combine all files
+          command: cat files/* > result/vtbb.sct
       - store_artifacts:
-          path: /root/ivac-riffy/release/vtbb.sct
+          path: /root/ivac-riffy/result/vtbb.sct
     
