@@ -13,5 +13,5 @@ jobs:
           name: Combine all files to releases
           command: cat files/* > release/vtbb.sct
       - store_artifacts:
-          path: ~/ivac-riffy/release
+          path: /root/ivac-riffy/release
     
