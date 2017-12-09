@@ -2,4 +2,4 @@
 
 # IVAC Sector Files
 
-This is IvAc 1 sectr file for VTBB with CircleCI integration
+This is IvAc 1 sector file for VTBB with CircleCI integration
