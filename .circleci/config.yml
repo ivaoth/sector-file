@@ -41,5 +41,5 @@ jobs:
           name: Combine all files
           command: cat build/* > result/vtbb.sct
       - store_artifacts:
-          path: /root/ivac-riffy/result/vtbb.sct
+          path: /root/ivac-riffy/result
     
