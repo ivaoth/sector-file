@@ -11,13 +11,20 @@ jobs:
           command: apt-get update
       - run:
           name: Install packages
-          command: apt-get install -y ca-certificates rsync
+          command: apt-get install -y ca-certificates
       - run:
           name: Create build directory
           command: mkdir build
       - run:
           name: Copy 1 2 3 4 5 6 9
-          command: rsync -av --progress files/ build/ --exclude files/SID --exclude files/STAR
+          command: |
+            cp files/1-INFO build/
+            cp files/2-VOR build/
+            cp files/3-NDB build/
+            cp files/4-FIXES build/
+            cp files/5-AIRPORT build/
+            cp files/6-RWY build/
+            cp files/9-HI_AIRWAY build/
       - run:
           name: Create 7-SID
           command: cat files/SID/* > build/7-SID
