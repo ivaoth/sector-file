@@ -7,6 +7,12 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Update Container
+          command: apt-get update
+      - run:
+          name: Install ca-certificates
+          command: apt-get install -y ca-certificates
+      - run:
           name: List Active Files
           command: ls files/
       - run:
@@ -15,9 +21,6 @@ jobs:
       - run:
           name: Combine all files
           command: cat files/* > result/vtbb.sct
-      - run:
-          name: Install ca-certificates
-          command: apt-get install -y ca-certificates
       - store_artifacts:
           path: /root/ivac-riffy/result/vtbb.sct
     
