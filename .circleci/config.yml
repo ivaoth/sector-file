@@ -1,13 +1,14 @@
 version: 2
 jobs:
   build:
+    working_directory: ~/ivac-riffy
     docker:
       - image: debian:stretch
     steps:
       - checkout
       - run:
-          name: Greeting
-          command: echo Hello, world.
+          name: List Active Files
+          command: ls files/
       - run:
-          name: Print the Current Time
-          command: date
+          name: Combine all files to releases
+          command: cat files/* > releases/vtbb.sct
