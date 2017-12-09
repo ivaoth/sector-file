@@ -5,7 +5,6 @@ jobs:
     docker:
       - image: debian:stretch
     steps:
-      - checkout
       - run:
           name: List Active Files
           command: ls files/
