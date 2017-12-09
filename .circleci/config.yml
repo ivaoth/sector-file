@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/ivac-riffy
+    working_directory: ~/ivac-vtbb
     docker:
       - image: debian:stretch
     steps:
@@ -45,7 +45,7 @@ jobs:
           name: List Active Builds
           command: ls build/
       - store_artifacts:
-          path: /root/ivac-riffy/build
+          path: /root/ivac-vtbb/build
       - run:
           name: Create result directory
           command: mkdir result
@@ -53,5 +53,5 @@ jobs:
           name: Combine all files
           command: cat build/* > result/vtbb.sct
       - store_artifacts:
-          path: /root/ivac-riffy/result
+          path: /root/ivac-vtbb/result
     
