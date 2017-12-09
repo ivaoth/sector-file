@@ -34,6 +34,8 @@ jobs:
       - run:
           name: List Active Builds
           command: ls build/
+      - store_artifacts:
+          path: /root/ivac-riffy/build
       - run:
           name: Create result directory
           command: mkdir result
