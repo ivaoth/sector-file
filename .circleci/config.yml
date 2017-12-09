@@ -3,15 +3,12 @@ jobs:
   build:
     working_directory: ~/ivac-vtbb
     docker:
-      - image: debian:stretch
+      - image: alpine
     steps:
       - checkout
       - run:
           name: Update Container
-          command: apt-get update
-      - run:
-          name: Install packages
-          command: apt-get install -y ca-certificates
+          command: apk --no-cache add ca-certificates && update-ca-certificates
       - run:
           name: Create build directory
           command: mkdir build
