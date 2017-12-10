@@ -1,12 +1,9 @@
-;Bangkok FIR for IVAC
+;Bangkok FIR for IvAc 1
 ;Created by Kanin Pornsinsiriruk
 ;Thanks to Naris Vachiranantavat, Jirapat Pongam and all creator for resource
-;Last updated: 05 September 2016
-;Please remember this link to check for update at http://bit.ly/vtbbtmsector
+;Please check for update at https://github.com/ivaothai/ivac-sector-file
 
-;If you found bug or have any suggestion, please contact me via :
-;	- kaninmike@gmail.com
-;	- http://fb.com/kaninmike
+;If you found bug or have any suggestion, please file an issue at https://github.com/ivaothai/ivac-sector-file
 
 [INFO]
 VTBB
