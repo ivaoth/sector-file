@@ -1,0 +1,66 @@
+VTSP-09 BORNA1A           SP001 BORNA
+
+VTSP-09 KIKOT1A           SP001 SP002
+                          SP002 KIKOT
+
+VTSP-09 LINZY1A           SP001 SP002
+                          SP002 LINZY
+
+VTSP-09 MICKY1A           SP001 SP003
+                          SP003 MICKY
+
+VTSP-09 MODON1A           SP001 SP002
+                          SP002 MODON
+
+VTSP-09 MOSTA1A           SP001 SP002
+                          SP002 MOSTA
+
+VTSP-09 NICON1A           SP001 SP003
+                          SP003 SP004
+                          SP004 NICON
+
+VTSP-09 OSITO1A           SP001 SP003
+                          SP003 SP004
+                          SP004 OSITO
+
+VTSP-09 PLUTO1A           SP001 PLUTO
+
+VTSP-09 ROMBO1A           SP001 SP003
+                          SP003 ROMBO
+
+VTSP-09 SAMOS1A           SP001 SAMOS
+
+VTSP-09 SURIN1A           SP001 SP002
+                          SP002 SURIN
+
+VTSP-27 BORNA1B           SP401 SP402
+                          SP402 BORNA
+
+VTSP-27 KIKOT1B           SP601 SP604
+                          SP604 KIKOT
+
+VTSP-27 LINZY1B           SP601 SP606
+                          SP606 LINZY
+
+VTSP-27 MICKY1B           SP401 SP404
+                          SP404 MICKY
+
+VTSP-27 MODON1B           SP601 SP603
+                          SP603 MODON
+
+VTSP-27 MOSTA1B           SP601 MOSTA
+
+VTSP-27 NICON1B           SP501 NICON
+
+VTSP-27 OSITO1B           SP501 OSITO
+
+VTSP-27 PLUTO1B           SP401 SP402
+                          SP402 PLUTO
+
+VTSP-27 ROMBO1B           SP401 SP403
+                          SP403 ROMBO
+
+VTSP-27 SAMOS1B           SP601 SP602
+                          SP602 SAMOS
+
+VTSP-27 SURIN1B           SP601 SURIN
