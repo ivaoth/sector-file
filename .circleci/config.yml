@@ -55,4 +55,3 @@ jobs:
           path: /root/ivac-vtbb/result
       - store_artifacts:
           path: /root/ivac-vtbb/result
-    
