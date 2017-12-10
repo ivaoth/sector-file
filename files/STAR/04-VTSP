@@ -56,3 +56,65 @@ VTSP-09 SAMOS1C           SAMOS SP703
 VTSP-09 SURIN1C           SURIN TARPU
                           TARPU SP702
                           SP702 KALIM
+
+VTSP-27 BORNA1D           BORNA SP112
+                          SP112 BARON
+
+VTSP-27 KIKOT1D           KIKOT STONE
+                          STONE CIDER
+                          CIDER SP112
+                          SP112 BARON
+
+VTSP-27 LINZY1D           LINZY STONE
+                          STONE CIDER
+                          CIDER SP112
+                          SP112 BARON
+
+VTSP-27 MICKY1D           MICKY PACUS
+                          PACUS RIZZO
+                          RIZZO BARON
+
+VTSP-27 MODON1D           MODON STONE
+                          STONE CIDER
+                          CIDER SP112
+                          SP112 BARON
+
+VTSP-27 MOSTA1D           MOSTA SP103
+                          SP103 SP102
+                          SP102 SP101
+                          SP101 CIDER
+                          CIDER SP112
+                          SP112 BARON
+
+VTSP-27 NICON1D           NICON SP102
+                          SP102 SP101
+                          SP101 CIDER
+                          CIDER SP112
+                          SP112 BARON
+
+VTSP-27 OSITO1D           OSITO SP202
+                          SP202 SP201
+                          SP201 RIZZO
+                          RIZZO BARON
+
+VTSP-27 PANYE1D           PANYE STONE
+                          STONE CIDER
+                          CIDER SP112
+                          SP112 BARON
+
+VTSP-27 PLUTO1D           PLUTO SP112
+                          SP112 BARON
+
+VTSP-27 ROMBO1D           ROMBO PACUS
+                          PACUS RIZZO
+                          RIZZO BARON
+
+VTSP-27 SAMOS1D           SAMOS SP112
+                          SP112 BARON
+
+VTSP-27 SURIN1D           SURIN SP103
+                          SP103 SP102
+                          SP102 SP101
+                          SP101 CIDER
+                          CIDER SP112
+                          SP112 BARON
