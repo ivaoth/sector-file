@@ -1,0 +1,25 @@
+{
+  "name": "ivac-sector-file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./scripts/checker.js",
+    "build-checker": "tsc -p ./tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivaothai/ivac-sector-file.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivaothai/ivac-sector-file/issues"
+  },
+  "homepage": "https://github.com/ivaothai/ivac-sector-file#readme",
+  "devDependencies": {
+    "@types/node": "^8.0.57",
+    "tslint": "^5.8.0",
+    "typescript": "~2.6.2"
+  }
+}
