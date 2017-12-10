@@ -57,3 +57,6 @@ jobs:
       - run:
           name: Test sector file
           command: npm test
+notify:
+  webhooks:
+    - url: https://discordapp.com/api/webhooks/389460892955443200/wdEV_c0jFJrBBY9ZOu7RVe0PutbwXlA4PVhwJJHm5pyapHe2SHQCjmVqaeUoQo928eFC/slack
