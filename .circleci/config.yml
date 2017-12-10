@@ -1,1 +1,57 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/ivac-vtbb
+    docker:
+      - image: alpine:latest
+    steps:
+      - run:
+          name: Install packages
+          command: apk add --no-progress --no-cache ca-certificates git openssh
       - checkout
+      - run:
+          name: Create build directory
+          command: mkdir build
+      - run:
+          name: Copy 1 2 3 4 5 6 9 11
+          command: |
+            cp files/01-INFO build/
+            cp files/02-VOR build/
+            cp files/03-NDB build/
+            cp files/04-FIXES build/
+            cp files/05-AIRPORT build/
+            cp files/06-RWY build/
+            cp files/09-HI_AIRWAY build/
+            cp files/11-ARTCC_HI build/
+      - run:
+          name: Create 07-SID
+          command: cat files/SID/* > build/07-SID
+      - run:
+          name: Create 08-STAR
+          command: cat files/STAR/* > build/08-STAR
+      - run:
+          name: Create 10-ARTCC
+          command: cat files/ARTCC/* > build/10-ARTCC
+      - run:
+          name: Create 12-ARTCC_LO
+          command: cat files/ARTCC_LO/* > build/12-ARTCC_LO
+      - run:
+          name: Create 13-GEO
+          command: cat files/GEO/* > build/13-GEO
+      - run:
+          name: List Active Builds
+          command: ls build/
+      - store_test_results:
+          path: /root/ivac-vtbb/build
+      - store_artifacts:
+          path: /root/ivac-vtbb/build
+      - run:
+          name: Create result directory
+          command: mkdir result
+      - run:
+          name: Combine all files
+          command: cat build/* > result/vtbb.sct
+      - store_test_results:
+          path: /root/ivac-vtbb/result
+      - store_artifacts:
+          path: /root/ivac-vtbb/result
