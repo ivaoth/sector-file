@@ -1,0 +1,32 @@
+VTCL-18 JUMKA1A           NAKOT                         LOTZO
+                          LOTZO                         BUNMA
+                          BUNMA                         PAMOK
+                          PAMOK                         HOLUA
+                          HOLUA                         JUMKA
+
+VTCL-18 MARWA1A           NAKOT                         MARWA
+
+VTCL-18 PAMOK1A           NAKOT                         LOTZO
+                          LOTZO                         BUNMA
+                          BUNMA                         PAMOK
+
+VTCL-18 SAMAI1A           NAKOT                         SAMAI
+
+VTCL-18 WANSA1A           NAKOT                         SAMAI
+                          SAMAI                         WANSA
+
+VTCL-36 MARBO1A           SOKOM                         BARTO
+                          BARTO                         SONPA
+                          SONPA                         HOKON
+                          HOKON                         MARBO
+
+VTCL-36 PAHIN1A           SOKOM                         BARTO
+                          BARTO                         SONPA
+                          SONPA                         HOKON
+                          HOKON                         PAHIN
+
+VTCL-36 PHATA1A           SOKOM                         BARTO
+                          BARTO                         SONPA
+                          SONPA                         PHATA
+
+VTCL-36 TOHAN1A           SOKOM                         TOHAN
