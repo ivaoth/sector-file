@@ -1,3 +1,4 @@
+;VTUK JEPPESEN RNAV SID 20-3 AND 20-3A TILL 20-3Q 3 NOV 17
 VTBS-01L ALBOS1H          N013.42.11.460 E100.44.35.090 VARIS
                           VARIS                         BS104
                           BS104                         BS105
@@ -258,10 +259,9 @@ VTBS-01R UKERA1K          N013.41.30.500 E100.45.38.660 EXSON
                           SALMA                         SABIS
                           SABIS                         UKERA
 
-VTBS-01L KRT1H            N013.42.11.460 E100.44.35.090 VARIS
+VTBS-01L UPKUP1H          N013.42.11.460 E100.44.35.090 VARIS
                           VARIS                         BS101
-                          BS101                         ROBKA
-                          ROBKA                         KRT
+                          BS101                         UPKUP
 
 VTBS-01L ROBKA1H          N013.42.11.460 E100.44.35.090 VARIS
                           VARIS                         BS101
@@ -274,10 +274,9 @@ VTBS-01L TARED1H          N013.42.11.460 E100.44.35.090 VARIS
                           BS110                         TEMPO
                           TEMPO                         TARED
 
-VTBS-01R KRT1K            N013.41.30.500 E100.45.38.660 EXSON
+VTBS-01R UPKUP1K          N013.41.30.500 E100.45.38.660 EXSON
                           EXSON                         BS101
-                          BS101                         ROBKA
-                          ROBKA                         KRT
+                          BS101                         UPKUP
 
 VTBS-01R ROBKA1K          N013.41.30.500 E100.45.38.660 EXSON
                           EXSON                         BS101
@@ -567,12 +566,11 @@ VTBS-19L UKERA1J          N013.39.25.030 E100.45.05.330 LOUIS
                           SALMA                         SABIS
                           SABIS                         UKERA
 
-VTBS-19R KRT1G            N013.40.15.400 E100.44.04.250 ROVEN
+VTBS-19R UPKUP1G          N013.40.15.400 E100.44.04.250 ROVEN
                           ROVEN                         BS901
                           BS901                         BS902
                           BS902                         MEZZO
-                          MEZZO                         ROBKA
-                          ROBKA                         KRT
+                          MEZZO                         UPKUP
 
 VTBS-19R ROBKA1G          N013.40.15.400 E100.44.04.250 ROVEN
                           ROVEN                         BS901
@@ -590,12 +588,11 @@ VTBS-19R TARED1G          N013.40.15.400 E100.44.04.250 ROVEN
                           JROCK                         TEMPO
                           TEMPO                         TARED
 
-VTBS-19L KRT1J            N013.39.25.030 E100.45.05.330 LOUIS
+VTBS-19L UPKUP1J          N013.39.25.030 E100.45.05.330 LOUIS
                           LOUIS                         BS901
                           BS901                         BS902
                           BS902                         MEZZO
-                          MEZZO                         ROBKA
-                          ROBKA                         KRT
+                          MEZZO                         UPKUP
 
 VTBS-19L ROBKA1J          N013.39.25.030 E100.45.05.330 LOUIS
                           LOUIS                         BS901
