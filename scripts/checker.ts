@@ -1,6 +1,7 @@
 import { readFileSync } from 'fs';
+import { resolve } from 'path';
 
-const lines = readFileSync('./result/vtbb.sct')
+const lines = readFileSync(resolve(__dirname, '../result/vtbb.sct'))
   .toString()
   .split('\n')
   .map(s => {
