@@ -471,7 +471,7 @@ for (let i = 0; i <= identifiersToCheck.length - 1; i++) {
   if (identifiers.indexOf(check.name) === -1) {
     errors.push({
       line: check.line,
-      reason: `Cannot find identifier ${check}`
+      reason: `Cannot find identifier ${check.name}`
     });
   }
 }
