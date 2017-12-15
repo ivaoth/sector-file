@@ -1,4 +1,4 @@
-import { readFileSync } from 'fs';
+import { readFileSync } from 'fs-extra';
 import { resolve } from 'path';
 
 const lines = readFileSync(resolve(__dirname, '../result/vtbb.sct'))
