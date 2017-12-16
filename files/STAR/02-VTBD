@@ -16,7 +16,7 @@ VTBD-XX SEHNA.RYN         RYN                           SEHNA
 VTBD-XX SEHNA.ALEMI       ALEMI                         SEHNA
 
 ;VTBD 03
-VTBD-03 ENDUU1B.MOCHI     MOCHI                         ENDUU
+VTBD-03 ENDUU1B.UBLOD     UBLOD                         ENDUU
                           ENDUU                         MOTIF
                           MOTIF                         PIANO
                           PIANO                         BRENT
@@ -727,7 +727,7 @@ VTBD-03 SEHNA1B.XXXXX     SEHNA                         BAMBU
                           N013.20.24.003 E100.19.19.932 N013.20.06.781 E100.19.09.777
 
 ;VTBD 21
-VTBD-21 ENDUU1A.MOCHI     MOCHI                         ENDUU
+VTBD-21 ENDUU1A.UBLOD     UBLOD                         ENDUU
                           ENDUU                         OPERA
                           OPERA                         DM347
                           DM347                         DM114
