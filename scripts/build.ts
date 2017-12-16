@@ -37,15 +37,16 @@ const files = [
   '05-AIRPORT',
   '06-RWY',
   '09-HI_AIRWAY',
-  '11-ARTCC_HI'
+  '10-LO_AIRWAY',
+  '12-ARTCC_HI'
 ];
 
 const folders = [
   ['SID', '07-SID'],
   ['STAR', '08-STAR'],
-  ['ARTCC', '10-ARTCC'],
-  ['ARTCC_LO', '12-ARTCC_LO'],
-  ['GEO', '13-GEO']
+  ['ARTCC', '11-ARTCC'],
+  ['ARTCC_LO', '13-ARTCC_LO'],
+  ['GEO', '14-GEO']
 ];
 
 const orders = [
@@ -58,10 +59,11 @@ const orders = [
   '07-SID',
   '08-STAR',
   '09-HI_AIRWAY',
-  '10-ARTCC',
-  '11-ARTCC_HI',
-  '12-ARTCC_LO',
-  '13-GEO'
+  '10-LO_AIRWAY',
+  '11-ARTCC',
+  '12-ARTCC_HI',
+  '13-ARTCC_LO',
+  '14-GEO'
 ];
 
 for (let file of files) {
