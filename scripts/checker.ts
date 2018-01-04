@@ -307,8 +307,7 @@ for (let i = 0; i <= lines.length - 1; i++) {
           }
           break;
         case Modes.Airport:
-          // TODO: tighten the restriction of frequency format
-          const airportResult = line.match(/^([A-Z0-9]{4}) (\d{3}\.\d{3}|\.      |  \?    ) ([NS]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([EW]\d{3}\.\d{2}\.\d{2}\.\d{3}) .$/);
+          const airportResult = line.match(/^([A-Z0-9]{4}) (\d{3}\.\d{3}|\.      ) ([NS]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([EW]\d{3}\.\d{2}\.\d{2}\.\d{3}) .$/);
           if (!airportResult) {
             pushError('Invalid airport');
           } else {
