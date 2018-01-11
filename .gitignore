@@ -2,3 +2,7 @@
 /build/
 /result/
 /scripts/*.js
+/airac-parser/**/*.js
+/airac-parser/**/*.sqlite
+/airac-parser/ivac2/**/*.xml
+/airac-parser/ivac1/**/*.txt

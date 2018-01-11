@@ -7,7 +7,9 @@
     "test": "node ./scripts/checker.js",
     "tsc": "tsc -p ./tsconfig.json",
     "merge-pr": "node ./scripts/github/merge_pr.js",
-    "build": "node ./scripts/build.js"
+    "build": "node ./scripts/build.js",
+    "parse": "node ./airac-parser/ivac1/airport.js && node ./airac-parser/ivac1/airway.js && node ./airac-parser/ivac1/fir.js && node ./airac-parser/ivac1/ndb.js && node ./airac-parser/ivac1/vor.js && node ./airac-parser/ivac1/waypoint.js",
+    "parse:inside": "INSIDE_ONLY=true npm run parse"
   },
   "repository": {
     "type": "git",
@@ -21,13 +23,18 @@
   "homepage": "https://github.com/ivaothai/ivac-sector-file#readme",
   "devDependencies": {
     "@types/fs-extra": "^5.0.0",
-    "@types/node": "^8.0.57",
+    "@types/node": "^8.5.8",
     "@types/rimraf": "^2.0.2",
+    "@types/sqlite3": "^3.1.1",
+    "@types/xml": "^1.0.2",
     "tslint": "^5.8.0",
     "typescript": "~2.6.2"
   },
   "dependencies": {
     "fs-extra": "^5.0.0",
-    "rimraf": "^2.6.2"
+    "left-pad": "^1.2.0",
+    "rimraf": "^2.6.2",
+    "sqlite3": "^3.1.13",
+    "xml": "^1.0.1"
   }
 }
