@@ -33,7 +33,6 @@ const files = [
   '01-INFO.txt',
   '02-VOR.txt',
   '03-NDB.txt',
-  '04-FIXES.txt',
   '05-1-AIRPORT.txt',
   '05-2-CUSTOM_AIRPORT.txt',
   '06-1-RWY.txt',
@@ -44,6 +43,7 @@ const files = [
 ];
 
 const folders = [
+  ['FIXES', '04-FIXES.txt'],
   ['SID', '07-SID.txt'],
   ['STAR', '08-STAR.txt'],
   ['ARTCC', '11-ARTCC.txt'],
