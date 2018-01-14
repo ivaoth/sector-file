@@ -172,22 +172,20 @@ R588                      PUT                           RELIP
                           MUBAN                         TENUM                        
                           TENUM                         TONIK                        
                           TONIK                         BASIT                        
-W1                        BGO                           BKK                          
-                          BKK                           MALKI                        
+W1                        BKK                           MALKI                        
                           MALKI                         UBLOD                        
                           UBLOD                         KRT                          
                           KRT                           RAMEI                        
                           RAMEI                         RAMBU                        
                           RAMBU                         GRASO                        
                           GRASO                         UBL                          
-W10                       VUTHI                         TL                           
+W10                       KPS                           VUTHI                        
+                          VUTHI                         TL                           
 W12                       CMA                           MONLO                        
                           MONLO                         NAN                          
-W13                       NT                            LPN                          
-                          LPN                           PAE                          
+W13                       LPN                           PAE                          
 W13                       MENAM                         SRE                          
-W14                       TDE                           PUT                          
-                          PUT                           TRN                          
+W14                       PUT                           TRN                          
                           TRN                           HTY                          
                           HTY                           PT                           
                           PT                            NTW                          
@@ -283,8 +281,7 @@ W650                      HTY                           POPID
 W7                        CMA                           PUMAM                        
                           PUMAM                         MST                          
 W8                        TL                            KRT                          
-W9                        BGO                           BKK                          
-                          BKK                           TL                           
+W9                        BKK                           TL                           
                           TL                            PSL                          
                           PSL                           SARIM                        
                           SARIM                         PANTA                        

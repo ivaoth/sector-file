@@ -67,7 +67,7 @@ G473                      MAKAS                         PSL
 G474                      BKK                           BATOK                        
                           BATOK                         MENAM                        
                           MENAM                         VIBUN                        
-L301                      SADUS                         TANEK                        
+L301                      DWI                           TANEK                        
                           TANEK                         PASTO                        
                           PASTO                         BKK                          
 L507                      ARATO                         LIMLA                        
@@ -83,7 +83,8 @@ L524                      KAKIP                         NURDA
 L645                      SAPAM                         PUT                          
 L759                      TAVUN                         ANPAN                        
                           ANPAN                         PUT                          
-L877                      PUMOR                         MIGAR                        
+L877                      DWI                           PUMOR                        
+                          PUMOR                         MIGAR                        
 M502                      BKK                           BONVO                        
                           BONVO                         AKATO                        
                           AKATO                         DALER                        
@@ -138,7 +139,7 @@ N891                      XONAN                         BENSA
                           ANOBO                         RYN                          
                           RYN                           DOLNI                        
                           DOLNI                         BKK                          
-N895                      SAGOD                         BETNO                        
+N895                      PTN                           BETNO                        
 P627                      RUSET                         PUT                          
 P646                      POXEM                         BETNO                        
                           BETNO                         TARED                        
@@ -190,22 +191,20 @@ R588                      PUT                           RELIP
                           MUBAN                         TENUM                        
                           TENUM                         TONIK                        
                           TONIK                         BASIT                        
-W1                        BGO                           BKK                          
-                          BKK                           MALKI                        
+W1                        BKK                           MALKI                        
                           MALKI                         UBLOD                        
                           UBLOD                         KRT                          
                           KRT                           RAMEI                        
                           RAMEI                         RAMBU                        
                           RAMBU                         GRASO                        
                           GRASO                         UBL                          
-W10                       VUTHI                         TL                           
+W10                       KPS                           VUTHI                        
+                          VUTHI                         TL                           
 W12                       CMA                           MONLO                        
                           MONLO                         NAN                          
-W13                       NT                            LPN                          
-                          LPN                           PAE                          
+W13                       LPN                           PAE                          
 W13                       MENAM                         SRE                          
-W14                       TDE                           PUT                          
-                          PUT                           TRN                          
+W14                       PUT                           TRN                          
                           TRN                           HTY                          
                           HTY                           PT                           
                           PT                            NTW                          
@@ -300,8 +299,7 @@ W6                        KRT                           KKN
 W7                        CMA                           PUMAM                        
                           PUMAM                         MST                          
 W8                        TL                            KRT                          
-W9                        BGO                           BKK                          
-                          BKK                           TL                           
+W9                        BKK                           TL                           
                           TL                            PSL                          
                           PSL                           SARIM                        
                           SARIM                         PANTA                        
