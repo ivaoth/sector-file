@@ -60,8 +60,11 @@ const aptAirspaceMap: any = {
 
 const basePath = resolve(__dirname);
 const buildPath = resolve(basePath, 'build');
+const buildAptPath = resolve(buildPath, '05-AIRPORT');
+const buildRwyPath = resolve(buildPath, '06-RUNWAY');
 
-ensureDirSync(buildPath);
+ensureDirSync(buildAptPath);
+ensureDirSync(buildRwyPath);
 
 const db = new sqlite3.Database(
   resolve(basePath, '..' , 'little_navmap_navigraph.sqlite')
@@ -81,8 +84,8 @@ const query = (db: sqlite3.Database, queryStr: string): Promise<any[]> => {
 };
 
 const main = async () => {
-  let out = '[AIRPORT]\n';
-  let outRwy = '[RUNWAY]\n';
+  let out = '';
+  let outRwy = '';
   const zeroPadder = '0000000';
   const spacePadder = '       ';
   const data: {
@@ -154,8 +157,8 @@ const main = async () => {
       outRwy += '\n';
     }
   }
-  writeFileSync(resolve(buildPath, '05-1-AIRPORT.txt'), out);
-  writeFileSync(resolve(buildPath, '06-1-RWY.txt'), outRwy);
+  writeFileSync(resolve(buildAptPath, '02-AIRPORT.txt'), out);
+  writeFileSync(resolve(buildRwyPath, '02-RUNWAY.txt'), outRwy);
 };
 
 main().then(() => console.log('Done'));

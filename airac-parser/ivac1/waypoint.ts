@@ -4,7 +4,7 @@ import { Coordinate, convertCoordinate, convertPoint } from './latlon';
 import { writeFileSync, ensureDirSync } from 'fs-extra';
 
 const basePath = resolve(__dirname);
-const buildPath = resolve(basePath, 'build', 'FIXES');
+const buildPath = resolve(basePath, 'build', '04-FIXES');
 
 ensureDirSync(buildPath);
 

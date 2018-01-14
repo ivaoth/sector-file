@@ -4,7 +4,7 @@ import { Coordinate, convertCoordinate, convertPoint } from './latlon';
 import { writeFileSync, ensureDirSync } from 'fs-extra';
 
 const basePath = resolve(__dirname);
-const buildPath = resolve(basePath, 'build');
+const buildPath = resolve(basePath, 'build', '03-NDB');
 
 ensureDirSync(buildPath);
 
@@ -51,7 +51,8 @@ const main = async () => {
         lonx: number;
       }[]
     ) => {
-      let out = '[NDB]\n';
+      let out = '';
+      let outNearby = '';
       const padder1 = '       ';
       const padder2 = '000';
       for (let i = 0; i <= rows.length - 1; i++) {
@@ -65,7 +66,7 @@ const main = async () => {
         out += '\n';
       }
 
-      out += ';- Followings are NDB outside Bangkok FIR\n';
+      outNearby += ';- Followings are NDB outside Bangkok FIR\n';
 
       for (let ndb of inclusion) {
         const data = await query(
@@ -85,15 +86,16 @@ const main = async () => {
         )
         `
         );
-        out += (data.ident + padder1).substr(0, 6);
+        outNearby += (data.ident + padder1).substr(0, 6);
         const num1 = Math.floor(data.frequency / 100);
         const num2 = data.frequency % 100;
-        out += `${num1}.${(num2 + padder2).substr(0, 3)} `;
-        out += convertPoint([data.laty, data.lonx], true);
-        out += ` ;- ${data.name}`;
-        out += '\n';
+        outNearby += `${num1}.${(num2 + padder2).substr(0, 3)} `;
+        outNearby += convertPoint([data.laty, data.lonx], true);
+        outNearby += ` ;- ${data.name}`;
+        outNearby += '\n';
       }
-      writeFileSync(resolve(buildPath, '03-NDB.txt'), out);
+      writeFileSync(resolve(buildPath, '02-THAI.txt'), out);
+      writeFileSync(resolve(buildPath, '03-NEARBY.txt'), outNearby);
     }
   );
 };

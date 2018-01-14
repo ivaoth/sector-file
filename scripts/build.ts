@@ -31,24 +31,22 @@ ensureDirSync(buildPath);
 
 const files = [
   '01-INFO.txt',
-  '02-VOR.txt',
-  '03-NDB.txt',
-  '05-1-AIRPORT.txt',
-  '05-2-CUSTOM_AIRPORT.txt',
-  '06-1-RWY.txt',
-  '06-2-CUSTOM_RWY.txt',
   '09-HI_AIRWAY.txt',
   '10-LO_AIRWAY.txt',
   '12-ARTCC_HI.txt'
 ];
 
 const folders = [
-  ['FIXES', '04-FIXES.txt'],
-  ['SID', '07-SID.txt'],
-  ['STAR', '08-STAR.txt'],
-  ['ARTCC', '11-ARTCC.txt'],
-  ['ARTCC_LO', '13-ARTCC_LO.txt'],
-  ['GEO', '14-GEO.txt']
+  ['02-VOR', '02-VOR.txt'],
+  ['03-NDB', '03-NDB.txt'],
+  ['04-FIXES', '04-FIXES.txt'],
+  ['05-AIRPORT', '05-AIRPORT.txt'],
+  ['06-RUNWAY', '06-RUNWAY.txt'],
+  ['07-SID', '07-SID.txt'],
+  ['08-STAR', '08-STAR.txt'],
+  ['11-ARTCC', '11-ARTCC.txt'],
+  ['13-ARTCC_LO', '13-ARTCC_LO.txt'],
+  ['14-GEO', '14-GEO.txt']
 ];
 
 const orders = [
@@ -56,10 +54,8 @@ const orders = [
   '02-VOR.txt',
   '03-NDB.txt',
   '04-FIXES.txt',
-  '05-1-AIRPORT.txt',
-  '05-2-CUSTOM_AIRPORT.txt',
-  '06-1-RWY.txt',
-  '06-2-CUSTOM_RWY.txt',
+  '05-AIRPORT.txt',
+  '06-RUNWAY.txt',
   '07-SID.txt',
   '08-STAR.txt',
   '09-HI_AIRWAY.txt',
