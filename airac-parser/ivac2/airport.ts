@@ -1,10 +1,13 @@
 import * as sqlite3 from 'sqlite3';
 import { resolve } from 'path';
 import { Coordinate, convertCoordinate } from './latlon';
-import { writeFileSync } from 'fs';
+import { writeFileSync, ensureDirSync } from 'fs-extra';
 import * as xml from 'xml';
 
 const basePath = resolve(__dirname);
+const buildPath = resolve(basePath, 'build');
+
+ensureDirSync(buildPath);
 
 const db = new sqlite3.Database(
   resolve(basePath, '..', 'little_navmap_navigraph.sqlite')
@@ -101,7 +104,7 @@ const main = async () => {
     }
     outData.airports.push({airport: airportData});
   }
-  writeFileSync(resolve(__dirname, 'build', 'airports.xml'), xml(outData, {indent: '  '}));
+  writeFileSync(resolve(buildPath, 'airports.xml'), xml(outData, {indent: '  '}));
 };
 
 main().then(() => console.log('Done')).catch((err) => console.log(err));
