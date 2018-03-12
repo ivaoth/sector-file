@@ -279,7 +279,7 @@ W6                        KRT                           KKN
 W650                      HTY                           POPID
                           POPID                         PAPDA
 W7                        CMA                           PUMAM
-                          PUMAM                         MST
+                          PUMAM                         ADGIS
 W8                        TL                            KRT
 W9                        BKK                           TL
                           TL                            PSL
