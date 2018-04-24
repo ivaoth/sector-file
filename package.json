@@ -8,8 +8,9 @@
     "tsc": "tsc -p ./tsconfig.json",
     "merge-pr": "node ./scripts/github/merge_pr.js",
     "build": "node ./scripts/build.js",
-    "parse": "node ./airac-parser/ivac1/airport.js && node ./airac-parser/ivac1/airway.js && node ./airac-parser/ivac1/fir.js && node ./airac-parser/ivac1/ndb.js && node ./airac-parser/ivac1/vor.js && node ./airac-parser/ivac1/waypoint.js",
-    "parse:inside": "INSIDE_ONLY=true npm run parse"
+    "parse:ivac1": "node ./airac-parser/ivac1/airport.js && node ./airac-parser/ivac1/airway.js && node ./airac-parser/ivac1/fir.js && node ./airac-parser/ivac1/ndb.js && node ./airac-parser/ivac1/vor.js && node ./airac-parser/ivac1/waypoint.js",
+    "parse:ivac1:inside": "INSIDE_ONLY=true npm run parse:ivac1",
+    "parse:ivac2": "node ./airac-parser/ivac2/airport.js"
   },
   "repository": {
     "type": "git",
