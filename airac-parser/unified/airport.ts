@@ -3,9 +3,9 @@ import { resolve } from 'path';
 import * as sqlite3 from 'sqlite3';
 import * as xml from 'xml';
 
-import { Coordinate } from './coordinates/coordinate';
-import { convertPoint } from './coordinates/ivac1_coordinate';
-import { convertCoordinate } from './coordinates/ivac2_coordinate';
+import { Coordinate } from './tools/coordinate/coordinate';
+import { convertPoint } from './tools/coordinate/ivac1_coordinate';
+import { convertCoordinate } from './tools/coordinate/ivac2_coordinate';
 
 const aptAirspaceMap: any = {
   VTCH: 'D',

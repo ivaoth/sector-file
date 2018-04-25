@@ -1,8 +1,8 @@
 import { resolve } from 'path';
 import { ensureDirSync, writeFileSync } from 'fs-extra';
-import { convertPoint } from './coordinates/ivac1_coordinate';
-import { convertCoordinate } from './coordinates/ivac2_coordinate';
-import { Coordinate } from './coordinates/coordinate';
+import { convertPoint } from './tools/coordinate/ivac1_coordinate';
+import { convertCoordinate } from './tools/coordinate/ivac2_coordinate';
+import { Coordinate } from './tools/coordinate/coordinate';
 import * as xml from 'xml';
 
 const sectors = [
