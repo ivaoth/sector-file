@@ -1,0 +1,262 @@
+[
+  {
+    "airport_id": 12713,
+    "ident": "VTBD",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12714,
+    "ident": "VTBH",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12715,
+    "ident": "VTBI",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12716,
+    "ident": "VTBK",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12717,
+    "ident": "VTBL",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12718,
+    "ident": "VTBO",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12719,
+    "ident": "VTBP",
+    "airspaceClass": "D"
+  },
+  {
+    "airport_id": 12720,
+    "ident": "VTBS",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12721,
+    "ident": "VTBT",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12722,
+    "ident": "VTBU",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12723,
+    "ident": "VTBW",
+    "airspaceClass": "D"
+  },
+  {
+    "airport_id": 12724,
+    "ident": "VTCC",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12725,
+    "ident": "VTCH",
+    "airspaceClass": "D"
+  },
+  {
+    "airport_id": 12726,
+    "ident": "VTCI",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12727,
+    "ident": "VTCL",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12728,
+    "ident": "VTCN",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12729,
+    "ident": "VTCP",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12730,
+    "ident": "VTCT",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12731,
+    "ident": "VTPB",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12732,
+    "ident": "VTPH",
+    "airspaceClass": "D"
+  },
+  {
+    "airport_id": 12733,
+    "ident": "VTPI",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12734,
+    "ident": "VTPM",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12735,
+    "ident": "VTPN",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12736,
+    "ident": "VTPO",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12737,
+    "ident": "VTPP",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12738,
+    "ident": "VTPR",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12739,
+    "ident": "VTPT",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12740,
+    "ident": "VTPY",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12741,
+    "ident": "VTSB",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12742,
+    "ident": "VTSC",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12743,
+    "ident": "VTSE",
+    "airspaceClass": "D"
+  },
+  {
+    "airport_id": 12744,
+    "ident": "VTSF",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12745,
+    "ident": "VTSG",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12746,
+    "ident": "VTSH",
+    "airspaceClass": "D"
+  },
+  {
+    "airport_id": 12747,
+    "ident": "VTSK",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12748,
+    "ident": "VTSM",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12749,
+    "ident": "VTSN",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12750,
+    "ident": "VTSP",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12751,
+    "ident": "VTSR",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12752,
+    "ident": "VTSS",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12753,
+    "ident": "VTST",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12754,
+    "ident": "VTUD",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12755,
+    "ident": "VTUI",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12756,
+    "ident": "VTUJ",
+    "airspaceClass": "D"
+  },
+  {
+    "airport_id": 12757,
+    "ident": "VTUK",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12758,
+    "ident": "VTUL",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12759,
+    "ident": "VTUN",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12760,
+    "ident": "VTUO",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12761,
+    "ident": "VTUQ",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12762,
+    "ident": "VTUU",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12763,
+    "ident": "VTUV",
+    "airspaceClass": "C"
+  },
+  {
+    "airport_id": 12764,
+    "ident": "VTUW",
+    "airspaceClass": "C"
+  }
+]
