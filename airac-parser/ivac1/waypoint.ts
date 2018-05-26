@@ -9,42 +9,29 @@ const buildPath = resolve(basePath, 'build', '04-FIXES');
 ensureDirSync(buildPath);
 
 const db = new sqlite3.Database(
-  resolve(basePath, '..' , 'little_navmap_navigraph.sqlite')
+  resolve(basePath, '..', 'little_navmap_navigraph.sqlite')
 );
 
 let inclusion: string[] = [
-  'ARATO',
-  'BASIT',
-  'BIDEM',
-  'DALAN',
-  'DALER',
-  'EKAVO',
-  'GOGOM',
-  'KADAX',
-  'KAKIP',
-  'KARMI',
-  'MAKAS',
-  'OBMOG',
-  'ODONO',
-  'PADET',
-  'PAPDA',
-  'PAPRA',
-  'PASVA',
-  'PONUK',
-  'POXEM',
-  'PUMEK',
-  'RIGTO',
-  'RUSET',
-  'SAPAM',
-  'SISUK',
-  'TAVUN',
-  'TOMIP',
-  'VIBUN',
-  'XONAN'
+  'AGEDO',
+  'ANINA',
+  'ANOBO',
+  'BISOR',
+  'BOKAK',
+  'MENAM',
+  'OSOTA',
+  'PEKBA',
+  'SAPEN',
+  'SEKON',
+  'TONIK',
+  'TUNPO',
+  'VIMBU'
 ];
 
 if (process.env['INSIDE_ONLY'] === 'true') {
-  console.log('This is going to get data inside Bangkok FIR only, be sure to run the IvAc sector file checker.');
+  console.log(
+    'This is going to get data inside Bangkok FIR only, be sure to run the IvAc sector file checker.'
+  );
   inclusion = [];
 }
 
@@ -69,7 +56,7 @@ const main = async () => {
     FROM
     waypoint
     WHERE
-    region = 'VT'
+    region = 'VD'
     AND
     (
       type = 'WN'
@@ -113,6 +100,8 @@ const main = async () => {
             region LIKE 'V%'
             OR
             region LIKE 'W%'
+            OR
+            region = 'ZP'
           )
           AND
           (

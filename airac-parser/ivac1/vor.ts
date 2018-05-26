@@ -9,25 +9,15 @@ const buildPath = resolve(basePath, 'build', '02-VOR');
 ensureDirSync(buildPath);
 
 const db = new sqlite3.Database(
-  resolve(basePath, '..' , 'little_navmap_navigraph.sqlite')
+  resolve(basePath, '..', 'little_navmap_navigraph.sqlite')
 );
 
-let inclusion = [
-  'BGO',
-  'DWI',
-  'LPB',
-  'PAK',
-  'PNH',
-  'PTN',
-  'SAV',
-  'SRE',
-  'VAS',
-  'VKB',
-  'VTN'
-];
+let inclusion: string[] = ['BMT', 'PAK', 'PLK', 'PQU', 'RYN'];
 
 if (process.env['INSIDE_ONLY'] === 'true') {
-  console.log('This is going to get data inside Bangkok FIR only, be sure to run the IvAc sector file checker.');
+  console.log(
+    'This is going to get data inside Bangkok FIR only, be sure to run the IvAc sector file checker.'
+  );
   inclusion = [];
 }
 
@@ -51,7 +41,7 @@ const main = async () => {
     FROM
     vor
     WHERE
-    region = 'VT'
+    region = 'VD'
     `,
     async (
       err: any,
