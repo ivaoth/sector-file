@@ -3,61 +3,6 @@ import { resolve } from 'path';
 import { Coordinate, convertCoordinate, convertPoint } from './latlon';
 import { writeFileSync, ensureDirSync } from 'fs-extra';
 
-const aptAirspaceMap: any = {
-  VTCH: 'D',
-  VTPH: 'D',
-  VTUJ: 'D',
-  VTBW: 'D',
-  VTBP: 'D',
-  VTSE: 'D',
-  VTSH: 'D',
-  VTBD: 'C',
-  VTBH: 'C',
-  VTBI: 'C',
-  VTBK: 'C',
-  VTBL: 'C',
-  VTBO: 'C',
-  VTBS: 'C',
-  VTBT: 'C',
-  VTBU: 'C',
-  VTCC: 'C',
-  VTCI: 'C',
-  VTCL: 'C',
-  VTCN: 'C',
-  VTCP: 'C',
-  VTCT: 'C',
-  VTPB: 'C',
-  VTPI: 'C',
-  VTPM: 'C',
-  VTPN: 'C',
-  VTPO: 'C',
-  VTPP: 'C',
-  VTPR: 'C',
-  VTPT: 'C',
-  VTPY: 'C',
-  VTSB: 'C',
-  VTSC: 'C',
-  VTSF: 'C',
-  VTSG: 'C',
-  VTSK: 'C',
-  VTSM: 'C',
-  VTSN: 'C',
-  VTSP: 'C',
-  VTSR: 'C',
-  VTSS: 'C',
-  VTST: 'C',
-  VTUD: 'C',
-  VTUI: 'C',
-  VTUK: 'C',
-  VTUL: 'C',
-  VTUN: 'C',
-  VTUO: 'C',
-  VTUQ: 'C',
-  VTUU: 'C',
-  VTUV: 'C',
-  VTUW: 'C'
-};
-
 const basePath = resolve(__dirname);
 const buildPath = resolve(basePath, 'build');
 const buildAptPath = resolve(buildPath, '05-AIRPORT');
@@ -103,7 +48,7 @@ const main = async () => {
   FROM
   airport
   where
-  ident LIKE 'VT%'
+  ident LIKE 'VL%'
   AND
   country = 'PAC'`
   );
@@ -118,7 +63,7 @@ const main = async () => {
       out += '.       ';
     }
     out += convertPoint([airport.laty, airport.lonx], true);
-    out += ` ${aptAirspaceMap[airport.ident]} ;- ${airport.name}`;
+    out += ` C ;- ${airport.name}`;
     out += '\n';
     outRwy += `;- ${airport.ident}\n`
     const runways: {

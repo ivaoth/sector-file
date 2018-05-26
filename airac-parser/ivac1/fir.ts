@@ -13,13 +13,14 @@ const db = new sqlite3.Database(
 );
 
 const firs = [
-  ['VTBB', 'Bangkok', '02'],
-  ['VDPP', 'Phnom Penh', '03'],
-  ['VLVT', 'Vientiane', '04'],
-  ['VVTS', 'Ho Chi Minh', '05'],
-  ['VYYY', 'Yangon', '06'],
-  ['WMFC', 'Kuala Lumpur', '07'],
-  ['WSJC', 'Singapore', '08']
+  ['VLVT', 'Yangon', '02'],
+  ['WMFC', 'Phnom Penh', '03'],
+  ['VTBB', 'Bangkok', '04'],
+  ['AAAA', 'Hanoi', '05'],
+  ['BBBB', 'Ho Chi Minh', '06'],
+  ['CCCC', 'Kunming', '07'],
+  ['DDDD', 'Vientiane', '08'],
+  ['DDDD', 'Phnom Penh', '09']
 ];
 
 const extractFir = (row: { geometry: Buffer }, name: string, num: string) => {

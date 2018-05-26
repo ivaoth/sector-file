@@ -36,9 +36,9 @@ db.all(
     )
     AND
     (
-      T1.region = 'VT'
+      T1.region = 'VL'
       OR
-      T2.region = 'VT'
+      T2.region = 'VL'
     )
     ORDER BY airway_id
     `,
@@ -105,9 +105,9 @@ db.all(
     )
     AND
     (
-      T1.region = 'VT'
+      T1.region = 'VL'
       OR
-      T2.region = 'VT'
+      T2.region = 'VL'
     )
     ORDER BY airway_id
     `,

@@ -1,2 +1,3 @@
-;- Followings are NDB outside Bangkok FIR
-BB    484.000 N013.05.30.000 E103.13.24.000 ;- BATTAMBANG
+;- Followings are NDB outside Yangon FIR
+BQ    349.000 N021.12.53.560 E104.02.16.840 ;- NASAN
+MC    514.000 N020.49.40.520 E104.42.00.890 ;- MOCCHAU
