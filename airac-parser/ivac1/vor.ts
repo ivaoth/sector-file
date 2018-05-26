@@ -12,18 +12,9 @@ const db = new sqlite3.Database(
   resolve(basePath, '..' , 'little_navmap_navigraph.sqlite')
 );
 
-let inclusion = [
-  'BGO',
-  'DWI',
-  'LPB',
-  'PAK',
-  'PNH',
-  'PTN',
-  'SAV',
-  'SRE',
-  'VAS',
-  'VKB',
-  'VTN'
+let inclusion: string[] = [
+  'PSL',
+  'RAN'
 ];
 
 if (process.env['INSIDE_ONLY'] === 'true') {
@@ -51,7 +42,7 @@ const main = async () => {
     FROM
     vor
     WHERE
-    region = 'VT'
+    region = 'VY'
     `,
     async (
       err: any,

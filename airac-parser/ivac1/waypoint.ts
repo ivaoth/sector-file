@@ -13,34 +13,32 @@ const db = new sqlite3.Database(
 );
 
 let inclusion: string[] = [
-  'ARATO',
-  'BASIT',
-  'BIDEM',
-  'DALAN',
-  'DALER',
-  'EKAVO',
-  'GOGOM',
-  'KADAX',
-  'KAKIP',
-  'KARMI',
-  'MAKAS',
-  'OBMOG',
-  'ODONO',
-  'PADET',
-  'PAPDA',
-  'PAPRA',
-  'PASVA',
-  'PONUK',
-  'POXEM',
-  'PUMEK',
-  'RIGTO',
-  'RUSET',
-  'SAPAM',
-  'SISUK',
-  'TAVUN',
-  'TOMIP',
-  'VIBUN',
-  'XONAN'
+  'AKSAG',
+  'ANSOS',
+  'APAGO',
+  'BOMAS',
+  'CHILA',
+  'DADSA',
+  'LINSO',
+  'TANAP',
+  'BETNO',
+  'SAGOD',
+  'RINDA',
+  'TANEK',
+  'ESDOT',
+  'LIMLA',
+  'IKULA',
+  'BORBU',
+  'NURDA',
+  'MIPAK',
+  'ANPAN',
+  'PUMOR',
+  'AKATO',
+  'MENEX',
+  'MEPEL',
+  'IBITA',
+  'LULDA',
+  'MACHI',
 ];
 
 if (process.env['INSIDE_ONLY'] === 'true') {
@@ -69,7 +67,7 @@ const main = async () => {
     FROM
     waypoint
     WHERE
-    region = 'VT'
+    region = 'VY'
     AND
     (
       type = 'WN'
@@ -113,6 +111,8 @@ const main = async () => {
             region LIKE 'V%'
             OR
             region LIKE 'W%'
+            OR
+            region = 'ZP'
           )
           AND
           (

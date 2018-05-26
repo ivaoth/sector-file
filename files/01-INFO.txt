@@ -6,11 +6,11 @@
 ;If you found bug or have any suggestion, please file an issue at https://github.com/ivaothai/ivac-sector-file
 
 [INFO]
-VTBB
-VTBB_CTR
-VTBD
-N013.54.45.000
-E100.36.24.220
+VYYY
+VYYY_CTR
+VYYY
+N018.23.46.430
+E095.17.32.300
 60
 58
 .599
