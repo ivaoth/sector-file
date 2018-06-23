@@ -1,8 +1,7 @@
 VTSP-09 BORNA1C           BORNA                         SP803
                           SP803                         JUVEY
                           JUVEY                         RAWAI
-                          RAWAI                         SP312
-                          SP312                         KALIM
+                          RAWAI                         KALIM
 
 VTSP-09 KIKOT1C           KIKOT                         TARPU
                           TARPU                         SP702
@@ -15,8 +14,7 @@ VTSP-09 LINZY1C           LINZY                         TARPU
 VTSP-09 MICKY1C           MICKY                         SP801
                           SP801                         JUVEY
                           JUVEY                         RAWAI
-                          RAWAI                         SP312
-                          SP312                         KALIM
+                          RAWAI                         KALIM
 
 VTSP-09 MODON1C           MODON                         MILAN
                           MILAN                         SP702
@@ -39,14 +37,12 @@ VTSP-09 PANYE1C           PANYE                         MILAN
 VTSP-09 PLUTO1C           PLUTO                         SP803
                           SP803                         JUVEY
                           JUVEY                         RAWAI
-                          RAWAI                         SP312
-                          SP312                         KALIM
+                          RAWAI                         KALIM
 
 VTSP-09 ROMBO1C           ROMBO                         SP801
                           SP801                         JUVEY
                           JUVEY                         RAWAI
-                          RAWAI                         SP312
-                          SP312                         KALIM
+                          RAWAI                         KALIM
 
 VTSP-09 SAMOS1C           SAMOS                         SP703
                           SP703                         MILAN
@@ -62,13 +58,11 @@ VTSP-27 BORNA1D           BORNA                         SP112
 
 VTSP-27 KIKOT1D           KIKOT                         STONE
                           STONE                         CIDER
-                          CIDER                         SP112
-                          SP112                         BARON
+                          CIDER                         BARON
 
 VTSP-27 LINZY1D           LINZY                         STONE
                           STONE                         CIDER
-                          CIDER                         SP112
-                          SP112                         BARON
+                          CIDER                         BARON
 
 VTSP-27 MICKY1D           MICKY                         PACUS
                           PACUS                         RIZZO
@@ -76,21 +70,18 @@ VTSP-27 MICKY1D           MICKY                         PACUS
 
 VTSP-27 MODON1D           MODON                         STONE
                           STONE                         CIDER
-                          CIDER                         SP112
-                          SP112                         BARON
+                          CIDER                         BARON
 
 VTSP-27 MOSTA1D           MOSTA                         SP103
                           SP103                         SP102
                           SP102                         SP101
                           SP101                         CIDER
-                          CIDER                         SP112
-                          SP112                         BARON
+                          CIDER                         BARON
 
 VTSP-27 NICON1D           NICON                         SP102
                           SP102                         SP101
                           SP101                         CIDER
-                          CIDER                         SP112
-                          SP112                         BARON
+                          CIDER                         BARON
 
 VTSP-27 OSITO1D           OSITO                         SP202
                           SP202                         SP201
@@ -99,8 +90,7 @@ VTSP-27 OSITO1D           OSITO                         SP202
 
 VTSP-27 PANYE1D           PANYE                         STONE
                           STONE                         CIDER
-                          CIDER                         SP112
-                          SP112                         BARON
+                          CIDER                         BARON
 
 VTSP-27 PLUTO1D           PLUTO                         SP112
                           SP112                         BARON
@@ -116,5 +106,4 @@ VTSP-27 SURIN1D           SURIN                         SP103
                           SP103                         SP102
                           SP102                         SP101
                           SP101                         CIDER
-                          CIDER                         SP112
-                          SP112                         BARON
+                          CIDER                         BARON
