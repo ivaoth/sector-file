@@ -19,6 +19,4 @@ jobs:
           name: Test sector file
           command: yarn test
       - store_artifacts:
-          path: /root/ivac-vtbb/build
-      - store_artifacts:
           path: /root/ivac-vtbb/result
