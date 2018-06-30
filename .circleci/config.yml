@@ -3,24 +3,21 @@ jobs:
   build:
     working_directory: ~/ivac-vtbb
     docker:
-      - image: alpine:latest
+      - image: rayriffy/yarn:latest
     steps:
-      - run:
-          name: Install packages
-          command: apk add --no-progress --no-cache ca-certificates git openssh "nodejs<9.0.0"
       - checkout
       - run:
           name: Install NPM packages
-          command: npm install
+          command: yarn
       - run:
           name: Build scripts
-          command: npm run tsc
+          command: yarn run tsc
       - run:
           name: Build sector file
-          command: npm run build
+          command: yarn run build
       - run:
           name: Test sector file
-          command: npm test
+          command: yarn test
       - store_artifacts:
           path: /root/ivac-vtbb/build
       - store_artifacts:
