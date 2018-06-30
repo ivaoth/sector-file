@@ -1,0 +1,14 @@
+VTUU-05 ARARE1B           N015.15.35.019 E104.52.52.192 SARIO
+                          SARIO                         ARARE
+
+VTUU-05 BAMBO1B           N015.15.35.019 E104.52.52.192 SARIO
+                          SARIO                         BAMBO
+
+VTUU-05 CHETA1B           N015.15.35.019 E104.52.52.192 SARIO
+                          SARIO                         CHETA
+
+VTUU-05 PACER1B           N015.15.35.019 E104.52.52.192 SARIO
+                          SARIO                         PACER
+
+VTUU-05 ROONY1B           N015.15.35.019 E104.52.52.192 SARIO
+                          SARIO                         ROONY
