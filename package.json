@@ -31,7 +31,7 @@
     "typescript": "2.9.2"
   },
   "dependencies": {
-    "fs-extra": "^6.0.0",
+    "fs-extra": "^7.0.0",
     "left-pad": "^1.2.0",
     "rimraf": "^2.6.2",
     "sqlite3": "^4.0.1",
