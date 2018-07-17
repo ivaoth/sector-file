@@ -7,7 +7,7 @@ jobs:
     steps:
       - run:
           name: Install packages
-          command: apk add --no-progress --no-cache ca-certificates git openssh "nodejs<9.0.0"
+          command: apk add --no-progress --no-cache ca-certificates git openssh nodejs npm
       - checkout
       - run:
           name: Install NPM packages
