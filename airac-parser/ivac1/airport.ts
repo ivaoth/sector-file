@@ -58,6 +58,36 @@ const aptAirspaceMap: any = {
   VTUW: 'C'
 };
 
+const ilsMap: any = {
+  VTBD: ['03L', '21R', '21L'],
+  VTBK: ['21'],
+  VTBS: ['01L', '19R', '01R', '19L'],
+  VTBU: ['18'],
+  VTCC: ['36'],
+  VTCL: ['36'],
+  VTCN: ['02'],
+  VTCT: ['03'],
+  VTPB: ['36'],
+  VTPI: ['18'],
+  VTPO: ['18'],
+  VTPP: ['32'],
+  VTSB: ['22'],
+  VTSF: ['01'],
+  VTSG: ['32'],
+  VTSP: ['27'],
+  VTSR: ['02'],
+  VTSS: ['26'],
+  VTST: ['08'],
+  VTUD: ['30'],
+  VTUI: ['23'],
+  VTUN: ['24'],
+  VTUO: ['04'],
+  VTUQ: ['06'],
+  VTUU: ['23'],
+  VTUV: ['36'],
+  VTUW: ['15']
+}
+
 const basePath = resolve(__dirname);
 const buildPath = resolve(basePath, 'build');
 const buildAptPath = resolve(buildPath, '05-AIRPORT');
@@ -82,6 +112,36 @@ const query = (db: sqlite3.Database, queryStr: string): Promise<any[]> => {
     });
   });
 };
+
+const getHdg = (airport: {
+  airport_id: number;
+  ident: string;
+  name: string;
+  tower_frequency: number | null;
+  lonx: number;
+  laty: number;
+  mag_var: number;
+}, runway: {
+  name1: string;
+  hdg1: number;
+  lat1: number;
+  lon1: number;
+  name2: string;
+  hdg2: number;
+  lat2: number;
+  lon2: number;
+}, num: number) => {
+  const ils = ilsMap[airport.ident] as string[];
+  if (ils) {
+    if (num === 1) {
+      return ils.indexOf(runway.name1) === -1 ? 0 : Math.round(runway.hdg1 - airport.mag_var);
+    } else {
+      return ils.indexOf(runway.name2) === -1 ? 0 : Math.round(runway.hdg2 - airport.mag_var);
+    }
+  } else {
+    return 0
+  }
+}
 
 const main = async () => {
   let out = '';
@@ -150,8 +210,8 @@ const main = async () => {
     for (const runway of runways) {
       outRwy += `${(runway.name1 + spacePadder).substring(0, 4)}`;
       outRwy += `${(runway.name2 + spacePadder).substring(0, 4)}`;
-      outRwy += `${(zeroPadder + Math.round(runway.hdg1 - airport.mag_var)).substr(-3)} `;
-      outRwy += `${(zeroPadder + Math.round(runway.hdg2 - airport.mag_var)).substr(-3)} `;
+      outRwy += `${(zeroPadder + getHdg(airport, runway, 1)).substr(-3)} `;
+      outRwy += `${(zeroPadder + getHdg(airport, runway, 2)).substr(-3)} `;
       outRwy += convertPoint([runway.lat1, runway.lon1], true) + ' ';
       outRwy += convertPoint([runway.lat2, runway.lon2], true);
       outRwy += '\n';
