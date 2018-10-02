@@ -33,9 +33,9 @@ const extractFir = (row: { geometry: Buffer }, name: string, num: string) => {
     index += 8;
   }
   let out = '';
-  for (let i = 0; i <= points.length - 2; i++) {
+  for (let i = 0; i <= points.length - 1; i++) {
     const point1 = points[i];
-    const point2 = points[i + 1];
+    const point2 = i === points.length - 1 ? points[0] : points[i + 1];
     if (i === 0) {
       out += `${name}_CTR`;
     } else {
