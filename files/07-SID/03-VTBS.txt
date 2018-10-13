@@ -13,12 +13,12 @@ VTBS-01L NOBER1H          N013.42.11.460 E100.44.35.090 VARIS
                           DISCO                         TANGO
                           TANGO                         NOBER
 
-VTBS-01L OSUKA1H          N013.42.11.460 E100.44.35.090 VARIS
+VTBS-01L NUNLI1H          N013.42.11.460 E100.44.35.090 VARIS
                           VARIS                         BS104
                           BS104                         BS105
                           BS105                         BS107
                           BS107                         DISCO
-                          DISCO                         OSUKA
+                          DISCO                         NUNLI
 
 VTBS-01L SEMBO1H          N013.42.11.460 E100.44.35.090 VARIS
                           VARIS                         BS104
@@ -57,12 +57,12 @@ VTBS-01R NOBER1K          N013.41.30.500 E100.45.38.660 EXSON
                           DISCO                         TANGO
                           TANGO                         NOBER
 
-VTBS-01R OSUKA1K          N013.41.30.500 E100.45.38.660 EXSON
+VTBS-01R NUNLI1K          N013.41.30.500 E100.45.38.660 EXSON
                           EXSON                         BS104
                           BS104                         BS105
                           BS105                         BS107
                           BS107                         DISCO
-                          DISCO                         OSUKA
+                          DISCO                         NUNLI
 
 VTBS-01R SEMBO1K          N013.41.30.500 E100.45.38.660 EXSON
                           EXSON                         BS104
@@ -309,7 +309,7 @@ VTBS-19R NOBER1G          N013.40.15.400 E100.44.04.250 ROVEN
                           DISCO                         TANGO
                           TANGO                         NOBER
 
-VTBS-19R OSUKA1G          N013.40.15.400 E100.44.04.250 ROVEN
+VTBS-19R NUNLI1G          N013.40.15.400 E100.44.04.250 ROVEN
                           ROVEN                         BS907
                           BS907                         BS909
                           BS909                         BS910
@@ -317,7 +317,7 @@ VTBS-19R OSUKA1G          N013.40.15.400 E100.44.04.250 ROVEN
                           BS911                         INTRO
                           INTRO                         DANCY
                           DANCY                         DISCO
-                          DISCO                         OSUKA
+                          DISCO                         NUNLI
 
 VTBS-19R SEMBO1G          N013.40.15.400 E100.44.04.250 ROVEN
                           ROVEN                         BS907
@@ -371,7 +371,7 @@ VTBS-19L NOBER1J          N013.39.25.030 E100.45.05.330 LOUIS
                           DISCO                         TANGO
                           TANGO                         NOBER
 
-VTBS-19L OSUKA1J          N013.39.25.030 E100.45.05.330 LOUIS
+VTBS-19L NUNLI1J          N013.39.25.030 E100.45.05.330 LOUIS
                           LOUIS                         BS907
                           BS907                         BS909
                           BS909                         BS910
@@ -379,7 +379,7 @@ VTBS-19L OSUKA1J          N013.39.25.030 E100.45.05.330 LOUIS
                           BS911                         INTRO
                           INTRO                         DANCY
                           DANCY                         DISCO
-                          DISCO                         OSUKA
+                          DISCO                         NUNLI
 
 VTBS-19L SEMBO1J          N013.39.25.030 E100.45.05.330 LOUIS
                           LOUIS                         BS907
