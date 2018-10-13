@@ -73,8 +73,6 @@ const main = async () => {
     AND
     (
       type = 'WN'
-      OR
-      type = 'WU'
     )
     `,
     async (
@@ -117,8 +115,6 @@ const main = async () => {
           AND
           (
             type = 'WN'
-            OR
-            type = 'WU'
           )
         `
         );
