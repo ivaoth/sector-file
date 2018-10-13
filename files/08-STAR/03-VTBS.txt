@@ -13,7 +13,7 @@ VTBS-XX NORTA.ALBOS       ALBOS                         NORTA
 VTBS-XX WILLA.BONVO       BONVO                         WILLA
 VTBS-XX WILLA.PASTO       PASTO                         WILLA
 VTBS-XX WILLA.TARED       TARED                         WILLA
-VTBS-XX WILLA.OSUKA       OSUKA                         WILLA
+VTBS-XX WILLA.IGONI       IGONI                         WILLA
 
 ;VTBS 01
 VTBS-01 DOLNI1D.XXXXX     DOLNI                         BEATS

@@ -5,7 +5,7 @@ VTBD-XX NAKON.ALBOS       ALBOS                         NAKON
 VTBD-XX WEHHA.BONVO       BONVO                         WEHHA
 VTBD-XX WEHHA.PASTO       PASTO                         WEHHA
 VTBD-XX WEHHA.TARED       TARED                         WEHHA
-VTBD-XX WEHHA.OSUKA       OSUKA                         WEHHA
+VTBD-XX WEHHA.IGONI       IGONI                         WEHHA
 VTBD-XX SABAI.GUTSO       GUTSO                         SABAI
 VTBD-XX SABAI.BUT         BUT                           SABAI
 VTBD-XX SABAI.SURMA       SURMA                         SABAI
