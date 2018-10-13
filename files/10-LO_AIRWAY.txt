@@ -67,8 +67,9 @@ G474                      BKK                           BATOK
                           MENAM                         VIBUN                        
 L301                      TANEK                         PASTO                        
                           PASTO                         BKK                          
-L507                      LIMLA                         OSUKA                        
-                          OSUKA                         BKK                          
+L507                      LUDVI                         NUNLI                        
+                          NUNLI                         IGONI                        
+                          IGONI                         BKK                          
 L515                      PUT                           MUDMA                        
                           MUDMA                         IKULA                        
 L524                      NURDA                         MIGAR                        
@@ -331,6 +332,7 @@ Y6                        BKK                           TANGO
                           BORNO                         SANAL                        
                           SANAL                         RINKA                        
                           RINKA                         MARNI                        
+                          MARNI                         CMA                          
 Y7                        PANTA                         KEXIL                        
                           KEXIL                         PAKMO                        
                           PAKMO                         TL                           
