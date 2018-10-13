@@ -10,7 +10,7 @@
     "build": "node ./scripts/build.js",
     "parse": "node ./airac-parser/ivac1/airport.js && node ./airac-parser/ivac1/airway.js && node ./airac-parser/ivac1/fir.js && node ./airac-parser/ivac1/ndb.js && node ./airac-parser/ivac1/vor.js && node ./airac-parser/ivac1/waypoint.js",
     "parse:inside": "INSIDE_ONLY=true npm run parse",
-    "changelog": "conventional-changelog --infile CHANGELOG.md --same-file --preset angular"
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
