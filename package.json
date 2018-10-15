@@ -4,11 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node ./scripts/checker.js",
-    "tsc": "tsc -p ./tsconfig.json",
+    "test": "ts-node ./scripts/checker.ts",
     "merge-pr": "node ./scripts/github/merge_pr.js",
-    "build": "node ./scripts/build.js",
-    "parse": "node ./airac-parser/ivac1/airport.js && node ./airac-parser/ivac1/airway.js && node ./airac-parser/ivac1/fir.js && node ./airac-parser/ivac1/ndb.js && node ./airac-parser/ivac1/vor.js && node ./airac-parser/ivac1/waypoint.js",
+    "build": "ts-node ./scripts/build.ts",
+    "parse": "ts-node ./airac-parser/ivac1/airport.ts && ts-node ./airac-parser/ivac1/airway.ts && ts-node ./airac-parser/ivac1/fir.ts && ts-node ./airac-parser/ivac1/ndb.ts && ts-node ./airac-parser/ivac1/vor.ts && ts-node ./airac-parser/ivac1/waypoint.ts && ts-node ./airac-parser/ivac1/area.ts",
     "parse:inside": "INSIDE_ONLY=true npm run parse",
     "release": "standard-version"
   },
