@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.1811.2"></a>
+## [2.1811.2](https://github.com/ivaothai/ivac-sector-file/compare/v2.1811.1...v2.1811.2) (2018-10-15)
+
+
+### Features
+
+* **drp:** add danger, restricted and prohibited areas ([#90](https://github.com/ivaothai/ivac-sector-file/issues/90)) ([e595197](https://github.com/ivaothai/ivac-sector-file/commit/e595197))
+
+
+
 <a name="2.1811.1"></a>
 ## [2.1811.1](https://github.com/ivaothai/ivac-sector-file/compare/v1.1810.2...v2.1811.1) (2018-10-13)
 
