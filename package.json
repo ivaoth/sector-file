@@ -2,7 +2,6 @@
   "name": "ivac-sector-file",
   "version": "2.1811.2",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "ts-node ./scripts/checker.ts",
     "merge-pr": "node ./scripts/github/merge_pr.js",
