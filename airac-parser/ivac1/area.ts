@@ -31,6 +31,7 @@ const getBoundary = async (id: number, db: Database) => {
     max_lonx: number;
     min_laty: number;
     min_lonx: number;
+    multiple_code: string;
   }>(`SELECT * FROM 'boundary' WHERE boundary_id = ${id}`);
   if (!data) return null;
   const { geometry: fir, ...otherData } = data;
@@ -84,6 +85,7 @@ const main = async () => {
     `SELECT MAX(boundary_id) AS 'count' FROM 'boundary';`
   );
   let drpOut = '';
+  let tmaOut = '';
   for (let i = 1; i <= boundaryCount; i++) {
     const boundary = await getBoundary(i, db);
     if (boundary) {
@@ -127,6 +129,17 @@ const main = async () => {
                   drpMap[boundary.restrictive_type as 'D' | 'R' | 'P']
                 }\n`;
               }
+            } else {
+              tmaOut += `; ${boundary.name}`
+              if (boundary.multiple_code) {
+                tmaOut += ` [${boundary.multiple_code}]`
+              }
+              tmaOut += ` (${boundary.type})\n`
+              for (let i = 0; i <= boundary.points.length - 1; i++) {
+                const point1 = boundary.points[i];
+                const point2 = i === boundary.points.length - 1 ? boundary.points[0] : boundary.points[i + 1];
+                tmaOut += `           ${convertPoint(point1)} ${convertPoint(point2)}\n`;
+              }
             }
           }
         }
@@ -134,6 +147,7 @@ const main = async () => {
     }
   }
   writeFileSync(resolve(buildGeoPath, '04-DRP_AREA.txt'), drpOut);
+  writeFileSync(resolve(buildLowArtccPath, '02-TMA_CTR.txt'), tmaOut);
 };
 
 main().then(() => {
