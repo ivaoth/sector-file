@@ -2,5 +2,13 @@
   "extends": [
     "config:base"
   ],
-  "rebaseStalePrs": true
+  "rebaseStalePrs": true,
+  "packageRules": [
+    {
+      "packagePatterns": [
+        "*"
+      ],
+      "semanticCommitType": "deps"
+    }
+  ]
 }
