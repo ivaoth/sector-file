@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.1812.1"></a>
+## [2.1812.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.1811.3...v2.1812.1) (2018-11-11)
+
+
+### Features
+
+* **fixes:** remove BOOMY waypoint ([#106](https://github.com/ivaothai/ivac-sector-file/issues/106)) ([35794ca](https://github.com/ivaothai/ivac-sector-file/commit/35794ca))
+* **fixes:** remove LIMLA waypoint ([#106](https://github.com/ivaothai/ivac-sector-file/issues/106)) ([9b88102](https://github.com/ivaothai/ivac-sector-file/commit/9b88102))
+* **info:** update header ([#107](https://github.com/ivaothai/ivac-sector-file/issues/107)) ([4817bca](https://github.com/ivaothai/ivac-sector-file/commit/4817bca))
+
+
+
 <a name="2.1811.3"></a>
 ## [2.1811.3](https://github.com/ivaothai/ivac-sector-file/compare/v2.1811.2...v2.1811.3) (2018-10-16)
 
