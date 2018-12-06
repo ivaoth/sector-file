@@ -2,6 +2,35 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.1813.1"></a>
+## [2.1813.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.1812.1...v2.1813.1) (2018-12-06)
+
+
+### Bug Fixes
+
+* **sids:** move header to the first file ([#112](https://github.com/ivaothai/ivac-sector-file/issues/112)) ([ae6ba71](https://github.com/ivaothai/ivac-sector-file/commit/ae6ba71))
+* **stars:** move header to the first file ([#112](https://github.com/ivaothai/ivac-sector-file/issues/112)) ([48ab1c9](https://github.com/ivaothai/ivac-sector-file/commit/48ab1c9))
+
+
+### Features
+
+* **airways:** change W3 to Y3, change BB to RIMSO ([#112](https://github.com/ivaothai/ivac-sector-file/issues/112)) ([89e06a5](https://github.com/ivaothai/ivac-sector-file/commit/89e06a5))
+* **airways:** insert ROBDA between UPNEP and ADNEP on W19 ([#112](https://github.com/ivaothai/ivac-sector-file/issues/112)) ([66efb44](https://github.com/ivaothai/ivac-sector-file/commit/66efb44))
+* **airways:** KK NDB now becomes SAKDA waypoint ([#112](https://github.com/ivaothai/ivac-sector-file/issues/112)) ([cd7ea5c](https://github.com/ivaothai/ivac-sector-file/commit/cd7ea5c))
+* **drp:** add VT(R)-82 Amphorn Royal Palace ([#112](https://github.com/ivaothai/ivac-sector-file/issues/112)) ([66e4fe4](https://github.com/ivaothai/ivac-sector-file/commit/66e4fe4))
+* **drp:** add VT(R)-83 Sukhothai Palace ([#112](https://github.com/ivaothai/ivac-sector-file/issues/112)) ([bdf84cd](https://github.com/ivaothai/ivac-sector-file/commit/bdf84cd))
+* **fixes:** add and remove fixes for cycle 1813 ([#112](https://github.com/ivaothai/ivac-sector-file/issues/112)) ([2a8f12c](https://github.com/ivaothai/ivac-sector-file/commit/2a8f12c))
+* **fixes:** add RIMSO and SAKDA waypoints ([#112](https://github.com/ivaothai/ivac-sector-file/issues/112)) ([1ccc5f6](https://github.com/ivaothai/ivac-sector-file/commit/1ccc5f6))
+* **ndbs:** remove BB NDB ([#112](https://github.com/ivaothai/ivac-sector-file/issues/112)) ([995c211](https://github.com/ivaothai/ivac-sector-file/commit/995c211))
+* **sids:** add SID parsing ([#111](https://github.com/ivaothai/ivac-sector-file/issues/111)) ([9c82525](https://github.com/ivaothai/ivac-sector-file/commit/9c82525))
+* **sids:** new VTBD SIDs ([#112](https://github.com/ivaothai/ivac-sector-file/issues/112)) ([1a7e2ba](https://github.com/ivaothai/ivac-sector-file/commit/1a7e2ba))
+* **sids:** new VTBS SIDs ([#112](https://github.com/ivaothai/ivac-sector-file/issues/112)) ([68224f8](https://github.com/ivaothai/ivac-sector-file/commit/68224f8))
+* **stars:** add STAR parsing ([#111](https://github.com/ivaothai/ivac-sector-file/issues/111)) ([09ef3fc](https://github.com/ivaothai/ivac-sector-file/commit/09ef3fc))
+* **stars:** new VTBD STARs ([#112](https://github.com/ivaothai/ivac-sector-file/issues/112)) ([0abde75](https://github.com/ivaothai/ivac-sector-file/commit/0abde75))
+* **stars:** new VTBS STARs ([#112](https://github.com/ivaothai/ivac-sector-file/issues/112)) ([041e7ad](https://github.com/ivaothai/ivac-sector-file/commit/041e7ad))
+
+
+
 <a name="2.1812.1"></a>
 ## [2.1812.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.1811.3...v2.1812.1) (2018-11-11)
 
