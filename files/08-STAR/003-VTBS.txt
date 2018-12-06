@@ -1,0 +1,111 @@
+VTBS-RW19B DOLN3C         DOLNI                         BEATS                        
+                          BEATS                         SALSA                        
+                          SALSA                         LATIN                        
+                          LATIN                         BS503                        
+                          BS503                         BS501                        
+                          BS501                         EKCHO                        
+VTBS-RW19B DOLN3C.ALEMI   ALEMI                         DOLNI                        
+VTBS-RW19B DOLN3C.BATOK   BATOK                         DOLNI                        
+VTBS-RW19B DOLN3C.BUT     BUT                           DOLNI                        
+VTBS-RW19B DOLN3C.GOMES   GOMES                         DOLNI                        
+VTBS-RW19B DOLN3C.RYN     RYN                           DOLNI                        
+VTBS-RW01B DOLN3D         DOLNI                         BEATS                        
+                          BEATS                         BS405                        
+                          BS405                         BS403                        
+                          BS403                         SANJO                        
+                          SANJO                         LATIN                        
+                          LATIN                         BS401                        
+                          BS401                         SALSA                        
+                          SALSA                         ENKAA                        
+VTBS-RW01B DOLN3D.ALEMI   ALEMI                         DOLNI                        
+VTBS-RW01B DOLN3D.BATOK   BATOK                         DOLNI                        
+VTBS-RW01B DOLN3D.BUT     BUT                           DOLNI                        
+VTBS-RW01B DOLN3D.GOMES   GOMES                         DOLNI                        
+VTBS-RW01B DOLN3D.RYN     RYN                           DOLNI                        
+VTBS-RW19B EAST3C         EASTE                         DUMIG                        
+                          DUMIG                         SOVKI                        
+                          SOVKI                         TERIB                        
+                          TERIB                         BS507                        
+                          BS507                         BS505                        
+                          BS505                         BS503                        
+                          BS503                         BS501                        
+                          BS501                         EKCHO                        
+VTBS-RW19B EAST3C.RUKSA   RUKSA                         EASTE                        
+VTBS-RW19B EAST3C.UBLOD   UBLOD                         EASTE                        
+VTBS-RW01B EAST3D         EASTE                         DABTA                        
+                          DABTA                         BS407                        
+                          BS407                         LATIN                        
+                          LATIN                         BS401                        
+                          BS401                         SALSA                        
+                          SALSA                         ENKAA                        
+VTBS-RW01B EAST3D.RUKSA   RUKSA                         EASTE                        
+VTBS-RW01B EAST3D.UBLOD   UBLOD                         EASTE                        
+VTBS-RW19B LEBI3C         LEBIM                         DOTSU                        
+                          DOTSU                         INNDY                        
+                          INNDY                         SALSA                        
+                          SALSA                         LATIN                        
+                          LATIN                         BS503                        
+                          BS503                         BS501                        
+                          BS501                         EKCHO                        
+VTBS-RW19B LEBI3C.GUTSO   GUTSO                         LEBIM                        
+VTBS-RW19B LEBI3C.HOTEL   HOTEL                         LEBIM                        
+VTBS-RW19B LEBI3C.SURMA   SURMA                         LEBIM                        
+VTBS-RW01B LEBI3D         LEBIM                         FUNKY                        
+                          FUNKY                         BS405                        
+                          BS405                         BS403                        
+                          BS403                         SANJO                        
+                          SANJO                         LATIN                        
+                          LATIN                         BS401                        
+                          BS401                         SALSA                        
+                          SALSA                         ENKAA                        
+VTBS-RW01B LEBI3D.GUTSO   GUTSO                         LEBIM                        
+VTBS-RW01B LEBI3D.HOTEL   HOTEL                         LEBIM                        
+VTBS-RW01B LEBI3D.SURMA   SURMA                         LEBIM                        
+VTBS-RW19B NORT3C         NORTA                         BS512                        
+                          BS512                         IRTIS                        
+                          IRTIS                         BS508                        
+                          BS508                         BS506                        
+                          BS506                         BS504                        
+                          BS504                         BS502                        
+                          BS502                         WALTZ                        
+VTBS-RW19B NORT3C.ALBOS   ALBOS                         NORTA                        
+VTBS-RW19B NORT3C.NOBER   NOBER                         NORTA                        
+VTBS-RW19B NORT3C.SEMBO   SEMBO                         NORTA                        
+VTBS-RW19B NORT3C.TL      TL                            NORTA                        
+VTBS-RW01B NORT3D         NORTA                         IRTIS                        
+                          IRTIS                         BS408                        
+                          BS408                         BS406                        
+                          BS406                         BS404                        
+                          BS404                         BS402                        
+                          BS402                         TAPPA                        
+                          TAPPA                         WOCAL                        
+VTBS-RW01B NORT3D.ALBOS   ALBOS                         NORTA                        
+VTBS-RW01B NORT3D.NOBER   NOBER                         NORTA                        
+VTBS-RW01B NORT3D.SEMBO   SEMBO                         NORTA                        
+VTBS-RW01B NORT3D.TL      TL                            NORTA                        
+VTBS-RW19B WILA3C         WILLA                         BAROK                        
+                          BAROK                         BS510                        
+                          BS510                         INVEK                        
+                          INVEK                         BS508                        
+                          BS508                         BS506                        
+                          BS506                         BS504                        
+                          BS504                         BS502                        
+                          BS502                         WALTZ                        
+VTBS-RW19B WILA3C.BONVO   BONVO                         WILLA                        
+VTBS-RW19B WILA3C.IBETO   IBETO                         WILLA                        
+VTBS-RW19B WILA3C.IGONI   IGONI                         WILLA                        
+VTBS-RW19B WILA3C.PASTO   PASTO                         WILLA                        
+VTBS-RW19B WILA3C.TARED   TARED                         WILLA                        
+VTBS-RW01B WILA3D         WILLA                         NIMEG                        
+                          NIMEG                         ISDEX                        
+                          ISDEX                         BS408                        
+                          BS408                         BS406                        
+                          BS406                         BS404                        
+                          BS404                         BS402                        
+                          BS402                         TAPPA                        
+                          TAPPA                         WOCAL                        
+VTBS-RW01B WILA3D.BONVO   BONVO                         WILLA                        
+VTBS-RW01B WILA3D.IBETO   IBETO                         WILLA                        
+VTBS-RW01B WILA3D.IGONI   IGONI                         WILLA                        
+VTBS-RW01B WILA3D.PASTO   PASTO                         WILLA                        
+VTBS-RW01B WILA3D.TARED   TARED                         WILLA                        
