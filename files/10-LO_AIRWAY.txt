@@ -144,7 +144,7 @@ R325                      IKULA                         MUDMA
                           OSVIP                         UTHAI                        
                           UTHAI                         DUBAX                        
                           DUBAX                         VAS                          
-R334                      RYN                           KK                           
+R334                      RYN                           SAKDA                        
 R345                      ROT                           GRASO                        
                           GRASO                         PASAT                        
                           PASAT                         PEKBA                        
@@ -159,7 +159,7 @@ R470                      VTN                           UDN
 R474                      BKK                           ALBOS                        
                           ALBOS                         CMP                          
                           CMP                           VTN                          
-R575                      KK                            ANOBO                        
+R575                      SAKDA                         ANOBO                        
                           ANOBO                         ALUMO                        
                           ALUMO                         RILVI                        
                           RILVI                         EMELA                        
