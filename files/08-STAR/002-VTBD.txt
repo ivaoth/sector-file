@@ -1,0 +1,114 @@
+VTBD-RW03B ENDU1B         ENDUU                         MOTIF                        
+                          MOTIF                         PIANO                        
+                          PIANO                         BRENT                        
+                          BRENT                         FERDO                        
+                          FERDO                         DM307                        
+                          DM307                         DM304                        
+                          DM304                         DM303                        
+                          DM303                         DM302                        
+                          DM302                         DM301                        
+VTBD-RW03B ENDU1B.UBLOD   UBLOD                         ENDUU                        
+VTBD-RW21B ENDU3A         ENDUU                         BD115                        
+                          BD115                         OPERA                        
+                          OPERA                         DUDAT                        
+                          DUDAT                         BD114                        
+                          BD114                         AROKA                        
+                          AROKA                         BD111                        
+VTBD-RW21B ENDU3A.UBLOD   UBLOD                         ENDUU                        
+VTBD-RW03B NAKO1B         NAKON                         PIANO                        
+                          PIANO                         BRENT                        
+                          BRENT                         FERDO                        
+                          FERDO                         DM307                        
+                          DM307                         DM304                        
+                          DM304                         DM303                        
+                          DM303                         DM302                        
+                          DM302                         DM301                        
+VTBD-RW03B NAKO1B.ALBOS   ALBOS                         NAKON                        
+VTBD-RW03B NAKO1B.NOBER   NOBER                         NAKON                        
+VTBD-RW03B NAKO1B.SEMBO   SEMBO                         NAKON                        
+VTBD-RW03B NAKO1B.TL      TL                            NAKON                        
+VTBD-RW21B NAKO3A         NAKON                         DOGVA                        
+                          DOGVA                         BD114                        
+                          BD114                         AROKA                        
+                          AROKA                         BD111                        
+VTBD-RW21B NAKO3A.ALBOS   ALBOS                         NAKON                        
+VTBD-RW21B NAKO3A.NOBER   NOBER                         NAKON                        
+VTBD-RW21B NAKO3A.SEMBO   SEMBO                         NAKON                        
+VTBD-RW21B NAKO3A.TL      TL                            NAKON                        
+VTBD-RW03B SABA1B         SABAI                         ARMUS                        
+                          ARMUS                         DM305                        
+                          DM305                         DM304                        
+                          DM304                         DM303                        
+                          DM303                         DM302                        
+                          DM302                         DM301                        
+VTBD-RW03B SABA1B.BUT     BUT                           SABAI                        
+VTBD-RW03B SABA1B.GUTSO   GUTSO                         SABAI                        
+VTBD-RW03B SABA1B.HOTEL   HOTEL                         SABAI                        
+VTBD-RW03B SABA1B.SURMA   SURMA                         SABAI                        
+VTBD-RW21B SABA3A         SABAI                         BD118                        
+                          BD118                         BD117                        
+                          BD117                         VASGO                        
+                          VASGO                         ESMAG                        
+                          ESMAG                         BD116                        
+                          BD116                         NODEG                        
+                          NODEG                         DUGIX                        
+                          DUGIX                         BD112                        
+                          BD112                         VARPI                        
+                          VARPI                         AROKA                        
+                          AROKA                         BD111                        
+VTBD-RW21B SABA3A.BUT     BUT                           SABAI                        
+VTBD-RW21B SABA3A.GUTSO   GUTSO                         SABAI                        
+VTBD-RW21B SABA3A.HOTEL   HOTEL                         SABAI                        
+VTBD-RW21B SABA3A.SURMA   SURMA                         SABAI                        
+VTBD-RW03B SEHN1B         SEHNA                         BAMBU                        
+                          BAMBU                         DM306                        
+                          DM306                         ARMUS                        
+                          ARMUS                         DM305                        
+                          DM305                         DM304                        
+                          DM304                         DM303                        
+                          DM303                         DM302                        
+                          DM302                         DM301                        
+VTBD-RW03B SEHN1B.ALEMI   ALEMI                         SEHNA                        
+VTBD-RW03B SEHN1B.BATOK   BATOK                         SEHNA                        
+VTBD-RW03B SEHN1B.GOMES   GOMES                         SEHNA                        
+VTBD-RW03B SEHN1B.RYN     RYN                           SEHNA                        
+VTBD-RW21B SEHN3A         SEHNA                         BD120                        
+                          BD120                         BD119                        
+                          BD119                         VASGO                        
+                          VASGO                         ESMAG                        
+                          ESMAG                         BD116                        
+                          BD116                         NODEG                        
+                          NODEG                         DUGIX                        
+                          DUGIX                         BD112                        
+                          BD112                         VARPI                        
+                          VARPI                         AROKA                        
+                          AROKA                         BD111                        
+VTBD-RW21B SEHN3A.ALEMI   ALEMI                         SEHNA                        
+VTBD-RW21B SEHN3A.BATOK   BATOK                         SEHNA                        
+VTBD-RW21B SEHN3A.GOMES   GOMES                         SEHNA                        
+VTBD-RW21B SEHN3A.RYN     RYN                           SEHNA                        
+VTBD-RW03B WEHA1B         WEHHA                         PESTO                        
+                          PESTO                         DM308                        
+                          DM308                         BRENT                        
+                          BRENT                         FERDO                        
+                          FERDO                         DM307                        
+                          DM307                         DM304                        
+                          DM304                         DM303                        
+                          DM303                         DM302                        
+                          DM302                         DM301                        
+VTBD-RW03B WEHA1B.BONVO   BONVO                         WEHHA                        
+VTBD-RW03B WEHA1B.IBETO   IBETO                         WEHHA                        
+VTBD-RW03B WEHA1B.IGONI   IGONI                         WEHHA                        
+VTBD-RW03B WEHA1B.PASTO   PASTO                         WEHHA                        
+VTBD-RW03B WEHA1B.TARED   TARED                         WEHHA                        
+VTBD-RW21B WEHA3A         WEHHA                         NINER                        
+                          NINER                         DOVAX                        
+                          DOVAX                         BD113                        
+                          BD113                         VARPI                        
+                          VARPI                         AROKA                        
+                          AROKA                         BD111                        
+VTBD-RW21B WEHA3A.BONVO   BONVO                         WEHHA                        
+VTBD-RW21B WEHA3A.IBETO   IBETO                         WEHHA                        
+VTBD-RW21B WEHA3A.IGONI   IGONI                         WEHHA                        
+VTBD-RW21B WEHA3A.PASTO   PASTO                         WEHHA                        
+VTBD-RW21B WEHA3A.TARED   TARED                         WEHHA                        
