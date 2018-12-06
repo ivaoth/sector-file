@@ -6,7 +6,7 @@
     "test": "ts-node ./scripts/checker.ts",
     "merge-pr": "node ./scripts/github/merge_pr.js",
     "build": "ts-node ./scripts/build.ts",
-    "parse": "ts-node ./airac-parser/ivac1/airport.ts && ts-node ./airac-parser/ivac1/airway.ts && ts-node ./airac-parser/ivac1/fir.ts && ts-node ./airac-parser/ivac1/ndb.ts && ts-node ./airac-parser/ivac1/vor.ts && ts-node ./airac-parser/ivac1/waypoint.ts && ts-node ./airac-parser/ivac1/area.ts",
+    "parse": "ts-node ./airac-parser/ivac1/airport.ts && ts-node ./airac-parser/ivac1/airway.ts && ts-node ./airac-parser/ivac1/fir.ts && ts-node ./airac-parser/ivac1/ndb.ts && ts-node ./airac-parser/ivac1/vor.ts && ts-node ./airac-parser/ivac1/waypoint.ts && ts-node ./airac-parser/ivac1/area.ts && ts-node ./airac-parser/ivac1/sid.ts && ts-node ./airac-parser/ivac1/star.ts",
     "parse:inside": "INSIDE_ONLY=true npm run parse",
     "release": "standard-version"
   },
