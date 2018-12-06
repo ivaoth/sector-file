@@ -1,2 +1,1 @@
 ;- Followings are NDB outside Bangkok FIR
-BB    484.000 N013.05.30.000 E103.13.24.000 ;- BATTAMBANG

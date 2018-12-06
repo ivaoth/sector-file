@@ -12,7 +12,7 @@ const db = new sqlite3.Database(
   resolve(basePath, '..' , 'little_navmap_navigraph.sqlite')
 );
 
-let inclusion: string[] = ['BB'];
+let inclusion: string[] = [];
 
 if (process.env['INSIDE_ONLY'] === 'true') {
   console.log('This is going to get data inside Bangkok FIR only, be sure to run the IvAc sector file checker.');
