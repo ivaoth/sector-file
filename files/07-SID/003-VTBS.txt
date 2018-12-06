@@ -1,0 +1,526 @@
+VTBS-RW19R ALBO3G         N013.40.16.601 E100.44.04.794 ROVEN                        
+                          ROVEN                         BS907                        
+                          BS907                         BS909                        
+                          BS909                         BS910                        
+                          BS910                         BS912                        
+                          BS912                         BS914                        
+                          BS914                         ALBOS                        
+VTBS-RW01L ALBO3H         N013.42.13.210 E100.44.35.446 VARIS                        
+                          VARIS                         BS104                        
+                          BS104                         BS105                        
+                          BS105                         BS106                        
+                          BS106                         ALBOS                        
+VTBS-RW19L ALBO3J         N013.39.24.110 E100.45.06.592 LOUIS                        
+                          LOUIS                         BS907                        
+                          BS907                         BS909                        
+                          BS909                         BS910                        
+                          BS910                         BS912                        
+                          BS912                         BS914                        
+                          BS914                         ALBOS                        
+VTBS-RW01R ALBO3K         N013.41.30.171 E100.45.39.716 EXSON                        
+                          EXSON                         BS104                        
+                          BS104                         BS105                        
+                          BS105                         BS106                        
+                          BS106                         ALBOS                        
+VTBS-RW19R BATO3G         N013.40.16.601 E100.44.04.794 ROVEN                        
+                          ROVEN                         BS901                        
+                          BS901                         BS902                        
+                          BS902                         MEZZO                        
+                          MEZZO                         NITRO                        
+                          NITRO                         BATOK                        
+VTBS-RW01L BATO3H         N013.42.13.210 E100.44.35.446 VARIS                        
+                          VARIS                         BS101                        
+                          BS101                         BATOK                        
+VTBS-RW19L BATO3J         N013.39.24.110 E100.45.06.592 LOUIS                        
+                          LOUIS                         BS901                        
+                          BS901                         BS902                        
+                          BS902                         MEZZO                        
+                          MEZZO                         NITRO                        
+                          NITRO                         BATOK                        
+VTBS-RW01R BATO3K         N013.41.30.171 E100.45.39.716 EXSON                        
+                          EXSON                         BS101                        
+                          BS101                         BATOK                        
+VTBS-RW19R BONV3G         N013.40.16.601 E100.44.04.794 ROVEN                        
+                          ROVEN                         BS907                        
+                          BS907                         BS909                        
+                          BS909                         BS910                        
+                          BS910                         BS911                        
+                          BS911                         MEKET                        
+                          MEKET                         INTOS                        
+                          INTOS                         OBMAR                        
+                          OBMAR                         BONVO                        
+VTBS-RW01L BONV3H         N013.42.13.210 E100.44.35.446 VARIS                        
+                          VARIS                         BS104                        
+                          BS104                         BS108                        
+                          BS108                         BS117                        
+                          BS117                         BS118                        
+                          BS118                         OBMAR                        
+                          OBMAR                         BONVO                        
+VTBS-RW19L BONV3J         N013.39.24.110 E100.45.06.592 LOUIS                        
+                          LOUIS                         BS907                        
+                          BS907                         BS909                        
+                          BS909                         BS910                        
+                          BS910                         BS911                        
+                          BS911                         MEKET                        
+                          MEKET                         INTOS                        
+                          INTOS                         OBMAR                        
+                          OBMAR                         BONVO                        
+VTBS-RW01R BONV3K         N013.41.30.171 E100.45.39.716 EXSON                        
+                          EXSON                         BS104                        
+                          BS104                         BS108                        
+                          BS108                         BS117                        
+                          BS117                         BS118                        
+                          BS118                         OBMAR                        
+                          OBMAR                         BONVO                        
+VTBS-RW19R GORS3G         N013.40.16.601 E100.44.04.794 ROVEN                        
+                          ROVEN                         BS901                        
+                          BS901                         BS902                        
+                          BS902                         MEZZO                        
+                          MEZZO                         BS915                        
+                          BS915                         GORSI                        
+VTBS-RW01L GORS3H         N013.42.13.210 E100.44.35.446 VARIS                        
+                          VARIS                         BS101                        
+                          BS101                         BS102                        
+                          BS102                         GORSI                        
+VTBS-RW19L GORS3J         N013.39.24.110 E100.45.06.592 LOUIS                        
+                          LOUIS                         BS901                        
+                          BS901                         BS902                        
+                          BS902                         MEZZO                        
+                          MEZZO                         BS915                        
+                          BS915                         GORSI                        
+VTBS-RW01R GORS3K         N013.41.30.171 E100.45.39.716 EXSON                        
+                          EXSON                         BS101                        
+                          BS101                         BS102                        
+                          BS102                         GORSI                        
+VTBS-RW19R HHN3G          N013.40.16.601 E100.44.04.794 ROVEN                        
+                          ROVEN                         BS907                        
+                          BS907                         BS908                        
+                          BS908                         SALMA                        
+                          SALMA                         SABIS                        
+                          SABIS                         HHN                          
+VTBS-RW01L HHN3H          N013.42.13.210 E100.44.35.446 VARIS                        
+                          VARIS                         BS104                        
+                          BS104                         BS108                        
+                          BS108                         BS117                        
+                          BS117                         BS118                        
+                          BS118                         POTEP                        
+                          POTEP                         TUPKA                        
+                          TUPKA                         SABIS                        
+                          SABIS                         HHN                          
+VTBS-RW19L HHN3J          N013.39.24.110 E100.45.06.592 LOUIS                        
+                          LOUIS                         BS907                        
+                          BS907                         BS908                        
+                          BS908                         SALMA                        
+                          SALMA                         SABIS                        
+                          SABIS                         HHN                          
+VTBS-RW01R HHN3K          N013.41.30.171 E100.45.39.716 EXSON                        
+                          EXSON                         BS104                        
+                          BS104                         BS108                        
+                          BS108                         BS117                        
+                          BS117                         BS118                        
+                          BS118                         POTEP                        
+                          POTEP                         TUPKA                        
+                          TUPKA                         SABIS                        
+                          SABIS                         HHN                          
+VTBS-RW19R KASN3G         N013.40.16.601 E100.44.04.794 ROVEN                        
+                          ROVEN                         BS903                        
+                          BS903                         SAMBA                        
+                          SAMBA                         BS905                        
+                          BS905                         KASNI                        
+VTBS-RW01L KASN3H         N013.42.13.210 E100.44.35.446 VARIS                        
+                          VARIS                         BS101                        
+                          BS101                         BS102                        
+                          BS102                         BS103                        
+                          BS103                         KASNI                        
+VTBS-RW19L KASN3J         N013.39.24.110 E100.45.06.592 LOUIS                        
+                          LOUIS                         BS903                        
+                          BS903                         SAMBA                        
+                          SAMBA                         BS905                        
+                          BS905                         KASNI                        
+VTBS-RW01R KASN3K         N013.41.30.171 E100.45.39.716 EXSON                        
+                          EXSON                         BS101                        
+                          BS101                         BS102                        
+                          BS102                         BS103                        
+                          BS103                         KASNI                        
+VTBS-RW19R KIGO3G         N013.40.16.601 E100.44.04.794 ROVEN                        
+                          ROVEN                         BS903                        
+                          BS903                         SAMBA                        
+                          SAMBA                         BS904                        
+                          BS904                         KIGOB                        
+VTBS-RW01L KIGO3H         N013.42.13.210 E100.44.35.446 VARIS                        
+                          VARIS                         BS101                        
+                          BS101                         BS102                        
+                          BS102                         BS103                        
+                          BS103                         KIGOB                        
+VTBS-RW19L KIGO3J         N013.39.24.110 E100.45.06.592 LOUIS                        
+                          LOUIS                         BS903                        
+                          BS903                         SAMBA                        
+                          SAMBA                         BS904                        
+                          BS904                         KIGOB                        
+VTBS-RW01R KIGO3K         N013.41.30.171 E100.45.39.716 EXSON                        
+                          EXSON                         BS101                        
+                          BS101                         BS102                        
+                          BS102                         BS103                        
+                          BS103                         KIGOB                        
+VTBS-RW19R NOBE3G         N013.40.16.601 E100.44.04.794 ROVEN                        
+                          ROVEN                         BS907                        
+                          BS907                         BS909                        
+                          BS909                         BS910                        
+                          BS910                         BS911                        
+                          BS911                         MEKET                        
+                          MEKET                         INTOS                        
+                          INTOS                         DISCO                        
+                          DISCO                         TANGO                        
+                          TANGO                         NOBER                        
+VTBS-RW01L NOBE3H         N013.42.13.210 E100.44.35.446 VARIS                        
+                          VARIS                         BS104                        
+                          BS104                         BS105                        
+                          BS105                         BS107                        
+                          BS107                         DISCO                        
+                          DISCO                         TANGO                        
+                          TANGO                         NOBER                        
+VTBS-RW19L NOBE3J         N013.39.24.110 E100.45.06.592 LOUIS                        
+                          LOUIS                         BS907                        
+                          BS907                         BS909                        
+                          BS909                         BS910                        
+                          BS910                         BS911                        
+                          BS911                         MEKET                        
+                          MEKET                         INTOS                        
+                          INTOS                         DISCO                        
+                          DISCO                         TANGO                        
+                          TANGO                         NOBER                        
+VTBS-RW01R NOBE3K         N013.41.30.171 E100.45.39.716 EXSON                        
+                          EXSON                         BS104                        
+                          BS104                         BS105                        
+                          BS105                         BS107                        
+                          BS107                         DISCO                        
+                          DISCO                         TANGO                        
+                          TANGO                         NOBER                        
+VTBS-RW19R NUNL3G         N013.40.16.601 E100.44.04.794 ROVEN                        
+                          ROVEN                         BS907                        
+                          BS907                         BS909                        
+                          BS909                         BS910                        
+                          BS910                         BS911                        
+                          BS911                         MEKET                        
+                          MEKET                         INTOS                        
+                          INTOS                         DISCO                        
+                          DISCO                         NUNLI                        
+VTBS-RW01L NUNL3H         N013.42.13.210 E100.44.35.446 VARIS                        
+                          VARIS                         BS104                        
+                          BS104                         BS105                        
+                          BS105                         BS107                        
+                          BS107                         DISCO                        
+                          DISCO                         NUNLI                        
+VTBS-RW19L NUNL3J         N013.39.24.110 E100.45.06.592 LOUIS                        
+                          LOUIS                         BS907                        
+                          BS907                         BS909                        
+                          BS909                         BS910                        
+                          BS910                         BS911                        
+                          BS911                         MEKET                        
+                          MEKET                         INTOS                        
+                          INTOS                         DISCO                        
+                          DISCO                         NUNLI                        
+VTBS-RW01R NUNL3K         N013.41.30.171 E100.45.39.716 EXSON                        
+                          EXSON                         BS104                        
+                          BS104                         BS105                        
+                          BS105                         BS107                        
+                          BS107                         DISCO                        
+                          DISCO                         NUNLI                        
+VTBS-RW19R PAST3G         N013.40.16.601 E100.44.04.794 ROVEN                        
+                          ROVEN                         BS907                        
+                          BS907                         BS909                        
+                          BS909                         BS910                        
+                          BS910                         BS911                        
+                          BS911                         MEKET                        
+                          MEKET                         INTOS                        
+                          INTOS                         OBMAR                        
+                          OBMAR                         PASTO                        
+VTBS-RW01L PAST3H         N013.42.13.210 E100.44.35.446 VARIS                        
+                          VARIS                         BS104                        
+                          BS104                         BS108                        
+                          BS108                         BS117                        
+                          BS117                         BS118                        
+                          BS118                         OBMAR                        
+                          OBMAR                         PASTO                        
+VTBS-RW19L PAST3J         N013.39.24.110 E100.45.06.592 LOUIS                        
+                          LOUIS                         BS907                        
+                          BS907                         BS909                        
+                          BS909                         BS910                        
+                          BS910                         BS911                        
+                          BS911                         MEKET                        
+                          MEKET                         INTOS                        
+                          INTOS                         OBMAR                        
+                          OBMAR                         PASTO                        
+VTBS-RW01R PAST3K         N013.41.30.171 E100.45.39.716 EXSON                        
+                          EXSON                         BS104                        
+                          BS104                         BS108                        
+                          BS108                         BS117                        
+                          BS117                         BS118                        
+                          BS118                         OBMAR                        
+                          OBMAR                         PASTO                        
+VTBS-RW19R REGO3G         N013.40.16.601 E100.44.04.794 ROVEN                        
+                          ROVEN                         BS903                        
+                          BS903                         SAMBA                        
+                          SAMBA                         BS905                        
+                          BS905                         KASNI                        
+                          KASNI                         REGOS                        
+VTBS-RW01L REGO3H         N013.42.13.210 E100.44.35.446 VARIS                        
+                          VARIS                         BS101                        
+                          BS101                         BS102                        
+                          BS102                         BS103                        
+                          BS103                         KASNI                        
+                          KASNI                         REGOS                        
+VTBS-RW19L REGO3J         N013.39.24.110 E100.45.06.592 LOUIS                        
+                          LOUIS                         BS903                        
+                          BS903                         SAMBA                        
+                          SAMBA                         BS905                        
+                          BS905                         KASNI                        
+                          KASNI                         REGOS                        
+VTBS-RW01R REGO3K         N013.41.30.171 E100.45.39.716 EXSON                        
+                          EXSON                         BS101                        
+                          BS101                         BS102                        
+                          BS102                         BS103                        
+                          BS103                         KASNI                        
+                          KASNI                         REGOS                        
+VTBS-RW19R ROBK3G         N013.40.16.601 E100.44.04.794 ROVEN                        
+                          ROVEN                         BS901                        
+                          BS901                         BS902                        
+                          BS902                         MEZZO                        
+                          MEZZO                         ROBKA                        
+VTBS-RW01L ROBK3H         N013.42.13.210 E100.44.35.446 VARIS                        
+                          VARIS                         BS101                        
+                          BS101                         ROBKA                        
+VTBS-RW19L ROBK3J         N013.39.24.110 E100.45.06.592 LOUIS                        
+                          LOUIS                         BS901                        
+                          BS901                         BS902                        
+                          BS902                         MEZZO                        
+                          MEZZO                         ROBKA                        
+VTBS-RW01R ROBK3K         N013.41.30.171 E100.45.39.716 EXSON                        
+                          EXSON                         BS101                        
+                          BS101                         ROBKA                        
+VTBS-RW19R RYN3G          N013.40.16.601 E100.44.04.794 ROVEN                        
+                          ROVEN                         BS901                        
+                          BS901                         BS902                        
+                          BS902                         MEZZO                        
+                          MEZZO                         BS915                        
+                          BS915                         RYN                          
+VTBS-RW01L RYN3H          N013.42.13.210 E100.44.35.446 VARIS                        
+                          VARIS                         BS101                        
+                          BS101                         BS102                        
+                          BS102                         RYN                          
+VTBS-RW19L RYN3J          N013.39.24.110 E100.45.06.592 LOUIS                        
+                          LOUIS                         BS901                        
+                          BS901                         BS902                        
+                          BS902                         MEZZO                        
+                          MEZZO                         BS915                        
+                          BS915                         RYN                          
+VTBS-RW01R RYN3K          N013.41.30.171 E100.45.39.716 EXSON                        
+                          EXSON                         BS101                        
+                          BS101                         BS102                        
+                          BS102                         RYN                          
+VTBS-RW19R SABI3G         N013.40.16.601 E100.44.04.794 ROVEN                        
+                          ROVEN                         BS907                        
+                          BS907                         BS908                        
+                          BS908                         SALMA                        
+                          SALMA                         SABIS                        
+VTBS-RW01L SABI3H         N013.42.13.210 E100.44.35.446 VARIS                        
+                          VARIS                         BS104                        
+                          BS104                         BS108                        
+                          BS108                         BS117                        
+                          BS117                         BS118                        
+                          BS118                         POTEP                        
+                          POTEP                         TUPKA                        
+                          TUPKA                         SABIS                        
+VTBS-RW19L SABI3J         N013.39.24.110 E100.45.06.592 LOUIS                        
+                          LOUIS                         BS907                        
+                          BS907                         BS908                        
+                          BS908                         SALMA                        
+                          SALMA                         SABIS                        
+VTBS-RW01R SABI3K         N013.41.30.171 E100.45.39.716 EXSON                        
+                          EXSON                         BS104                        
+                          BS104                         BS108                        
+                          BS108                         BS117                        
+                          BS117                         BS118                        
+                          BS118                         POTEP                        
+                          POTEP                         TUPKA                        
+                          TUPKA                         SABIS                        
+VTBS-RW19R SEMB3G         N013.40.16.601 E100.44.04.794 ROVEN                        
+                          ROVEN                         BS907                        
+                          BS907                         BS909                        
+                          BS909                         BS910                        
+                          BS910                         BS911                        
+                          BS911                         MEKET                        
+                          MEKET                         INTOS                        
+                          INTOS                         DISCO                        
+                          DISCO                         TANGO                        
+                          TANGO                         SEMBO                        
+VTBS-RW01L SEMB3H         N013.42.13.210 E100.44.35.446 VARIS                        
+                          VARIS                         BS104                        
+                          BS104                         BS105                        
+                          BS105                         BS107                        
+                          BS107                         DISCO                        
+                          DISCO                         TANGO                        
+                          TANGO                         SEMBO                        
+VTBS-RW19L SEMB3J         N013.39.24.110 E100.45.06.592 LOUIS                        
+                          LOUIS                         BS907                        
+                          BS907                         BS909                        
+                          BS909                         BS910                        
+                          BS910                         BS911                        
+                          BS911                         MEKET                        
+                          MEKET                         INTOS                        
+                          INTOS                         DISCO                        
+                          DISCO                         TANGO                        
+                          TANGO                         SEMBO                        
+VTBS-RW01R SEMB3K         N013.41.30.171 E100.45.39.716 EXSON                        
+                          EXSON                         BS104                        
+                          BS104                         BS105                        
+                          BS105                         BS107                        
+                          BS107                         DISCO                        
+                          DISCO                         TANGO                        
+                          TANGO                         SEMBO                        
+VTBS-RW19R TANG3G         N013.40.16.601 E100.44.04.794 ROVEN                        
+                          ROVEN                         BS907                        
+                          BS907                         BS909                        
+                          BS909                         BS910                        
+                          BS910                         BS911                        
+                          BS911                         MEKET                        
+                          MEKET                         INTOS                        
+                          INTOS                         DISCO                        
+                          DISCO                         TANGO                        
+VTBS-RW01L TANG3H         N013.42.13.210 E100.44.35.446 VARIS                        
+                          VARIS                         BS104                        
+                          BS104                         BS105                        
+                          BS105                         BS107                        
+                          BS107                         DISCO                        
+                          DISCO                         TANGO                        
+VTBS-RW19L TANG3J         N013.39.24.110 E100.45.06.592 LOUIS                        
+                          LOUIS                         BS907                        
+                          BS907                         BS909                        
+                          BS909                         BS910                        
+                          BS910                         BS911                        
+                          BS911                         MEKET                        
+                          MEKET                         INTOS                        
+                          INTOS                         DISCO                        
+                          DISCO                         TANGO                        
+VTBS-RW01R TANG3K         N013.41.30.171 E100.45.39.716 EXSON                        
+                          EXSON                         BS104                        
+                          BS104                         BS105                        
+                          BS105                         BS107                        
+                          BS107                         DISCO                        
+                          DISCO                         TANGO                        
+VTBS-RW19R TARE3G         N013.40.16.601 E100.44.04.794 ROVEN                        
+                          ROVEN                         BS907                        
+                          BS907                         BS909                        
+                          BS909                         BS910                        
+                          BS910                         BS911                        
+                          BS911                         MEKET                        
+                          MEKET                         INTOS                        
+                          INTOS                         TEMPO                        
+                          TEMPO                         TARED                        
+VTBS-RW01L TARE3H         N013.42.13.210 E100.44.35.446 VARIS                        
+                          VARIS                         BS104                        
+                          BS104                         BS108                        
+                          BS108                         BS117                        
+                          BS117                         BS118                        
+                          BS118                         TEMPO                        
+                          TEMPO                         TARED                        
+VTBS-RW19L TARE3J         N013.39.24.110 E100.45.06.592 LOUIS                        
+                          LOUIS                         BS907                        
+                          BS907                         BS909                        
+                          BS909                         BS910                        
+                          BS910                         BS911                        
+                          BS911                         MEKET                        
+                          MEKET                         INTOS                        
+                          INTOS                         TEMPO                        
+                          TEMPO                         TARED                        
+VTBS-RW01R TARE3K         N013.41.30.171 E100.45.39.716 EXSON                        
+                          EXSON                         BS104                        
+                          BS104                         BS108                        
+                          BS108                         BS117                        
+                          BS117                         BS118                        
+                          BS118                         TEMPO                        
+                          TEMPO                         TARED                        
+VTBS-RW19R TL3G           N013.40.16.601 E100.44.04.794 ROVEN                        
+                          ROVEN                         BS907                        
+                          BS907                         BS909                        
+                          BS909                         BS910                        
+                          BS910                         BS911                        
+                          BS911                         MEKET                        
+                          MEKET                         INTOS                        
+                          INTOS                         DISCO                        
+                          DISCO                         TANGO                        
+                          TANGO                         SEMBO                        
+                          SEMBO                         TL                           
+VTBS-RW01L TL3H           N013.42.13.210 E100.44.35.446 VARIS                        
+                          VARIS                         BS104                        
+                          BS104                         BS105                        
+                          BS105                         BS107                        
+                          BS107                         DISCO                        
+                          DISCO                         TANGO                        
+                          TANGO                         SEMBO                        
+                          SEMBO                         TL                           
+VTBS-RW19L TL3J           N013.39.24.110 E100.45.06.592 LOUIS                        
+                          LOUIS                         BS907                        
+                          BS907                         BS909                        
+                          BS909                         BS910                        
+                          BS910                         BS911                        
+                          BS911                         MEKET                        
+                          MEKET                         INTOS                        
+                          INTOS                         DISCO                        
+                          DISCO                         TANGO                        
+                          TANGO                         SEMBO                        
+                          SEMBO                         TL                           
+VTBS-RW01R TL3K           N013.41.30.171 E100.45.39.716 EXSON                        
+                          EXSON                         BS104                        
+                          BS104                         BS105                        
+                          BS105                         BS107                        
+                          BS107                         DISCO                        
+                          DISCO                         TANGO                        
+                          TANGO                         SEMBO                        
+                          SEMBO                         TL                           
+VTBS-RW19R UKER3G         N013.40.16.601 E100.44.04.794 ROVEN                        
+                          ROVEN                         BS907                        
+                          BS907                         BS908                        
+                          BS908                         SALMA                        
+                          SALMA                         SABIS                        
+                          SABIS                         UKERA                        
+VTBS-RW01L UKER3H         N013.42.13.210 E100.44.35.446 VARIS                        
+                          VARIS                         BS104                        
+                          BS104                         BS108                        
+                          BS108                         BS117                        
+                          BS117                         BS118                        
+                          BS118                         POTEP                        
+                          POTEP                         TUPKA                        
+                          TUPKA                         SABIS                        
+                          SABIS                         UKERA                        
+VTBS-RW19L UKER3J         N013.39.24.110 E100.45.06.592 LOUIS                        
+                          LOUIS                         BS907                        
+                          BS907                         BS908                        
+                          BS908                         SALMA                        
+                          SALMA                         SABIS                        
+                          SABIS                         UKERA                        
+VTBS-RW01R UKER3K         N013.41.30.171 E100.45.39.716 EXSON                        
+                          EXSON                         BS104                        
+                          BS104                         BS108                        
+                          BS108                         BS117                        
+                          BS117                         BS118                        
+                          BS118                         POTEP                        
+                          POTEP                         TUPKA                        
+                          TUPKA                         SABIS                        
+                          SABIS                         UKERA                        
+VTBS-RW19R UPKU3G         N013.40.16.601 E100.44.04.794 ROVEN                        
+                          ROVEN                         BS901                        
+                          BS901                         BS902                        
+                          BS902                         MEZZO                        
+                          MEZZO                         UPKUP                        
+VTBS-RW01L UPKU3H         N013.42.13.210 E100.44.35.446 VARIS                        
+                          VARIS                         BS101                        
+                          BS101                         UPKUP                        
+VTBS-RW19L UPKU3J         N013.39.24.110 E100.45.06.592 LOUIS                        
+                          LOUIS                         BS901                        
+                          BS901                         BS902                        
+                          BS902                         MEZZO                        
+                          MEZZO                         UPKUP                        
+VTBS-RW01R UPKU3K         N013.41.30.171 E100.45.39.716 EXSON                        
+                          EXSON                         BS101                        
+                          BS101                         UPKUP                        
