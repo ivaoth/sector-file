@@ -1,0 +1,500 @@
+VTBD-RW03L ALBO1B         N013.55.34.869 E100.36.44.626 LIBRA                        
+                          LIBRA                         DM030                        
+                          DM030                         FANTA                        
+                          FANTA                         ALBOS                        
+VTBD-RW03R ALBO1D         N013.55.28.411 E100.36.55.970 RIVER                        
+                          RIVER                         DM030                        
+                          DM030                         FANTA                        
+                          FANTA                         ALBOS                        
+VTBD-RW21R ALBO3A         N013.53.49.239 E100.35.45.383 DE21R                        
+                          DE21R                         INTOS                        
+                          INTOS                         BD207                        
+                          BD207                         DISCO                        
+                          DISCO                         BD208                        
+                          BD208                         BD209                        
+                          BD209                         ALBOS                        
+VTBD-RW21L ALBO3C         N013.53.58.450 E100.36.05.488 DE21L                        
+                          DE21L                         INTOS                        
+                          INTOS                         BD207                        
+                          BD207                         DISCO                        
+                          DISCO                         BD208                        
+                          BD208                         BD209                        
+                          BD209                         ALBOS                        
+VTBD-RW03L BATO1B         N013.55.34.869 E100.36.44.626 LIBRA                        
+                          LIBRA                         DM032                        
+                          DM032                         BLUES                        
+                          BLUES                         RUMBA                        
+                          RUMBA                         VIOLA                        
+                          VIOLA                         NITRO                        
+                          NITRO                         BATOK                        
+VTBD-RW03R BATO1D         N013.55.28.411 E100.36.55.970 RIVER                        
+                          RIVER                         DM032                        
+                          DM032                         BLUES                        
+                          BLUES                         RUMBA                        
+                          RUMBA                         VIOLA                        
+                          VIOLA                         NITRO                        
+                          NITRO                         BATOK                        
+VTBD-RW21R BATO3A         N013.53.49.239 E100.35.45.383 DE21R                        
+                          DE21R                         BD201                        
+                          BD201                         BD202                        
+                          BD202                         BD203                        
+                          BD203                         MATLO                        
+                          MATLO                         MEZZO                        
+                          MEZZO                         NITRO                        
+                          NITRO                         BATOK                        
+VTBD-RW21L BATO3C         N013.53.58.450 E100.36.05.488 DE21L                        
+                          DE21L                         BD201                        
+                          BD201                         BD202                        
+                          BD202                         BD203                        
+                          BD203                         MATLO                        
+                          MATLO                         MEZZO                        
+                          MEZZO                         NITRO                        
+                          NITRO                         BATOK                        
+VTBD-RW03L BONV1B         N013.55.34.869 E100.36.44.626 LIBRA                        
+                          LIBRA                         DM032                        
+                          DM032                         BLUES                        
+                          BLUES                         JROCK                        
+                          JROCK                         BONVO                        
+VTBD-RW03R BONV1D         N013.55.28.411 E100.36.55.970 RIVER                        
+                          RIVER                         DM032                        
+                          DM032                         BLUES                        
+                          BLUES                         JROCK                        
+                          JROCK                         BONVO                        
+VTBD-RW21R BONV3A         N013.53.49.239 E100.35.45.383 DE21R                        
+                          DE21R                         INTOS                        
+                          INTOS                         OBMAR                        
+                          OBMAR                         BONVO                        
+VTBD-RW21L BONV3C         N013.53.58.450 E100.36.05.488 DE21L                        
+                          DE21L                         INTOS                        
+                          INTOS                         OBMAR                        
+                          OBMAR                         BONVO                        
+VTBD-RW03L GORS1B         N013.55.34.869 E100.36.44.626 LIBRA                        
+                          LIBRA                         DM032                        
+                          DM032                         BLUES                        
+                          BLUES                         RUMBA                        
+                          RUMBA                         VIOLA                        
+                          VIOLA                         MEZZO                        
+                          MEZZO                         GORSI                        
+VTBD-RW03R GORS1D         N013.55.28.411 E100.36.55.970 RIVER                        
+                          RIVER                         DM032                        
+                          DM032                         BLUES                        
+                          BLUES                         RUMBA                        
+                          RUMBA                         VIOLA                        
+                          VIOLA                         MEZZO                        
+                          MEZZO                         GORSI                        
+VTBD-RW21R GORS3A         N013.53.49.239 E100.35.45.383 DE21R                        
+                          DE21R                         BD201                        
+                          BD201                         BD202                        
+                          BD202                         BD203                        
+                          BD203                         MATLO                        
+                          MATLO                         MEZZO                        
+                          MEZZO                         GORSI                        
+VTBD-RW21L GORS3C         N013.53.58.450 E100.36.05.488 DE21L                        
+                          DE21L                         BD201                        
+                          BD201                         BD202                        
+                          BD202                         BD203                        
+                          BD203                         MATLO                        
+                          MATLO                         MEZZO                        
+                          MEZZO                         GORSI                        
+VTBD-RW03L HHN1B          N013.55.34.869 E100.36.44.626 LIBRA                        
+                          LIBRA                         DM032                        
+                          DM032                         BLUES                        
+                          BLUES                         RUMBA                        
+                          RUMBA                         CORUS                        
+                          CORUS                         SALMA                        
+                          SALMA                         SABIS                        
+                          SABIS                         HHN                          
+VTBD-RW03R HHN1D          N013.55.28.411 E100.36.55.970 RIVER                        
+                          RIVER                         DM032                        
+                          DM032                         BLUES                        
+                          BLUES                         RUMBA                        
+                          RUMBA                         CORUS                        
+                          CORUS                         SALMA                        
+                          SALMA                         SABIS                        
+                          SABIS                         HHN                          
+VTBD-RW21R HHN3A          N013.53.49.239 E100.35.45.383 DE21R                        
+                          DE21R                         INTOS                        
+                          INTOS                         OBMAR                        
+                          OBMAR                         BD206                        
+                          BD206                         POTEP                        
+                          POTEP                         TUPKA                        
+                          TUPKA                         SABIS                        
+                          SABIS                         HHN                          
+VTBD-RW21L HHN3C          N013.53.58.450 E100.36.05.488 DE21L                        
+                          DE21L                         INTOS                        
+                          INTOS                         OBMAR                        
+                          OBMAR                         BD206                        
+                          BD206                         POTEP                        
+                          POTEP                         TUPKA                        
+                          TUPKA                         SABIS                        
+                          SABIS                         HHN                          
+VTBD-RW03L KASN1B         N013.55.34.869 E100.36.44.626 LIBRA                        
+                          LIBRA                         DM032                        
+                          DM032                         BLUES                        
+                          BLUES                         RUMBA                        
+                          RUMBA                         SAMBA                        
+                          SAMBA                         KASNI                        
+VTBD-RW03R KASN1D         N013.55.28.411 E100.36.55.970 RIVER                        
+                          RIVER                         DM032                        
+                          DM032                         BLUES                        
+                          BLUES                         RUMBA                        
+                          RUMBA                         SAMBA                        
+                          SAMBA                         KASNI                        
+VTBD-RW21R KASN3A         N013.53.49.239 E100.35.45.383 DE21R                        
+                          DE21R                         BD201                        
+                          BD201                         BD202                        
+                          BD202                         BD203                        
+                          BD203                         BAXUS                        
+                          BAXUS                         SAMBA                        
+                          SAMBA                         KASNI                        
+VTBD-RW21L KASN3C         N013.53.58.450 E100.36.05.488 DE21L                        
+                          DE21L                         BD201                        
+                          BD201                         BD202                        
+                          BD202                         BD203                        
+                          BD203                         BAXUS                        
+                          BAXUS                         SAMBA                        
+                          SAMBA                         KASNI                        
+VTBD-RW03L KIGO1B         N013.55.34.869 E100.36.44.626 LIBRA                        
+                          LIBRA                         DM032                        
+                          DM032                         BLUES                        
+                          BLUES                         RUMBA                        
+                          RUMBA                         SAMBA                        
+                          SAMBA                         KIGOB                        
+VTBD-RW03R KIGO1D         N013.55.28.411 E100.36.55.970 RIVER                        
+                          RIVER                         DM032                        
+                          DM032                         BLUES                        
+                          BLUES                         RUMBA                        
+                          RUMBA                         SAMBA                        
+                          SAMBA                         KIGOB                        
+VTBD-RW21R KIGO3A         N013.53.49.239 E100.35.45.383 DE21R                        
+                          DE21R                         BD201                        
+                          BD201                         BD202                        
+                          BD202                         BD203                        
+                          BD203                         BAXUS                        
+                          BAXUS                         SAMBA                        
+                          SAMBA                         KIGOB                        
+VTBD-RW21L KIGO3C         N013.53.58.450 E100.36.05.488 DE21L                        
+                          DE21L                         BD201                        
+                          BD201                         BD202                        
+                          BD202                         BD203                        
+                          BD203                         BAXUS                        
+                          BAXUS                         SAMBA                        
+                          SAMBA                         KIGOB                        
+VTBD-RW03L NOBE1B         N013.55.34.869 E100.36.44.626 LIBRA                        
+                          LIBRA                         DM032                        
+                          DM032                         DANCY                        
+                          DANCY                         DISCO                        
+                          DISCO                         TANGO                        
+                          TANGO                         NOBER                        
+VTBD-RW03R NOBE1D         N013.55.28.411 E100.36.55.970 RIVER                        
+                          RIVER                         DM032                        
+                          DM032                         DANCY                        
+                          DANCY                         DISCO                        
+                          DISCO                         TANGO                        
+                          TANGO                         NOBER                        
+VTBD-RW21R NOBE3A         N013.53.49.239 E100.35.45.383 DE21R                        
+                          DE21R                         INTOS                        
+                          INTOS                         BD207                        
+                          BD207                         DISCO                        
+                          DISCO                         TANGO                        
+                          TANGO                         NOBER                        
+VTBD-RW21L NOBE3C         N013.53.58.450 E100.36.05.488 DE21L                        
+                          DE21L                         INTOS                        
+                          INTOS                         BD207                        
+                          BD207                         DISCO                        
+                          DISCO                         TANGO                        
+                          TANGO                         NOBER                        
+VTBD-RW03L NUNL1B         N013.55.34.869 E100.36.44.626 LIBRA                        
+                          LIBRA                         DM032                        
+                          DM032                         DANCY                        
+                          DANCY                         DISCO                        
+                          DISCO                         NUNLI                        
+VTBD-RW03R NUNL1D         N013.55.28.411 E100.36.55.970 RIVER                        
+                          RIVER                         DM032                        
+                          DM032                         DANCY                        
+                          DANCY                         DISCO                        
+                          DISCO                         NUNLI                        
+VTBD-RW21R NUNL3A         N013.53.49.239 E100.35.45.383 DE21R                        
+                          DE21R                         INTOS                        
+                          INTOS                         BD207                        
+                          BD207                         DISCO                        
+                          DISCO                         NUNLI                        
+VTBD-RW21L NUNL3C         N013.53.58.450 E100.36.05.488 DE21L                        
+                          DE21L                         INTOS                        
+                          INTOS                         BD207                        
+                          BD207                         DISCO                        
+                          DISCO                         NUNLI                        
+VTBD-RW03L PAST1B         N013.55.34.869 E100.36.44.626 LIBRA                        
+                          LIBRA                         DM032                        
+                          DM032                         BLUES                        
+                          BLUES                         JROCK                        
+                          JROCK                         PASTO                        
+VTBD-RW03R PAST1D         N013.55.28.411 E100.36.55.970 RIVER                        
+                          RIVER                         DM032                        
+                          DM032                         BLUES                        
+                          BLUES                         JROCK                        
+                          JROCK                         PASTO                        
+VTBD-RW21R PAST3A         N013.53.49.239 E100.35.45.383 DE21R                        
+                          DE21R                         INTOS                        
+                          INTOS                         OBMAR                        
+                          OBMAR                         PASTO                        
+VTBD-RW21L PAST3C         N013.53.58.450 E100.36.05.488 DE21L                        
+                          DE21L                         INTOS                        
+                          INTOS                         OBMAR                        
+                          OBMAR                         PASTO                        
+VTBD-RW03L REGO1B         N013.55.34.869 E100.36.44.626 LIBRA                        
+                          LIBRA                         DM032                        
+                          DM032                         BLUES                        
+                          BLUES                         RUMBA                        
+                          RUMBA                         SAMBA                        
+                          SAMBA                         KASNI                        
+                          KASNI                         REGOS                        
+VTBD-RW03R REGO1D         N013.55.28.411 E100.36.55.970 RIVER                        
+                          RIVER                         DM032                        
+                          DM032                         BLUES                        
+                          BLUES                         RUMBA                        
+                          RUMBA                         SAMBA                        
+                          SAMBA                         KASNI                        
+                          KASNI                         REGOS                        
+VTBD-RW21R REGO3A         N013.53.49.239 E100.35.45.383 DE21R                        
+                          DE21R                         BD201                        
+                          BD201                         BD202                        
+                          BD202                         BD203                        
+                          BD203                         BAXUS                        
+                          BAXUS                         SAMBA                        
+                          SAMBA                         KASNI                        
+                          KASNI                         REGOS                        
+VTBD-RW21L REGO3C         N013.53.58.450 E100.36.05.488 DE21L                        
+                          DE21L                         BD201                        
+                          BD201                         BD202                        
+                          BD202                         BD203                        
+                          BD203                         BAXUS                        
+                          BAXUS                         SAMBA                        
+                          SAMBA                         KASNI                        
+                          KASNI                         REGOS                        
+VTBD-RW03L ROBK1B         N013.55.34.869 E100.36.44.626 LIBRA                        
+                          LIBRA                         DM030                        
+                          DM030                         DM031                        
+                          DM031                         ROBKA                        
+VTBD-RW03R ROBK1D         N013.55.28.411 E100.36.55.970 RIVER                        
+                          RIVER                         DM030                        
+                          DM030                         DM031                        
+                          DM031                         ROBKA                        
+VTBD-RW21R ROBK3A         N013.53.49.239 E100.35.45.383 DE21R                        
+                          DE21R                         BD201                        
+                          BD201                         BD202                        
+                          BD202                         BD203                        
+                          BD203                         MATLO                        
+                          MATLO                         BD204                        
+                          BD204                         BD205                        
+                          BD205                         ROBKA                        
+VTBD-RW21L ROBK3C         N013.53.58.450 E100.36.05.488 DE21L                        
+                          DE21L                         BD201                        
+                          BD201                         BD202                        
+                          BD202                         BD203                        
+                          BD203                         MATLO                        
+                          MATLO                         BD204                        
+                          BD204                         BD205                        
+                          BD205                         ROBKA                        
+VTBD-RW03L RYN1B          N013.55.34.869 E100.36.44.626 LIBRA                        
+                          LIBRA                         DM032                        
+                          DM032                         BLUES                        
+                          BLUES                         RUMBA                        
+                          RUMBA                         VIOLA                        
+                          VIOLA                         MEZZO                        
+                          MEZZO                         RYN                          
+VTBD-RW03R RYN1D          N013.55.28.411 E100.36.55.970 RIVER                        
+                          RIVER                         DM032                        
+                          DM032                         BLUES                        
+                          BLUES                         RUMBA                        
+                          RUMBA                         VIOLA                        
+                          VIOLA                         MEZZO                        
+                          MEZZO                         RYN                          
+VTBD-RW21R RYN3A          N013.53.49.239 E100.35.45.383 DE21R                        
+                          DE21R                         BD201                        
+                          BD201                         BD202                        
+                          BD202                         BD203                        
+                          BD203                         MATLO                        
+                          MATLO                         MEZZO                        
+                          MEZZO                         RYN                          
+VTBD-RW21L RYN3C          N013.53.58.450 E100.36.05.488 DE21L                        
+                          DE21L                         BD201                        
+                          BD201                         BD202                        
+                          BD202                         BD203                        
+                          BD203                         MATLO                        
+                          MATLO                         MEZZO                        
+                          MEZZO                         RYN                          
+VTBD-RW03L SABI2B         N013.55.34.869 E100.36.44.626 LIBRA                        
+                          LIBRA                         DM032                        
+                          DM032                         BLUES                        
+                          BLUES                         RUMBA                        
+                          RUMBA                         CORUS                        
+                          CORUS                         SALMA                        
+                          SALMA                         SABIS                        
+VTBD-RW03R SABI2D         N013.55.28.411 E100.36.55.970 RIVER                        
+                          RIVER                         DM032                        
+                          DM032                         BLUES                        
+                          BLUES                         RUMBA                        
+                          RUMBA                         CORUS                        
+                          CORUS                         SALMA                        
+                          SALMA                         SABIS                        
+VTBD-RW21R SABI3A         N013.53.49.239 E100.35.45.383 DE21R                        
+                          DE21R                         INTOS                        
+                          INTOS                         OBMAR                        
+                          OBMAR                         BD206                        
+                          BD206                         POTEP                        
+                          POTEP                         TUPKA                        
+                          TUPKA                         SABIS                        
+VTBD-RW21L SABI3C         N013.53.58.450 E100.36.05.488 DE21L                        
+                          DE21L                         INTOS                        
+                          INTOS                         OBMAR                        
+                          OBMAR                         BD206                        
+                          BD206                         POTEP                        
+                          POTEP                         TUPKA                        
+                          TUPKA                         SABIS                        
+VTBD-RW03L SEMB1B         N013.55.34.869 E100.36.44.626 LIBRA                        
+                          LIBRA                         DM032                        
+                          DM032                         DANCY                        
+                          DANCY                         DISCO                        
+                          DISCO                         TANGO                        
+                          TANGO                         SEMBO                        
+VTBD-RW03R SEMB1D         N013.55.28.411 E100.36.55.970 RIVER                        
+                          RIVER                         DM032                        
+                          DM032                         DANCY                        
+                          DANCY                         DISCO                        
+                          DISCO                         TANGO                        
+                          TANGO                         SEMBO                        
+VTBD-RW21R SEMB3A         N013.53.49.239 E100.35.45.383 DE21R                        
+                          DE21R                         INTOS                        
+                          INTOS                         BD207                        
+                          BD207                         DISCO                        
+                          DISCO                         TANGO                        
+                          TANGO                         SEMBO                        
+VTBD-RW21L SEMB3C         N013.53.58.450 E100.36.05.488 DE21L                        
+                          DE21L                         INTOS                        
+                          INTOS                         BD207                        
+                          BD207                         DISCO                        
+                          DISCO                         TANGO                        
+                          TANGO                         SEMBO                        
+VTBD-RW03L TANG1B         N013.55.34.869 E100.36.44.626 LIBRA                        
+                          LIBRA                         DM032                        
+                          DM032                         DANCY                        
+                          DANCY                         DISCO                        
+                          DISCO                         TANGO                        
+VTBD-RW03R TANG1D         N013.55.28.411 E100.36.55.970 RIVER                        
+                          RIVER                         DM032                        
+                          DM032                         DANCY                        
+                          DANCY                         DISCO                        
+                          DISCO                         TANGO                        
+VTBD-RW21R TANG3A         N013.53.49.239 E100.35.45.383 DE21R                        
+                          DE21R                         INTOS                        
+                          INTOS                         BD207                        
+                          BD207                         DISCO                        
+                          DISCO                         TANGO                        
+VTBD-RW21L TANG3C         N013.53.58.450 E100.36.05.488 DE21L                        
+                          DE21L                         INTOS                        
+                          INTOS                         BD207                        
+                          BD207                         DISCO                        
+                          DISCO                         TANGO                        
+VTBD-RW03L TARE1B         N013.55.34.869 E100.36.44.626 LIBRA                        
+                          LIBRA                         DM032                        
+                          DM032                         DM033                        
+                          DM033                         TEMPO                        
+                          TEMPO                         TARED                        
+VTBD-RW03R TARE1D         N013.55.28.411 E100.36.55.970 RIVER                        
+                          RIVER                         DM032                        
+                          DM032                         DM033                        
+                          DM033                         TEMPO                        
+                          TEMPO                         TARED                        
+VTBD-RW21R TARE3A         N013.53.49.239 E100.35.45.383 DE21R                        
+                          DE21R                         INTOS                        
+                          INTOS                         TEMPO                        
+                          TEMPO                         TARED                        
+VTBD-RW21L TARE3C         N013.53.58.450 E100.36.05.488 DE21L                        
+                          DE21L                         INTOS                        
+                          INTOS                         TEMPO                        
+                          TEMPO                         TARED                        
+VTBD-RW03L TL1B           N013.55.34.869 E100.36.44.626 LIBRA                        
+                          LIBRA                         DM032                        
+                          DM032                         DANCY                        
+                          DANCY                         DISCO                        
+                          DISCO                         TANGO                        
+                          TANGO                         SEMBO                        
+                          SEMBO                         TL                           
+VTBD-RW03R TL1D           N013.55.28.411 E100.36.55.970 RIVER                        
+                          RIVER                         DM032                        
+                          DM032                         DANCY                        
+                          DANCY                         DISCO                        
+                          DISCO                         TANGO                        
+                          TANGO                         SEMBO                        
+                          SEMBO                         TL                           
+VTBD-RW21R TL3A           N013.53.49.239 E100.35.45.383 DE21R                        
+                          DE21R                         INTOS                        
+                          INTOS                         BD207                        
+                          BD207                         DISCO                        
+                          DISCO                         TANGO                        
+                          TANGO                         SEMBO                        
+                          SEMBO                         TL                           
+VTBD-RW21L TL3C           N013.53.58.450 E100.36.05.488 DE21L                        
+                          DE21L                         INTOS                        
+                          INTOS                         BD207                        
+                          BD207                         DISCO                        
+                          DISCO                         TANGO                        
+                          TANGO                         SEMBO                        
+                          SEMBO                         TL                           
+VTBD-RW03L UKER1B         N013.55.34.869 E100.36.44.626 LIBRA                        
+                          LIBRA                         DM032                        
+                          DM032                         BLUES                        
+                          BLUES                         RUMBA                        
+                          RUMBA                         CORUS                        
+                          CORUS                         SALMA                        
+                          SALMA                         SABIS                        
+                          SABIS                         UKERA                        
+VTBD-RW03R UKER1D         N013.55.28.411 E100.36.55.970 RIVER                        
+                          RIVER                         DM032                        
+                          DM032                         BLUES                        
+                          BLUES                         RUMBA                        
+                          RUMBA                         CORUS                        
+                          CORUS                         SALMA                        
+                          SALMA                         SABIS                        
+                          SABIS                         UKERA                        
+VTBD-RW21R UKER3A         N013.53.49.239 E100.35.45.383 DE21R                        
+                          DE21R                         INTOS                        
+                          INTOS                         OBMAR                        
+                          OBMAR                         BD206                        
+                          BD206                         POTEP                        
+                          POTEP                         TUPKA                        
+                          TUPKA                         SABIS                        
+                          SABIS                         UKERA                        
+VTBD-RW21L UKER3C         N013.53.58.450 E100.36.05.488 DE21L                        
+                          DE21L                         INTOS                        
+                          INTOS                         OBMAR                        
+                          OBMAR                         BD206                        
+                          BD206                         POTEP                        
+                          POTEP                         TUPKA                        
+                          TUPKA                         SABIS                        
+                          SABIS                         UKERA                        
+VTBD-RW03L UPKU1B         N013.55.34.869 E100.36.44.626 LIBRA                        
+                          LIBRA                         DM030                        
+                          DM030                         DM031                        
+                          DM031                         UPKUP                        
+VTBD-RW03R UPKU1D         N013.55.28.411 E100.36.55.970 RIVER                        
+                          RIVER                         DM030                        
+                          DM030                         DM031                        
+                          DM031                         UPKUP                        
+VTBD-RW21R UPKU3A         N013.53.49.239 E100.35.45.383 DE21R                        
+                          DE21R                         BD201                        
+                          BD201                         BD202                        
+                          BD202                         BD203                        
+                          BD203                         MATLO                        
+                          MATLO                         BD204                        
+                          BD204                         BD205                        
+                          BD205                         UPKUP                        
+VTBD-RW21L UPKU3C         N013.53.58.450 E100.36.05.488 DE21L                        
+                          DE21L                         BD201                        
+                          BD201                         BD202                        
+                          BD202                         BD203                        
+                          BD203                         MATLO                        
+                          MATLO                         BD204                        
+                          BD204                         BD205                        
+                          BD205                         UPKUP                        
