@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.1901.1"></a>
+## [2.1901.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.1813.1...v2.1901.1) (2019-01-03)
+
+
+### Features
+
+* **airports:** revise VTSM ARP ([#118](https://github.com/ivaothai/ivac-sector-file/issues/118)) ([f47cefa](https://github.com/ivaothai/ivac-sector-file/commit/f47cefa))
+* **airways:** revise W14 airway ([#118](https://github.com/ivaothai/ivac-sector-file/issues/118)) ([7af0f94](https://github.com/ivaothai/ivac-sector-file/commit/7af0f94))
+* **airways:** revise W34 airway ([#118](https://github.com/ivaothai/ivac-sector-file/issues/118)) ([91e3b5d](https://github.com/ivaothai/ivac-sector-file/commit/91e3b5d))
+* **fixes:** add ELAGI and POXUN waypoint ([#118](https://github.com/ivaothai/ivac-sector-file/issues/118)) ([bf74cd4](https://github.com/ivaothai/ivac-sector-file/commit/bf74cd4))
+
+
+
 <a name="2.1813.1"></a>
 ## [2.1813.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.1812.1...v2.1813.1) (2018-12-06)
 
