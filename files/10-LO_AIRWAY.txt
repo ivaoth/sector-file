@@ -251,8 +251,8 @@ W33                       PUT                           RECNO
                           MABKO                         SURIX                        
                           SURIX                         TRT                          
                           TRT                           RYN                          
-W34                       MENEX                         CPN                          
-                          CPN                           RAN                          
+W34                       MENEX                         ELAGI                        
+                          ELAGI                         RAN                          
                           RAN                           PUT                          
 W35                       UPNEP                         PINUN                        
                           PINUN                         NKS                          
