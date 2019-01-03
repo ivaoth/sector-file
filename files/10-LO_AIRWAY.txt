@@ -188,8 +188,8 @@ W13                       LPN                           PAE
 W13                       MENAM                         SRE                          
 W14                       PUT                           TRN                          
                           TRN                           HTY                          
-                          HTY                           PT                           
-                          PT                            NTW                          
+                          HTY                           POXUN                        
+                          POXUN                         NTW                          
 W15                       CMA                           KABMU                        
                           KABMU                         PAE                          
                           PAE                           PANKU                        
