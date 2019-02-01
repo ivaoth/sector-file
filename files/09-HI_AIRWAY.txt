@@ -245,7 +245,8 @@ W25                       THS                           PAE
                           PAE                           NAN                          
 W26                       ADGIS                         TK                           
                           TK                            PSL                          
-                          PSL                           PCB                          
+                          PSL                           GOKON                        
+                          GOKON                         PCB                          
                           PCB                           CMP                          
 W27                       PSL                           LOY                          
 W28                       STN                           NKS                          
