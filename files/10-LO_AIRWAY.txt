@@ -288,8 +288,10 @@ W7                        CMA                           PUMAM
                           PUMAM                         ADGIS                        
 W8                        TL                            KRT                          
 W9                        BKK                           TL                           
-                          TL                            PSL                          
-                          PSL                           SARIM                        
+                          TL                            PEBLI                        
+                          PEBLI                         PSL                          
+                          PSL                           PIBIK                        
+                          PIBIK                         SARIM                        
                           SARIM                         PANTA                        
                           PANTA                         CMA                          
                           CMA                           VISES                        
