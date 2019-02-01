@@ -248,7 +248,8 @@ W26                       ADGIS                         TK
                           PSL                           GOKON                        
                           GOKON                         PCB                          
                           PCB                           CMP                          
-W27                       PSL                           LOY                          
+W27                       PSL                           REMER                        
+                          REMER                         LOY                          
 W28                       STN                           NKS                          
                           NKS                           HTY                          
 W29                       CTR                           NAN                          
