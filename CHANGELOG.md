@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.1902.1"></a>
+## [2.1902.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.1901.1...v2.1902.1) (2019-02-01)
+
+
+### Features
+
+* **airways:** revise airway W22 ([#129](https://github.com/ivaothai/ivac-sector-file/issues/129)) ([39dd0d6](https://github.com/ivaothai/ivac-sector-file/commit/39dd0d6))
+* **airways:** revise airway W23 ([#129](https://github.com/ivaothai/ivac-sector-file/issues/129)) ([dc0caa2](https://github.com/ivaothai/ivac-sector-file/commit/dc0caa2))
+* **airways:** revise airway W26 ([#129](https://github.com/ivaothai/ivac-sector-file/issues/129)) ([8b9a836](https://github.com/ivaothai/ivac-sector-file/commit/8b9a836))
+* **airways:** revise airway W27 ([#129](https://github.com/ivaothai/ivac-sector-file/issues/129)) ([7596079](https://github.com/ivaothai/ivac-sector-file/commit/7596079))
+* **airways:** revise airway W29 ([#129](https://github.com/ivaothai/ivac-sector-file/issues/129)) ([4e857cb](https://github.com/ivaothai/ivac-sector-file/commit/4e857cb))
+* **airways:** revise airway W9 ([#129](https://github.com/ivaothai/ivac-sector-file/issues/129)) ([29a5790](https://github.com/ivaothai/ivac-sector-file/commit/29a5790))
+* **fixes:** add and remove fixes for cycle 1902 ([#129](https://github.com/ivaothai/ivac-sector-file/issues/129)) ([6b9b40a](https://github.com/ivaothai/ivac-sector-file/commit/6b9b40a))
+
+
+
 <a name="2.1901.1"></a>
 ## [2.1901.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.1813.1...v2.1901.1) (2019-01-03)
 
