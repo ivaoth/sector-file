@@ -235,7 +235,8 @@ W28                       STN                           NKS
                           NKS                           HTY                          
 W29                       CTR                           NAN                          
                           NAN                           UTTAR                        
-                          UTTAR                         PSL                          
+                          UTTAR                         GOSTA                        
+                          GOSTA                         PSL                          
 W31                       SUPOJ                         UKERA                        
                           UKERA                         HHN                          
                           HHN                           HOTEL                        
