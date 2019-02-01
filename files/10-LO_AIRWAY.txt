@@ -215,7 +215,8 @@ W20                       CMA                           ADLUS
 W21                       BKK                           NOBER                        
                           NOBER                         CMP                          
                           CMP                           UDN                          
-W22                       PSL                           PAE                          
+W22                       PSL                           NIROP                        
+                          NIROP                         PAE                          
                           PAE                           CTR                          
 W23                       PSL                           PIVUT                        
                           PIVUT                         LPN                          
