@@ -308,7 +308,8 @@ W34                       MENEX                         CPN
                           RAN                           IGEVI                        
                           IGEVI                         PUT                          
 W35                       UPNEP                         PINUN                        
-                          PINUN                         NKS                          
+                          PINUN                         PAGLU                        
+                          PAGLU                         NKS                          
                           NKS                           TRN                          
 W36                       CMA                           LAMUN                        
                           LAMUN                         MACHI                        
