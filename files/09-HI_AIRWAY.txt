@@ -90,7 +90,8 @@ L524                      KAKIP                         NURDA
                           NURDA                         MIGAR                        
                           MIGAR                         IBETO                        
                           IBETO                         BKK                          
-L645                      SAPAM                         PUT                          
+L645                      SAPAM                         UBNEN                        
+                          UBNEN                         PUT                          
 L759                      TAVUN                         ANPAN                        
                           ANPAN                         PUT                          
 L877                      DWI                           PUMOR                        
