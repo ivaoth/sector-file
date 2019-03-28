@@ -82,7 +82,8 @@ L507                      ARATO                         LUDVI
                           LUDVI                         NUNLI                        
                           NUNLI                         IGONI                        
                           IGONI                         BKK                          
-L515                      PUT                           MUDMA                        
+L515                      PUT                           UPSAB                        
+                          UPSAB                         MUDMA                        
                           MUDMA                         IKULA                        
                           IKULA                         OBMOG                        
 L524                      KAKIP                         NURDA                        

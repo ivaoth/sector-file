@@ -78,7 +78,8 @@ L301                      TANEK                         PASTO
 L507                      LUDVI                         NUNLI                        
                           NUNLI                         IGONI                        
                           IGONI                         BKK                          
-L515                      PUT                           MUDMA                        
+L515                      PUT                           UPSAB                        
+                          UPSAB                         MUDMA                        
                           MUDMA                         IKULA                        
 L524                      NURDA                         MIGAR                        
                           MIGAR                         IBETO                        
