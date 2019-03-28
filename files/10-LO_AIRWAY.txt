@@ -414,8 +414,14 @@ Y6                        BKK                           TANGO
 Y7                        PANTA                         KEXIL                        
                           KEXIL                         PAKMO                        
                           PAKMO                         TL                           
-Y8                        MOTNA                         SABIS                        
+Y8                        BKK                           MOTNA                        
+                          MOTNA                         SABIS                        
                           SABIS                         VANKO                        
                           VANKO                         BUXEL                        
                           BUXEL                         MENEX                        
+                          MENEX                         IKERA                        
+                          IKERA                         STN                          
+                          STN                           LAMUL                        
+                          LAMUL                         SAVSA                        
+                          SAVSA                         PUT                          
 Y9                        HTY                           DANDO                        
