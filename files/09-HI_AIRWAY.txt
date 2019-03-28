@@ -293,10 +293,17 @@ W29                       CTR                           NAN
 W31                       SUPOJ                         EGUBO                        
                           EGUBO                         UKERA                        
                           UKERA                         HHN                          
-W32                       TRN                           KBI                          
-                          KBI                           TEDOS                        
+W32                       TRN                           TUNRA                        
+                          TUNRA                         KBI                          
+                          KBI                           SARER                        
+                          SARER                         LUXIR                        
+                          LUXIR                         NULMA                        
+                          NULMA                         TAVAT                        
+                          TAVAT                         TEDOS                        
                           TEDOS                         STN                          
-                          STN                           DORNA                        
+                          STN                           VEGNA                        
+                          VEGNA                         ADLAL                        
+                          ADLAL                         DORNA                        
                           DORNA                         SMU                          
                           SMU                           SUPOJ                        
                           SUPOJ                         GOKEX                        
