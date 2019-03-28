@@ -143,7 +143,8 @@ N891                      XONAN                         BENSA
                           ANOBO                         RYN                          
                           RYN                           DOLNI                        
                           DOLNI                         BKK                          
-P627                      RUSET                         PUT                          
+P627                      RUSET                         ANPUB                        
+                          ANPUB                         PUT                          
 P646                      BETNO                         TARED                        
                           TARED                         BKK                          
 R201                      BKK                           BUT                          
