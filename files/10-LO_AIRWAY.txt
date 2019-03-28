@@ -215,7 +215,8 @@ W12                       CMA                           MONLO
                           MONLO                         NAN                          
 W13                       LPN                           PAE                          
 W13                       MENAM                         SRE                          
-W14                       PUT                           TRN                          
+W14                       PUT                           EPGOT                        
+                          EPGOT                         TRN                          
                           TRN                           HTY                          
                           HTY                           POXUN                        
                           POXUN                         NTW                          
