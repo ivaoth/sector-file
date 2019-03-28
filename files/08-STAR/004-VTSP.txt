@@ -1,0 +1,89 @@
+VTSP-RW09 ANPU1C          ANPUB                         SP312                        
+                          SP312                         KALIM                        
+VTSP-RW27 ANPU1D          ANPUB                         SP202                        
+                          SP202                         SP201                        
+                          SP201                         RIZZO                        
+                          RIZZO                         BARON                        
+                          BARON                         CI27                         
+VTSP-RW09 EMRI1C          EMRIT                         SP803                        
+                          SP803                         JUVEY                        
+                          JUVEY                         RAWAI                        
+                          RAWAI                         KALIM                        
+VTSP-RW27 EMRI1D          EMRIT                         SP112                        
+                          SP112                         BARON                        
+                          BARON                         CI27                         
+VTSP-RW09 EPGO1C          EPGOT                         SP803                        
+                          SP803                         JUVEY                        
+                          JUVEY                         RAWAI                        
+                          RAWAI                         KALIM                        
+VTSP-RW27 EPGO1D          EPGOT                         SP112                        
+                          SP112                         BARON                        
+                          BARON                         CI27                         
+VTSP-RW09 IGEV1C          IGEVI                         TARPU                        
+                          TARPU                         SP702                        
+                          SP702                         KALIM                        
+VTSP-RW27 IGEV1D          IGEVI                         STONE                        
+                          STONE                         CIDER                        
+                          CIDER                         BARON                        
+                          BARON                         CI27                         
+VTSP-RW09 MONB1C          MONBU                         MILAN                        
+                          MILAN                         SP702                        
+                          SP702                         KALIM                        
+VTSP-RW27 MONB1D          MONBU                         STONE                        
+                          STONE                         CIDER                        
+                          CIDER                         BARON                        
+                          BARON                         CI27                         
+VTSP-RW09 ONET1C          ONETI                         SP703                        
+                          SP703                         MILAN                        
+                          MILAN                         SP702                        
+                          SP702                         KALIM                        
+VTSP-RW27 ONET1D          ONETI                         SP112                        
+                          SP112                         BARON                        
+                          BARON                         CI27                         
+VTSP-RW09 SATV1C          SATVA                         TARPU                        
+                          TARPU                         SP702                        
+                          SP702                         KALIM                        
+VTSP-RW27 SATV1D          SATVA                         SP103                        
+                          SP103                         SP102                        
+                          SP102                         SP101                        
+                          SP101                         CIDER                        
+                          CIDER                         BARON                        
+                          BARON                         CI27                         
+VTSP-RW09 SAVS1C          SAVSA                         MILAN                        
+                          MILAN                         SP702                        
+                          SP702                         KALIM                        
+VTSP-RW27 SAVS1D          SAVSA                         STONE                        
+                          STONE                         CIDER                        
+                          CIDER                         BARON                        
+                          BARON                         CI27                         
+VTSP-RW09 SUSI1C          SUSID                         TARPU                        
+                          TARPU                         SP702                        
+                          SP702                         KALIM                        
+VTSP-RW27 SUSI1D          SUSID                         STONE                        
+                          STONE                         CIDER                        
+                          CIDER                         BARON                        
+                          BARON                         CI27                         
+VTSP-RW09 UBNE1C          UBNEN                         SP312                        
+                          SP312                         KALIM                        
+VTSP-RW27 UBNE1D          UBNEN                         SP102                        
+                          SP102                         SP101                        
+                          SP101                         CIDER                        
+                          CIDER                         BARON                        
+                          BARON                         CI27                         
+VTSP-RW09 UPSA1C          UPSAB                         TARPU                        
+                          TARPU                         SP702                        
+                          SP702                         KALIM                        
+VTSP-RW27 UPSA1D          UPSAB                         SP103                        
+                          SP103                         SP102                        
+                          SP102                         SP101                        
+                          SP101                         CIDER                        
+                          CIDER                         BARON                        
+                          BARON                         CI27                         
+VTSP-RW09 URGA1C          URGAD                         SP801                        
+                          SP801                         JUVEY                        
+                          JUVEY                         RAWAI                        
+                          RAWAI                         KALIM                        
+VTSP-RW27 URGA1D          URGAD                         PACUS                        
+                          PACUS                         RIZZO                        
+                          RIZZO                         BARON                        
+                          BARON                         CI27                         
