@@ -24,8 +24,11 @@ A464                      CMA                           ENBAT
                           POLAK                         GUTSO                        
                           GUTSO                         REGOS                        
                           REGOS                         DIRAX                        
-                          DIRAX                         UPNEP                        
-                          UPNEP                         RELIP                        
+                          DIRAX                         TUSPU                        
+                          TUSPU                         UPNEP                        
+                          UPNEP                         APOBI                        
+                          APOBI                         GUPMO                        
+                          GUPMO                         RELIP                        
                           RELIP                         HTY                          
                           HTY                           KARMI                        
 A581                      BGO                           BOMAS                        
