@@ -193,8 +193,11 @@ R575                      SAKDA                         ANOBO
                           SMU                           RECNO                        
                           RECNO                         ONETI                        
                           ONETI                         PUT                          
-R588                      PUT                           RELIP                        
-                          RELIP                         SUPIN                        
+R588                      PUT                           EMRIT                        
+                          EMRIT                         KBI                          
+                          KBI                           RELIP                        
+                          RELIP                         IDRUK                        
+                          IDRUK                         SUPIN                        
                           SUPIN                         MUBAN                        
                           MUBAN                         TENUM                        
                           TENUM                         TONIK                        
