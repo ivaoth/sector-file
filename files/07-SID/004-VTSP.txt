@@ -1,0 +1,73 @@
+VTSP-RW09 ANPU1A          N008.06.52.231 E098.19.49.462 SP001                        
+                          SP001                         SP003                        
+                          SP003                         SP004                        
+                          SP004                         ANPUB                        
+VTSP-RW27 ANPU1B          N008.06.43.051 E098.18.11.904 SP501                        
+                          SP501                         ANPUB                        
+VTSP-RW09 EMRI1A          N008.06.52.231 E098.19.49.462 SP001                        
+                          SP001                         EMRIT                        
+VTSP-RW27 EMRI1B          N008.06.43.051 E098.18.11.904 SP401                        
+                          SP401                         SP402                        
+                          SP402                         EMRIT                        
+VTSP-RW09 EPGO1A          N008.06.52.231 E098.19.49.462 SP001                        
+                          SP001                         EPGOT                        
+VTSP-RW27 EPGO1B          N008.06.43.051 E098.18.11.904 SP401                        
+                          SP401                         SP402                        
+                          SP402                         EPGOT                        
+VTSP-RW09 IGEV1A          N008.06.52.231 E098.19.49.462 SP001                        
+                          SP001                         SP002                        
+                          SP002                         IGEVI                        
+VTSP-RW27 IGEV1B          N008.06.43.051 E098.18.11.904 SP601                        
+                          SP601                         SP604                        
+                          SP604                         IGEVI                        
+VTSP-RW09 ONET1A          N008.06.52.231 E098.19.49.462 SP001                        
+                          SP001                         ONETI                        
+VTSP-RW27 ONET1B          N008.06.43.051 E098.18.11.904 SP601                        
+                          SP601                         SP602                        
+                          SP602                         ONETI                        
+VTSP-RW09 REBE1A          N008.06.52.231 E098.19.49.462 SP001                        
+                          SP001                         SP003                        
+                          SP003                         REBED                        
+VTSP-RW27 REBE1B          N008.06.43.051 E098.18.11.904 SP401                        
+                          SP401                         SP404                        
+                          SP404                         REBED                        
+VTSP-RW09 SATV1A          N008.06.52.231 E098.19.49.462 SP001                        
+                          SP001                         SP002                        
+                          SP002                         SATVA                        
+VTSP-RW27 SATV1B          N008.06.43.051 E098.18.11.904 SP601                        
+                          SP601                         SATVA                        
+VTSP-RW09 SAVS1A          N008.06.52.231 E098.19.49.462 SP001                        
+                          SP001                         SP002                        
+                          SP002                         SAVSA                        
+VTSP-RW27 SAVS1B          N008.06.43.051 E098.18.11.904 SP601                        
+                          SP601                         SP603                        
+                          SP603                         SAVSA                        
+VTSP-RW09 STN1A           N008.06.52.231 E098.19.49.462 PUT                          
+                          PUT                           STN                          
+VTSP-RW27 STN1B           N008.06.43.051 E098.18.11.904 PUT                          
+                          PUT                           STN                          
+VTSP-RW09 SUSI1A          N008.06.52.231 E098.19.49.462 SP001                        
+                          SP001                         SP002                        
+                          SP002                         SUSID                        
+VTSP-RW27 SUSI1B          N008.06.43.051 E098.18.11.904 SP601                        
+                          SP601                         SP606                        
+                          SP606                         SUSID                        
+VTSP-RW09 TRN1A           N008.06.52.231 E098.19.49.462 PUT                          
+                          PUT                           TRN                          
+VTSP-RW27 TRN1B           N008.06.43.051 E098.18.11.904 PUT                          
+                          PUT                           TRN                          
+VTSP-RW09 UBNE1A          N008.06.52.231 E098.19.49.462 SP001                        
+                          SP001                         SP003                        
+                          SP003                         SP004                        
+                          SP004                         UBNEN                        
+VTSP-RW27 UBNE1B          N008.06.43.051 E098.18.11.904 SP501                        
+                          SP501                         UBNEN                        
+VTSP-RW09 UPSA1A          N008.06.52.231 E098.19.49.462 SP001                        
+                          SP001                         SP002                        
+                          SP002                         UPSAB                        
+VTSP-RW27 UPSA1B          N008.06.43.051 E098.18.11.904 SP601                        
+                          SP601                         UPSAB                        
+VTSP-RW09 UTHA1A          N008.06.52.231 E098.19.49.462 PUT                          
+                          PUT                           UTHAI                        
+VTSP-RW27 UTHA1B          N008.06.43.051 E098.18.11.904 PUT                          
+                          PUT                           UTHAI                        
