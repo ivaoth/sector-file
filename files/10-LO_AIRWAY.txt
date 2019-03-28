@@ -396,10 +396,14 @@ Y4                        NONEL                         SMU
                           RECNO                         BITEN                        
                           BITEN                         OSPEX                        
                           OSPEX                         KBI                          
-Y5                        KIKOT                         ANDAX                        
+Y5                        PUT                           IGEVI                        
+                          IGEVI                         ANDAX                        
                           ANDAX                         NOMEK                        
-                          NOMEK                         MALIP                        
-                          MALIP                         HOTEL                        
+                          NOMEK                         CPN                          
+                          CPN                           MENEX                        
+                          MENEX                         EGUBO                        
+                          EGUBO                         UPVIL                        
+                          UPVIL                         SURMA                        
 Y6                        BKK                           TANGO                        
                           TANGO                         DUKEN                        
                           DUKEN                         BORNO                        
