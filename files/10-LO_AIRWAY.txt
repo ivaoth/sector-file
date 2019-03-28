@@ -149,7 +149,8 @@ P646                      BETNO                         TARED
                           TARED                         BKK                          
 R201                      BKK                           BUT                          
 R202                      TATEL                         PAE                          
-R203                      SAPAM                         PUT                          
+R203                      SAPAM                         UBNEN                        
+                          UBNEN                         PUT                          
 R207                      SISUK                         MACHI                        
                           MACHI                         LAMUN                        
                           LAMUN                         CMA                          
