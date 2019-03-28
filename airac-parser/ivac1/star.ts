@@ -11,7 +11,7 @@ const buildStarPath = resolve(buildDir, '08-STAR');
 const databaseFileName = 'little_navmap_navigraph.sqlite';
 const databasePath = resolve(basePath, '..', databaseFileName);
 
-const allowedAirports = ['VTBD', 'VTBS'];
+const allowedAirports = ['VTBD', 'VTBS', 'VTSP'];
 
 ensureDirSync(buildStarPath);
 
