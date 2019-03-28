@@ -436,3 +436,6 @@ Y95                       SMU                           PAGLU
                           APOBI                         LOSDA                        
                           LOSDA                         IDRUK                        
                           IDRUK                         IKOGA                        
+Y96                       GOKEX                         OLSEL                        
+                          OLSEL                         UPVIL                        
+                          UPVIL                         EMTIX                        
