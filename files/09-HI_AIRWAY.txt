@@ -396,7 +396,8 @@ Y16                       BKK                           UPKUP
                           LIPLI                         XIKMA                        
                           XIKMA                         PEKBA                        
                           PEKBA                         BUTRA                        
-Y17                       NULBO                         SMU                          
+Y17                       SMU                           APUSA                        
+                          APUSA                         DONSI                        
 Y2                        KKN                           UBLOD                        
                           UBLOD                         PIPOB                        
 Y3                        BOKAK                         RIMSO                        
