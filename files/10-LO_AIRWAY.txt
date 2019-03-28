@@ -86,6 +86,9 @@ L524                      NURDA                         MIGAR
                           IBETO                         BKK                          
 L645                      SAPAM                         UBNEN                        
                           UBNEN                         PUT                          
+L759                      TAVUN                         ANPAN                        
+                          ANPAN                         SATVA                        
+                          SATVA                         PUT                          
 L877                      PUMOR                         MIGAR                        
 M502                      BKK                           BONVO                        
                           BONVO                         AKATO                        

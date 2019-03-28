@@ -93,7 +93,8 @@ L524                      KAKIP                         NURDA
 L645                      SAPAM                         UBNEN                        
                           UBNEN                         PUT                          
 L759                      TAVUN                         ANPAN                        
-                          ANPAN                         PUT                          
+                          ANPAN                         SATVA                        
+                          SATVA                         PUT                          
 L877                      DWI                           PUMOR                        
                           PUMOR                         MIGAR                        
 M502                      BKK                           BONVO                        
