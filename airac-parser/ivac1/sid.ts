@@ -118,7 +118,7 @@ const main = async () => {
           WHERE
             approach_id = ${sid_id}
         `);
-        const leg_points: string[] = legsToPoints(legs);
+        const leg_points: string[] = await legsToPoints(legs);
         const points = [
           convertPoint([other_runway_end.laty, other_runway_end.lonx], true),
           ...leg_points

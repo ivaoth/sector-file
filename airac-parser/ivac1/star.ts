@@ -70,15 +70,16 @@ const main = async () => {
           leg_id: number;
           type: string;
           fix_ident: string;
+          fix_type: string;
         }>(SQL`
           SELECT
-            approach_leg_id as leg_id, type, fix_ident
+            approach_leg_id as leg_id, type, fix_ident, fix_type
           FROM
             approach_leg
           WHERE
             approach_id = ${star_id}
         `);
-        const points: string[] = legsToPoints(legs);
+        const points: string[] = await legsToPoints(legs, airport_id, db);
         for (let i = 0; i <= points.length - 2; i++) {
           const point_a = points[i];
           const point_b = points[i + 1];
@@ -123,7 +124,7 @@ const main = async () => {
             WHERE
               transition_id = ${star_transition_id}
           `);
-          const transition_points = legsToPoints(transition_legs);
+          const transition_points = await legsToPoints(transition_legs);
           for (let i = 0; i <= transition_points.length - 2; i++) {
             const point_a = transition_points[i];
             const point_b = transition_points[i + 1];
