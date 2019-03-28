@@ -303,9 +303,10 @@ W33                       PUT                           ONETI
                           MABKO                         SURIX                        
                           SURIX                         TRT                          
                           TRT                           RYN                          
-W34                       MENEX                         ELAGI                        
-                          ELAGI                         RAN                          
-                          RAN                           PUT                          
+W34                       MENEX                         CPN                          
+                          CPN                           RAN                          
+                          RAN                           IGEVI                        
+                          IGEVI                         PUT                          
 W35                       UPNEP                         PINUN                        
                           PINUN                         NKS                          
                           NKS                           TRN                          
