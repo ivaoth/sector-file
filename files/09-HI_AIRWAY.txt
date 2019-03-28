@@ -403,7 +403,8 @@ Y2                        KKN                           UBLOD
 Y3                        BOKAK                         RIMSO                        
 Y3                        MENEX                         DORNA                        
                           DORNA                         TEDOS                        
-                          TEDOS                         PUT                          
+                          TEDOS                         MONBU                        
+                          MONBU                         PUT                          
 Y351                      GOGOM                         DUBAX                        
 Y4                        MENEX                         SMU                          
                           SMU                           RECNO                        
