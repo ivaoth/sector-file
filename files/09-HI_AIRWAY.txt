@@ -177,8 +177,10 @@ R207                      SISUK                         MACHI
 R215                      CTR                           NAN                          
                           NAN                           TOMIP                        
 R325                      IKULA                         MUDMA                        
-                          MUDMA                         PUT                          
-                          PUT                           OSVIP                        
+                          MUDMA                         UPSAB                        
+                          UPSAB                         PUT                          
+                          PUT                           URGAD                        
+                          URGAD                         OSVIP                        
                           OSVIP                         UTHAI                        
                           UTHAI                         DUBAX                        
                           DUBAX                         VAS                          
