@@ -255,7 +255,9 @@ W22                       PSL                           NIROP
 W23                       PSL                           POLOB                        
                           POLOB                         PIVUT                        
                           PIVUT                         LPN                          
-W24                       STN                           TRN                          
+W24                       STN                           IDNAR                        
+                          IDNAR                         BITEN                        
+                          BITEN                         TRN                          
 W25                       THS                           PAE                          
                           PAE                           NAN                          
 W26                       ADGIS                         TK                           
