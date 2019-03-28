@@ -283,7 +283,8 @@ W26                       ADGIS                         TK
                           PCB                           CMP                          
 W27                       PSL                           REMER                        
                           REMER                         LOY                          
-W28                       STN                           NKS                          
+W28                       STN                           SEGRA                        
+                          SEGRA                         NKS                          
                           NKS                           HTY                          
 W29                       CTR                           NAN                          
                           NAN                           UTTAR                        
