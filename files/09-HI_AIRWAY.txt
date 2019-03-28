@@ -135,9 +135,12 @@ M757                      BKK                           KASNI
 M769                      BKK                           LEBIM                        
                           LEBIM                         SURMA                        
                           SURMA                         GOKEX                        
-                          GOKEX                         SORTO                        
+                          GOKEX                         DONSI                        
+                          DONSI                         SORTO                        
                           SORTO                         PINUN                        
-                          PINUN                         DANDO                        
+                          PINUN                         RIPMU                        
+                          RIPMU                         DOXAS                        
+                          DOXAS                         DANDO                        
                           DANDO                         RIGTO                        
 M770                      PADET                         RAN                          
                           RAN                           GOLUD                        
