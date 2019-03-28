@@ -50,7 +50,8 @@ B346                      BKK                           NOBER
                           YAKUA                         LPB                          
 B460                      KRT                           ROT                          
                           ROT                           SAV                          
-B579                      PUT                           NUTGU                        
+B579                      PUT                           REBED                        
+                          REBED                         NUTGU                        
                           NUTGU                         DALAN                        
 G331                      PADET                         DADSA                        
                           DADSA                         PUT                          
