@@ -188,9 +188,11 @@ R575                      SAKDA                         ANOBO
                           ALUMO                         RILVI                        
                           RILVI                         EMELA                        
                           EMELA                         UPNEP                        
-                          UPNEP                         SMU                          
+                          UPNEP                         VININ                        
+                          VININ                         SMU                          
                           SMU                           RECNO                        
-                          RECNO                         PUT                          
+                          RECNO                         ONETI                        
+                          ONETI                         PUT                          
 R588                      PUT                           RELIP                        
                           RELIP                         SUPIN                        
                           SUPIN                         MUBAN                        
