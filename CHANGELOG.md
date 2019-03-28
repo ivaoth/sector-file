@@ -2,6 +2,71 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1904.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.1902.1...v2.1904.1) (2019-03-28)
+
+
+### Bug Fixes
+
+* allow SID & STAR query for unnamed waypoints ([4c86ea9](https://github.com/ivaothai/ivac-sector-file/commit/4c86ea9))
+* **stars:** replace VTSP CI27 with coordinates ([08a6179](https://github.com/ivaothai/ivac-sector-file/commit/08a6179))
+
+
+### Features
+
+* **airports:** change VTBW aerodrome reference point ([3ca612e](https://github.com/ivaothai/ivac-sector-file/commit/3ca612e))
+* **airways:** establish airway W94 ([a715e8b](https://github.com/ivaothai/ivac-sector-file/commit/a715e8b))
+* **airways:** establish airway W99 ([80400bd](https://github.com/ivaothai/ivac-sector-file/commit/80400bd))
+* **airways:** establish airway Y93 ([81ef3ad](https://github.com/ivaothai/ivac-sector-file/commit/81ef3ad))
+* **airways:** establish airway Y94 ([3a69cd8](https://github.com/ivaothai/ivac-sector-file/commit/3a69cd8))
+* **airways:** establish airway Y95 ([f8ddba9](https://github.com/ivaothai/ivac-sector-file/commit/f8ddba9))
+* **airways:** establish airway Y96 ([3f00754](https://github.com/ivaothai/ivac-sector-file/commit/3f00754))
+* **airways:** establish airway Y98 ([cec1bb9](https://github.com/ivaothai/ivac-sector-file/commit/cec1bb9))
+* **airways:** establish airway Y99 ([e5b50fd](https://github.com/ivaothai/ivac-sector-file/commit/e5b50fd))
+* **airways:** revise airway A464 ([18b0129](https://github.com/ivaothai/ivac-sector-file/commit/18b0129))
+* **airways:** revise airway B579 ([68fa2d0](https://github.com/ivaothai/ivac-sector-file/commit/68fa2d0))
+* **airways:** revise airway G331 ([d95cdaf](https://github.com/ivaothai/ivac-sector-file/commit/d95cdaf))
+* **airways:** revise airway G458 ([ff326b0](https://github.com/ivaothai/ivac-sector-file/commit/ff326b0))
+* **airways:** revise airway L515 ([fe8d0cf](https://github.com/ivaothai/ivac-sector-file/commit/fe8d0cf))
+* **airways:** revise airway L645 ([5093c53](https://github.com/ivaothai/ivac-sector-file/commit/5093c53))
+* **airways:** revise airway L759 ([2f12569](https://github.com/ivaothai/ivac-sector-file/commit/2f12569))
+* **airways:** revise airway M626 ([0a63bb0](https://github.com/ivaothai/ivac-sector-file/commit/0a63bb0))
+* **airways:** revise airway M757 ([2d7cbbe](https://github.com/ivaothai/ivac-sector-file/commit/2d7cbbe))
+* **airways:** revise airway M769 ([8a28098](https://github.com/ivaothai/ivac-sector-file/commit/8a28098))
+* **airways:** revise airway P627 ([eac7976](https://github.com/ivaothai/ivac-sector-file/commit/eac7976))
+* **airways:** revise airway R203 ([457dc28](https://github.com/ivaothai/ivac-sector-file/commit/457dc28))
+* **airways:** revise airway R325 ([5efc9ae](https://github.com/ivaothai/ivac-sector-file/commit/5efc9ae))
+* **airways:** revise airway R575 ([4d78ee3](https://github.com/ivaothai/ivac-sector-file/commit/4d78ee3))
+* **airways:** revise airway R588 ([711374b](https://github.com/ivaothai/ivac-sector-file/commit/711374b))
+* **airways:** revise airway W14 ([39cef4f](https://github.com/ivaothai/ivac-sector-file/commit/39cef4f))
+* **airways:** revise airway W17 ([12a4021](https://github.com/ivaothai/ivac-sector-file/commit/12a4021))
+* **airways:** revise airway W19 ([327696f](https://github.com/ivaothai/ivac-sector-file/commit/327696f))
+* **airways:** revise airway W24 ([fe895d4](https://github.com/ivaothai/ivac-sector-file/commit/fe895d4))
+* **airways:** revise airway W28 ([4c41536](https://github.com/ivaothai/ivac-sector-file/commit/4c41536))
+* **airways:** revise airway W31 ([27cf84d](https://github.com/ivaothai/ivac-sector-file/commit/27cf84d))
+* **airways:** revise airway W32 ([aa1ab9f](https://github.com/ivaothai/ivac-sector-file/commit/aa1ab9f))
+* **airways:** revise airway W33 ([bb8dd01](https://github.com/ivaothai/ivac-sector-file/commit/bb8dd01))
+* **airways:** revise airway W34 ([cfe7883](https://github.com/ivaothai/ivac-sector-file/commit/cfe7883))
+* **airways:** revise airway W35 ([cdf5e3d](https://github.com/ivaothai/ivac-sector-file/commit/cdf5e3d))
+* **airways:** revise airway W42 ([0328fb1](https://github.com/ivaothai/ivac-sector-file/commit/0328fb1))
+* **airways:** revise airway Y17 ([55a5a28](https://github.com/ivaothai/ivac-sector-file/commit/55a5a28))
+* **airways:** revise airway Y3 ([2b7cb3d](https://github.com/ivaothai/ivac-sector-file/commit/2b7cb3d))
+* **airways:** revise airway Y4 ([9990ea3](https://github.com/ivaothai/ivac-sector-file/commit/9990ea3))
+* **airways:** revise airway Y4 ([3a7a9a2](https://github.com/ivaothai/ivac-sector-file/commit/3a7a9a2))
+* **airways:** revise airway Y5 ([8948cbe](https://github.com/ivaothai/ivac-sector-file/commit/8948cbe))
+* **airways:** revise airway Y8 ([860bd4e](https://github.com/ivaothai/ivac-sector-file/commit/860bd4e))
+* **drp:** revise VT(D)-60 Area 1 ([cb76666](https://github.com/ivaothai/ivac-sector-file/commit/cb76666))
+* **drp:** revise VT(D)-60 Area 2 ([15065ac](https://github.com/ivaothai/ivac-sector-file/commit/15065ac))
+* **fixes:** add and remove fixes for cycle 1904 ([4b9bd38](https://github.com/ivaothai/ivac-sector-file/commit/4b9bd38))
+* **ndbs:** add SK NDB ([662ea82](https://github.com/ivaothai/ivac-sector-file/commit/662ea82))
+* **runways:** update VTSC runway departure end ([e780421](https://github.com/ivaothai/ivac-sector-file/commit/e780421))
+* **sids:** add VTSP to SIDs parsing ([89ff4f8](https://github.com/ivaothai/ivac-sector-file/commit/89ff4f8))
+* **sids:** VTSP new SIDs ([0331c24](https://github.com/ivaothai/ivac-sector-file/commit/0331c24))
+* **stars:** add VTSP to STAR parsing ([ad36117](https://github.com/ivaothai/ivac-sector-file/commit/ad36117))
+* **stars:** VTSP new STARs ([c6c7a98](https://github.com/ivaothai/ivac-sector-file/commit/c6c7a98))
+* **tmas:** revise Nan TMA, Chiang Rai TMA, Samui TMA ([e008792](https://github.com/ivaothai/ivac-sector-file/commit/e008792))
+
+
+
 <a name="2.1902.1"></a>
 ## [2.1902.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.1901.1...v2.1902.1) (2019-02-01)
 
