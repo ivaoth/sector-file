@@ -238,9 +238,11 @@ W19                       BKK                           POLAK
                           POLAK                         GUTSO                        
                           GUTSO                         REGOS                        
                           REGOS                         DIRAX                        
-                          DIRAX                         UPNEP                        
+                          DIRAX                         TUSPU                        
+                          TUSPU                         UPNEP                        
                           UPNEP                         ROBDA                        
-                          ROBDA                         ADNEP                        
+                          ROBDA                         IDRUK                        
+                          IDRUK                         ADNEP                        
                           ADNEP                         NTW                          
 W20                       CMA                           ADLUS                        
                           ADLUS                         CTR                          
