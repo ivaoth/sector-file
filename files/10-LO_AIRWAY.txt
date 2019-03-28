@@ -393,7 +393,9 @@ Y3                        MENEX                         DORNA
 Y351                      GOGOM                         DUBAX                        
 Y4                        NONEL                         SMU                          
                           SMU                           RECNO                        
-                          RECNO                         KBI                          
+                          RECNO                         BITEN                        
+                          BITEN                         OSPEX                        
+                          OSPEX                         KBI                          
 Y5                        KIKOT                         ANDAX                        
                           ANDAX                         NOMEK                        
                           NOMEK                         MALIP                        
