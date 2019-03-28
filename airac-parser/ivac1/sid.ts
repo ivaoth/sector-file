@@ -13,7 +13,7 @@ const databaseFileName = 'little_navmap_navigraph.sqlite';
 const databasePath = resolve(basePath, '..', databaseFileName);
 
 const logKnownLegTypes = false;
-const allowedAirports = ['VTBD', 'VTBS'];
+const allowedAirports = ['VTBD', 'VTBS', 'VTSP'];
 
 ensureDirSync(buildSidPath);
 
