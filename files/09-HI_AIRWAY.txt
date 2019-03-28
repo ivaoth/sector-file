@@ -124,7 +124,8 @@ M751                      BKK                           POLAK
                           TIKAL                         GOLUD                        
                           GOLUD                         VKB                          
 M757                      BKK                           KASNI                        
-                          KASNI                         NULBO                        
+                          KASNI                         ASEKU                        
+                          ASEKU                         NULBO                        
                           NULBO                         MABKO                        
                           MABKO                         VALSI                        
                           VALSI                         ROBDA                        
