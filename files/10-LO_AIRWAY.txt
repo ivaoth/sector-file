@@ -230,8 +230,10 @@ W16                       CMA                           ASAVI
                           ASAVI                         UTTAR                        
                           UTTAR                         CMP                          
                           CMP                           KKN                          
-W17                       RAN                           STN                          
-                          STN                           HTY                          
+W17                       RAN                           TOGIM                        
+                          TOGIM                         STN                          
+                          STN                           EMVEL                        
+                          EMVEL                         HTY                          
 W19                       BKK                           POLAK                        
                           POLAK                         GUTSO                        
                           GUTSO                         REGOS                        
