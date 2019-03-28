@@ -335,9 +335,18 @@ W39                       LOY                           PCB
 W4                        UDN                           ROT                          
                           ROT                           UBL                          
 W40                       PAE                           PCB                          
-W42                       MENEX                         REGOS                        
-                          REGOS                         RYN                          
-                          RYN                           XIKMA                        
+W42                       MENEX                         EGUBO                        
+                          EGUBO                         UPVIL                        
+                          UPVIL                         SURMA                        
+                          SURMA                         REGOS                        
+                          REGOS                         ASEKU                        
+                          ASEKU                         PIDEL                        
+                          PIDEL                         ALEMI                        
+                          ALEMI                         RYN                          
+                          RYN                           RUPTA                        
+                          RUPTA                         BERLU                        
+                          BERLU                         ELNIB                        
+                          ELNIB                         XIKMA                        
                           XIKMA                         TOPER                        
                           TOPER                         PAKRI                        
                           PAKRI                         RAMEI                        
