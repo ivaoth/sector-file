@@ -54,7 +54,8 @@ B579                      PUT                           REBED
                           REBED                         NUTGU                        
                           NUTGU                         DALAN                        
 G331                      PADET                         DADSA                        
-                          DADSA                         PUT                          
+                          DADSA                         SUSID                        
+                          SUSID                         PUT                          
 G458                      BKK                           MOTNA                        
                           MOTNA                         HOTEL                        
                           HOTEL                         UKERA                        
