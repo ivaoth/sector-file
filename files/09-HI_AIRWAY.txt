@@ -101,12 +101,14 @@ M502                      BKK                           BONVO
                           BONVO                         AKATO                        
                           AKATO                         DALER                        
 M626                      EKAVO                         MENEX                        
-                          MENEX                         SORTO                        
+                          MENEX                         NONEL                        
+                          NONEL                         APUSA                        
+                          APUSA                         SORTO                        
                           SORTO                         UPNEP                        
                           UPNEP                         VALSI                        
                           VALSI                         SUPIN                        
-                          SUPIN                         SUWAN                        
-                          SUWAN                         KADAX                        
+                          SUPIN                         IKOGA                        
+                          IKOGA                         KADAX                        
 M644                      RYN                           ALUMO                        
                           ALUMO                         TONIK                        
                           TONIK                         DUGON                        
