@@ -22,7 +22,7 @@
   "homepage": "https://github.com/ivaothai/ivac-sector-file#readme",
   "devDependencies": {
     "@types/fs-extra": "5.0.5",
-    "@types/inquirer": "6.0.0",
+    "@types/inquirer": "6.0.1",
     "@types/node": "8.10.46",
     "@types/rimraf": "2.0.2",
     "@types/sqlite3": "3.1.5",
