@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/ivaothai/ivac-sector-file#readme",
   "devDependencies": {
-    "@types/fs-extra": "5.0.5",
+    "@types/fs-extra": "5.1.0",
     "@types/inquirer": "6.0.1",
     "@types/node": "8.10.48",
     "@types/rimraf": "2.0.2",
