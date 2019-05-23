@@ -1,6 +1,17 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [2.1906.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.1904.1...v2.1906.1) (2019-05-23)
+
+
+### Features
+
+* **drp:** revise VT(R)-2 ([a3bc2be](https://github.com/ivaothai/ivac-sector-file/commit/a3bc2be))
+* **fixes:** add and remove fixes for cycle 1905 ([05d26ac](https://github.com/ivaothai/ivac-sector-file/commit/05d26ac))
+* **vors:** update SRE VOR coordinate ([785f4e0](https://github.com/ivaothai/ivac-sector-file/commit/785f4e0))
+
+
 
 ## [2.1904.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.1902.1...v2.1904.1) (2019-03-28)
 
