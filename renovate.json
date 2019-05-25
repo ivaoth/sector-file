@@ -10,5 +10,6 @@
       ],
       "semanticCommitType": "deps"
     }
-  ]
+  ],
+  "masterIssue": true
 }
