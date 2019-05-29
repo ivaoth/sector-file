@@ -1,15 +1,3 @@
 {
-  "extends": [
-    "config:base"
-  ],
-  "rebaseStalePrs": true,
-  "packageRules": [
-    {
-      "packagePatterns": [
-        "*"
-      ],
-      "semanticCommitType": "deps"
-    }
-  ],
-  "masterIssue": true
+  "extends": ["@sarunint:base"]
 }
