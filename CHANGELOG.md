@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1909.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.1906.1...v2.1909.1) (2019-08-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency fs-extra to v8.1.0 ([#205](https://github.com/ivaothai/ivac-sector-file/issues/205)) ([4f30597](https://github.com/ivaothai/ivac-sector-file/commit/4f30597))
+* **deps:** update dependency inquirer to v6.4.0 ([#198](https://github.com/ivaothai/ivac-sector-file/issues/198)) ([44b80ea](https://github.com/ivaothai/ivac-sector-file/commit/44b80ea))
+* **deps:** update dependency inquirer to v6.4.1 ([#199](https://github.com/ivaothai/ivac-sector-file/issues/199)) ([1dae7d2](https://github.com/ivaothai/ivac-sector-file/commit/1dae7d2))
+* **deps:** update dependency inquirer to v6.5.0 ([#211](https://github.com/ivaothai/ivac-sector-file/issues/211)) ([0f41ed7](https://github.com/ivaothai/ivac-sector-file/commit/0f41ed7))
+* **deps:** update dependency inquirer to v6.5.1 ([#224](https://github.com/ivaothai/ivac-sector-file/issues/224)) ([7942f5e](https://github.com/ivaothai/ivac-sector-file/commit/7942f5e))
+* **deps:** update dependency rimraf to v2.7.0 ([#225](https://github.com/ivaothai/ivac-sector-file/issues/225)) ([dcfd04a](https://github.com/ivaothai/ivac-sector-file/commit/dcfd04a))
+* **deps:** update dependency rimraf to v3 ([#227](https://github.com/ivaothai/ivac-sector-file/issues/227)) ([0bcf51e](https://github.com/ivaothai/ivac-sector-file/commit/0bcf51e))
+* **deps:** update dependency sqlite3 to v4.0.9 ([#194](https://github.com/ivaothai/ivac-sector-file/issues/194)) ([7d00fdc](https://github.com/ivaothai/ivac-sector-file/commit/7d00fdc))
+
+
+### Features
+
+* **drps:** update Mae Sot Control Zone coordinates ([203ca42](https://github.com/ivaothai/ivac-sector-file/commit/203ca42))
+* **drps:** update Mae Sot Terminal Control Area coordinates ([aeb8970](https://github.com/ivaothai/ivac-sector-file/commit/aeb8970))
+* **fixes:** update TOMIP coordinate ([fc076a9](https://github.com/ivaothai/ivac-sector-file/commit/fc076a9))
+* **ndbs:**  remove BK, KK and MA NDB ([342ad3f](https://github.com/ivaothai/ivac-sector-file/commit/342ad3f))
+* **vors:** update MST VOR coordinate ([3ab6003](https://github.com/ivaothai/ivac-sector-file/commit/3ab6003))
+
 ### [2.1906.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.1904.1...v2.1906.1) (2019-05-23)
 
 
