@@ -42,7 +42,7 @@
     "rimraf": "3.0.0",
     "sql-template-strings": "2.2.2",
     "sqlite": "3.0.3",
-    "sqlite3": "4.0.9",
+    "sqlite3": "4.1.0",
     "xml": "1.0.1"
   }
 }
