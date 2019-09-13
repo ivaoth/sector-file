@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1910.2](https://github.com/ivaothai/ivac-sector-file/compare/v2.1910.1...v2.1910.2) (2019-09-13)
+
+
+### Bug Fixes
+
+* **sids:** remove old VTPM SIDs ([6727ad9](https://github.com/ivaothai/ivac-sector-file/commit/6727ad9))
+* **stars:** remove old VTPM STARs ([de922fd](https://github.com/ivaothai/ivac-sector-file/commit/de922fd))
+
+
+### Features
+
+* **sids:** new VTPM SIDs ([acaf4fa](https://github.com/ivaothai/ivac-sector-file/commit/acaf4fa))
+
 ### [2.1910.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.1909.1...v2.1910.1) (2019-09-13)
 
 
