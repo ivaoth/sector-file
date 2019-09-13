@@ -276,7 +276,8 @@ W24                       STN                           IDNAR
                           BITEN                         TRN                          
 W25                       THS                           PAE                          
                           PAE                           NAN                          
-W26                       ADGIS                         TK                           
+W26                       MST                           ISBEL                        
+                          ISBEL                         TK                           
                           TK                            PSL                          
                           PSL                           GOKON                        
                           GOKON                         PCB                          
