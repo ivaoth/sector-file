@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1910.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.1909.1...v2.1910.1) (2019-09-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency inquirer to v7 ([#234](https://github.com/ivaothai/ivac-sector-file/issues/234)) ([a084300](https://github.com/ivaothai/ivac-sector-file/commit/a084300))
+* **deps:** update dependency sqlite3 to v4.1.0 ([#230](https://github.com/ivaothai/ivac-sector-file/issues/230)) ([546f3e0](https://github.com/ivaothai/ivac-sector-file/commit/546f3e0))
+
+
+### Features
+
+* **airports:** rename VTPM ([623277c](https://github.com/ivaothai/ivac-sector-file/commit/623277c))
+* **airways:** revise airway W26 ([512ba57](https://github.com/ivaothai/ivac-sector-file/commit/512ba57))
+* **airways:** revise airway W7 ([44cfd4b](https://github.com/ivaothai/ivac-sector-file/commit/44cfd4b))
+* **drps:** revice Udon TMA ([41f5af1](https://github.com/ivaothai/ivac-sector-file/commit/41f5af1))
+* **drps:** revise Khon Kaen TMA ([ecd37a3](https://github.com/ivaothai/ivac-sector-file/commit/ecd37a3))
+* **drps:** revise Loei TMA ([c59732e](https://github.com/ivaothai/ivac-sector-file/commit/c59732e))
+* **drps:** revise Udon Control Zone ([98a0d99](https://github.com/ivaothai/ivac-sector-file/commit/98a0d99))
+* **drps:** revise Udon Thani TMA ([e9d44ec](https://github.com/ivaothai/ivac-sector-file/commit/e9d44ec))
+* **drps:** revise VT(D)-63 Area 1 ([c87250a](https://github.com/ivaothai/ivac-sector-file/commit/c87250a))
+* **drps:** revise VT(D)-63 Area 2 ([3388393](https://github.com/ivaothai/ivac-sector-file/commit/3388393))
+* **drps:** revise VT(D)-64 ([f9d1072](https://github.com/ivaothai/ivac-sector-file/commit/f9d1072))
+* **fixes:** add and remove fixes for cycle 1910 ([eeed716](https://github.com/ivaothai/ivac-sector-file/commit/eeed716))
+* **fixes:** revise PADPA coordinate ([2630428](https://github.com/ivaothai/ivac-sector-file/commit/2630428))
+* **vors:** revise BUT VOR coordinate ([75fbc45](https://github.com/ivaothai/ivac-sector-file/commit/75fbc45))
+* **vors:** revise UDN VOR coordinate ([f17abea](https://github.com/ivaothai/ivac-sector-file/commit/f17abea))
+
 ### [2.1909.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.1906.1...v2.1909.1) (2019-08-16)
 
 
