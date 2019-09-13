@@ -1,0 +1,11 @@
+VTPM-RW09 ISBE1A          N016.41.59.852 E098.33.07.701 GOVNO                        
+                          GOVNO                         NOBIX                        
+                          NOBIX                         ISBEL                        
+VTPM-RW09 ISBE1B          N016.41.59.852 E098.33.07.701 GOVNO                        
+                          GOVNO                         MEKUB                        
+                          MEKUB                         MADMO                        
+                          MADMO                         NOBIX                        
+                          NOBIX                         ISBEL                        
+VTPM-RW09 LILR1A          N016.41.59.852 E098.33.07.701 GOVNO                        
+                          GOVNO                         POROD                        
+                          POROD                         LILRI                        
