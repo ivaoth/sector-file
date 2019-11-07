@@ -182,7 +182,8 @@ R470                      VTN                           UDN
                           ROT                           UBL                          
 R474                      BKK                           ALBOS                        
                           ALBOS                         CMP                          
-                          CMP                           VTN                          
+                          CMP                           LEDER                        
+                          LEDER                         VTN                          
 R575                      SAKDA                         ANOBO                        
                           ANOBO                         ALUMO                        
                           ALUMO                         RILVI                        
