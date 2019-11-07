@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1912.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.1910.2...v2.1912.1) (2019-11-07)
+
+
+### Features
+
+* **airway:** update airway R474 ([9a61604](https://github.com/ivaothai/ivac-sector-file/commit/9a616042b5387e82dc81fd80dfc99d8eb5c39a43))
+* **airway:** update airway W650 ([8568195](https://github.com/ivaothai/ivac-sector-file/commit/8568195222d52df0e9ecda8b20362fee0f672e5e))
+* **fixes:** add and remove fixes for cycle 1912 ([ba4d63d](https://github.com/ivaothai/ivac-sector-file/commit/ba4d63d2105c28baa5913cad4d10b0d0e94420d1))
+
+
+### Bug Fixes
+
+* **drp:** update names for VT(D)-30 ([6ca10c3](https://github.com/ivaothai/ivac-sector-file/commit/6ca10c37970fc897e060a84e8a174f0c7a69ec57))
+* **vor:** update coordinate of TRT VOR ([1fa41c2](https://github.com/ivaothai/ivac-sector-file/commit/1fa41c2cea7cc215af3e0b3206429e90b3f3ad72))
+
 ### [2.1910.2](https://github.com/ivaothai/ivac-sector-file/compare/v2.1910.1...v2.1910.2) (2019-09-13)
 
 
