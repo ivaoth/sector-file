@@ -25,7 +25,7 @@
     "@types/inquirer": "6.5.0",
     "@types/node": "12.12.20",
     "@types/rimraf": "2.0.3",
-    "@types/sqlite3": "3.1.5",
+    "@types/sqlite3": "3.1.6",
     "@types/xml": "1.0.4",
     "conventional-changelog-cli": "2.0.31",
     "conventional-github-releaser": "3.1.3",
