@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2001.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.1912.1...v2.2001.1) (2020-01-17)
+
+
+### Features
+
+* **drps:** modify areas for cycle 2001 ([7e2dbd6](https://github.com/ivaothai/ivac-sector-file/commit/7e2dbd63697e8f2edcc92f2e8e5c1b221bf12f2a))
+* **fixes:** add fixes for cycle 2001 ([614a080](https://github.com/ivaothai/ivac-sector-file/commit/614a080b3b650389b94e9aeb4162c7781ee0b10f))
+
+
+### Bug Fixes
+
+* **deps:** update dependency inquirer to v7.0.1 ([#302](https://github.com/ivaothai/ivac-sector-file/issues/302)) ([9463211](https://github.com/ivaothai/ivac-sector-file/commit/946321176c5d99fdd6dcdd8ddbdc1738dbc05d52))
+* **deps:** update dependency inquirer to v7.0.3 ([#317](https://github.com/ivaothai/ivac-sector-file/issues/317)) ([5c2bfc0](https://github.com/ivaothai/ivac-sector-file/commit/5c2bfc08bda89faa28c9113c2544612d6761a481))
+* **deps:** update dependency sqlite3 to v4.1.1 ([#295](https://github.com/ivaothai/ivac-sector-file/issues/295)) ([be642ef](https://github.com/ivaothai/ivac-sector-file/commit/be642ef8fcd208b38836babdb9aa5775ea4187c1))
+
 ### [2.1912.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.1910.2...v2.1912.1) (2019-11-07)
 
 
