@@ -1,4 +1,5 @@
 ;Bangkok FIR for IvAc 1
+; Version
 ;Created by Kanin Pornsinsiriruk
 ;Thanks to Naris Vachiranantavat, Jirapat Pongam and all creator for resource
 ;Please check for update at https://github.com/ivaothai/ivac-sector-file
