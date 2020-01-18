@@ -1,0 +1,408 @@
+[
+  {
+    "ident": "BKK",
+    "name": "BANGKOK",
+    "frequency": 117700,
+    "laty": 13.89355556,
+    "lonx": 100.59619444
+  },
+  {
+    "ident": "BRM",
+    "name": "BURI RAM",
+    "frequency": 117200,
+    "laty": 15.23956389,
+    "lonx": 103.258775
+  },
+  {
+    "ident": "BTN",
+    "name": "NARATHIWAT",
+    "frequency": 115200,
+    "laty": 6.52333333,
+    "lonx": 101.745
+  },
+  {
+    "ident": "BUT",
+    "name": "U-TAPAO",
+    "frequency": 110800,
+    "laty": 12.66667222,
+    "lonx": 101.000475
+  },
+  {
+    "ident": "CHM",
+    "name": "CHIANG MAI",
+    "frequency": 116200,
+    "laty": 18.77,
+    "lonx": 98.97
+  },
+  {
+    "ident": "CMA",
+    "name": "CHIANG MAI",
+    "frequency": 116900,
+    "laty": 18.76612778,
+    "lonx": 98.96121667
+  },
+  {
+    "ident": "CMP",
+    "name": "CHUM PHAE",
+    "frequency": 112900,
+    "laty": 16.635,
+    "lonx": 101.98833333
+  },
+  {
+    "ident": "CPN",
+    "name": "CHUMPHON",
+    "frequency": 110000,
+    "laty": 10.71116944,
+    "lonx": 99.36556389
+  },
+  {
+    "ident": "CTR",
+    "name": "CHIANG RAI",
+    "frequency": 116500,
+    "laty": 19.94886111,
+    "lonx": 99.88314167
+  },
+  {
+    "ident": "HHN",
+    "name": "HUA HIN",
+    "frequency": 113300,
+    "laty": 12.63445556,
+    "lonx": 99.951175
+  },
+  {
+    "ident": "HTY",
+    "name": "HAT YAI",
+    "frequency": 115300,
+    "laty": 6.93409722,
+    "lonx": 100.38790833
+  },
+  {
+    "ident": "KBI",
+    "name": "KRABI",
+    "frequency": 111000,
+    "laty": 8.10755278,
+    "lonx": 98.97751944
+  },
+  {
+    "ident": "KKN",
+    "name": "KHON KAEN",
+    "frequency": 114900,
+    "laty": 16.47075833,
+    "lonx": 102.78779722
+  },
+  {
+    "ident": "KPS",
+    "name": "KAMPHAENG SAEN NAKHON PATHOM",
+    "frequency": 114500,
+    "laty": 14.16575278,
+    "lonx": 99.95431111
+  },
+  {
+    "ident": "KRT",
+    "name": "KHORAT NAKHON RATCHASIMA",
+    "frequency": 113700,
+    "laty": 14.91731944,
+    "lonx": 102.13981111
+  },
+  {
+    "ident": "LOB",
+    "name": "LOB BANGKOK",
+    "frequency": 116800,
+    "laty": 14.87620278,
+    "lonx": 100.65985833
+  },
+  {
+    "ident": "LOY",
+    "name": "LOEI",
+    "frequency": 115900,
+    "laty": 17.44705,
+    "lonx": 101.72308889
+  },
+  {
+    "ident": "LPN",
+    "name": "LAMPANG",
+    "frequency": 114700,
+    "laty": 18.27663056,
+    "lonx": 99.50233333
+  },
+  {
+    "ident": "MHS",
+    "name": "MAE HONG SON",
+    "frequency": 115500,
+    "laty": 19.31964722,
+    "lonx": 97.91208333
+  },
+  {
+    "ident": "MS",
+    "name": "MAE SOT TAK",
+    "frequency": 116700,
+    "laty": 16.70193611,
+    "lonx": 98.53979167
+  },
+  {
+    "ident": "MST",
+    "name": "MAE SOT TAK",
+    "frequency": 116700,
+    "laty": 16.69781389,
+    "lonx": 98.54157778
+  },
+  {
+    "ident": "NAN",
+    "name": "NAN",
+    "frequency": 115700,
+    "laty": 18.8091,
+    "lonx": 100.78258611
+  },
+  {
+    "ident": "NKP",
+    "name": "NAKHON PHANOM",
+    "frequency": 111600,
+    "laty": 17.38829722,
+    "lonx": 104.63833611
+  },
+  {
+    "ident": "NKR",
+    "name": "NAKHON RATCHASIMA",
+    "frequency": 110200,
+    "laty": 14.94657222,
+    "lonx": 102.31120833
+  },
+  {
+    "ident": "NKS",
+    "name": "NAKHON SI THAMMARAT",
+    "frequency": 117400,
+    "laty": 8.54165278,
+    "lonx": 99.94685278
+  },
+  {
+    "ident": "NTW",
+    "name": "NARATHIWAT",
+    "frequency": 116300,
+    "laty": 6.52728889,
+    "lonx": 101.74513333
+  },
+  {
+    "ident": "PAE",
+    "name": "PHRAE",
+    "frequency": 111800,
+    "laty": 18.13410556,
+    "lonx": 100.16620833
+  },
+  {
+    "ident": "PCB",
+    "name": "PHETCHABUN",
+    "frequency": 115400,
+    "laty": 16.67601667,
+    "lonx": 101.1967
+  },
+  {
+    "ident": "PCK",
+    "name": "PRACHUAP KHIRI KHAN",
+    "frequency": 113700,
+    "laty": 11.786775,
+    "lonx": 99.79172778
+  },
+  {
+    "ident": "PSL",
+    "name": "PHITSANULOK",
+    "frequency": 114100,
+    "laty": 16.77037222,
+    "lonx": 100.29130556
+  },
+  {
+    "ident": "PUT",
+    "name": "PHUKET",
+    "frequency": 116900,
+    "laty": 8.11523056,
+    "lonx": 98.30630278
+  },
+  {
+    "ident": "RAN",
+    "name": "RANONG",
+    "frequency": 113400,
+    "laty": 9.77866111,
+    "lonx": 98.58391944
+  },
+  {
+    "ident": "ROT",
+    "name": "ROI ET",
+    "frequency": 111200,
+    "laty": 16.11683056,
+    "lonx": 103.77206944
+  },
+  {
+    "ident": "RYN",
+    "name": "RAYONG",
+    "frequency": 112500,
+    "laty": 12.78008333,
+    "lonx": 101.67825
+  },
+  {
+    "ident": "SKL",
+    "name": "SONGKHLA",
+    "frequency": 113500,
+    "laty": 7.18879167,
+    "lonx": 100.60419722
+  },
+  {
+    "ident": "SKN",
+    "name": "SAKON NAKHON",
+    "frequency": 114200,
+    "laty": 17.21413611,
+    "lonx": 104.13676111
+  },
+  {
+    "ident": "SMU",
+    "name": "SAMUI",
+    "frequency": 117600,
+    "laty": 9.547075,
+    "lonx": 100.06174167
+  },
+  {
+    "ident": "SPN",
+    "name": "SA PRAN NAK LOP BURI",
+    "frequency": 117300,
+    "laty": 14.94833333,
+    "lonx": 100.645
+  },
+  {
+    "ident": "SRT",
+    "name": "SURAT THANI",
+    "frequency": 113200,
+    "laty": 9.13111111,
+    "lonx": 99.13472222
+  },
+  {
+    "ident": "STN",
+    "name": "SURAT THANI",
+    "frequency": 110600,
+    "laty": 9.12951111,
+    "lonx": 99.13474722
+  },
+  {
+    "ident": "SVB",
+    "name": "SUVARNABHUMI BANGKOK",
+    "frequency": 111400,
+    "laty": 13.65902778,
+    "lonx": 100.73144444
+  },
+  {
+    "ident": "THS",
+    "name": "SUKHOTHAI",
+    "frequency": 110300,
+    "laty": 17.23563056,
+    "lonx": 99.81858056
+  },
+  {
+    "ident": "TKL",
+    "name": "TAKHLI",
+    "frequency": 114800,
+    "laty": 15.27475833,
+    "lonx": 100.29906111
+  },
+  {
+    "ident": "TRN",
+    "name": "TRANG",
+    "frequency": 116600,
+    "laty": 7.50893611,
+    "lonx": 99.62601944
+  },
+  {
+    "ident": "TRT",
+    "name": "TRAT",
+    "frequency": 109900,
+    "laty": 12.27646944,
+    "lonx": 102.31909444
+  },
+  {
+    "ident": "UBL",
+    "name": "UBON UBON RATCHATHANI",
+    "frequency": 112700,
+    "laty": 15.24519722,
+    "lonx": 104.86591667
+  },
+  {
+    "ident": "UDN",
+    "name": "UDON THANI",
+    "frequency": 114300,
+    "laty": 17.3845,
+    "lonx": 102.77501389
+  },
+  {
+    "ident": "PNH",
+    "name": "PHNOM PENH",
+    "frequency": 114300,
+    "laty": 11.54397222,
+    "lonx": 104.84391667
+  },
+  {
+    "ident": "SRE",
+    "name": "SIEM REAP",
+    "frequency": 113800,
+    "laty": 13.408,
+    "lonx": 103.80630556
+  },
+  {
+    "ident": "LPB",
+    "name": "LUANG PHABANG",
+    "frequency": 116600,
+    "laty": 19.91096111,
+    "lonx": 102.17190833
+  },
+  {
+    "ident": "PAK",
+    "name": "PAKSE",
+    "frequency": 115000,
+    "laty": 15.19675,
+    "lonx": 105.73805556
+  },
+  {
+    "ident": "SAV",
+    "name": "SAVANNAKHET",
+    "frequency": 113500,
+    "laty": 16.56213889,
+    "lonx": 104.76666667
+  },
+  {
+    "ident": "VTN",
+    "name": "VIENTIANE",
+    "frequency": 117500,
+    "laty": 18.01036111,
+    "lonx": 102.54047222
+  },
+  {
+    "ident": "BGO",
+    "name": "BAGO",
+    "frequency": 112600,
+    "laty": 17.31849444,
+    "lonx": 96.519875
+  },
+  {
+    "ident": "DWI",
+    "name": "DAWEI",
+    "frequency": 112000,
+    "laty": 14.10056111,
+    "lonx": 98.20680278
+  },
+  {
+    "ident": "PTN",
+    "name": "PATHEIN",
+    "frequency": 115600,
+    "laty": 16.80868889,
+    "lonx": 94.76955
+  },
+  {
+    "ident": "VAS",
+    "name": "ALOR SETAR",
+    "frequency": 113600,
+    "laty": 6.18566667,
+    "lonx": 100.397
+  },
+  {
+    "ident": "VKB",
+    "name": "KOTA BHARU",
+    "frequency": 112300,
+    "laty": 6.16345,
+    "lonx": 102.31421389
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "taxiway": [
+    "VTBD.txi"
+  ],
+  "gates": [
+    "VTBD.gts"
+  ],
+  "geo": [
+    "VTBD.geo",
+    "VTBS.geo",
+    "VTCC.geo",
+    "VTSP.geo",
+    "VTCT.geo"
+  ]
+}

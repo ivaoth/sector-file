@@ -1,0 +1,13 @@
+{
+  "icao": "VTBB",
+  "defaultPosition": "VTBB_CTR",
+  "defaultAirport": "VTBD",
+  "defaultCentrePoint": [
+    13.914443969726562,
+    100.60555267333984
+  ],
+  "ratio": [60, 58],
+  "magVar": 0.599,
+  "scalingFactor": 1,
+  "include": "VTBB"
+}
