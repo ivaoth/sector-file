@@ -3,13 +3,15 @@
     "VTBD.txi",
     "VTSG.txi",
     "VTBS.txi",
-    "VTSP.txi"
+    "VTSP.txi",
+    "VTCC.txi"
   ],
   "gates": [
     "VTBD.gts",
     "VTSG.gts",
     "VTBS.gts",
-    "VTSP.gts"
+    "VTSP.gts",
+    "VTCC.gts"
   ],
   "geo": [
     "VTBD.geo",
@@ -23,6 +25,7 @@
     "VTBD.tfl",
     "VTSG.tfl",
     "VTBS.tfl",
-    "VTSP.tfl"
+    "VTSP.tfl",
+    "VTCC.tfl"
   ]
 }
