@@ -1,18 +1,22 @@
 {
   "taxiway": [
-    "VTBD.txi"
+    "VTBD.txi",
+    "VTSG.txi"
   ],
   "gates": [
-    "VTBD.gts"
+    "VTBD.gts",
+    "VTSG.gts"
   ],
   "geo": [
     "VTBD.geo",
     "VTBS.geo",
     "VTCC.geo",
     "VTSP.geo",
-    "VTCT.geo"
+    "VTCT.geo",
+    "VTSG.geo"
   ],
   "fillcolor": [
-    "VTBD.tfl"
+    "VTBD.tfl",
+    "VTSG.tfl"
   ]
 }
