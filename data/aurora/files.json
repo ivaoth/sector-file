@@ -11,5 +11,8 @@
     "VTCC.geo",
     "VTSP.geo",
     "VTCT.geo"
+  ],
+  "fillcolor": [
+    "VTBD.tfl"
   ]
 }
