@@ -55,6 +55,7 @@ const extraFiles = JSON.parse(readFileSync(extraFilesFile).toString()) as {
   taxiway: string[];
   gates: string[];
   geo: string[];
+  fillcolor: string[];
 };
 
 out += '[INFO]\n';
@@ -173,6 +174,15 @@ for (const segment of geo) {
     out += `${segment[i].lat.toFixed(6)};${segment[i].lon.toFixed(6)};${segment[
       segment.length - 1
     ].lat.toFixed(6)};${segment[segment.length - 1].lon.toFixed(6)};Coast;\n`;
+  }
+}
+
+out += '[FILLCOLOR]\n';
+
+if (extraFiles.fillcolor) {
+  for (const ff of extraFiles.fillcolor) {
+    out += `F;${ff}\n`;
+    copySync(resolve(auroraPath, ff), resolve(auroraIncludePath, ff));
   }
 }
 
