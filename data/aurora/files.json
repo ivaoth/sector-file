@@ -9,7 +9,8 @@
     "VTSS.txi",
     "VTUK.txi",
     "VTSB.txi",
-    "VTPH.txi"
+    "VTPH.txi",
+    "VTBU.txi"
   ],
   "gates": [
     "VTBD.gts",
@@ -33,7 +34,8 @@
     "VTSS.geo",
     "VTUK.geo",
     "VTSB.geo",
-    "VTPH.geo"
+    "VTPH.geo",
+    "VTBU.geo"
   ],
   "fillcolor": [
     "VTBD.tfl",
@@ -45,6 +47,7 @@
     "VTSS.tfl",
     "VTUK.tfl",
     "VTSB.tfl",
-    "VTPH.tfl"
+    "VTPH.tfl",
+    "VTBU.tfl"
   ]
 }
