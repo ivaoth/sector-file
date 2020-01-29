@@ -24,7 +24,8 @@
     "VTUK.gts",
     "VTSB.gts",
     "VTPH.gts",
-    "VTCN.gts"
+    "VTCN.gts",
+    "VTCP.gts"
   ],
   "geo": [
     "VTBD.geo",
@@ -38,7 +39,8 @@
     "VTSB.geo",
     "VTPH.geo",
     "VTBU.geo",
-    "VTCN.geo"
+    "VTCN.geo",
+    "VTCP.geo"
   ],
   "fillcolor": [
     "VTBD.tfl",
@@ -52,6 +54,7 @@
     "VTSB.tfl",
     "VTPH.tfl",
     "VTBU.tfl",
-    "VTCN.tfl"
+    "VTCN.tfl",
+    "VTCP.tfl"
   ]
 }
