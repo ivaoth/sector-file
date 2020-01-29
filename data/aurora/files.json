@@ -11,7 +11,8 @@
     "VTSB.txi",
     "VTPH.txi",
     "VTBU.txi",
-    "VTCN.txi"
+    "VTCN.txi",
+    "VTCH.txi"
   ],
   "gates": [
     "VTBD.gts",
@@ -25,7 +26,8 @@
     "VTSB.gts",
     "VTPH.gts",
     "VTCN.gts",
-    "VTCP.gts"
+    "VTCP.gts",
+    "VTCH.gts"
   ],
   "geo": [
     "VTBD.geo",
@@ -40,7 +42,8 @@
     "VTPH.geo",
     "VTBU.geo",
     "VTCN.geo",
-    "VTCP.geo"
+    "VTCP.geo",
+    "VTCH.geo"
   ],
   "fillcolor": [
     "VTBD.tfl",
@@ -55,6 +58,7 @@
     "VTPH.tfl",
     "VTBU.tfl",
     "VTCN.tfl",
-    "VTCP.tfl"
+    "VTCP.tfl",
+    "VTCH.tfl"
   ]
 }
