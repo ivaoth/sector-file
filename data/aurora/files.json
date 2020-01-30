@@ -29,7 +29,8 @@
     "VTCN.gts",
     "VTCP.gts",
     "VTCH.gts",
-    "VTCL.gts"
+    "VTCL.gts",
+    "VTPO.gts"
   ],
   "geo": [
     "VTBD.geo",
@@ -46,7 +47,8 @@
     "VTCN.geo",
     "VTCP.geo",
     "VTCH.geo",
-    "VTCL.geo"
+    "VTCL.geo",
+    "VTPO.geo"
   ],
   "fillcolor": [
     "VTBD.tfl",
@@ -63,6 +65,7 @@
     "VTCN.tfl",
     "VTCP.tfl",
     "VTCH.tfl",
-    "VTCL.tfl"
+    "VTCL.tfl",
+    "VTPO.tfl"
   ]
 }
