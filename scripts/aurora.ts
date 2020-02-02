@@ -63,8 +63,8 @@ const extraFiles = JSON.parse(readFileSync(extraFilesFile).toString()) as {
 };
 
 out += '[INFO]\n';
-out += `${metadata.defaultCentrePoint[0].toFixed(6)}\n`;
-out += `${metadata.defaultCentrePoint[1].toFixed(6)}\n`;
+out += `${metadata.defaultCentrePoint[0].toFixed(7)}\n`;
+out += `${metadata.defaultCentrePoint[1].toFixed(7)}\n`;
 out += `${metadata.ratio[0]}\n`;
 out += `${metadata.ratio[1]}\n`;
 out += `${metadata.magVar}\n`;
@@ -77,7 +77,7 @@ out += '[AIRPORT]\n';
 for (const airport of airports) {
   out += `${airport.ident};${airport.altitude};11000;${airport.laty.toFixed(
     6
-  )};${airport.lonx.toFixed(6)};${airport.name};\n`;
+  )};${airport.lonx.toFixed(7)};${airport.name};\n`;
 }
 
 out += '[RUNWAY]\n';
@@ -88,9 +88,9 @@ for (const airport of airports) {
       runway.alt1
     };${runway.alt2};${(runway.hdg1 - airport.mag_var).toFixed(0)};${(
       runway.hdg2 - airport.mag_var
-    ).toFixed(0)};${runway.lat1.toFixed(6)};${runway.lon1.toFixed(
+    ).toFixed(0)};${runway.lat1.toFixed(7)};${runway.lon1.toFixed(
       6
-    )};${runway.lat2.toFixed(6)};${runway.lon2.toFixed(6)};\n`;
+    )};${runway.lat2.toFixed(7)};${runway.lon2.toFixed(7)};\n`;
   }
 }
 
@@ -113,7 +113,7 @@ out += '[FIXES]\n';
 // TODO: Fix type/Fix boundary
 
 for (const waypoint of waypoints) {
-  out += `${waypoint.ident};${waypoint.laty.toFixed(6)};${waypoint.lonx.toFixed(
+  out += `${waypoint.ident};${waypoint.laty.toFixed(7)};${waypoint.lonx.toFixed(
     6
   )};0;0;\n`;
 }
@@ -123,7 +123,7 @@ out += '[NDB]\n';
 for (const ndb of ndbs) {
   out += `${ndb.ident};${(ndb.frequency / 100).toFixed(3)};${ndb.laty.toFixed(
     6
-  )};${ndb.lonx.toFixed(6)};\n`;
+  )};${ndb.lonx.toFixed(7)};\n`;
 }
 
 out += '[VOR]\n';
@@ -131,7 +131,7 @@ out += '[VOR]\n';
 for (const vor of vors) {
   out += `${vor.ident};${(vor.frequency / 1000).toFixed(3)};${vor.laty.toFixed(
     6
-  )};${vor.lonx.toFixed(6)};\n`;
+  )};${vor.lonx.toFixed(7)};\n`;
 }
 
 out += '[LOW AIRWAY]\n';
@@ -146,11 +146,11 @@ out += '[AIRSPACE]\n';
 
 for (const fir of firs) {
   for (const point of fir.points) {
-    out += `T;${fir.code}_CTR;${point[0].toFixed(6)};${point[1].toFixed(6)};\n`;
+    out += `T;${fir.code}_CTR;${point[0].toFixed(7)};${point[1].toFixed(7)};\n`;
   }
   out += `T;${fir.code}_CTR;${fir.points[0][0].toFixed(
     6
-  )};${fir.points[0][1].toFixed(6)};\n`;
+  )};${fir.points[0][1].toFixed(7)};\n`;
 }
 
 out += '[SID]\n';
@@ -194,18 +194,18 @@ for (const segment of geo) {
   let i: number;
   for (i = 0; i <= segment.length - 1; i += skip) {
     if (i + skip <= segment.length - 1) {
-      out += `${segment[i].lat.toFixed(6)};${segment[i].lon.toFixed(
+      out += `${segment[i].lat.toFixed(7)};${segment[i].lon.toFixed(
         6
-      )};${segment[i + skip].lat.toFixed(6)};${segment[i + skip].lon.toFixed(
+      )};${segment[i + skip].lat.toFixed(7)};${segment[i + skip].lon.toFixed(
         6
       )};Coast;\n`;
     }
   }
   i -= skip;
   if (i !== segment.length - 1) {
-    out += `${segment[i].lat.toFixed(6)};${segment[i].lon.toFixed(6)};${segment[
+    out += `${segment[i].lat.toFixed(7)};${segment[i].lon.toFixed(7)};${segment[
       segment.length - 1
-    ].lat.toFixed(6)};${segment[segment.length - 1].lon.toFixed(6)};Coast;\n`;
+    ].lat.toFixed(7)};${segment[segment.length - 1].lon.toFixed(7)};Coast;\n`;
   }
 }
 
