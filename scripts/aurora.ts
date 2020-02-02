@@ -56,6 +56,10 @@ const extraFiles = JSON.parse(readFileSync(extraFilesFile).toString()) as {
   gates: string[];
   geo: string[];
   fillcolor: string[];
+  sid: string[];
+  star: string[];
+  vfrfix: string[];
+  mva: string[];
 };
 
 out += '[INFO]\n';
@@ -149,6 +153,34 @@ for (const fir of firs) {
   )};${fir.points[0][1].toFixed(6)};\n`;
 }
 
+out += '[SID]\n';
+
+for (const ef of extraFiles.sid) {
+  out += `F;${ef}\n`;
+  copySync(resolve(auroraPath, ef), resolve(auroraIncludePath, ef));
+}
+
+out += '[STAR]\n';
+
+for (const ef of extraFiles.star) {
+  out += `F;${ef}\n`;
+  copySync(resolve(auroraPath, ef), resolve(auroraIncludePath, ef));
+}
+
+out += '[VFRFIX]\n';
+
+for (const ef of extraFiles.vfrfix) {
+  out += `F;${ef}\n`;
+  copySync(resolve(auroraPath, ef), resolve(auroraIncludePath, ef));
+}
+
+out += '[MVA]\n';
+
+for (const ef of extraFiles.mva) {
+  out += `F;${ef}\n`;
+  copySync(resolve(auroraPath, ef), resolve(auroraIncludePath, ef));
+}
+
 out += '[GEO]\n';
 
 for (const gf of extraFiles.geo) {
@@ -179,11 +211,9 @@ for (const segment of geo) {
 
 out += '[FILLCOLOR]\n';
 
-if (extraFiles.fillcolor) {
-  for (const ff of extraFiles.fillcolor) {
-    out += `F;${ff}\n`;
-    copySync(resolve(auroraPath, ff), resolve(auroraIncludePath, ff));
-  }
+for (const ff of extraFiles.fillcolor) {
+  out += `F;${ff}\n`;
+  copySync(resolve(auroraPath, ff), resolve(auroraIncludePath, ff));
 }
 
 writeFileSync(outFile, out);
