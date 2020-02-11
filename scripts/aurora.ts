@@ -195,9 +195,9 @@ for (const segment of geo) {
   for (i = 0; i <= segment.length - 1; i += skip) {
     if (i + skip <= segment.length - 1) {
       out += `${segment[i].lat.toFixed(7)};${segment[i].lon.toFixed(
-        6
+        7
       )};${segment[i + skip].lat.toFixed(7)};${segment[i + skip].lon.toFixed(
-        6
+        7
       )};Coast;\n`;
     }
   }
