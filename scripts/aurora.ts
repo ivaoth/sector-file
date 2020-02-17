@@ -1,16 +1,22 @@
-import { readFileSync, writeFileSync, copySync } from 'fs-extra';
-import { resolve } from 'path';
 import {
-  Metadata,
+  copySync,
+  existsSync,
+  readFileSync,
+  removeSync,
+  writeFileSync
+} from 'fs-extra';
+import {resolve} from 'path';
+import {
   Airport,
-  Waypoint,
+  Fir,
+  Metadata,
   Ndb,
-  Vor,
   Segment,
-  Fir
+  Vor,
+  Waypoint
 } from '../utils/interfaces';
-import { formatAirways } from './utils/formatAirways';
-import { zipDirectory } from './utils/zipFolder'
+import {formatAirways} from './utils/formatAirways';
+import {zipDirectory} from './utils/zipFolder';
 
 const basePath = resolve(__dirname);
 const rootPath = resolve(basePath, '..');
@@ -18,7 +24,7 @@ const dataPath = resolve(rootPath, 'data');
 const generatedDataPath = resolve(dataPath, 'generated');
 const buildPath = resolve(rootPath, 'build');
 const resultPath = resolve(rootPath, 'result');
-const outPath = resolve(buildPath, 'aurora')
+const outPath = resolve(buildPath, 'aurora');
 const outFile = resolve(outPath, `vtbb.isc`);
 
 const metadataFile = resolve(dataPath, 'metadata.json');
@@ -49,7 +55,7 @@ const geo = JSON.parse(readFileSync(geoFile).toString()) as {
   lon: number;
 }[][];
 
-const auroraIncludePath = resolve(outPath, 'Include', metadata.include)
+const auroraIncludePath = resolve(outPath, 'Include', metadata.include);
 
 const extraFiles = JSON.parse(readFileSync(extraFilesFile).toString()) as {
   taxiway: string[];
@@ -61,6 +67,8 @@ const extraFiles = JSON.parse(readFileSync(extraFilesFile).toString()) as {
   vfrfix: string[];
   mva: string[];
 };
+
+removeSync(outPath);
 
 out += '[INFO]\n';
 out += `${metadata.defaultCentrePoint[0].toFixed(7)}\n`;
@@ -96,12 +104,28 @@ for (const airport of airports) {
 
 out += '[TAXIWAY]\n';
 
+for (const airport of airports) {
+  const fileName = `${airport.ident}.txi`;
+  const checkFile = resolve(auroraPath, fileName);
+  if (existsSync(checkFile)) {
+    copySync(checkFile, resolve(auroraIncludePath, fileName));
+  }
+}
+
 for (const tf of extraFiles.taxiway) {
   out += `F;${tf}\n`;
   copySync(resolve(auroraPath, tf), resolve(auroraIncludePath, tf));
 }
 
 out += '[GATES]\n';
+
+for (const airport of airports) {
+  const fileName = `${airport.ident}.gts`;
+  const checkFile = resolve(auroraPath, fileName);
+  if (existsSync(checkFile)) {
+    copySync(checkFile, resolve(auroraIncludePath, fileName));
+  }
+}
 
 for (const gf of extraFiles.gates) {
   out += `F;${gf}\n`;
@@ -155,12 +179,28 @@ for (const fir of firs) {
 
 out += '[SID]\n';
 
+for (const airport of airports) {
+  const fileName = `${airport.ident}.sid`;
+  const checkFile = resolve(auroraPath, fileName);
+  if (existsSync(checkFile)) {
+    copySync(checkFile, resolve(auroraIncludePath, fileName));
+  }
+}
+
 for (const ef of extraFiles.sid) {
   out += `F;${ef}\n`;
   copySync(resolve(auroraPath, ef), resolve(auroraIncludePath, ef));
 }
 
 out += '[STAR]\n';
+
+for (const airport of airports) {
+  const fileName = `${airport.ident}.str`;
+  const checkFile = resolve(auroraPath, fileName);
+  if (existsSync(checkFile)) {
+    copySync(checkFile, resolve(auroraIncludePath, fileName));
+  }
+}
 
 for (const ef of extraFiles.star) {
   out += `F;${ef}\n`;
@@ -169,6 +209,14 @@ for (const ef of extraFiles.star) {
 
 out += '[VFRFIX]\n';
 
+for (const airport of airports) {
+  const fileName = `${airport.ident}.vfi`;
+  const checkFile = resolve(auroraPath, fileName);
+  if (existsSync(checkFile)) {
+    copySync(checkFile, resolve(auroraIncludePath, fileName));
+  }
+}
+
 for (const ef of extraFiles.vfrfix) {
   out += `F;${ef}\n`;
   copySync(resolve(auroraPath, ef), resolve(auroraIncludePath, ef));
@@ -176,12 +224,28 @@ for (const ef of extraFiles.vfrfix) {
 
 out += '[MVA]\n';
 
+for (const airport of airports) {
+  const fileName = `${airport.ident}.mva`;
+  const checkFile = resolve(auroraPath, fileName);
+  if (existsSync(checkFile)) {
+    copySync(checkFile, resolve(auroraIncludePath, fileName));
+  }
+}
+
 for (const ef of extraFiles.mva) {
   out += `F;${ef}\n`;
   copySync(resolve(auroraPath, ef), resolve(auroraIncludePath, ef));
 }
 
 out += '[GEO]\n';
+
+for (const airport of airports) {
+  const fileName = `${airport.ident}.geo`;
+  const checkFile = resolve(auroraPath, fileName);
+  if (existsSync(checkFile)) {
+    copySync(checkFile, resolve(auroraIncludePath, fileName));
+  }
+}
 
 for (const gf of extraFiles.geo) {
   out += `F;${gf}\n`;
@@ -210,6 +274,14 @@ for (const segment of geo) {
 }
 
 out += '[FILLCOLOR]\n';
+
+for (const airport of airports) {
+  const fileName = `${airport.ident}.tfl`;
+  const checkFile = resolve(auroraPath, fileName);
+  if (existsSync(checkFile)) {
+    copySync(checkFile, resolve(auroraIncludePath, fileName));
+  }
+}
 
 for (const ff of extraFiles.fillcolor) {
   out += `F;${ff}\n`;
