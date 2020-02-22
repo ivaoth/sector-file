@@ -239,14 +239,6 @@ for (const ef of extraFiles.mva) {
 
 out += '[GEO]\n';
 
-for (const airport of airports) {
-  const fileName = `${airport.ident}.geo`;
-  const checkFile = resolve(auroraPath, fileName);
-  if (existsSync(checkFile)) {
-    copySync(checkFile, resolve(auroraIncludePath, fileName));
-  }
-}
-
 for (const gf of extraFiles.geo) {
   out += `F;${gf}\n`;
   copySync(resolve(auroraPath, gf), resolve(auroraIncludePath, gf));
