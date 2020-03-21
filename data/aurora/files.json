@@ -19,7 +19,10 @@
     "VTSP.geo",
     "VTSS.geo",
     "VTUD.geo",
-    "VTUK.geo"
+    "VTUK.geo",
+    "VTPP.geo",
+    "VTSM.geo",
+    "VTPT.geo"
   ],
   "fillcolor": [],
   "sid": [],
