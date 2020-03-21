@@ -25,7 +25,8 @@
     "VTSM.geo",
     "VTPT.geo",
     "VTPB.geo",
-    "VTUL.geo"
+    "VTUL.geo",
+    "VTUI.geo"
   ],
   "fillcolor": [],
   "sid": [],
