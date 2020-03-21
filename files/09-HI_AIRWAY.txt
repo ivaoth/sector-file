@@ -1,7 +1,7 @@
 [HIGH AIRWAY]
 A1                        PAPRA                         BUTRA                        
-                          BUTRA                         UBL                          
-                          UBL                           PASAT                        
+                          BUTRA                         VESAK                        
+                          VESAK                         PASAT                        
                           PASAT                         SANOT                        
                           SANOT                         TOPER                        
                           TOPER                         SELKA                        
@@ -38,7 +38,7 @@ A581                      BGO                           BOMAS
                           CMA                           ADLUS                        
                           ADLUS                         CTR                          
                           CTR                           PONUK                        
-B202                      UBL                           PAK                          
+B202                      VESAK                         PAK                          
 B204                      GOMES                         AGEDO                        
                           AGEDO                         SRE                          
 B205                      RYN                           BOKAK                        
@@ -71,7 +71,7 @@ G463                      PUMEK                         BETNO
                           TARED                         BKK                          
 G473                      MAKAS                         PSL                          
                           PSL                           CMP                          
-                          CMP                           UBL                          
+                          CMP                           VESAK                        
 G474                      BKK                           BATOK                        
                           BATOK                         MENAM                        
                           MENAM                         VIBUN                        
@@ -195,7 +195,7 @@ R468                      PNH                           BOKAK
                           GORSI                         BKK                          
 R470                      VTN                           UDN                          
                           UDN                           ROT                          
-                          ROT                           UBL                          
+                          ROT                           VESAK                        
 R474                      BKK                           ALBOS                        
                           ALBOS                         CMP                          
                           CMP                           LEDER                        
@@ -225,7 +225,7 @@ W1                        BKK                           MALKI
                           KRT                           RAMEI                        
                           RAMEI                         RAMBU                        
                           RAMBU                         GRASO                        
-                          GRASO                         UBL                          
+                          GRASO                         VESAK                        
 W10                       KPS                           VUTHI                        
                           VUTHI                         TL                           
 W12                       CMA                           MONLO                        
@@ -335,7 +335,7 @@ W38                       RAMEI                         BRM
 W39                       LOY                           PCB                          
                           PCB                           NOBER                        
 W4                        UDN                           ROT                          
-                          ROT                           UBL                          
+                          ROT                           VESAK                        
 W40                       PAE                           PCB                          
 W42                       MENEX                         EGUBO                        
                           EGUBO                         UPVIL                        
@@ -355,7 +355,7 @@ W42                       MENEX                         EGUBO
 W43                       CMP                           OKENA                        
 W5                        UDN                           KKN                          
                           KKN                           ROT                          
-                          ROT                           UBL                          
+                          ROT                           VESAK                        
 W6                        KRT                           KKN                          
                           KKN                           SKN                          
                           SKN                           NKP                          
