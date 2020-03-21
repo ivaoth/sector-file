@@ -275,9 +275,9 @@ for (const area of areas) {
       area.restrictive_type === 'D'
         ? 'Danger'
         : area.restrictive_type === 'R'
-        ? 'Restricted'
+        ? 'Restrict'
         : area.restrictive_type === 'P'
-        ? 'Prohibited'
+        ? 'Prohibit'
         : 'Unknown';
     for (const line of area.points.map((point, index, arr): [
       [number, number],
