@@ -3,7 +3,8 @@ import {
   existsSync,
   readFileSync,
   removeSync,
-  writeFileSync
+  writeFileSync,
+  ensureDirSync
 } from 'fs-extra';
 import {resolve} from 'path';
 import {
@@ -308,5 +309,7 @@ for (const ff of extraFiles.fillcolor) {
 }
 
 writeFileSync(outFile, out);
+
+ensureDirSync(resultPath);
 
 zipDirectory(outPath, resultFile);
