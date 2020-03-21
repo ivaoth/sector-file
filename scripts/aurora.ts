@@ -13,7 +13,8 @@ import {
   Ndb,
   Segment,
   Vor,
-  Waypoint
+  Waypoint,
+  Area
 } from '../utils/interfaces';
 import {formatAirways} from './utils/formatAirways';
 import {zipDirectory} from './utils/zipFolder';
@@ -34,6 +35,7 @@ const ndbsFile = resolve(generatedDataPath, 'ndbs.json');
 const vorsFile = resolve(generatedDataPath, 'vors.json');
 const airwaysFile = resolve(generatedDataPath, 'airways.json');
 const firsFile = resolve(generatedDataPath, 'firs.json');
+const areasFile = resolve(generatedDataPath, 'areas.json');
 const geoFile = resolve(dataPath, 'geo.json');
 const auroraPath = resolve(dataPath, 'aurora');
 const extraFilesFile = resolve(auroraPath, 'files.json');
@@ -50,6 +52,7 @@ const ndbs = JSON.parse(readFileSync(ndbsFile).toString()) as Ndb[];
 const vors = JSON.parse(readFileSync(vorsFile).toString()) as Vor[];
 const airways = JSON.parse(readFileSync(airwaysFile).toString()) as Segment[][];
 const firs = JSON.parse(readFileSync(firsFile).toString()) as Fir[];
+const areas = JSON.parse(readFileSync(areasFile).toString()) as Area[];
 const geo = JSON.parse(readFileSync(geoFile).toString()) as {
   lat: number;
   lon: number;
@@ -262,6 +265,30 @@ for (const segment of geo) {
     out += `${segment[i].lat.toFixed(7)};${segment[i].lon.toFixed(7)};${segment[
       segment.length - 1
     ].lat.toFixed(7)};${segment[segment.length - 1].lon.toFixed(7)};Coast;\n`;
+  }
+}
+
+for (const area of areas) {
+  if (area.restrictive_type) {
+    const colour =
+      area.restrictive_type === 'D'
+        ? 'Danger'
+        : area.restrictive_type === 'R'
+        ? 'Restricted'
+        : area.restrictive_type === 'P'
+        ? 'Prohibited'
+        : 'Unknown';
+    for (const line of area.points.map((point, index, arr): [
+      [number, number],
+      [number, number]
+    ] => {
+      if (index === arr.length - 1) {
+        return [point, arr[0]];
+      }
+      return [point, arr[index + 1]];
+    })) {
+      out += `${line[0][1].toFixed(7)};${line[0][0].toFixed(7)};${line[1][1].toFixed(7)};${line[1][0].toFixed(7)};${colour};\n`
+    }
   }
 }
 
