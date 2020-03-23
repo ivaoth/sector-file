@@ -62,6 +62,7 @@ const geo = JSON.parse(readFileSync(geoFile).toString()) as {
 const auroraIncludePath = resolve(outPath, 'Include', metadata.include);
 
 const extraFiles = JSON.parse(readFileSync(extraFilesFile).toString()) as {
+  atc: string[];
   taxiway: string[];
   gates: string[];
   geo: string[];
@@ -83,7 +84,20 @@ out += `${metadata.magVar}\n`;
 out += `${metadata.include}\n`;
 
 // TODO: DEFINE
-// TODO: ATC
+out += '[ATC]\n'
+
+for (const airport of airports) {
+  const fileName = `${airport.ident}.atc`;
+  const checkFile = resolve(auroraPath, fileName);
+  if (existsSync(checkFile)) {
+    copySync(checkFile, resolve(auroraIncludePath, fileName));
+  }
+}
+
+for (const tf of extraFiles.atc) {
+  out += `F;${tf}\n`;
+  copySync(resolve(auroraPath, tf), resolve(auroraIncludePath, tf));
+}
 
 out += '[AIRPORT]\n';
 for (const airport of airports) {
