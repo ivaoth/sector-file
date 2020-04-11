@@ -1,6 +1,7 @@
 import { open, Database } from 'sqlite';
+import * as sqlite3 from 'sqlite3';
 import { resolve } from 'path';
-import { Coordinate, convertCoordinate, convertPoint } from './latlon';
+import { convertPoint } from './latlon';
 import { writeFileSync, ensureDirSync } from 'fs-extra';
 import * as inquirer from 'inquirer';
 
@@ -61,10 +62,11 @@ const pointInPolygon = (point: number[], polygon: number[][]) => {
 };
 
 const main = async () => {
-  const db = await open(
-    resolve(basePath, '..', 'little_navmap_navigraph.sqlite')
-  );
-  const { geometry: fir, ...firMetadata } = await db.get<{
+  const db = await open({
+    filename: resolve(basePath, '..', 'little_navmap_navigraph.sqlite'),
+    driver: sqlite3.Database
+  });
+  const { geometry: fir, ...firMetadata } = (await db.get<{
     geometry: Buffer;
     max_laty: number;
     max_lonx: number;
@@ -72,7 +74,7 @@ const main = async () => {
     min_lonx: number;
   }>(
     `SELECT * FROM 'boundary' WHERE name LIKE '%${firName}%' AND type = 'C' LIMIT 1`
-  );
+  ))!;
   const firPoints: number[][] = [];
   let index = 0;
   const size = fir.readInt32BE(index);
@@ -81,9 +83,9 @@ const main = async () => {
     firPoints.push([fir.readFloatBE(index), fir.readFloatBE(index + 4)]);
     index += 8;
   }
-  const { count: boundaryCount } = await db.get<{ count: number }>(
+  const { count: boundaryCount } = (await db.get<{ count: number }>(
     `SELECT MAX(boundary_id) AS 'count' FROM 'boundary';`
-  );
+  ))!;
   let drpOut = '';
   let tmaOut = '';
   for (let i = 1; i <= boundaryCount; i++) {

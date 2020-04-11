@@ -2,6 +2,7 @@ import { ensureDirSync, writeFileSync } from 'fs-extra';
 import { resolve } from 'path';
 import { SQL } from 'sql-template-strings';
 import { open } from 'sqlite';
+import { Database } from 'sqlite3';
 import { legsToPoints } from './utils/legs-to-points';
 import pad = require('pad');
 
@@ -16,8 +17,11 @@ const allowedAirports = ['VTBD', 'VTBS', 'VTSP'];
 ensureDirSync(buildStarPath);
 
 const main = async () => {
-  const db = await open(databasePath);
-  const airports = await db.all<{ airport_id: number; ident: string }>(SQL`
+  const db = await open({
+    filename: databasePath,
+    driver: Database
+  });
+  const airports = await db.all<{ airport_id: number; ident: string }[]>(SQL`
     SELECT
       airport_id, ident
     FROM
@@ -44,7 +48,7 @@ const main = async () => {
       runway_name: string;
       runway_end_id: number;
       arinc_name: string;
-    }>(SQL`
+    }[]>(SQL`
       SELECT
         approach_id, fix_ident, runway_name, runway_end_id, arinc_name
       FROM
@@ -71,7 +75,7 @@ const main = async () => {
           type: string;
           fix_ident: string;
           fix_type: string;
-        }>(SQL`
+        }[]>(SQL`
           SELECT
             approach_leg_id as leg_id, type, fix_ident, fix_type
           FROM
@@ -91,7 +95,7 @@ const main = async () => {
         const star_transitions = await db.all<{
           fix_ident: string;
           transition_id: number;
-        }>(SQL`
+        }[]>(SQL`
           SELECT
             fix_ident, transition_id
           FROM
@@ -116,7 +120,7 @@ const main = async () => {
             leg_id: number;
             type: string;
             fix_ident: string;
-          }>(SQL`
+          }[]>(SQL`
             SELECT
               transition_leg_id as leg_id, type, fix_ident
             FROM

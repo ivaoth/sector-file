@@ -1,4 +1,5 @@
 import * as sqlite from "sqlite";
+import * as sqlite3 from 'sqlite3';
 import { resolve } from "path";
 import { writeFileSync, ensureDirSync } from "fs-extra";
 import { SQL } from "sql-template-strings";
@@ -94,10 +95,11 @@ const main = async () => {
   ensureDirSync(buildPath);
 
   const data: Airport[] = [];
-  const db = sqlite.open(
-    resolve(basePath, "..", "little_navmap_navigraph.sqlite")
-  );
-  const airports = (await db).all<AirportDbData>(SQL`
+  const db = sqlite.open({
+    filename: resolve(basePath, "..", "little_navmap_navigraph.sqlite"),
+    driver: sqlite3.Database
+  });
+  const airports = (await db).all<AirportDbData[]>(SQL`
   SELECT
     airport_id, ident, name, tower_frequency, lonx, laty, mag_var, altitude
   FROM
@@ -105,7 +107,7 @@ const main = async () => {
   where
     region = "VT"
   `);
-  const runways = (await db).all<RunwayDbData>(SQL`
+  const runways = (await db).all<RunwayDbData[]>(SQL`
   SELECT
     airport.airport_id,
     RE1.name AS runway1,

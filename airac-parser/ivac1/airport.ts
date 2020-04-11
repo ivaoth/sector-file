@@ -1,7 +1,9 @@
 import * as sqlite3 from 'sqlite3';
+import * as sqlite from 'sqlite';
 import { resolve } from 'path';
-import { Coordinate, convertCoordinate, convertPoint } from './latlon';
+import { convertPoint } from './latlon';
 import { writeFileSync, ensureDirSync } from 'fs-extra';
+import SQL from 'sql-template-strings';
 
 const aptAirspaceMap: any = {
   VTCH: 'D',
@@ -96,23 +98,6 @@ const buildRwyPath = resolve(buildPath, '06-RUNWAY');
 ensureDirSync(buildAptPath);
 ensureDirSync(buildRwyPath);
 
-const db = new sqlite3.Database(
-  resolve(basePath, '..' , 'little_navmap_navigraph.sqlite')
-);
-
-const query = (db: sqlite3.Database, queryStr: string): Promise<any[]> => {
-  return new Promise((resolve, reject) => {
-    db.all(queryStr, (err, rows) => {
-      if (err) {
-        console.log(err);
-        reject(err);
-      } else {
-        resolve(rows);
-      }
-    });
-  });
-};
-
 const getHdg = (airport: {
   airport_id: number;
   ident: string;
@@ -148,6 +133,10 @@ const main = async () => {
   let outRwy = '';
   const zeroPadder = '0000000';
   const spacePadder = '       ';
+  const db = sqlite.open({
+    filename: resolve(basePath, '..' , 'little_navmap_navigraph.sqlite'),
+    driver: sqlite3.Database
+  });
   const data: {
     airport_id: number;
     ident: string;
@@ -156,17 +145,17 @@ const main = async () => {
     lonx: number;
     laty: number;
     mag_var: number;
-  }[] = await query(
-    db,
-    `SELECT
-  airport_id, ident, name, tower_frequency, lonx, laty, mag_var
-  FROM
-  airport
-  where
-  ident LIKE 'VT%'
-  AND
-  country = 'PAC'`
-  );
+  }[] =
+    await ((await db).all(SQL`
+      SELECT
+      airport_id, ident, name, tower_frequency, lonx, laty, mag_var
+      FROM
+      airport
+      where
+      ident LIKE 'VT%'
+      AND
+      country = 'PAC'`
+    ));
   for (let airport of data) {
     out += airport.ident;
     out += ' ';
@@ -190,8 +179,7 @@ const main = async () => {
       hdg2: number;
       lat2: number;
       lon2: number;
-    }[] = await query(
-      db,
+    }[] = await ((await db).all(
       `SELECT
       RE1.name as name1, RE1.heading as hdg1, RE1.laty as lat1, RE1.lonx as lon1, RE2.name as name2, RE2.heading as hdg2, RE2.laty as lat2, RE2.lonx as lon2
       FROM
@@ -206,7 +194,7 @@ const main = async () => {
       R.secondary_end_id = RE2.runway_end_id
       WHERE
       airport_id = ${airport.airport_id}`
-    );
+    ));
     for (const runway of runways) {
       outRwy += `${(runway.name1 + spacePadder).substring(0, 4)}`;
       outRwy += `${(runway.name2 + spacePadder).substring(0, 4)}`;

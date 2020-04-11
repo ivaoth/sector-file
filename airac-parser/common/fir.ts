@@ -1,4 +1,5 @@
 import * as sqlite from 'sqlite';
+import * as sqlite3 from 'sqlite3';
 import { resolve } from 'path';
 import { writeFileSync, ensureDirSync } from 'fs-extra';
 import { Fir } from '../../utils/interfaces';
@@ -14,9 +15,10 @@ const main = async () => {
 
   ensureDirSync(buildPath);
 
-  const db = sqlite.open(
-    resolve(basePath, '..', 'little_navmap_navigraph.sqlite')
-  );
+  const db = sqlite.open({
+    filename: resolve(basePath, '..', 'little_navmap_navigraph.sqlite'),
+    driver: sqlite3.Database
+  });
 
   const firs = [
     ['VTBB', 'Bangkok'],
@@ -42,7 +44,7 @@ const main = async () => {
       type = 'C'
       LIMIT 1
     `);
-    const data = (await firData).geometry;
+    const data = (await firData)!.geometry;
     let index = 0;
     const size = data.readInt32BE(index);
     index += 4;

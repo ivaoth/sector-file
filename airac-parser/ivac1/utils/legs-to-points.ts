@@ -6,7 +6,7 @@ const logKnownLegTypes = false;
 
 const getLegOutput = async (leg: { leg_id: number; type: string; fix_ident: string; fix_type?: string }, airportId?: number, db?: Database) => {
   if (airportId && leg.fix_type && db) {
-    const fix: {type: string; lonx: number; laty: number} = await db.get(
+    const fix: {type: string; lonx: number; laty: number} = (await db.get(
       SQL`
       SELECT
       type, lonx, laty
@@ -17,7 +17,7 @@ const getLegOutput = async (leg: { leg_id: number; type: string; fix_ident: stri
       AND
       airport_id = ${airportId}
       `
-    );
+    ))!;
     if (fix) {
       if (fix.type === 'WU') {
         return convertPoint([fix.lonx, fix.laty]);

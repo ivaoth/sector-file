@@ -2,6 +2,7 @@ import { ensureDirSync, writeFileSync } from 'fs-extra';
 import { resolve } from 'path';
 import { SQL } from 'sql-template-strings';
 import { open } from 'sqlite';
+import { Database } from 'sqlite3';
 import { convertPoint } from './latlon';
 import { legsToPoints } from './utils/legs-to-points';
 import pad = require('pad');
@@ -18,8 +19,11 @@ const allowedAirports = ['VTBD', 'VTBS', 'VTSP', 'VTPM'];
 ensureDirSync(buildSidPath);
 
 const main = async () => {
-  const db = await open(databasePath);
-  const airports = await db.all<{ airport_id: number; ident: string }>(SQL`
+  const db = await open({
+    filename: databasePath,
+    driver: Database
+  });
+  const airports = await db.all<{ airport_id: number; ident: string }[]>(SQL`
     SELECT
       airport_id, ident
     FROM
@@ -46,7 +50,7 @@ const main = async () => {
       runway_name: string;
       runway_end_id: number;
       arinc_name: string;
-    }>(SQL`
+    }[]>(SQL`
       SELECT
         approach_id, fix_ident, runway_name, runway_end_id, arinc_name
       FROM
@@ -68,19 +72,19 @@ const main = async () => {
         const name = `${ident}-${sid.arinc_name} ${sid.fix_ident}`;
         console.log(`>> Processing ${name} (${sid_id})`);
         // Find runway end coordinates
-        const runway_end = await db.get<{ end_type: string }>(SQL`
+        const runway_end = (await db.get<{ end_type: string }>(SQL`
           SELECT
             end_type
           FROM
             runway_end
           WHERE
             runway_end_id = ${sid.runway_end_id}
-        `);
+        `))!;
         const field =
           runway_end.end_type === 'P' ? 'primary_end_id' : 'secondary_end_id';
         const other_field =
           runway_end.end_type === 'S' ? 'primary_end_id' : 'secondary_end_id';
-        const runway = await db.get<{
+        const runway = (await db.get<{
           other_end_id: number;
         }>(
           `
@@ -92,9 +96,9 @@ const main = async () => {
             ${field} = ?
         `,
           [sid.runway_end_id]
-        );
+        ))!;
         const other_runway_end_id = runway.other_end_id;
-        const other_runway_end = await db.get<{
+        const other_runway_end = (await db.get<{
           laty: number;
           lonx: number;
         }>(SQL`
@@ -104,13 +108,13 @@ const main = async () => {
             runway_end
           WHERE
             runway_end_id = ${other_runway_end_id}
-        `);
+        `))!;
         // Query for legs
         const legs = await db.all<{
           leg_id: number;
           type: string;
           fix_ident: string;
-        }>(SQL`
+        }[]>(SQL`
           SELECT
             approach_leg_id as leg_id, type, fix_ident
           FROM

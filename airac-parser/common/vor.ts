@@ -1,4 +1,5 @@
 import * as sqlite from 'sqlite';
+import * as sqlite3 from 'sqlite3';
 import { resolve } from 'path';
 import {
   writeFileSync,
@@ -24,10 +25,11 @@ const main = async () => {
   const extraFile = resolve(buildPath, '_airway-extras.json');
 
   ensureDirSync(buildPath);
-  const db = sqlite.open(
-    resolve(basePath, '..', 'little_navmap_navigraph.sqlite')
-  );
-  const vors: Promise<Vor[]> = (await db).all<VorDbData>(SQL`
+  const db = sqlite.open({
+    filename: resolve(basePath, '..', 'little_navmap_navigraph.sqlite'),
+    driver: sqlite3.Database
+  });
+  const vors: Promise<Vor[]> = (await db).all<VorDbData[]>(SQL`
     SELECT
     ident, name, frequency, laty, lonx
     FROM
@@ -39,7 +41,7 @@ const main = async () => {
   if (existsSync(extraFile)) {
     const extra = JSON.parse(readFileSync(extraFile).toString()) as number[];
     const ids = `(${extra.join(',')})`;
-    const extraVors: Promise<Vor[]> = (await db).all<VorDbData>(
+    const extraVors: Promise<Vor[]> = (await db).all<VorDbData[]>(
       SQL`
       SELECT
       V.ident, V.name, V.frequency, V.laty, V.lonx

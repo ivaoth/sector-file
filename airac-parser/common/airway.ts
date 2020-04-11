@@ -1,4 +1,5 @@
 import * as sqlite from 'sqlite';
+import * as sqlite3 from 'sqlite3';
 import { resolve } from 'path';
 import { writeFileSync, ensureDirSync, readFileSync } from 'fs-extra';
 import SQL from 'sql-template-strings';
@@ -31,11 +32,12 @@ const main = async () => {
 
   ensureDirSync(buildPath);
 
-  const db = sqlite.open(
-    resolve(basePath, '..', 'little_navmap_navigraph.sqlite')
-  );
+  const db = sqlite.open({
+    filename: resolve(basePath, '..', 'little_navmap_navigraph.sqlite'),
+    driver: sqlite3.Database
+  });
 
-  const filteredSegments = (await db).all<SegmentsDbData>(SQL`
+  const filteredSegments = (await db).all<SegmentsDbData[]>(SQL`
   SELECT
     airway.airway_name AS name,
     airway.airway_fragment_no AS segment_no,

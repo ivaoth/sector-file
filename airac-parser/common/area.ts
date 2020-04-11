@@ -2,6 +2,7 @@ import { ensureDirSync, writeFileSync } from 'fs-extra';
 import { resolve } from 'path';
 import SQL from 'sql-template-strings';
 import { Database, open } from 'sqlite';
+import * as sqlite3 from 'sqlite3';
 import { Area } from '../../utils/interfaces';
 
 interface AreaDbData {
@@ -74,12 +75,12 @@ const main = async () => {
   const buildFile = resolve(buildPath, 'areas.json');
   const data: Area[] = [];
   ensureDirSync(buildPath);
-  const db = open(resolve(basePath, '..', 'little_navmap_navigraph.sqlite'));
-  const { geometry: fir } = await (await db).get<{
+  const db = open({filename: resolve(basePath, '..', 'little_navmap_navigraph.sqlite'), driver: sqlite3.Database});
+  const { geometry: fir } = (await (await db).get<{
     geometry: Buffer;
   }>(
     `SELECT geometry FROM 'boundary' WHERE name LIKE '%${firName}%' AND type = 'C' LIMIT 1`
-  );
+  ))!;
   const firPoints: [number, number][] = [];
   let index = 0;
   const size = fir.readInt32BE(index);
@@ -88,9 +89,9 @@ const main = async () => {
     firPoints.push([fir.readFloatBE(index), fir.readFloatBE(index + 4)]);
     index += 8;
   }
-  const { count: boundaryCount } = await (await db).get<{ count: number }>(
+  const { count: boundaryCount } = (await (await db).get<{ count: number }>(
     SQL`SELECT MAX(boundary_id) AS 'count' FROM 'boundary';`
-  );
+  ))!;
   for (let i = 1; i <= boundaryCount; i++) {
     const boundary = await getBoundary(i, db);
     if (boundary && boundary.type !== 'C') {
