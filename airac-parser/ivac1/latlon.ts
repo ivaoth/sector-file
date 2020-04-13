@@ -1,4 +1,4 @@
-const pad = require('left-pad');
+import pad from 'left-pad';
 
 export enum Coordinate {
   Latitude,

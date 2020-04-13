@@ -1,39 +1,9 @@
-import { Database } from 'sqlite3';
-import { open } from 'sqlite';
-import { resolve } from 'path';
+import { Database } from 'sqlite';
 import { convertPoint } from './latlon';
-import { writeFileSync, ensureDirSync } from 'fs-extra';
+import SQL from 'sql-template-strings';
 
-(async () => {
-  const basePath = resolve(__dirname);
-  const buildPath = resolve(basePath, 'build', '02-VOR');
-
-  ensureDirSync(buildPath);
-
-  const db = await open({
-    filename: resolve(basePath, '..' , 'little_navmap_navigraph.sqlite'),
-    driver: Database
-  });
-
-  let inclusion = [
-    'BGO',
-    'DWI',
-    'LPB',
-    'PAK',
-    'PNH',
-    'PTN',
-    'SAV',
-    'SRE',
-    'VAS',
-    'VKB',
-    'VTN'
-  ];
-
-  if (process.env['INSIDE_ONLY'] === 'true') {
-    console.log('This is going to get data inside Bangkok FIR only, be sure to run the IvAc sector file checker.');
-    inclusion = [];
-  }
-  const vors = await db.all<{
+export const extractVORs = async (db: Promise<Database>, extras: number[]) => {
+  const vors = await (await db).all<{
     ident: string;
     name: string;
     frequency: number;
@@ -49,54 +19,58 @@ import { writeFileSync, ensureDirSync } from 'fs-extra';
     region = 'VT'
     `
   );
-  let out = '';
-  let outNearby = '';
+  let VOROut = '';
+  let VORNearbyOut = '';
   const padder1 = '    ';
   const padder2 = '000';
   for (let i = 0; i <= vors.length - 1; i++) {
     const row = vors[i];
-    out += (row.ident + padder1).substr(0, 4);
+    VOROut += (row.ident + padder1).substr(0, 4);
     const num1 = Math.floor(row.frequency / 1000);
     const num2 = row.frequency % 1000;
-    out += `${num1}.${(num2 + padder2).substr(0, 3)} `;
-    out += convertPoint([row.laty, row.lonx], true);
-    out += ` ;- ${row.name}`;
-    out += '\n';
+    VOROut += `${num1}.${(num2 + padder2).substr(0, 3)} `;
+    VOROut += convertPoint([row.laty, row.lonx], true);
+    VOROut += ` ;- ${row.name}`;
+    VOROut += '\n';
   }
 
-  outNearby += ';- Followings are VOR outside Bangkok FIR\n';
+  VORNearbyOut += ';- Followings are VOR outside Bangkok FIR\n';
 
-  for (let vor of inclusion) {
-    const data = (await db.get<{
-      ident: string,
-      frequency: number,
-      laty: number,
-      lonx: number,
-      name: string
-    }>(
-      `
+  const ids = `(${extras.join(',')})`
+
+  const extraVors = (await db).all<{
+    ident: string,
+    frequency: number,
+    laty: number,
+    lonx: number,
+    name: string
+  }[]>(
+    SQL`
     SELECT
-    *
+    V.ident, V.name, V.frequency, V.laty, V.lonx
     FROM
-    vor
-    WHERE
-    ident = '${vor}'
-    AND
     (
-      region LIKE 'V%'
-      OR
-      region LIKE 'W%'
+      waypoint W
+      INNER JOIN
+      vor V
+      ON W.nav_id = V.vor_id
     )
-    `
-    ))!;
-    outNearby += (data.ident + padder1).substr(0, 4);
-    const num1 = Math.floor(data.frequency / 1000);
-    const num2 = data.frequency % 1000;
-    outNearby += `${num1}.${(num2 + padder2).substr(0, 3)} `;
-    outNearby += convertPoint([data.laty, data.lonx], true);
-    outNearby += ` ;- ${data.name}`;
-    outNearby += '\n';
+    WHERE
+    w.waypoint_id IN
+  `.append(ids).append(SQL`
+    AND
+    W.type = 'V'
+  `)
+  );
+
+  for (const vor of (await extraVors).sort((a, b) => a.ident < b.ident ? -1 : a.ident === b.ident ? 0 : 1)) {
+    VORNearbyOut += (vor.ident + padder1).substr(0, 4);
+    const num1 = Math.floor(vor.frequency / 1000);
+    const num2 = vor.frequency % 1000;
+    VORNearbyOut += `${num1}.${(num2 + padder2).substr(0, 3)} `;
+    VORNearbyOut += convertPoint([vor.laty, vor.lonx], true);
+    VORNearbyOut += ` ;- ${vor.name}`;
+    VORNearbyOut += '\n';
   }
-  writeFileSync(resolve(buildPath, '02-THAI.txt'), out);
-  writeFileSync(resolve(buildPath, '03-NEARBY.txt'), outNearby);
-})();
+  return {VOROut, VORNearbyOut};
+};

@@ -1,58 +1,10 @@
-import { Database } from 'sqlite3';
-import { open } from 'sqlite';
-import { resolve } from 'path';
+import { Database } from 'sqlite';
 import { convertPoint } from './latlon';
-import { writeFileSync, ensureDirSync } from 'fs-extra';
+import SQL from 'sql-template-strings';
 
-(async () => {
-  const basePath = resolve(__dirname);
-  const buildPath = resolve(basePath, 'build', '04-FIXES');
+export const extractWaypoints = async (db: Promise<Database>, extras: number[]) => {
 
-  ensureDirSync(buildPath);
-
-  const db = await open({
-    filename: resolve(basePath, '..' , 'little_navmap_navigraph.sqlite'),
-    driver: Database
-  });
-
-  let inclusion: string[] = [
-    'ARATO',
-    'BASIT',
-    'BIDEM',
-    'DALAN',
-    'DALER',
-    'EKAVO',
-    'GOGOM',
-    'KADAX',
-    'KAKIP',
-    'KARMI',
-    'MAKAS',
-    'OBMOG',
-    'ODONO',
-    'PADET',
-    'PAPDA',
-    'PAPRA',
-    'PASVA',
-    'PONUK',
-    'POXEM',
-    'PUMEK',
-    'RIGTO',
-    'RIMSO',
-    'RUSET',
-    'SAKDA',
-    'SAPAM',
-    'SISUK',
-    'TAVUN',
-    'TOMIP',
-    'VIBUN',
-    'XONAN'
-  ];
-
-  if (process.env['INSIDE_ONLY'] === 'true') {
-    console.log('This is going to get data inside Bangkok FIR only, be sure to run the IvAc sector file checker.');
-    inclusion = [];
-  }
-  const waypoints = await db.all<{
+  const waypoints = await (await db).all<{
     ident: string;
     laty: number;
     lonx: number;
@@ -70,48 +22,47 @@ import { writeFileSync, ensureDirSync } from 'fs-extra';
     )
     `
   );
-  let out = '';
-  let outNearby = '';
+  let waypointsOut = '';
+  let waypointsNearbyOut = '';
   const padder1 = '       ';
-  const padder2 = '000';
   for (let i = 0; i <= waypoints.length - 1; i++) {
     const row = waypoints[i];
-    out += (row.ident + padder1).substr(0, 6);
-    out += convertPoint([row.laty, row.lonx], true);
-    out += '\n';
+    waypointsOut += (row.ident + padder1).substr(0, 6);
+    waypointsOut += convertPoint([row.laty, row.lonx], true);
+    waypointsOut += '\n';
   }
 
-  outNearby += ';- Followings are fixes outside Bangkok FIR\n';
+  waypointsNearbyOut += ';- Followings are fixes outside Bangkok FIR\n';
 
-  for (let wpt of inclusion) {
-    const data = (await db.get<{
-      ident: string,
-      laty: number,
-      lonx: number
-    }>(
-      `
-      SELECT
-      *
-      FROM
-      waypoint
-      WHERE
-      ident = '${wpt}'
-      AND
-      (
-        region LIKE 'V%'
-        OR
-        region LIKE 'W%'
-      )
-      AND
-      (
-        type = 'WN'
-      )
-    `
-    ))!;
-    outNearby += (data.ident + padder1).substr(0, 6);
-    outNearby += convertPoint([data.laty, data.lonx], true);
-    outNearby += '\n';
+  const ids = `(${extras.join(',')})`;
+
+  const extraWaypoints = (await db).all<{
+    ident: string,
+    laty: number,
+    lonx: number
+  }[]>(
+    SQL`
+    SELECT
+    ident, laty, lonx
+    FROM
+    waypoint
+    WHERE
+    waypoint_id IN
+  `.append(ids).append(SQL`
+    AND
+    (
+      type = 'WN'
+      OR
+      type = 'WU'
+    )
+  `)
+  );
+
+  for (const wpt of (await extraWaypoints).sort((a, b) => a.ident < b.ident ? -1 : a.ident === b.ident ? 0 : 1)) {
+    waypointsNearbyOut += (wpt.ident + padder1).substr(0, 6);
+    waypointsNearbyOut += convertPoint([wpt.laty, wpt.lonx], true);
+    waypointsNearbyOut += '\n';
   }
-  writeFileSync(resolve(buildPath, '02-THAI.txt'), out);
-  writeFileSync(resolve(buildPath, '03-NEARBY.txt'), outNearby);
-})();
+
+  return {waypointsOut, waypointsNearbyOut};
+};

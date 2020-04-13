@@ -8,8 +8,7 @@
     "build:ivac1": "ts-node ./scripts/ivac1.ts",
     "build:aurora": "ts-node ./scripts/aurora.ts",
     "build": "npm run build:ivac1 && npm run build:aurora",
-    "parse:ivac1": "ts-node ./airac-parser/ivac1/airport.ts && ts-node ./airac-parser/ivac1/airway.ts && ts-node ./airac-parser/ivac1/fir.ts && ts-node ./airac-parser/ivac1/ndb.ts && ts-node ./airac-parser/ivac1/vor.ts && ts-node ./airac-parser/ivac1/waypoint.ts && ts-node ./airac-parser/ivac1/area.ts && ts-node ./airac-parser/ivac1/sid.ts && ts-node ./airac-parser/ivac1/star.ts",
-    "parse:ivac1:inside": "INSIDE_ONLY=true npm run parse",
+    "parse:ivac1": "ts-node ./airac-parser/ivac1",
     "parse:aurora": "ts-node ./airac-parser/common/airport.ts && ts-node ./airac-parser/common/airway.ts && ts-node ./airac-parser/common/area.ts && ts-node ./airac-parser/common/fir.ts && ts-node ./airac-parser/common/ndb.ts && ts-node ./airac-parser/common/vor.ts && ts-node ./airac-parser/common/waypoint.ts"
   },
   "repository": {
