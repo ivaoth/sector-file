@@ -1,7 +1,7 @@
 [HIGH AIRWAY]
 A1                        PAPRA                         BUTRA                        
-                          BUTRA                         VESAK                        
-                          VESAK                         PASAT                        
+                          BUTRA                         UBL                          
+                          UBL                           PASAT                        
                           PASAT                         SANOT                        
                           SANOT                         TOPER                        
                           TOPER                         SELKA                        
@@ -38,7 +38,7 @@ A581                      BGO                           BOMAS
                           CMA                           ADLUS                        
                           ADLUS                         BURBI                        
                           BURBI                         PONUK                        
-B202                      VESAK                         PAK                          
+B202                      UBL                           PAK                          
 B204                      GOMES                         AGEDO                        
                           AGEDO                         SRE                          
 B205                      BOPTO                         BOKAK                        
@@ -71,7 +71,7 @@ G463                      PUMEK                         BETNO
                           TARED                         BKK                          
 G473                      MAKAS                         PSL                          
                           PSL                           CMP                          
-                          CMP                           VESAK                        
+                          CMP                           UBL                          
 G474                      BKK                           BATOK                        
                           BATOK                         MENAM                        
                           MENAM                         VIBUN                        
@@ -195,7 +195,7 @@ R468                      PNH                           BOKAK
                           GORSI                         BKK                          
 R470                      VTN                           UDN                          
                           UDN                           ROT                          
-                          ROT                           VESAK                        
+                          ROT                           UBL                          
 R474                      BKK                           ALBOS                        
                           ALBOS                         CMP                          
                           CMP                           LEDER                        
@@ -225,7 +225,7 @@ W1                        BKK                           MALKI
                           KRT                           RAMEI                        
                           RAMEI                         RAMBU                        
                           RAMBU                         GRASO                        
-                          GRASO                         VESAK                        
+                          GRASO                         UBL                          
 W10                       KPS                           VUTHI                        
                           VUTHI                         TL                           
 W12                       CMA                           MONLO                        
@@ -329,13 +329,14 @@ W35                       UPNEP                         PINUN
                           NKS                           TRN                          
 W36                       CMA                           LAMUN                        
                           LAMUN                         MACHI                        
-                          MACHI                         MHS                          
+                          MACHI                         DOMKA                        
+                          DOMKA                         KAKTA                        
 W38                       RAMEI                         BRM                          
                           BRM                           ROT                          
 W39                       LOY                           PCB                          
                           PCB                           NOBER                        
 W4                        UDN                           ROT                          
-                          ROT                           VESAK                        
+                          ROT                           UBL                          
 W40                       PAE                           PCB                          
 W42                       MENEX                         EGUBO                        
                           EGUBO                         UPVIL                        
@@ -355,7 +356,7 @@ W42                       MENEX                         EGUBO
 W43                       CMP                           OKENA                        
 W5                        UDN                           KKN                          
                           KKN                           ROT                          
-                          ROT                           VESAK                        
+                          ROT                           UBL                          
 W6                        KRT                           KKN                          
                           KKN                           SKN                          
                           SKN                           NKP                          
@@ -371,7 +372,8 @@ W9                        BKK                           TL
                           SARIM                         PANTA                        
                           PANTA                         CMA                          
                           CMA                           VISES                        
-                          VISES                         MHS                          
+                          VISES                         BOKIB                        
+                          BOKIB                         KAKTA                        
 W94                       NKS                           GUPMO                        
 W99                       SMU                           APUSA                        
                           APUSA                         DONSI                        
