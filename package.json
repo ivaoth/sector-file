@@ -9,7 +9,7 @@
     "build:aurora": "ts-node ./scripts/aurora.ts",
     "build": "npm run build:ivac1 && npm run build:aurora",
     "parse:ivac1": "ts-node ./airac-parser/ivac1",
-    "parse:aurora": "ts-node ./airac-parser/common/airport.ts && ts-node ./airac-parser/common/airway.ts && ts-node ./airac-parser/common/area.ts && ts-node ./airac-parser/common/fir.ts && ts-node ./airac-parser/common/ndb.ts && ts-node ./airac-parser/common/vor.ts && ts-node ./airac-parser/common/waypoint.ts"
+    "parse:aurora": "ts-node ./airac-parser/common"
   },
   "repository": {
     "type": "git",

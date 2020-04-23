@@ -1,8 +1,5 @@
-import { ensureDirSync, writeFileSync } from 'fs-extra';
-import { resolve } from 'path';
 import SQL from 'sql-template-strings';
-import { Database, open } from 'sqlite';
-import * as sqlite3 from 'sqlite3';
+import { Database } from 'sqlite';
 import { Area } from '../../utils/interfaces';
 
 interface AreaDbData {
@@ -68,14 +65,9 @@ const pointInPolygon = (
   return inside;
 };
 
-const main = async () => {
+export const extractAreas = async (db: Promise<Database>) => {
   const firName = 'Bangkok';
-  const basePath = resolve(__dirname);
-  const buildPath = resolve(basePath, 'build');
-  const buildFile = resolve(buildPath, 'areas.json');
   const data: Area[] = [];
-  ensureDirSync(buildPath);
-  const db = open({filename: resolve(basePath, '..', 'little_navmap_navigraph.sqlite'), driver: sqlite3.Database});
   const { geometry: fir } = (await (await db).get<{
     geometry: Buffer;
   }>(
@@ -111,7 +103,5 @@ const main = async () => {
       }
     }
   }
-  writeFileSync(buildFile, JSON.stringify(data, null, 2));
+  return data;
 };
-
-main();

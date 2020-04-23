@@ -1,25 +1,11 @@
-import * as sqlite from 'sqlite';
-import * as sqlite3 from 'sqlite3';
-import { resolve } from 'path';
-import { writeFileSync, ensureDirSync } from 'fs-extra';
+import { Database } from 'sqlite';
 import { Fir } from '../../utils/interfaces';
 
 interface FirDbData {
   geometry: Buffer;
 }
 
-const main = async () => {
-  const basePath = resolve(__dirname);
-  const buildPath = resolve(basePath, 'build');
-  const firsPath = resolve(buildPath, 'firs.json');
-
-  ensureDirSync(buildPath);
-
-  const db = sqlite.open({
-    filename: resolve(basePath, '..', 'little_navmap_navigraph.sqlite'),
-    driver: sqlite3.Database
-  });
-
+export const extractFirs = async (db: Promise<Database>) => {
   const firs = [
     ['VTBB', 'Bangkok'],
     ['VDPP', 'Phnom Penh'],
@@ -59,7 +45,5 @@ const main = async () => {
       points
     });
   }
-  writeFileSync(firsPath, JSON.stringify(firsOut, null, 2));
+  return firsOut;
 };
-
-main();

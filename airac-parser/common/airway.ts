@@ -1,9 +1,5 @@
-import * as sqlite from 'sqlite';
-import * as sqlite3 from 'sqlite3';
-import { resolve } from 'path';
-import { writeFileSync, ensureDirSync, readFileSync } from 'fs-extra';
+import { Database } from 'sqlite';
 import SQL from 'sql-template-strings';
-import * as inquirer from 'inquirer';
 import { Segment } from '../../utils/interfaces';
 
 interface SegmentsDbData {
@@ -24,19 +20,7 @@ interface SegmentsDbData {
   id_to: number;
 }
 
-const main = async () => {
-  const basePath = resolve(__dirname);
-  const buildPath = resolve(basePath, 'build');
-  const buildFile = resolve(buildPath, 'airways.json');
-  const extraFile = resolve(buildPath, '_airway-extras.json');
-
-  ensureDirSync(buildPath);
-
-  const db = sqlite.open({
-    filename: resolve(basePath, '..', 'little_navmap_navigraph.sqlite'),
-    driver: sqlite3.Database
-  });
-
+export const extractAirways = async (db: Promise<Database>) => {
   const filteredSegments = (await db).all<SegmentsDbData[]>(SQL`
   SELECT
     airway.airway_name AS name,
@@ -135,9 +119,5 @@ const main = async () => {
       data: [] as Segment[][]
     }
   );
-
-  writeFileSync(buildFile, JSON.stringify(data, null, 2));
-  writeFileSync(extraFile, JSON.stringify(extras, null, 2))
+  return { data, extras };
 };
-
-main();

@@ -1,9 +1,6 @@
-import * as sqlite from "sqlite";
-import * as sqlite3 from 'sqlite3';
-import { resolve } from "path";
-import { writeFileSync, ensureDirSync } from "fs-extra";
-import { SQL } from "sql-template-strings";
-import { Airport } from "../../utils/interfaces";
+import { Database } from 'sqlite';
+import { SQL } from 'sql-template-strings';
+import { Airport } from '../../utils/interfaces';
 
 const aptAirspaceMap: any = {
   VTCH: "D",
@@ -87,18 +84,8 @@ interface RunwayDbData {
   alt2: number;
 }
 
-const main = async () => {
-  const basePath = resolve(__dirname);
-  const buildPath = resolve(basePath, "build");
-  const buildAptFile = resolve(buildPath, "airports.json");
-
-  ensureDirSync(buildPath);
-
+export const extractAerodromes = async (db: Promise<Database>) => {
   const data: Airport[] = [];
-  const db = sqlite.open({
-    filename: resolve(basePath, "..", "little_navmap_navigraph.sqlite"),
-    driver: sqlite3.Database
-  });
   const airports = (await db).all<AirportDbData[]>(SQL`
   SELECT
     airport_id, ident, name, tower_frequency, lonx, laty, mag_var, altitude
@@ -157,7 +144,5 @@ const main = async () => {
     };
     data.push(a);
   }
-  writeFileSync(buildAptFile, JSON.stringify(data, null, 2));
+  return data;
 };
-
-main();
