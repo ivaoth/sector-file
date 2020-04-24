@@ -60,10 +60,17 @@ export const extractAirways = async (db: Promise<Database>) => {
   `);
 
   const extras: number[] = [];
+  const enroute: number[] = [];
 
   const { data } = (await filteredSegments).reduce(
-    (prev, curr) => {
+    (prev, curr, i) => {
       const { data: currData, ...others } = prev;
+      if (i === 0 && enroute.indexOf(curr.id_from) === -1) {
+        enroute.push(curr.id_from);
+      }
+      if (enroute.indexOf(curr.id_to) === -1) {
+        enroute.push(curr.id_to);
+      }
       if (curr.region_from !== 'VT') {
         if (extras.indexOf(curr.id_from) === -1) {
           extras.push(curr.id_from);
@@ -119,5 +126,5 @@ export const extractAirways = async (db: Promise<Database>) => {
       data: [] as Segment[][]
     }
   );
-  return { data, extras };
+  return { data, extras, enroute };
 };

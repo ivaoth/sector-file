@@ -39,7 +39,7 @@ import { extractWaypoints } from './waypoint';
 
   const buildAirwayFile = resolve(buildPath, 'airways.json');
 
-  const { data: airways, extras: extrasFromAirways } = await extractAirways(db);
+  const { data: airways, extras: extrasFromAirways, enroute: enrouteFixes } = await extractAirways(db);
 
   outputFileSync(buildAirwayFile, JSON.stringify(airways, null, 2));
 
@@ -79,7 +79,7 @@ import { extractWaypoints } from './waypoint';
 
   const buildWaypointFile = resolve(buildPath, 'waypoints.json');
 
-  const waypoints = extractWaypoints(db, extrasFromAirways);
+  const waypoints = extractWaypoints(db, extrasFromAirways, enrouteFixes);
 
   outputFileSync(buildWaypointFile, JSON.stringify(await waypoints, null, 2));
 

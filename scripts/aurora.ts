@@ -172,12 +172,10 @@ const fixesFile = resolve(auroraIncludePath, fixesFileName);
 
 let outFix = '';
 
-// TODO: Fix type/Fix boundary
-
 for (const waypoint of waypoints) {
   outFix += `${waypoint.ident};${waypoint.laty.toFixed(7)};${waypoint.lonx.toFixed(
     6
-  )};0;0;\n`;
+  )};${waypoint.is_enroute ? (waypoint.is_terminal ? 2 : 0) : (waypoint.is_terminal ? 1 : 3)};${waypoint.is_boundary ? 1 : 0};\n`;
 }
 
 writeFileSync(fixesFile, outFix);

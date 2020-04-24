@@ -61,6 +61,9 @@ export interface Waypoint {
   ident: string;
   laty: number;
   lonx: number;
+  is_terminal: boolean;
+  is_enroute: boolean;
+  is_boundary: boolean;
 }
 
 export interface Fir {
