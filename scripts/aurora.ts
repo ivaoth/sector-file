@@ -271,9 +271,9 @@ for (const areaDetail of areaDetails.filter(a => a.use && (a.type === 'ATZ' || a
   const area = areas.find(s => s.digest === areaDetail.digest)!;
   let areaOut = '';
   for (const point of area.points) {
-    areaOut += `T;${areaDetail.name};${point[0].toFixed(7)};${point[1].toFixed(7)};\n`;
+    areaOut += `T;${areaDetail.name};${point[1].toFixed(7)};${point[0].toFixed(7)};\n`;
   }
-  areaOut += `T;${areaDetail.name};${area.points[0][0].toFixed(7)};${area.points[0][1].toFixed(7)};\n`
+  areaOut += `T;${areaDetail.name};${area.points[0][1].toFixed(7)};${area.points[0][0].toFixed(7)};\n`
   writeFileSync(areaFile, areaOut);
   out += `F;${areaFileName}\n`;
 }
