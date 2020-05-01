@@ -263,7 +263,7 @@ for (const fir of firs) {
   out += `F;${airspaceFileName}\n`;
 }
 
-out += '[LOW AIRSPACE]\n';
+out += '[AIRSPACE LOW]\n';
 
 for (const areaDetail of areaDetails.filter(a => a.use && (a.type === 'ATZ' || a.type === 'CTR' || a.type === 'TMA'))) {
   const areaFileName = `${areaDetail.name}.lairspace`;
