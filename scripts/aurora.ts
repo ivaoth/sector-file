@@ -265,7 +265,7 @@ for (const fir of firs) {
 
 out += '[AIRSPACE LOW]\n';
 
-for (const areaDetail of areaDetails.filter(a => a.use && (a.type === 'ATZ' || a.type === 'CTR' || a.type === 'TMA'))) {
+for (const areaDetail of areaDetails.filter(a => a.use && (['D', 'R', 'P'].indexOf(a.type) === -1))) {
   const areaFileName = `${areaDetail.name}.lairspace`;
   const areaFile = resolve(auroraIncludePath, areaFileName);
   const area = areas.find(s => s.digest === areaDetail.digest)!;

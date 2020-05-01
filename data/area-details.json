@@ -3,14 +3,14 @@
     "digest": "3cdea26b395043fc1a2bb1200c4899ca350473745cff79b1d813410faebf3fd8c9710b2bb9d577d608834f27b668e2610b72399ac940ab641e80231b19c4d8f0",
     "type": "other",
     "name": "ALFA_HIGH",
-    "use": false,
+    "use": true,
     "checked": true
   },
   {
     "digest": "3350e3385f7475afdc17e97e207a8bd58c88ffe28254aeb6a1eaedb1f6c68d3f01bdd21a3374593886e101bcdfddea0d1f3dd6d1f269b28a30b7133a3068a178",
     "type": "other",
     "name": "ALFA_LOW",
-    "use": false,
+    "use": true,
     "checked": true
   },
   {
