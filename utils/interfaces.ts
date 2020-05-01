@@ -83,6 +83,15 @@ export interface Area {
   min_laty: number;
   min_lonx: number;
   multiple_code: string;
+  digest: string;
+}
+
+export interface AreaDetail {
+  digest: string;
+  type: 'D' | 'R' | 'P' | 'TMA' | 'CTR' | 'ATZ' | 'other';
+  name: string;
+  use: boolean;
+  checked: boolean;
 }
 
 export interface Metadata {

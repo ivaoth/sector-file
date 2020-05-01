@@ -1,6 +1,7 @@
 import SQL from 'sql-template-strings';
 import { Database } from 'sqlite';
 import { Area } from '../../utils/interfaces';
+import { createHash } from 'crypto';
 
 interface AreaDbData {
   name: string;
@@ -98,7 +99,23 @@ export const extractAreas = async (db: Promise<Database>) => {
         const mid_laty = (boundary.max_laty + boundary.min_laty) / 2;
         const mid_lonx = (boundary.max_lonx + boundary.min_lonx) / 2;
         if (pointInPolygon([mid_lonx, mid_laty], firPoints)) {
-          data.push(boundary);
+          const pointsBuffer = Buffer.allocUnsafe(boundary.points.length * 2 * 4);
+          let position = 0;
+          for (const p of boundary.points) {
+            for (const n of p) {
+              pointsBuffer.writeFloatBE(n, position);
+              position += 4;
+            }
+          }
+          const nameBuffer = Buffer.from(boundary.name, 'utf-8');
+          const typeBuffer = Buffer.from(boundary.type, 'utf-8');
+          const allBuffer = Buffer.concat([pointsBuffer, nameBuffer, typeBuffer]);
+          const sha512 = createHash('sha512');
+          sha512.update(allBuffer);
+          data.push({
+            ...boundary,
+            digest: sha512.digest('hex')
+          });
         }
       }
     }

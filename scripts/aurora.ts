@@ -15,7 +15,8 @@ import {
   Segment,
   Vor,
   Waypoint,
-  Area
+  Area,
+  AreaDetail
 } from '../utils/interfaces';
 import {formatAirways} from './utils/formatAirways';
 import {zipDirectory} from './utils/zipFolder';
@@ -38,6 +39,7 @@ const airwaysFile = resolve(generatedDataPath, 'airways.json');
 const firsFile = resolve(generatedDataPath, 'firs.json');
 const areasFile = resolve(generatedDataPath, 'areas.json');
 const geoFile = resolve(dataPath, 'geo.json');
+const areaDetailsFile = resolve(dataPath, 'area-details.json');
 const auroraPath = resolve(dataPath, 'aurora');
 const extraFilesFile = resolve(auroraPath, 'files.json');
 const resultFile = resolve(resultPath, 'vtbb-aurora.zip');
@@ -58,6 +60,7 @@ const geo = JSON.parse(readFileSync(geoFile).toString()) as {
   lat: number;
   lon: number;
 }[][];
+const areaDetails = JSON.parse(readFileSync(areaDetailsFile).toString()) as AreaDetail[];
 
 const auroraIncludePath = resolve(outPath, 'Include', metadata.include);
 
@@ -258,6 +261,23 @@ for (const fir of firs) {
   )};${fir.points[0][1].toFixed(7)};\n`;
   writeFileSync(airspaceFile, firOut);
   out += `F;${airspaceFileName}\n`;
+}
+
+out += '[LOW AIRSPACE]\n';
+
+for (const areaDetail of areaDetails) {
+  if (areaDetail.use) {
+    const areaFileName = `${areaDetail.name}.lairspace`;
+    const areaFile = resolve(auroraIncludePath, areaFileName);
+    const area = areas.find(s => s.digest === areaDetail.digest)!;
+    let areaOut = '';
+    for (const point of area.points) {
+      areaOut += `T;${areaDetail.name};${point[0].toFixed(7)};${point[1].toFixed(7)}\n`;
+    }
+    areaOut += `T;${areaDetail.name};${area.points[0][0].toFixed(7)};${area.points[0][1].toFixed(7)}\n`
+    writeFileSync(areaFile, areaOut);
+    out += `F;${areaFileName}\n`;
+  }
 }
 
 out += '[SID]\n';

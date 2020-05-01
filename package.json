@@ -9,7 +9,8 @@
     "build:aurora": "ts-node ./scripts/aurora.ts",
     "build": "npm run build:ivac1 && npm run build:aurora",
     "parse:ivac1": "ts-node ./airac-parser/ivac1",
-    "parse:aurora": "ts-node ./airac-parser/common"
+    "parse:aurora": "ts-node ./airac-parser/common",
+    "aurora-prebuilt": "ts-node ./scripts/aurora-prebuilt.ts"
   },
   "repository": {
     "type": "git",
