@@ -10,7 +10,10 @@ interface VorDbData {
   lonx: number;
 }
 
-export const extractVors = async (db: Promise<Database>, extra: number[]) => {
+export const extractVors = async (
+  db: Promise<Database>,
+  extra: number[]
+): Promise<Vor[]> => {
   const vors: Promise<Vor[]> = (await db).all<VorDbData[]>(SQL`
     SELECT
     ident, name, frequency, laty, lonx

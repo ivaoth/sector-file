@@ -20,7 +20,13 @@ interface SegmentsDbData {
   id_to: number;
 }
 
-export const extractAirways = async (db: Promise<Database>) => {
+export const extractAirways = async (
+  db: Promise<Database>
+): Promise<{
+  data: Segment[][];
+  extras: number[];
+  enroute: number[];
+}> => {
   const filteredSegments = (await db).all<SegmentsDbData[]>(SQL`
   SELECT
     airway.airway_name AS name,
@@ -81,7 +87,7 @@ export const extractAirways = async (db: Promise<Database>) => {
           extras.push(curr.id_to);
         }
       }
-      const {id_from: _, id_to: __, ...out} = curr;
+      const { id_from: _, id_to: __, ...out } = curr;
       if (
         out.name !== prev.currentName ||
         out.segment_no !== prev.currentFragment ||
@@ -101,7 +107,7 @@ export const extractAirways = async (db: Promise<Database>) => {
           ]
         };
       } else {
-        const { currentSequence: currSeq, ...others2 } = others;
+        const { currentSequence: _currSeq, ...others2 } = others;
         const lastEle = currData.slice(-1)[0];
         const otherEle = currData.slice(0, -1);
         return {

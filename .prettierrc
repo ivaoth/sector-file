@@ -1,8 +1,9 @@
 {
-    "arrowParens": "always",
-    "bracketSpacing": false,
-    "endOfLine": "lf",
-    "singleQuote": true,
-    "useTabs": false,
-    "printWidth": 80
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "singleQuote": true,
+  "useTabs": false,
+  "printWidth": 80,
+  "trailingComma": "none"
 }

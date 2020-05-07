@@ -2,59 +2,59 @@ import { Database } from 'sqlite';
 import { SQL } from 'sql-template-strings';
 import { Airport } from '../../utils/interfaces';
 
-const aptAirspaceMap: any = {
-  VTCH: "D",
-  VTPH: "D",
-  VTUJ: "D",
-  VTBW: "D",
-  VTBP: "D",
-  VTSE: "D",
-  VTSH: "D",
-  VTBD: "C",
-  VTBH: "C",
-  VTBI: "C",
-  VTBK: "C",
-  VTBL: "C",
-  VTBO: "C",
-  VTBS: "C",
-  VTBT: "C",
-  VTBU: "C",
-  VTCC: "C",
-  VTCI: "C",
-  VTCL: "C",
-  VTCN: "C",
-  VTCP: "C",
-  VTCT: "C",
-  VTPB: "C",
-  VTPI: "C",
-  VTPM: "C",
-  VTPN: "C",
-  VTPO: "C",
-  VTPP: "C",
-  VTPR: "C",
-  VTPT: "C",
-  VTPY: "C",
-  VTSB: "C",
-  VTSC: "C",
-  VTSF: "C",
-  VTSG: "C",
-  VTSK: "C",
-  VTSM: "C",
-  VTSN: "C",
-  VTSP: "C",
-  VTSR: "C",
-  VTSS: "C",
-  VTST: "C",
-  VTUD: "C",
-  VTUI: "C",
-  VTUK: "C",
-  VTUL: "C",
-  VTUN: "C",
-  VTUO: "C",
-  VTUQ: "C",
-  VTUU: "C",
-  VTUV: "C",
-  VTUW: "C"
+const aptAirspaceMap: { [key: string]: 'C' | 'D' } = {
+  VTCH: 'D',
+  VTPH: 'D',
+  VTUJ: 'D',
+  VTBW: 'D',
+  VTBP: 'D',
+  VTSE: 'D',
+  VTSH: 'D',
+  VTBD: 'C',
+  VTBH: 'C',
+  VTBI: 'C',
+  VTBK: 'C',
+  VTBL: 'C',
+  VTBO: 'C',
+  VTBS: 'C',
+  VTBT: 'C',
+  VTBU: 'C',
+  VTCC: 'C',
+  VTCI: 'C',
+  VTCL: 'C',
+  VTCN: 'C',
+  VTCP: 'C',
+  VTCT: 'C',
+  VTPB: 'C',
+  VTPI: 'C',
+  VTPM: 'C',
+  VTPN: 'C',
+  VTPO: 'C',
+  VTPP: 'C',
+  VTPR: 'C',
+  VTPT: 'C',
+  VTPY: 'C',
+  VTSB: 'C',
+  VTSC: 'C',
+  VTSF: 'C',
+  VTSG: 'C',
+  VTSK: 'C',
+  VTSM: 'C',
+  VTSN: 'C',
+  VTSP: 'C',
+  VTSR: 'C',
+  VTSS: 'C',
+  VTST: 'C',
+  VTUD: 'C',
+  VTUI: 'C',
+  VTUK: 'C',
+  VTUL: 'C',
+  VTUN: 'C',
+  VTUO: 'C',
+  VTUQ: 'C',
+  VTUU: 'C',
+  VTUV: 'C',
+  VTUW: 'C'
 };
 
 interface AirportDbData {
@@ -84,7 +84,9 @@ interface RunwayDbData {
   alt2: number;
 }
 
-export const extractAerodromes = async (db: Promise<Database>) => {
+export const extractAerodromes = async (
+  db: Promise<Database>
+): Promise<Airport[]> => {
   const data: Airport[] = [];
   const airports = (await db).all<AirportDbData[]>(SQL`
   SELECT
@@ -130,13 +132,13 @@ export const extractAerodromes = async (db: Promise<Database>) => {
     runway.secondary_end_id = RE2.runway_end_id
   );
   `);
-  for (let airport of await airports) {
+  for (const airport of await airports) {
     const { airport_id: _, ...airportData } = airport;
     const a: Airport = {
       ...airportData,
       runways: (await runways)
-        .filter(r => r.airport_id === airport.airport_id)
-        .map(r => {
+        .filter((r) => r.airport_id === airport.airport_id)
+        .map((r) => {
           const { airport_id: _, ...others } = r;
           return others;
         }),

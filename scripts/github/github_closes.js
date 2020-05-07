@@ -1,4 +1,5 @@
-var msg = '';
+/* eslint-disable */
+let msg = '';
 
 if (require.main === module) {
   process.stdin.setEncoding('utf8');
@@ -11,13 +12,13 @@ if (require.main === module) {
   });
 
   process.stdin.on('end', () => {
-    var argv = process.argv.slice(2);
+    const argv = process.argv.slice(2);
     console.log(rewriteMsg(msg, argv[0]));
   });
 }
 
 function rewriteMsg(msg, prNo) {
-  var lines = msg.split(/\n/);
+  const lines = msg.split(/\n/);
   lines[0] += ' (#' + prNo + ')';
   lines.push('PR Close #' + prNo);
   return lines.join('\n');

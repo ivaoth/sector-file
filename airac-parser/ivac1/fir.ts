@@ -1,8 +1,11 @@
-
 import { Database } from 'sqlite';
 import { convertPoint } from './latlon';
 
-export const extractFir = async (db: Promise<Database>, name: string, code: string) => {
+export const extractFir = async (
+  db: Promise<Database>,
+  name: string,
+  code: string
+): Promise<string> => {
   const row = (await (await db).get<{ geometry: Buffer }>(
     `SELECT
     *

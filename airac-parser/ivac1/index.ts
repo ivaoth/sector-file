@@ -14,7 +14,7 @@ import leftPad from 'left-pad';
 import SQL from 'sql-template-strings';
 import { extractWaypoints } from './waypoint';
 
-(async () => {
+(async (): Promise<void> => {
   const basePath = resolve(__dirname);
   const buildPath = resolve(basePath, 'build');
 
@@ -22,7 +22,7 @@ import { extractWaypoints } from './waypoint';
 
   removeSync(buildPath);
 
-  const dbPath = resolve(__dirname, '..', 'little_navmap_navigraph.sqlite')
+  const dbPath = resolve(__dirname, '..', 'little_navmap_navigraph.sqlite');
   console.log('Opening database...');
   const db = open({
     filename: dbPath,
@@ -35,15 +35,27 @@ import { extractWaypoints } from './waypoint';
 
   const airportsResult = extractAirports(db);
 
-  outputFileSync(resolve(buildAptPath, '02-AIRPORT.txt'), (await airportsResult).airportOut);
-  outputFileSync(resolve(buildRwyPath, '02-RUNWAY.txt'), (await airportsResult).runwayOut);
+  outputFileSync(
+    resolve(buildAptPath, '02-AIRPORT.txt'),
+    (await airportsResult).airportOut
+  );
+  outputFileSync(
+    resolve(buildRwyPath, '02-RUNWAY.txt'),
+    (await airportsResult).runwayOut
+  );
 
   console.log('Reading airways...');
 
   const airwaysResult = extractAirways(db);
 
-  outputFileSync(resolve(buildPath, '09-HI_AIRWAY.txt'), (await airwaysResult).hiAirwayOut);
-  outputFileSync(resolve(buildPath, '10-LO_AIRWAY.txt'), (await airwaysResult).lowAirwayOut);
+  outputFileSync(
+    resolve(buildPath, '09-HI_AIRWAY.txt'),
+    (await airwaysResult).hiAirwayOut
+  );
+  outputFileSync(
+    resolve(buildPath, '10-LO_AIRWAY.txt'),
+    (await airwaysResult).lowAirwayOut
+  );
 
   console.log('Reading areas...');
 
@@ -52,8 +64,14 @@ import { extractWaypoints } from './waypoint';
 
   const areasResult = extractAreas(db);
 
-  outputFileSync(resolve(buildGeoPath, '04-DRP_AREA.txt'), (await areasResult).drpOut);
-  outputFileSync(resolve(buildLowArtccPath, '02-TMA_CTR.txt'), (await areasResult).tmaOut);
+  outputFileSync(
+    resolve(buildGeoPath, '04-DRP_AREA.txt'),
+    (await areasResult).drpOut
+  );
+  outputFileSync(
+    resolve(buildLowArtccPath, '02-TMA_CTR.txt'),
+    (await areasResult).tmaOut
+  );
 
   console.log('Reading FIRs...');
 
@@ -72,7 +90,10 @@ import { extractWaypoints } from './waypoint';
   for (const fir of firs) {
     const [code, name] = fir;
     const firResult = extractFir(db, name, code);
-    outputFileSync(resolve(buildARTCCPath, `${leftPad(num, 2, '0')}-${code}_CTR.txt`), await firResult);
+    outputFileSync(
+      resolve(buildARTCCPath, `${leftPad(num, 2, '0')}-${code}_CTR.txt`),
+      await firResult
+    );
     num += 1;
   }
 
@@ -82,8 +103,14 @@ import { extractWaypoints } from './waypoint';
 
   const NDBResult = extractNDB(db, (await airwaysResult).extras);
 
-  outputFileSync(resolve(buildNDBPath, '02-THAI.txt'), (await NDBResult).NDBOut);
-  outputFileSync(resolve(buildNDBPath, '03-NEARBY.txt'), (await NDBResult).NDBNearbyOut);
+  outputFileSync(
+    resolve(buildNDBPath, '02-THAI.txt'),
+    (await NDBResult).NDBOut
+  );
+  outputFileSync(
+    resolve(buildNDBPath, '03-NEARBY.txt'),
+    (await NDBResult).NDBNearbyOut
+  );
 
   console.log('Preparing airports for SIDs and STARs readings...');
 
@@ -96,13 +123,12 @@ import { extractWaypoints } from './waypoint';
     WHERE
       region = 'VT'
   `);
-  const SIDandSTARAirports = (await airports)
-    .filter(airport => {
-      return (
-        allowedSIDandSTARAirportsIdents.length === 0 ||
-        allowedSIDandSTARAirportsIdents.indexOf(airport.ident) !== -1
-      );
-    });
+  const SIDandSTARAirports = (await airports).filter((airport) => {
+    return (
+      allowedSIDandSTARAirportsIdents.length === 0 ||
+      allowedSIDandSTARAirportsIdents.indexOf(airport.ident) !== -1
+    );
+  });
 
   console.log('Reading SIDs...');
 
@@ -110,7 +136,7 @@ import { extractWaypoints } from './waypoint';
   num = 2;
   for (const airport of SIDandSTARAirports) {
     const SIDResult = extractSID(db, airport);
-    if (await SIDResult !== '') {
+    if ((await SIDResult) !== '') {
       outputFileSync(
         resolve(buildSidPath, `${leftPad(num, 3, '0')}-${airport.ident}.txt`),
         await SIDResult
@@ -126,7 +152,7 @@ import { extractWaypoints } from './waypoint';
   num = 2;
   for (const airport of SIDandSTARAirports) {
     const STARResult = extractSTAR(db, airport);
-    if (await STARResult !== '') {
+    if ((await STARResult) !== '') {
       outputFileSync(
         resolve(buildStarPath, `${leftPad(num, 3, '0')}-${airport.ident}.txt`),
         await STARResult
@@ -141,8 +167,14 @@ import { extractWaypoints } from './waypoint';
 
   const VORResult = extractVORs(db, (await airwaysResult).extras);
 
-  outputFileSync(resolve(buildVORsPath, '02-THAI.txt'), (await VORResult).VOROut);
-  outputFileSync(resolve(buildVORsPath, '03-NEARBY.txt'), (await VORResult).VORNearbyOut);
+  outputFileSync(
+    resolve(buildVORsPath, '02-THAI.txt'),
+    (await VORResult).VOROut
+  );
+  outputFileSync(
+    resolve(buildVORsPath, '03-NEARBY.txt'),
+    (await VORResult).VORNearbyOut
+  );
 
   console.log('Reading waypoints...');
 
@@ -150,8 +182,14 @@ import { extractWaypoints } from './waypoint';
 
   const waypointResult = extractWaypoints(db, (await airwaysResult).extras);
 
-  outputFileSync(resolve(buildWaypointsPath, '02-THAI.txt'), (await waypointResult).waypointsOut);
-  outputFileSync(resolve(buildWaypointsPath, '03-NEARBY.txt'), (await waypointResult).waypointsNearbyOut);
+  outputFileSync(
+    resolve(buildWaypointsPath, '02-THAI.txt'),
+    (await waypointResult).waypointsOut
+  );
+  outputFileSync(
+    resolve(buildWaypointsPath, '03-NEARBY.txt'),
+    (await waypointResult).waypointsNearbyOut
+  );
 
   console.log('Closing database...');
 

@@ -4,16 +4,21 @@ import { convertPoint } from './latlon';
 import { legsToPoints } from './utils/legs-to-points';
 import pad from 'pad';
 
-export const extractSID = async (db: Promise<Database>, airport: { airport_id: number; ident: string }) => {
+export const extractSID = async (
+  db: Promise<Database>,
+  airport: { airport_id: number; ident: string }
+): Promise<string> => {
   let out = '';
   // Query for SIDs
-  const sids = await (await db).all<{
-    approach_id: number;
-    fix_ident: string;
-    runway_name: string;
-    runway_end_id: number;
-    arinc_name: string;
-  }[]>(SQL`
+  const sids = await (await db).all<
+    {
+      approach_id: number;
+      fix_ident: string;
+      runway_name: string;
+      runway_end_id: number;
+      arinc_name: string;
+    }[]
+  >(SQL`
     SELECT
       approach_id, fix_ident, runway_name, runway_end_id, arinc_name
     FROM
@@ -27,11 +32,11 @@ export const extractSID = async (db: Promise<Database>, airport: { airport_id: n
         AND
       airport_id = ${airport.airport_id}
   `);
-  const sid_ids = sids.map(sid => sid.approach_id);
+  const sid_ids = sids.map((sid) => sid.approach_id);
   if (sid_ids.length > 0) {
     console.log(`> Processing ${airport.ident} (${airport.airport_id})`);
     for (const sid_id of sid_ids) {
-      const sid = sids.find(v => v.approach_id === sid_id)!;
+      const sid = sids.find((v) => v.approach_id === sid_id)!;
       const name = `${airport.ident}-${sid.arinc_name} ${sid.fix_ident}`;
       console.log(`>> Processing ${name} (${sid_id})`);
       // Find runway end coordinates
@@ -73,11 +78,13 @@ export const extractSID = async (db: Promise<Database>, airport: { airport_id: n
           runway_end_id = ${other_runway_end_id}
       `))!;
       // Query for legs
-      const legs = await (await db).all<{
-        leg_id: number;
-        type: string;
-        fix_ident: string;
-      }[]>(SQL`
+      const legs = await (await db).all<
+        {
+          leg_id: number;
+          type: string;
+          fix_ident: string;
+        }[]
+      >(SQL`
         SELECT
           approach_leg_id as leg_id, type, fix_ident
         FROM

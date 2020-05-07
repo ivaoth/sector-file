@@ -5,7 +5,7 @@ interface FirDbData {
   geometry: Buffer;
 }
 
-export const extractFirs = async (db: Promise<Database>) => {
+export const extractFirs = async (db: Promise<Database>): Promise<Fir[]> => {
   const firs = [
     ['VTBB', 'Bangkok'],
     ['VDPP', 'Phnom Penh'],
@@ -18,7 +18,7 @@ export const extractFirs = async (db: Promise<Database>) => {
 
   const firsOut: Fir[] = [];
 
-  for (let fir of firs) {
+  for (const fir of firs) {
     const firData = (await db).get<FirDbData>(`
       SELECT
       geometry

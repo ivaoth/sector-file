@@ -9,7 +9,22 @@ const drpMap = {
   P: 'Prohibited'
 };
 
-const getBoundary = async (id: number, db: Database) => {
+const getBoundary = async (
+  id: number,
+  db: Database
+): Promise<{
+  name: string;
+  boundary_id: number;
+  type: string;
+  restrictive_type: string;
+  restrictive_designation: string;
+  max_laty: number;
+  max_lonx: number;
+  min_laty: number;
+  min_lonx: number;
+  multiple_code: string;
+  points: [number, number][];
+} | null> => {
   const data = await db.get<{
     name: string;
     geometry: Buffer;
@@ -25,7 +40,7 @@ const getBoundary = async (id: number, db: Database) => {
   }>(`SELECT * FROM 'boundary' WHERE boundary_id = ${id}`);
   if (!data) return null;
   const { geometry: fir, ...otherData } = data;
-  const points: number[][] = [];
+  const points: [number, number][] = [];
   let index = 0;
   const size = fir.readInt32BE(index);
   index += 4;
@@ -36,7 +51,10 @@ const getBoundary = async (id: number, db: Database) => {
   return { ...otherData, points };
 };
 
-const pointInPolygon = (point: number[], polygon: number[][]) => {
+const pointInPolygon = (
+  point: number[],
+  polygon: [number, number][]
+): boolean => {
   let inside = false;
   for (let i = 0, j = polygon.length - 1; i < polygon.length; j = i++) {
     const intersect =
@@ -50,8 +68,10 @@ const pointInPolygon = (point: number[], polygon: number[][]) => {
   return inside;
 };
 
-export const extractAreas = async (db: Promise<Database>) => {
-  const { geometry: fir, ...firMetadata } = (await (await db).get<{
+export const extractAreas = async (
+  db: Promise<Database>
+): Promise<{ drpOut: string; tmaOut: string }> => {
+  const { geometry: fir, ..._firMetadata } = (await (await db).get<{
     geometry: Buffer;
     max_laty: number;
     max_lonx: number;
@@ -60,7 +80,7 @@ export const extractAreas = async (db: Promise<Database>) => {
   }>(
     `SELECT * FROM 'boundary' WHERE name LIKE '%${firName}%' AND type = 'C' LIMIT 1`
   ))!;
-  const firPoints: number[][] = [];
+  const firPoints: [number, number][] = [];
   let index = 0;
   const size = fir.readInt32BE(index);
   index += 4;
@@ -74,7 +94,7 @@ export const extractAreas = async (db: Promise<Database>) => {
   let drpOut = '';
   let tmaOut = '';
   for (let i = 1; i <= boundaryCount; i++) {
-    const boundary = await getBoundary(i, (await db));
+    const boundary = await getBoundary(i, await db);
     if (boundary && boundary.type !== 'C') {
       let inside = 0;
       for (let j = 0; j < boundary.points.length; j++) {
@@ -88,9 +108,7 @@ export const extractAreas = async (db: Promise<Database>) => {
         const mid_lonx = (boundary.max_lonx + boundary.min_lonx) / 2;
         if (pointInPolygon([mid_lonx, mid_laty], firPoints)) {
           if (boundary.restrictive_type) {
-            drpOut += `; VT(${boundary.restrictive_type})-${
-              boundary.restrictive_designation
-            }: ${boundary.name}\n`;
+            drpOut += `; VT(${boundary.restrictive_type})-${boundary.restrictive_designation}: ${boundary.name}\n`;
             for (let j = 0; j <= boundary.points.length - 1; j++) {
               const point1 = boundary.points[j];
               const point2 =
@@ -102,20 +120,25 @@ export const extractAreas = async (db: Promise<Database>) => {
               }\n`;
             }
           } else {
-            tmaOut += `; ${boundary.name}`
+            tmaOut += `; ${boundary.name}`;
             if (boundary.multiple_code) {
-              tmaOut += ` [${boundary.multiple_code}]`
+              tmaOut += ` [${boundary.multiple_code}]`;
             }
-            tmaOut += ` (${boundary.type})\n`
+            tmaOut += ` (${boundary.type})\n`;
             for (let i = 0; i <= boundary.points.length - 1; i++) {
               const point1 = boundary.points[i];
-              const point2 = i === boundary.points.length - 1 ? boundary.points[0] : boundary.points[i + 1];
-              tmaOut += `           ${convertPoint(point1)} ${convertPoint(point2)}\n`;
+              const point2 =
+                i === boundary.points.length - 1
+                  ? boundary.points[0]
+                  : boundary.points[i + 1];
+              tmaOut += `           ${convertPoint(point1)} ${convertPoint(
+                point2
+              )}\n`;
             }
           }
         }
       }
     }
   }
-  return {drpOut, tmaOut};
+  return { drpOut, tmaOut };
 };

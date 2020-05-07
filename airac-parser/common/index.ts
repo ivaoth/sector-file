@@ -10,7 +10,7 @@ import { extractNdbs } from './ndb';
 import { extractVors } from './vor';
 import { extractWaypoints } from './waypoint';
 
-(async () => {
+(async (): Promise<void> => {
   const basePath = resolve(__dirname);
   const buildPath = resolve(basePath, 'build');
 
@@ -39,7 +39,11 @@ import { extractWaypoints } from './waypoint';
 
   const buildAirwayFile = resolve(buildPath, 'airways.json');
 
-  const { data: airways, extras: extrasFromAirways, enroute: enrouteFixes } = await extractAirways(db);
+  const {
+    data: airways,
+    extras: extrasFromAirways,
+    enroute: enrouteFixes
+  } = await extractAirways(db);
 
   outputFileSync(buildAirwayFile, JSON.stringify(airways, null, 2));
 

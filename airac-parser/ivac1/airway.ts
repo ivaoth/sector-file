@@ -1,19 +1,27 @@
 import { Database } from 'sqlite';
 
-export const extractAirways = async (db: Promise<Database>) => {
-  let extras: number[] = [];
-  const rows = await (await db).all<{
-    airway_name: string;
-    wpt_from: string;
-    wpt_to: string;
-    airway_id: number;
-    airway_fragment_no: number;
-    sequence_no: number;
-    region_from: string;
-    region_to: string;
-    id_from: number;
-    id_to: number;
-  }[]>(
+export const extractAirways = async (
+  db: Promise<Database>
+): Promise<{
+  hiAirwayOut: string;
+  lowAirwayOut: string;
+  extras: number[];
+}> => {
+  const extras: number[] = [];
+  const rows = await (await db).all<
+    {
+      airway_name: string;
+      wpt_from: string;
+      wpt_to: string;
+      airway_id: number;
+      airway_fragment_no: number;
+      sequence_no: number;
+      region_from: string;
+      region_to: string;
+      id_from: number;
+      id_to: number;
+    }[]
+  >(
     `
       SELECT
       airway.airway_name, airway.sequence_no, T1.ident as wpt_from, T2.ident as wpt_to, airway.airway_id, airway.airway_fragment_no, T1.region as region_from, T2.region as region_to, T1.waypoint_id AS id_from, T2.waypoint_id AS id_to
@@ -80,19 +88,20 @@ export const extractAirways = async (db: Promise<Database>) => {
     }
   }
 
-
-  const rows2 = await (await db).all<{
-    airway_name: string;
-    wpt_from: string;
-    wpt_to: string;
-    airway_id: number;
-    airway_fragment_no: number;
-    sequence_no: number;
-    region_from: string;
-    region_to: string;
-    id_from: number;
-    id_to: number;
-  }[]>(
+  const rows2 = await (await db).all<
+    {
+      airway_name: string;
+      wpt_from: string;
+      wpt_to: string;
+      airway_id: number;
+      airway_fragment_no: number;
+      sequence_no: number;
+      region_from: string;
+      region_to: string;
+      id_from: number;
+      id_to: number;
+    }[]
+  >(
     `
       SELECT
       airway.airway_name, airway.sequence_no, T1.ident as wpt_from, T2.ident as wpt_to, airway.airway_id, airway.airway_fragment_no, T1.region as region_from, T2.region as region_to, T1.waypoint_id AS id_from, T2.waypoint_id AS id_to
@@ -155,5 +164,5 @@ export const extractAirways = async (db: Promise<Database>) => {
       }
     }
   }
-  return {hiAirwayOut, lowAirwayOut, extras};
+  return { hiAirwayOut, lowAirwayOut, extras };
 };

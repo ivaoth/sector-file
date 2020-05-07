@@ -10,7 +10,10 @@ interface NdbDbData {
   lonx: number;
 }
 
-export const extractNdbs = async (db: Promise<Database>, extra: number[]) => {
+export const extractNdbs = async (
+  db: Promise<Database>,
+  extra: number[]
+): Promise<Ndb[]> => {
   const ndbs: Promise<Ndb[]> = (await db).all<NdbDbData[]>(SQL`
     SELECT
     ident, name, frequency, laty, lonx

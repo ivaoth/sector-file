@@ -2,7 +2,9 @@ import { Database } from 'sqlite';
 import { convertPoint } from './latlon';
 import SQL from 'sql-template-strings';
 
-const aptAirspaceMap: any = {
+const aptAirspaceMap: {
+  [key: string]: 'C' | 'D';
+} = {
   VTCH: 'D',
   VTPH: 'D',
   VTUJ: 'D',
@@ -57,32 +59,41 @@ const aptAirspaceMap: any = {
   VTUW: 'C'
 };
 
-const getHdg = (airport: {
-  airport_id: number;
-  ident: string;
-  name: string;
-  tower_frequency: number | null;
-  lonx: number;
-  laty: number;
-  mag_var: number;
-}, runway: {
-  name1: string;
-  hdg1: number;
-  lat1: number;
-  lon1: number;
-  name2: string;
-  hdg2: number;
-  lat2: number;
-  lon2: number;
-}, num: number) => {
+const getHdg = (
+  airport: {
+    airport_id: number;
+    ident: string;
+    name: string;
+    tower_frequency: number | null;
+    lonx: number;
+    laty: number;
+    mag_var: number;
+  },
+  runway: {
+    name1: string;
+    hdg1: number;
+    lat1: number;
+    lon1: number;
+    name2: string;
+    hdg2: number;
+    lat2: number;
+    lon2: number;
+  },
+  num: number
+): number => {
   if (num === 1) {
     return Math.round(runway.hdg1 - airport.mag_var);
   } else {
     return Math.round(runway.hdg2 - airport.mag_var);
   }
-}
+};
 
-export const extractAirports = async (db: Promise<Database>) => {
+export const extractAirports = async (
+  db: Promise<Database>
+): Promise<{
+  airportOut: string;
+  runwayOut: string;
+}> => {
   let airportOut = '';
   let runwayOut = '';
   const zeroPadder = '0000000';
@@ -95,8 +106,7 @@ export const extractAirports = async (db: Promise<Database>) => {
     lonx: number;
     laty: number;
     mag_var: number;
-  }[] =
-    await ((await db).all(SQL`
+  }[] = await (await db).all(SQL`
       SELECT
       airport_id, ident, name, tower_frequency, lonx, laty, mag_var
       FROM
@@ -104,9 +114,8 @@ export const extractAirports = async (db: Promise<Database>) => {
       where
       ident LIKE 'VT%'
       AND
-      country = 'PAC'`
-    ));
-  for (let airport of data) {
+      country = 'PAC'`);
+  for (const airport of data) {
     airportOut += airport.ident;
     airportOut += ' ';
     if (airport.tower_frequency) {
@@ -119,7 +128,7 @@ export const extractAirports = async (db: Promise<Database>) => {
     airportOut += convertPoint([airport.laty, airport.lonx], true);
     airportOut += ` ${aptAirspaceMap[airport.ident]} ;- ${airport.name}`;
     airportOut += '\n';
-    runwayOut += `;- ${airport.ident}\n`
+    runwayOut += `;- ${airport.ident}\n`;
     const runways: {
       name1: string;
       hdg1: number;
@@ -129,7 +138,7 @@ export const extractAirports = async (db: Promise<Database>) => {
       hdg2: number;
       lat2: number;
       lon2: number;
-    }[] = await ((await db).all(
+    }[] = await (await db).all(
       `SELECT
       RE1.name as name1, RE1.heading as hdg1, RE1.laty as lat1, RE1.lonx as lon1, RE2.name as name2, RE2.heading as hdg2, RE2.laty as lat2, RE2.lonx as lon2
       FROM
@@ -144,7 +153,7 @@ export const extractAirports = async (db: Promise<Database>) => {
       R.secondary_end_id = RE2.runway_end_id
       WHERE
       airport_id = ${airport.airport_id}`
-    ));
+    );
     for (const runway of runways) {
       runwayOut += `${(runway.name1 + spacePadder).substring(0, 4)}`;
       runwayOut += `${(runway.name2 + spacePadder).substring(0, 4)}`;
@@ -156,5 +165,5 @@ export const extractAirports = async (db: Promise<Database>) => {
     }
   }
 
-  return {airportOut, runwayOut};
+  return { airportOut, runwayOut };
 };

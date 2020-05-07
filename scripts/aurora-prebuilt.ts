@@ -9,9 +9,11 @@ const generatedDataPath = resolve(dataPath, 'generated');
 const areasFile = resolve(generatedDataPath, 'areas.json');
 const areaDetailsFile = resolve(dataPath, 'area-details.json');
 const areas = JSON.parse(readFileSync(areasFile).toString()) as Area[];
-const areaDetails = JSON.parse(readFileSync(areaDetailsFile).toString()) as AreaDetail[];
-const extractedAreaDigests = areas.map(a => a.digest);
-const areaDetailDigests = areaDetails.map(a => a.digest);
+const areaDetails = JSON.parse(
+  readFileSync(areaDetailsFile).toString()
+) as AreaDetail[];
+const extractedAreaDigests = areas.map((a) => a.digest);
+const areaDetailDigests = areaDetails.map((a) => a.digest);
 const missingDigests: string[] = [];
 const extraDigests: string[] = [];
 
@@ -29,25 +31,32 @@ for (const d of areaDetailDigests) {
 
 if (missingDigests.length !== 0 || extraDigests.length !== 0) {
   process.exitCode = 1;
-  const missingAreaDetails: AreaDetail[] = missingDigests.map(d => {
+  const missingAreaDetails: AreaDetail[] = missingDigests.map((d) => {
     const area = areas.find((a) => a.digest === d)!;
-    const type = (area.restrictive_type ? area.restrictive_type : '') as 'D' | 'R' | 'P' | 'TMA' | 'CTR' | 'ATZ' | 'other'
+    const type = (area.restrictive_type ? area.restrictive_type : '') as
+      | 'D'
+      | 'R'
+      | 'P'
+      | 'TMA'
+      | 'CTR'
+      | 'ATZ'
+      | 'other';
     return {
       digest: d,
       type,
       name: area.name,
       use: true,
       checked: ['D', 'R', 'P'].indexOf(type) !== -1 ? true : false
-    }
+    };
   });
   const out: AreaDetail[] = [
-    ...(areaDetails.filter(ad => extraDigests.indexOf(ad.digest) === -1)),
+    ...areaDetails.filter((ad) => extraDigests.indexOf(ad.digest) === -1),
     ...missingAreaDetails
   ];
   outputFileSync(areaDetailsFile, JSON.stringify(out, null, 2));
 } else {
-  if (areaDetails.some(s => !s.checked)) {
-    const unchecked = areaDetails.filter(s => !s.checked);
+  if (areaDetails.some((s) => !s.checked)) {
+    const unchecked = areaDetails.filter((s) => !s.checked);
     for (const u of unchecked) {
       console.log(`Unchecked: ${u.digest} (${u.name})`);
     }

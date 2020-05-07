@@ -2,13 +2,20 @@ import { Database } from 'sqlite';
 import { convertPoint } from './latlon';
 import SQL from 'sql-template-strings';
 
-export const extractWaypoints = async (db: Promise<Database>, extras: number[]) => {
-
-  const waypoints = await (await db).all<{
-    ident: string;
-    laty: number;
-    lonx: number;
-  }[]>(
+export const extractWaypoints = async (
+  db: Promise<Database>,
+  extras: number[]
+): Promise<{
+  waypointsOut: string;
+  waypointsNearbyOut: string;
+}> => {
+  const waypoints = await (await db).all<
+    {
+      ident: string;
+      laty: number;
+      lonx: number;
+    }[]
+  >(
     `
     SELECT
     ident, laty, lonx
@@ -36,11 +43,13 @@ export const extractWaypoints = async (db: Promise<Database>, extras: number[]) 
 
   const ids = `(${extras.join(',')})`;
 
-  const extraWaypoints = (await db).all<{
-    ident: string,
-    laty: number,
-    lonx: number
-  }[]>(
+  const extraWaypoints = (await db).all<
+    {
+      ident: string;
+      laty: number;
+      lonx: number;
+    }[]
+  >(
     SQL`
     SELECT
     ident, laty, lonx
@@ -58,11 +67,13 @@ export const extractWaypoints = async (db: Promise<Database>, extras: number[]) 
   `)
   );
 
-  for (const wpt of (await extraWaypoints).sort((a, b) => a.ident < b.ident ? -1 : a.ident === b.ident ? 0 : 1)) {
+  for (const wpt of (await extraWaypoints).sort((a, b) =>
+    a.ident < b.ident ? -1 : a.ident === b.ident ? 0 : 1
+  )) {
     waypointsNearbyOut += (wpt.ident + padder1).substr(0, 6);
     waypointsNearbyOut += convertPoint([wpt.laty, wpt.lonx], true);
     waypointsNearbyOut += '\n';
   }
 
-  return {waypointsOut, waypointsNearbyOut};
+  return { waypointsOut, waypointsNearbyOut };
 };

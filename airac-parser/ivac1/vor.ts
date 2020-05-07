@@ -2,14 +2,22 @@ import { Database } from 'sqlite';
 import { convertPoint } from './latlon';
 import SQL from 'sql-template-strings';
 
-export const extractVORs = async (db: Promise<Database>, extras: number[]) => {
-  const vors = await (await db).all<{
-    ident: string;
-    name: string;
-    frequency: number;
-    laty: number;
-    lonx: number;
-  }[]>(
+export const extractVORs = async (
+  db: Promise<Database>,
+  extras: number[]
+): Promise<{
+  VOROut: string;
+  VORNearbyOut: string;
+}> => {
+  const vors = await (await db).all<
+    {
+      ident: string;
+      name: string;
+      frequency: number;
+      laty: number;
+      lonx: number;
+    }[]
+  >(
     `
     SELECT
     ident, name, frequency, laty, lonx
@@ -36,15 +44,17 @@ export const extractVORs = async (db: Promise<Database>, extras: number[]) => {
 
   VORNearbyOut += ';- Followings are VOR outside Bangkok FIR\n';
 
-  const ids = `(${extras.join(',')})`
+  const ids = `(${extras.join(',')})`;
 
-  const extraVors = (await db).all<{
-    ident: string,
-    frequency: number,
-    laty: number,
-    lonx: number,
-    name: string
-  }[]>(
+  const extraVors = (await db).all<
+    {
+      ident: string;
+      frequency: number;
+      laty: number;
+      lonx: number;
+      name: string;
+    }[]
+  >(
     SQL`
     SELECT
     V.ident, V.name, V.frequency, V.laty, V.lonx
@@ -63,7 +73,9 @@ export const extractVORs = async (db: Promise<Database>, extras: number[]) => {
   `)
   );
 
-  for (const vor of (await extraVors).sort((a, b) => a.ident < b.ident ? -1 : a.ident === b.ident ? 0 : 1)) {
+  for (const vor of (await extraVors).sort((a, b) =>
+    a.ident < b.ident ? -1 : a.ident === b.ident ? 0 : 1
+  )) {
     VORNearbyOut += (vor.ident + padder1).substr(0, 4);
     const num1 = Math.floor(vor.frequency / 1000);
     const num2 = vor.frequency % 1000;
@@ -72,5 +84,5 @@ export const extractVORs = async (db: Promise<Database>, extras: number[]) => {
     VORNearbyOut += ` ;- ${vor.name}`;
     VORNearbyOut += '\n';
   }
-  return {VOROut, VORNearbyOut};
+  return { VOROut, VORNearbyOut };
 };

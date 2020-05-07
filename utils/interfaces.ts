@@ -36,7 +36,7 @@ export interface Segment {
   from_lon: number;
   to_lat: number;
   to_lon: number;
-  direction: "N" | "B" | "F";
+  direction: 'N' | 'B' | 'F';
   region_from: string;
   region_to: string;
 }

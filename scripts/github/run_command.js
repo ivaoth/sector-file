@@ -1,4 +1,5 @@
-const child_process_1 = require("child_process");
+/* eslint-disable */
+const child_process_1 = require('child_process');
 exports.run = (command) => {
-    return child_process_1.execSync(command).toString();
+  return child_process_1.execSync(command).toString();
 };

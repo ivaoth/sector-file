@@ -6,7 +6,7 @@ import {
   writeFileSync,
   ensureDirSync
 } from 'fs-extra';
-import {resolve} from 'path';
+import { resolve } from 'path';
 import {
   Airport,
   Fir,
@@ -18,8 +18,8 @@ import {
   Area,
   AreaDetail
 } from '../utils/interfaces';
-import {formatAirways} from './utils/formatAirways';
-import {zipDirectory} from './utils/zipFolder';
+import { formatAirways } from './utils/formatAirways';
+import { zipDirectory } from './utils/zipFolder';
 
 const basePath = resolve(__dirname);
 const rootPath = resolve(basePath, '..');
@@ -60,7 +60,9 @@ const geo = JSON.parse(readFileSync(geoFile).toString()) as {
   lat: number;
   lon: number;
 }[][];
-const areaDetails = JSON.parse(readFileSync(areaDetailsFile).toString()) as AreaDetail[];
+const areaDetails = JSON.parse(
+  readFileSync(areaDetailsFile).toString()
+) as AreaDetail[];
 
 const auroraIncludePath = resolve(outPath, 'Include', metadata.include);
 
@@ -87,7 +89,7 @@ out += `${metadata.magVar}\n`;
 out += `${metadata.include}\n`;
 
 // TODO: DEFINE
-out += '[ATC]\n'
+out += '[ATC]\n';
 
 for (const airport of airports) {
   const fileName = `${airport.ident}.atc`;
@@ -176,9 +178,17 @@ const fixesFile = resolve(auroraIncludePath, fixesFileName);
 let outFix = '';
 
 for (const waypoint of waypoints) {
-  outFix += `${waypoint.ident};${waypoint.laty.toFixed(7)};${waypoint.lonx.toFixed(
-    6
-  )};${waypoint.is_enroute ? (waypoint.is_terminal ? 2 : 0) : (waypoint.is_terminal ? 1 : 3)};${waypoint.is_boundary ? 1 : 0};\n`;
+  outFix += `${waypoint.ident};${waypoint.laty.toFixed(
+    7
+  )};${waypoint.lonx.toFixed(6)};${
+    waypoint.is_enroute
+      ? waypoint.is_terminal
+        ? 2
+        : 0
+      : waypoint.is_terminal
+      ? 1
+      : 3
+  };${waypoint.is_boundary ? 1 : 0};\n`;
 }
 
 writeFileSync(fixesFile, outFix);
@@ -193,9 +203,9 @@ const ndbFile = resolve(auroraIncludePath, ndbFileName);
 let outNdb = '';
 
 for (const ndb of ndbs) {
-  outNdb += `${ndb.ident};${(ndb.frequency / 100).toFixed(3)};${ndb.laty.toFixed(
-    6
-  )};${ndb.lonx.toFixed(7)};\n`;
+  outNdb += `${ndb.ident};${(ndb.frequency / 100).toFixed(
+    3
+  )};${ndb.laty.toFixed(6)};${ndb.lonx.toFixed(7)};\n`;
 }
 
 writeFileSync(ndbFile, outNdb);
@@ -210,9 +220,9 @@ const vorFile = resolve(auroraIncludePath, vorFileName);
 let outVor = '';
 
 for (const vor of vors) {
-  outVor += `${vor.ident};${(vor.frequency / 1000).toFixed(3)};${vor.laty.toFixed(
-    6
-  )};${vor.lonx.toFixed(7)};\n`;
+  outVor += `${vor.ident};${(vor.frequency / 1000).toFixed(
+    3
+  )};${vor.laty.toFixed(6)};${vor.lonx.toFixed(7)};\n`;
 }
 
 writeFileSync(vorFile, outVor);
@@ -247,14 +257,15 @@ out += `F;${hAirwayFileName}\n`;
 
 out += '[AIRSPACE]\n';
 
-
 for (const fir of firs) {
   const airspaceFileName = `${fir.code}.airspace`;
   const airspaceFile = resolve(auroraIncludePath, airspaceFileName);
-  let firOut = ''
+  let firOut = '';
 
   for (const point of fir.points) {
-    firOut += `T;${fir.code}_CTR;${point[0].toFixed(7)};${point[1].toFixed(7)};\n`;
+    firOut += `T;${fir.code}_CTR;${point[0].toFixed(7)};${point[1].toFixed(
+      7
+    )};\n`;
   }
   firOut += `T;${fir.code}_CTR;${fir.points[0][0].toFixed(
     7
@@ -265,15 +276,21 @@ for (const fir of firs) {
 
 out += '[AIRSPACE LOW]\n';
 
-for (const areaDetail of areaDetails.filter(a => a.use && (['D', 'R', 'P'].indexOf(a.type) === -1))) {
+for (const areaDetail of areaDetails.filter(
+  (a) => a.use && ['D', 'R', 'P'].indexOf(a.type) === -1
+)) {
   const areaFileName = `${areaDetail.name}.lairspace`;
   const areaFile = resolve(auroraIncludePath, areaFileName);
-  const area = areas.find(s => s.digest === areaDetail.digest)!;
+  const area = areas.find((s) => s.digest === areaDetail.digest)!;
   let areaOut = '';
   for (const point of area.points) {
-    areaOut += `T;${areaDetail.name};${point[1].toFixed(7)};${point[0].toFixed(7)};\n`;
+    areaOut += `T;${areaDetail.name};${point[1].toFixed(7)};${point[0].toFixed(
+      7
+    )};\n`;
   }
-  areaOut += `T;${areaDetail.name};${area.points[0][1].toFixed(7)};${area.points[0][0].toFixed(7)};\n`
+  areaOut += `T;${areaDetail.name};${area.points[0][1].toFixed(
+    7
+  )};${area.points[0][0].toFixed(7)};\n`;
   writeFileSync(areaFile, areaOut);
   out += `F;${areaFileName}\n`;
 }
@@ -366,9 +383,11 @@ for (const segment of geo) {
   }
   i -= skip;
   if (i !== segment.length - 1) {
-    coastOut += `${segment[i].lat.toFixed(7)};${segment[i].lon.toFixed(7)};${segment[
+    coastOut += `${segment[i].lat.toFixed(7)};${segment[i].lon.toFixed(
+      7
+    )};${segment[segment.length - 1].lat.toFixed(7)};${segment[
       segment.length - 1
-    ].lat.toFixed(7)};${segment[segment.length - 1].lon.toFixed(7)};Coast;\n`;
+    ].lon.toFixed(7)};Coast;\n`;
   }
 }
 
@@ -407,7 +426,9 @@ for (const area of areas) {
       }
       return [point, arr[index + 1]];
     })) {
-      const lineOut = `${line[0][1].toFixed(7)};${line[0][0].toFixed(7)};${line[1][1].toFixed(7)};${line[1][0].toFixed(7)};${colour};\n`
+      const lineOut = `${line[0][1].toFixed(7)};${line[0][0].toFixed(
+        7
+      )};${line[1][1].toFixed(7)};${line[1][0].toFixed(7)};${colour};\n`;
       switch (area.restrictive_type) {
         case 'D':
           dangerOut += lineOut;

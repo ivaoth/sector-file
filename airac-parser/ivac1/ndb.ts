@@ -2,14 +2,22 @@ import { Database } from 'sqlite';
 import { convertPoint } from './latlon';
 import SQL from 'sql-template-strings';
 
-export const extractNDB = async (db: Promise<Database>, extras: number[]) => {
-  const ndbs = await (await db).all<{
-    ident: string;
-    name: string;
-    frequency: number;
-    laty: number;
-    lonx: number;
-  }[]>(
+export const extractNDB = async (
+  db: Promise<Database>,
+  extras: number[]
+): Promise<{
+  NDBOut: string;
+  NDBNearbyOut: string;
+}> => {
+  const ndbs = await (await db).all<
+    {
+      ident: string;
+      name: string;
+      frequency: number;
+      laty: number;
+      lonx: number;
+    }[]
+  >(
     `
     SELECT
     ident, name, frequency, laty, lonx
@@ -38,19 +46,23 @@ export const extractNDB = async (db: Promise<Database>, extras: number[]) => {
 
   const ids = `(${extras.join(',')})`;
 
-  const extraNdbs: Promise<{
-    ident: string,
-    frequency: number,
-    laty: number,
-    lonx: number,
-    name: string
-  }[]> = (await db).all<{
-    ident: string,
-    frequency: number,
-    laty: number,
-    lonx: number,
-    name: string
-  }[]>(
+  const extraNdbs: Promise<
+    {
+      ident: string;
+      frequency: number;
+      laty: number;
+      lonx: number;
+      name: string;
+    }[]
+  > = (await db).all<
+    {
+      ident: string;
+      frequency: number;
+      laty: number;
+      lonx: number;
+      name: string;
+    }[]
+  >(
     SQL`
     SELECT
     N.ident, N.name, N.frequency, N.laty, N.lonx
@@ -69,7 +81,9 @@ export const extractNDB = async (db: Promise<Database>, extras: number[]) => {
   `)
   );
 
-  for (const ndb of (await extraNdbs).sort((a, b) => a.ident < b.ident ? -1 : a.ident === b.ident ? 0 : 1)) {
+  for (const ndb of (await extraNdbs).sort((a, b) =>
+    a.ident < b.ident ? -1 : a.ident === b.ident ? 0 : 1
+  )) {
     NDBNearbyOut += (ndb.ident + padder1).substr(0, 6);
     const num1 = Math.floor(ndb.frequency / 100);
     const num2 = ndb.frequency % 100;
@@ -79,5 +93,5 @@ export const extractNDB = async (db: Promise<Database>, extras: number[]) => {
     NDBNearbyOut += '\n';
   }
 
-  return {NDBOut, NDBNearbyOut};
+  return { NDBOut, NDBNearbyOut };
 };

@@ -11,9 +11,15 @@ interface WaypointDbData {
   airport_id: number;
 }
 
-export const extractWaypoints = async (db: Promise<Database>, extra: number[], enrouteFixes: number[]) => {
-  const addIsEnrouteAndIsBoundaryInfo = (isBoundary: boolean) => (s: WaypointDbData[]) => {
-    return s.map(w => {
+export const extractWaypoints = async (
+  db: Promise<Database>,
+  extra: number[],
+  enrouteFixes: number[]
+): Promise<Waypoint[]> => {
+  const addIsEnrouteAndIsBoundaryInfo = (isBoundary: boolean) => (
+    s: WaypointDbData[]
+  ): Waypoint[] => {
+    return s.map((w) => {
       const { waypoint_id, airport_id, ...others } = w;
       return {
         ...others,
@@ -22,8 +28,10 @@ export const extractWaypoints = async (db: Promise<Database>, extra: number[], e
         is_boundary: isBoundary
       };
     });
-  }
-  const waypoints: Promise<Waypoint[]> = (await db).all<WaypointDbData[]>(SQL`
+  };
+  const waypoints: Promise<Waypoint[]> = (await db)
+    .all<WaypointDbData[]>(
+      SQL`
     SELECT
     waypoint_id, ident, laty, lonx, airport_id
     FROM
@@ -32,11 +40,14 @@ export const extractWaypoints = async (db: Promise<Database>, extra: number[], e
     region = 'VT'
     AND
     type = 'WN'
-  `).then(addIsEnrouteAndIsBoundaryInfo(false));
+  `
+    )
+    .then(addIsEnrouteAndIsBoundaryInfo(false));
 
   const ids = `(${extra.join(',')})`;
-  const extraWaypoints: Promise<Waypoint[]> = (await db).all<WaypointDbData[]>(
-    SQL`
+  const extraWaypoints: Promise<Waypoint[]> = (await db)
+    .all<WaypointDbData[]>(
+      SQL`
     SELECT
     waypoint_id, ident, laty, lonx, airport_id
     FROM
@@ -51,7 +62,8 @@ export const extractWaypoints = async (db: Promise<Database>, extra: number[], e
       type = 'WU'
     )
   `)
-  ).then(addIsEnrouteAndIsBoundaryInfo(true));
+    )
+    .then(addIsEnrouteAndIsBoundaryInfo(true));
 
   return (await waypoints).concat(await extraWaypoints);
 };
