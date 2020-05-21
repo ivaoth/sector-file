@@ -2,6 +2,77 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2006.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.2005.1...v2.2006.1) (2020-05-21)
+
+
+### Features
+
+* **airports:** add VTSY ([4efc4d2](https://github.com/ivaothai/ivac-sector-file/commit/4efc4d2ce4659e75acb062bc48625ba9dfa8e369))
+* **airports:** update magnetic variation for cycle 2006 ([b1b6052](https://github.com/ivaothai/ivac-sector-file/commit/b1b60520735911ece0afc6bba6f31bc49924ecc7))
+* **areas:** remove Surin CTR and TMA ([18ab846](https://github.com/ivaothai/ivac-sector-file/commit/18ab84641259e5df4a5f2be640e3d23f6ae83041))
+* **aurora:** add enroute/terminal and boundary fields for Aurora ([6baac1b](https://github.com/ivaothai/ivac-sector-file/commit/6baac1b23545bc7d183e889f850f6ba808304cbc))
+* **aurora:** add TMAs, CTRs, and ATZs ([57de6e8](https://github.com/ivaothai/ivac-sector-file/commit/57de6e81ca3efc37d06d5470e6ee7e107b573fe4))
+* **aurora:** include Alfa Control Area ([4bea82b](https://github.com/ivaothai/ivac-sector-file/commit/4bea82b2d434bdb69f200efb6783d3d3b5bf9038))
+* **aurora/VTBD:** add MVA to VTBD ([59d75e5](https://github.com/ivaothai/ivac-sector-file/commit/59d75e5d7dcac2304b6c36f067c09deaae7e6f8e))
+* **aurora/VTBK:** add MVA to VTBK ([f86e1e8](https://github.com/ivaothai/ivac-sector-file/commit/f86e1e8a15e2ce81c84066593635fa76c25d9b18))
+* **aurora/VTBO:** add MVA to VTBO ([b516e74](https://github.com/ivaothai/ivac-sector-file/commit/b516e7431972a8ecaa1a4f0a4c7f131efe368d8a))
+* **aurora/VTBO:** add VTBO airport details ([7d39a59](https://github.com/ivaothai/ivac-sector-file/commit/7d39a59b436b3983f0d311c4bca0036ff55f66fc))
+* **aurora/VTBS:** add MVA to VTBS ([9765332](https://github.com/ivaothai/ivac-sector-file/commit/97653328a4da4c0b8c5f495bc6ccea6580b8ffca))
+* **aurora/VTBU:** add MVA to VTBU ([f16b2ca](https://github.com/ivaothai/ivac-sector-file/commit/f16b2ca5c19c0cce8abd3aff2f302d4150593a39))
+* **aurora/VTBW:** add VTBW airport details ([4cb6acd](https://github.com/ivaothai/ivac-sector-file/commit/4cb6acd64e496843e039bf16f779ff0473022e33))
+* **aurora/VTCC:** add MVA to VTCC ([648d266](https://github.com/ivaothai/ivac-sector-file/commit/648d266e4f363da716a9f7dd4dce7389cc883de1))
+* **aurora/VTCH:** add MVA to VTCH ([480779c](https://github.com/ivaothai/ivac-sector-file/commit/480779cde8ede0cfe55ee89d1ea46728200a4c27))
+* **aurora/VTCH:** add VTCH SID ([5c993a4](https://github.com/ivaothai/ivac-sector-file/commit/5c993a482672060bd19ec81d2772392305590025))
+* **aurora/VTCI:** add VTCI airport details ([a72ea73](https://github.com/ivaothai/ivac-sector-file/commit/a72ea732f45e5952f86ea7051ce2e4f7b3994f54))
+* **aurora/VTCL:** add MVA to VTCL ([e055d6c](https://github.com/ivaothai/ivac-sector-file/commit/e055d6c85aee384d32f538ba9b3ab1a2b363a13c))
+* **aurora/VTCN:** add MVA to VTCN ([1b7c27a](https://github.com/ivaothai/ivac-sector-file/commit/1b7c27a50cd269e87f2073873d6f1298d4ae2832))
+* **aurora/VTCP:** add MVA to VTCP ([c221c79](https://github.com/ivaothai/ivac-sector-file/commit/c221c79e89223f09144804df1371e083c954dd91))
+* **aurora/VTCT:** add MVA to VTCT ([124ad67](https://github.com/ivaothai/ivac-sector-file/commit/124ad67415105b47c69129fa9d9600c35ff49dcb))
+* **aurora/VTPB:** add MVA to VTPB ([6c483c3](https://github.com/ivaothai/ivac-sector-file/commit/6c483c31bff504d391ec98f8a275484bd2c07a5f))
+* **aurora/VTPH:** add MVA to VTPH ([f2f1842](https://github.com/ivaothai/ivac-sector-file/commit/f2f1842569e5f85e950257d167058f3f23938a48))
+* **aurora/VTPI:** add MVA to VTPI ([cef9130](https://github.com/ivaothai/ivac-sector-file/commit/cef913031a6972411e0489e6f3581c1ff075eea1))
+* **aurora/VTPI:** add VTPI airport details ([02a3215](https://github.com/ivaothai/ivac-sector-file/commit/02a32151b9a01542a4a4577bfca793de8635fe3e))
+* **aurora/VTPM:** add MVA to VTPM ([5b21833](https://github.com/ivaothai/ivac-sector-file/commit/5b21833f638e343341b13720d58897a5be12df55))
+* **aurora/VTPO:** add MVA to VTPO ([d691718](https://github.com/ivaothai/ivac-sector-file/commit/d691718acad1cb45da96d655d0cb1bb426e1aff5))
+* **aurora/VTPP:** add MVA to VTPP ([6bd276a](https://github.com/ivaothai/ivac-sector-file/commit/6bd276a1b977fcaeceae0280a2c019eb73be3826))
+* **aurora/VTPR:** add VTPR airport details ([9f0096c](https://github.com/ivaothai/ivac-sector-file/commit/9f0096c2d084d292943da9948f9a15d6f924af7e))
+* **aurora/VTPT:** add MVA to VTPT ([dac8934](https://github.com/ivaothai/ivac-sector-file/commit/dac8934324c3b42412dfa6ab70a1b02e9cab3d7d))
+* **aurora/VTSB:** add MVA to VTSB ([97d89a0](https://github.com/ivaothai/ivac-sector-file/commit/97d89a0f2559e7eeb73aa933bdf7bd8d9462887d))
+* **aurora/VTSC:** add MVA to VTSC ([0b772ec](https://github.com/ivaothai/ivac-sector-file/commit/0b772eccfacd5e38642709cae17c35b8bf88330f))
+* **aurora/VTSC:** add VTSC airport details ([dcaecaf](https://github.com/ivaothai/ivac-sector-file/commit/dcaecafeccbec40ac19f8554a6d0890ad301dc90))
+* **aurora/VTSE:** add MVA to VTSE ([da005d1](https://github.com/ivaothai/ivac-sector-file/commit/da005d1e99f9c839290fd41f1facf53d7cb3048f))
+* **aurora/VTSF:** add MVA to VTSF ([f686f89](https://github.com/ivaothai/ivac-sector-file/commit/f686f890681f865d74e96ef3219ea7496c0fd237))
+* **aurora/VTSG:** add MVA to VTSG ([2302a0f](https://github.com/ivaothai/ivac-sector-file/commit/2302a0f488f2615e779397d8022edc62519f9d30))
+* **aurora/VTSK:** add MVA to VTSK ([66337f6](https://github.com/ivaothai/ivac-sector-file/commit/66337f6db217b29df26e9f715265e09782ac3b9d))
+* **aurora/VTSM:** add MVA to VTSM ([ef3ed22](https://github.com/ivaothai/ivac-sector-file/commit/ef3ed22068b77ebcbb5c302fc2ce81a78cf5f7f0))
+* **aurora/VTSP:** add NVA to VTSP ([f40d1e4](https://github.com/ivaothai/ivac-sector-file/commit/f40d1e4b4b27b5f24deae11337cddf17bb03a4f3))
+* **aurora/VTSR:** add MVA to VTSR ([d883b47](https://github.com/ivaothai/ivac-sector-file/commit/d883b479475f2db647da9aa0a3a6cfeb113c50e4))
+* **aurora/VTSR:** add VTSR airport details ([9f01fef](https://github.com/ivaothai/ivac-sector-file/commit/9f01fef26f9b186f4e77d8a1a0fd4fb7f221a333))
+* **aurora/VTSS:** add MVA to VTSS ([760ee88](https://github.com/ivaothai/ivac-sector-file/commit/760ee8833f1319c12341494188f61b69d8ef31b5))
+* **aurora/VTST:** add MVA to VTST ([65f2237](https://github.com/ivaothai/ivac-sector-file/commit/65f2237fbbb6bf30db7f3addd9629893e6dad1a7))
+* **aurora/VTUD:** add MVA to VTUD ([5e16ebb](https://github.com/ivaothai/ivac-sector-file/commit/5e16ebb479f254ddd951f35b815ebc300bacbfd7))
+* **aurora/VTUI:** add MVA to VTUI ([34d39b7](https://github.com/ivaothai/ivac-sector-file/commit/34d39b786f929f410bcf43be26dfe769ad3b1b28))
+* **aurora/VTUK:** add MVA to VTUK ([6d910d8](https://github.com/ivaothai/ivac-sector-file/commit/6d910d89669a8dcd15e97e014cdea452d48e0ba7))
+* **aurora/VTUL:** add MVA to VTUL ([6e47452](https://github.com/ivaothai/ivac-sector-file/commit/6e47452f14c755b3c16a36a50aab0b6a7e2700f5))
+* **aurora/VTUN:** add MVA to VTUN ([cf3bba5](https://github.com/ivaothai/ivac-sector-file/commit/cf3bba58fd766ca1c64d0fc99aa48c217030b64f))
+* **aurora/VTUO:** add MVA to VTUO ([81de74a](https://github.com/ivaothai/ivac-sector-file/commit/81de74a43008f085b2a9cf47ab1dee4463d4fadb))
+* **aurora/VTUQ:** add MVA to VTUQ ([89c555e](https://github.com/ivaothai/ivac-sector-file/commit/89c555efdf45a851fd4c476aaa08ac9fed418fb2))
+* **aurora/VTUQ:** add VTUQ airport details ([14d19fe](https://github.com/ivaothai/ivac-sector-file/commit/14d19fe7917b0f650fe068886d4c020de0ba2de9))
+* **aurora/VTUU:** add MVA to VTUU ([371648f](https://github.com/ivaothai/ivac-sector-file/commit/371648f6a3d9732494b820f1559858d37a95e406))
+* **aurora/VTUV:** add MVA to VTUV ([283c083](https://github.com/ivaothai/ivac-sector-file/commit/283c0832467afc3f2d85c877b29b8566b165fa55))
+* **aurora/VTUW:** add MVA to VTUW ([6836b2a](https://github.com/ivaothai/ivac-sector-file/commit/6836b2a80d9e3c805373b7936ec628d3900dc4c1))
+
+
+### Bug Fixes
+
+* **aurora:** add missing semicolon from low airspace ([5c027a5](https://github.com/ivaothai/ivac-sector-file/commit/5c027a5154d589367a382691ea8a069bcd4a2675))
+* **aurora:** do not output D/R/P to low airspace section ([5ea917d](https://github.com/ivaothai/ivac-sector-file/commit/5ea917d3132f957b314187fd24b7c2e9dc43c81e))
+* **aurora:** fix syntax error ([b64317d](https://github.com/ivaothai/ivac-sector-file/commit/b64317d7aa81615b756c185d44ba71fa0cfe250d))
+* **aurora:** fix wrong section name ([8961322](https://github.com/ivaothai/ivac-sector-file/commit/8961322d887d433dc9b937174d6a141a048c5f23))
+* **aurora:** swap latitude and longitude on low airspace ([074cb90](https://github.com/ivaothai/ivac-sector-file/commit/074cb90b70f21702969a32372f430e3f0fc616de))
+* **aurora/VTBS:** add X mark to C2 taxiway ([96ca2ae](https://github.com/ivaothai/ivac-sector-file/commit/96ca2ae743557272d428d2df7b3dca3004ca584b))
+* **deps:** update dependency sqlite3 to v4.2.0 ([#507](https://github.com/ivaothai/ivac-sector-file/issues/507)) ([340c55e](https://github.com/ivaothai/ivac-sector-file/commit/340c55e2aac4bad8e0197a0494aa4211483c88ba))
+
 ### [2.2005.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.2001.1...v2.2005.1) (2020-04-23)
 
 
