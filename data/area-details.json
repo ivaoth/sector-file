@@ -637,16 +637,16 @@
     "checked": true
   },
   {
-    "digest": "212be1e6f469cbaeff447b4622de601a91eabca325a911b51fa9725e2092da7a6ddb73e2112a847f501e3086e4dd4c8d8ae487ec93997e6e58d5d43bbf82ebdf",
-    "type": "TMA",
-    "name": "VTUJ_TMA",
+    "digest": "020e66d78efcb27e18925426246b47983807d031ad2adc31ff239e3cfeb54742ea2667df21f03610e8880ed7ee2e252baa320ebc8e1fb657db832ccb24401713",
+    "type": "CTR",
+    "name": "VTUJ_CTR",
     "use": true,
     "checked": true
   },
   {
-    "digest": "878e8963e72d7ca9814be74c802a18eee6ef022371bb3d86d72fbcacbee7fede05004a816abc6f9d207bc6811282bf8c38b9411544fea91c9b44ccb801a3c8e2",
-    "type": "CTR",
-    "name": "VTUJ_CTR",
+    "digest": "5391383379053194d9acbff591610450b303bd440e819404305514ccb26b0acfadb38ec0cb1aad72ee9fb30ccba8c62b69ffebffd86889edea7d67921b447538",
+    "type": "TMA",
+    "name": "VTUJ_TMA",
     "use": true,
     "checked": true
   },
@@ -710,20 +710,6 @@
     "digest": "fed0d3e65964cde3a67cece3bc0c218ac409f1f2c34329c4b63d7c0735be225346ac7bc2e3715d52646dfdf8482fc29172b49a0dc68f0b4cee68d88d78adb32f",
     "type": "ATZ",
     "name": "VTUO_ATZ",
-    "use": true,
-    "checked": true
-  },
-  {
-    "digest": "eec2c04d349060cc55f650a8231cb9d206d0d66dee10a9b66f3e134fc30e749464d806ed25a7522da143ecb94e0fcd1ec602856af16388a69addf709b7100b4a",
-    "type": "CTR",
-    "name": "VTUO_CTR",
-    "use": true,
-    "checked": true
-  },
-  {
-    "digest": "f08f2faccd03e475a0874351346c8ef66ecd023b654e22bb92043a4747a6a1af0a1a9da034c8d13ddb323d50f9096690dc61ebe0692367aae19ab46467fe95a4",
-    "type": "TMA",
-    "name": "VTUO_TMA",
     "use": true,
     "checked": true
   },
