@@ -1136,6 +1136,31 @@
     "airspaceClass": "C"
   },
   {
+    "ident": "VTSY",
+    "name": "Betong",
+    "tower_frequency": null,
+    "lonx": 101.14716339111328,
+    "laty": 5.78879451751709,
+    "mag_var": -0.2358347773551941,
+    "altitude": 738,
+    "runways": [
+      {
+        "runway1": "07",
+        "ils1": null,
+        "lon1": 101.14289855957031,
+        "lat1": 5.787263870239258,
+        "hdg1": 70.09200286865234,
+        "alt1": 738,
+        "runway2": "25",
+        "ils2": null,
+        "lon2": 101.15818786621094,
+        "lat2": 5.79277229309082,
+        "hdg2": 250.093994140625,
+        "alt2": 718
+      }
+    ]
+  },
+  {
     "ident": "VTUD",
     "name": "Udon Thani",
     "tower_frequency": 122500,
