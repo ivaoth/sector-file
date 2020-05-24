@@ -1,0 +1,92 @@
+name: Deployment
+
+on: [push,pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: "Init: Summon NodeJS"
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12.x
+    - name: "Cache: node_modules"
+      uses: actions/cache@v1
+      with:
+        path: node_modules
+        key: ${{ runner.OS }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.OS }}-node-${{ env.cache-name }}-
+          ${{ runner.OS }}-node-
+    - name: "Init: Install dependencies"
+      run: |
+        npm i
+    - name: "Test: Lint"
+      run: |
+        npm run lint
+    - name: "Test: Prebuilt check"
+      run: |
+        npm run aurora-prebuilt
+  deploy-aurora:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: "Init: Summon NodeJS"
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12.x
+    - name: "Cache: node_modules"
+      uses: actions/cache@v1
+      with:
+        path: node_modules
+        key: ${{ runner.OS }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.OS }}-node-${{ env.cache-name }}-
+          ${{ runner.OS }}-node-
+    - name: "Init: Install dependencies"
+      run: |
+        npm i
+    - name: "Build: Aurora sector file"
+      run: |
+        npm run build:aurora
+    - name: "Test: Aurora sector file"
+      run: |
+        npm run test:aurora
+    - name: "Artifacts: Upload"
+      uses: actions/upload-artifact@v1
+      with:
+        name: vtbb-aurora
+        path: build/aurora
+  deploy-ivac1:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: "Init: Summon NodeJS"
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12.x
+    - name: "Cache: node_modules"
+      uses: actions/cache@v1
+      with:
+        path: node_modules
+        key: ${{ runner.OS }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.OS }}-node-${{ env.cache-name }}-
+          ${{ runner.OS }}-node-
+    - name: "Init: Install dependencies"
+      run: |
+        npm i
+    - name: "Build: IvAc sector file"
+      run: |
+        npm run build:ivac1
+    - name: "Test: IvAc sector file"
+      run: |
+        npm run test:ivac1
+    - name: "Artifacts: Upload"
+      uses: actions/upload-artifact@v1
+      with:
+        name: vtbb-ivac1
+        path: result/vtbb.sct

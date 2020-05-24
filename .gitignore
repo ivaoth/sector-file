@@ -6,3 +6,4 @@
 /airac-parser/**/*.sqlite
 /airac-parser/common/build/*
 /airac-parser/ivac1/**/*.txt
+.DS_Store
