@@ -3,7 +3,8 @@
   "version": "2.2006.1",
   "description": "",
   "scripts": {
-    "test": "ts-node ./scripts/checker.ts",
+    "test:ivac1": "ts-node ./scripts/checker.ts",
+    "test:aurora": "echo \"No tests found!\"",
     "merge-pr": "node ./scripts/github/merge_pr.js",
     "build:ivac1": "ts-node ./scripts/ivac1.ts",
     "build:aurora": "ts-node ./scripts/aurora.ts",
