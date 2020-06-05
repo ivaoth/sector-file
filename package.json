@@ -43,7 +43,7 @@
     "standard-version": "8.0.0",
     "ts-node": "8.10.2",
     "tslint": "6.1.2",
-    "typescript": "3.9.3"
+    "typescript": "3.9.5"
   },
   "dependencies": {
     "archiver": "4.0.1",
