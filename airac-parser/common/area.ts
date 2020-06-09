@@ -1,8 +1,7 @@
-import { ensureDirSync, writeFileSync } from 'fs-extra';
-import { resolve } from 'path';
 import SQL from 'sql-template-strings';
-import { Database, open } from 'sqlite';
+import { Database } from 'sqlite';
 import { Area } from '../../utils/interfaces';
+import { createHash } from 'crypto';
 
 interface AreaDbData {
   name: string;
@@ -17,7 +16,21 @@ interface AreaDbData {
   multiple_code: string;
 }
 
-const getBoundary = async (id: number, db: Promise<Database>) => {
+const getBoundary = async (
+  id: number,
+  db: Promise<Database>
+): Promise<{
+  name: string;
+  type: string;
+  restrictive_type: string;
+  restrictive_designation: string;
+  max_laty: number;
+  max_lonx: number;
+  min_laty: number;
+  min_lonx: number;
+  multiple_code: string;
+  points: [number, number][];
+} | null> => {
   const data = await (await db).get<AreaDbData>(SQL`
     SELECT
       name,
@@ -53,7 +66,7 @@ const getBoundary = async (id: number, db: Promise<Database>) => {
 const pointInPolygon = (
   point: [number, number],
   polygon: [number, number][]
-) => {
+): boolean => {
   let inside = false;
   for (let i = 0, j = polygon.length - 1; i < polygon.length; j = i++) {
     const intersect =
@@ -67,19 +80,14 @@ const pointInPolygon = (
   return inside;
 };
 
-const main = async () => {
+export const extractAreas = async (db: Promise<Database>): Promise<Area[]> => {
   const firName = 'Bangkok';
-  const basePath = resolve(__dirname);
-  const buildPath = resolve(basePath, 'build');
-  const buildFile = resolve(buildPath, 'areas.json');
   const data: Area[] = [];
-  ensureDirSync(buildPath);
-  const db = open(resolve(basePath, '..', 'little_navmap_navigraph.sqlite'));
-  const { geometry: fir } = await (await db).get<{
+  const { geometry: fir } = (await (await db).get<{
     geometry: Buffer;
   }>(
     `SELECT geometry FROM 'boundary' WHERE name LIKE '%${firName}%' AND type = 'C' LIMIT 1`
-  );
+  ))!;
   const firPoints: [number, number][] = [];
   let index = 0;
   const size = fir.readInt32BE(index);
@@ -88,9 +96,9 @@ const main = async () => {
     firPoints.push([fir.readFloatBE(index), fir.readFloatBE(index + 4)]);
     index += 8;
   }
-  const { count: boundaryCount } = await (await db).get<{ count: number }>(
+  const { count: boundaryCount } = (await (await db).get<{ count: number }>(
     SQL`SELECT MAX(boundary_id) AS 'count' FROM 'boundary';`
-  );
+  ))!;
   for (let i = 1; i <= boundaryCount; i++) {
     const boundary = await getBoundary(i, db);
     if (boundary && boundary.type !== 'C') {
@@ -105,12 +113,32 @@ const main = async () => {
         const mid_laty = (boundary.max_laty + boundary.min_laty) / 2;
         const mid_lonx = (boundary.max_lonx + boundary.min_lonx) / 2;
         if (pointInPolygon([mid_lonx, mid_laty], firPoints)) {
-          data.push(boundary);
+          const pointsBuffer = Buffer.allocUnsafe(
+            boundary.points.length * 2 * 4
+          );
+          let position = 0;
+          for (const p of boundary.points) {
+            for (const n of p) {
+              pointsBuffer.writeFloatBE(n, position);
+              position += 4;
+            }
+          }
+          const nameBuffer = Buffer.from(boundary.name, 'utf-8');
+          const typeBuffer = Buffer.from(boundary.type, 'utf-8');
+          const allBuffer = Buffer.concat([
+            pointsBuffer,
+            nameBuffer,
+            typeBuffer
+          ]);
+          const sha512 = createHash('sha512');
+          sha512.update(allBuffer);
+          data.push({
+            ...boundary,
+            digest: sha512.digest('hex')
+          });
         }
       }
     }
   }
-  writeFileSync(buildFile, JSON.stringify(data, null, 2));
+  return data;
 };
-
-main();

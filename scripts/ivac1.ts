@@ -16,7 +16,7 @@ const filesPath = resolve(basePath, 'files');
 const buildPath = resolve(basePath, 'build');
 const resultFile = resolve(basePath, 'result', `vtbb.sct`);
 
-const copy = (src: string, dest: string = src) => {
+const copy = (src: string, dest: string = src): void => {
   copySync(resolve(filesPath, src), resolve(buildPath, dest));
 };
 
@@ -66,11 +66,11 @@ const orders = [
   '14-GEO.txt'
 ];
 
-for (let file of files) {
+for (const file of files) {
   copy(file);
 }
 
-for (let folderMap of folders) {
+for (const folderMap of folders) {
   copy(folderMap[0], folderMap[1]);
 }
 
@@ -78,11 +78,11 @@ createFileSync(resultFile);
 
 let out = '';
 
-for (let name of orders) {
+for (const name of orders) {
   const path = resolve(buildPath, name);
   if (lstatSync(path).isDirectory()) {
     const files = readdirSync(path);
-    for (let file of files) {
+    for (const file of files) {
       out += readFileSync(resolve(path, file)).toString();
     }
   } else {

@@ -1,8 +1,5 @@
-import * as sqlite from 'sqlite';
-import { resolve } from 'path';
-import { writeFileSync, ensureDirSync, readFileSync } from 'fs-extra';
+import { Database } from 'sqlite';
 import SQL from 'sql-template-strings';
-import * as inquirer from 'inquirer';
 import { Segment } from '../../utils/interfaces';
 
 interface SegmentsDbData {
@@ -23,19 +20,14 @@ interface SegmentsDbData {
   id_to: number;
 }
 
-const main = async () => {
-  const basePath = resolve(__dirname);
-  const buildPath = resolve(basePath, 'build');
-  const buildFile = resolve(buildPath, 'airways.json');
-  const extraFile = resolve(buildPath, '_airway-extras.json');
-
-  ensureDirSync(buildPath);
-
-  const db = sqlite.open(
-    resolve(basePath, '..', 'little_navmap_navigraph.sqlite')
-  );
-
-  const filteredSegments = (await db).all<SegmentsDbData>(SQL`
+export const extractAirways = async (
+  db: Promise<Database>
+): Promise<{
+  data: Segment[][];
+  extras: number[];
+  enroute: number[];
+}> => {
+  const filteredSegments = (await db).all<SegmentsDbData[]>(SQL`
   SELECT
     airway.airway_name AS name,
     airway.airway_fragment_no AS segment_no,
@@ -74,10 +66,17 @@ const main = async () => {
   `);
 
   const extras: number[] = [];
+  const enroute: number[] = [];
 
   const { data } = (await filteredSegments).reduce(
-    (prev, curr) => {
+    (prev, curr, i) => {
       const { data: currData, ...others } = prev;
+      if (i === 0 && enroute.indexOf(curr.id_from) === -1) {
+        enroute.push(curr.id_from);
+      }
+      if (enroute.indexOf(curr.id_to) === -1) {
+        enroute.push(curr.id_to);
+      }
       if (curr.region_from !== 'VT') {
         if (extras.indexOf(curr.id_from) === -1) {
           extras.push(curr.id_from);
@@ -88,7 +87,7 @@ const main = async () => {
           extras.push(curr.id_to);
         }
       }
-      const {id_from: _, id_to: __, ...out} = curr;
+      const { id_from: _, id_to: __, ...out } = curr;
       if (
         out.name !== prev.currentName ||
         out.segment_no !== prev.currentFragment ||
@@ -108,7 +107,7 @@ const main = async () => {
           ]
         };
       } else {
-        const { currentSequence: currSeq, ...others2 } = others;
+        const { currentSequence: _currSeq, ...others2 } = others;
         const lastEle = currData.slice(-1)[0];
         const otherEle = currData.slice(0, -1);
         return {
@@ -133,9 +132,5 @@ const main = async () => {
       data: [] as Segment[][]
     }
   );
-
-  writeFileSync(buildFile, JSON.stringify(data, null, 2));
-  writeFileSync(extraFile, JSON.stringify(extras, null, 2))
+  return { data, extras, enroute };
 };
-
-main();

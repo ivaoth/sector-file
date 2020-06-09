@@ -1,12 +1,16 @@
-import { Database } from "sqlite";
-import SQL from "sql-template-strings";
-import { convertPoint } from "../latlon";
+import { Database } from 'sqlite';
+import SQL from 'sql-template-strings';
+import { convertPoint } from '../latlon';
 
 const logKnownLegTypes = false;
 
-const getLegOutput = async (leg: { leg_id: number; type: string; fix_ident: string; fix_type?: string }, airportId?: number, db?: Database) => {
+const getLegOutput = async (
+  leg: { leg_id: number; type: string; fix_ident: string; fix_type?: string },
+  airportId?: number,
+  db?: Database
+): Promise<string> => {
   if (airportId && leg.fix_type && db) {
-    const fix: {type: string; lonx: number; laty: number} = await db.get(
+    const fix: { type: string; lonx: number; laty: number } = (await db.get(
       SQL`
       SELECT
       type, lonx, laty
@@ -17,7 +21,7 @@ const getLegOutput = async (leg: { leg_id: number; type: string; fix_ident: stri
       AND
       airport_id = ${airportId}
       `
-    );
+    ))!;
     if (fix) {
       if (fix.type === 'WU') {
         return convertPoint([fix.lonx, fix.laty]);
@@ -30,9 +34,18 @@ const getLegOutput = async (leg: { leg_id: number; type: string; fix_ident: stri
   } else {
     return leg.fix_ident;
   }
-}
+};
 
-export const legsToPoints = async (legs: { leg_id: number; type: string; fix_ident: string; fix_type?: string }[], airportId?: number, db?: Database) => {
+export const legsToPoints = async (
+  legs: {
+    leg_id: number;
+    type: string;
+    fix_ident: string;
+    fix_type?: string;
+  }[],
+  airportId?: number,
+  db?: Database
+): Promise<string[]> => {
   const points: string[] = [];
   for (const leg of legs) {
     switch (leg.type) {
@@ -63,11 +76,13 @@ export const legsToPoints = async (legs: { leg_id: number; type: string; fix_ide
         break;
       case 'VM':
         logKnownLegTypes &&
-          console.log(`>>> (${leg.leg_id}) Heading to manual termination: no action`);
+          console.log(
+            `>>> (${leg.leg_id}) Heading to manual termination: no action`
+          );
         break;
       default:
         console.log(`>>> (${leg.leg_id}) ***UNKNOWN LEG TYPE ${leg.type}***`);
     }
   }
   return points;
-}
+};

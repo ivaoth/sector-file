@@ -1,70 +1,69 @@
-import * as sqlite from 'sqlite';
-import { resolve } from 'path';
-import {
-  writeFileSync,
-  ensureDirSync,
-  existsSync,
-  readFileSync
-} from 'fs-extra';
+import { Database } from 'sqlite';
 import SQL from 'sql-template-strings';
 import { Waypoint } from '../../utils/interfaces';
 
 interface WaypointDbData {
+  waypoint_id: number;
   ident: string;
   name: string;
-  frequency: number;
   laty: number;
   lonx: number;
+  airport_id: number;
 }
 
-const main = async () => {
-  const basePath = resolve(__dirname);
-  const buildPath = resolve(basePath, 'build');
-  const waypointFile = resolve(buildPath, 'waypoints.json');
-  const extraFile = resolve(buildPath, '_airway-extras.json');
-
-  ensureDirSync(buildPath);
-  const db = sqlite.open(
-    resolve(basePath, '..', 'little_navmap_navigraph.sqlite')
-  );
-  const waypoints: Promise<Waypoint[]> = (await db).all<WaypointDbData>(SQL`
+export const extractWaypoints = async (
+  db: Promise<Database>,
+  extra: number[],
+  enrouteFixes: number[]
+): Promise<Waypoint[]> => {
+  const addIsEnrouteAndIsBoundaryInfo = (isBoundary: boolean) => (
+    s: WaypointDbData[]
+  ): Waypoint[] => {
+    return s.map((w) => {
+      const { waypoint_id, airport_id, ...others } = w;
+      return {
+        ...others,
+        is_enroute: enrouteFixes.indexOf(waypoint_id) !== -1,
+        is_terminal: !!airport_id,
+        is_boundary: isBoundary
+      };
+    });
+  };
+  const waypoints: Promise<Waypoint[]> = (await db)
+    .all<WaypointDbData[]>(
+      SQL`
     SELECT
-    ident, laty, lonx
+    waypoint_id, ident, laty, lonx, airport_id
     FROM
     waypoint
     WHERE
     region = 'VT'
     AND
     type = 'WN'
-  `);
+  `
+    )
+    .then(addIsEnrouteAndIsBoundaryInfo(false));
 
-  if (existsSync(extraFile)) {
-    const extra = JSON.parse(readFileSync(extraFile).toString()) as number[];
-    const ids = `(${extra.join(',')})`;
-    const extraWaypoints: Promise<Waypoint[]> = (await db).all<WaypointDbData>(
+  const ids = `(${extra.join(',')})`;
+  const extraWaypoints: Promise<Waypoint[]> = (await db)
+    .all<WaypointDbData[]>(
       SQL`
-      SELECT
-      ident, laty, lonx
-      FROM
-      waypoint
-      WHERE
-      waypoint_id IN
-    `.append(ids).append(SQL`
-      AND
-      (
-        type = 'WN'
-        OR
-        type = 'WU'
-      )
-    `)
-    );
-    writeFileSync(
-      waypointFile,
-      JSON.stringify((await waypoints).concat(await extraWaypoints), null, 2)
-    );
-  } else {
-    writeFileSync(waypointFile, JSON.stringify(await waypoints, null, 2));
-  }
-};
+    SELECT
+    waypoint_id, ident, laty, lonx, airport_id
+    FROM
+    waypoint
+    WHERE
+    waypoint_id IN
+  `.append(ids).append(SQL`
+    AND
+    (
+      type = 'WN'
+      OR
+      type = 'WU'
+    )
+  `)
+    )
+    .then(addIsEnrouteAndIsBoundaryInfo(true));
 
-main();
+  return (await waypoints).concat(await extraWaypoints);
+};

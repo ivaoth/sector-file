@@ -1,17 +1,17 @@
-const pad = require('left-pad');
+import pad from 'left-pad';
 
 export enum Coordinate {
   Latitude,
   Longtitude
 }
 
-export const convertCoordinate = (value: number, type: Coordinate) => {
+export const convertCoordinate = (value: number, type: Coordinate): string => {
   let out = '';
   if (type === Coordinate.Latitude) {
     if (value >= 0) {
       out += 'N';
     } else {
-      value *= -1
+      value *= -1;
       out += 'S';
     }
   } else {
@@ -46,10 +46,16 @@ export const convertCoordinate = (value: number, type: Coordinate) => {
   return out;
 };
 
-export const convertPoint = (value: number[], isLatLon: boolean = false) => {
+export const convertPoint = (value: number[], isLatLon = false): string => {
   if (isLatLon) {
-    return `${convertCoordinate(value[0], Coordinate.Latitude)} ${convertCoordinate(value[1], Coordinate.Longtitude)}`;
+    return `${convertCoordinate(
+      value[0],
+      Coordinate.Latitude
+    )} ${convertCoordinate(value[1], Coordinate.Longtitude)}`;
   } else {
-    return `${convertCoordinate(value[1], Coordinate.Latitude)} ${convertCoordinate(value[0], Coordinate.Longtitude)}`;
+    return `${convertCoordinate(
+      value[1],
+      Coordinate.Latitude
+    )} ${convertCoordinate(value[0], Coordinate.Longtitude)}`;
   }
-}
+};

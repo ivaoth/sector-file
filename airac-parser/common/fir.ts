@@ -1,23 +1,11 @@
-import * as sqlite from 'sqlite';
-import { resolve } from 'path';
-import { writeFileSync, ensureDirSync } from 'fs-extra';
+import { Database } from 'sqlite';
 import { Fir } from '../../utils/interfaces';
 
 interface FirDbData {
   geometry: Buffer;
 }
 
-const main = async () => {
-  const basePath = resolve(__dirname);
-  const buildPath = resolve(basePath, 'build');
-  const firsPath = resolve(buildPath, 'firs.json');
-
-  ensureDirSync(buildPath);
-
-  const db = sqlite.open(
-    resolve(basePath, '..', 'little_navmap_navigraph.sqlite')
-  );
-
+export const extractFirs = async (db: Promise<Database>): Promise<Fir[]> => {
   const firs = [
     ['VTBB', 'Bangkok'],
     ['VDPP', 'Phnom Penh'],
@@ -30,7 +18,7 @@ const main = async () => {
 
   const firsOut: Fir[] = [];
 
-  for (let fir of firs) {
+  for (const fir of firs) {
     const firData = (await db).get<FirDbData>(`
       SELECT
       geometry
@@ -42,7 +30,7 @@ const main = async () => {
       type = 'C'
       LIMIT 1
     `);
-    const data = (await firData).geometry;
+    const data = (await firData)!.geometry;
     let index = 0;
     const size = data.readInt32BE(index);
     index += 4;
@@ -57,7 +45,5 @@ const main = async () => {
       points
     });
   }
-  writeFileSync(firsPath, JSON.stringify(firsOut, null, 2));
+  return firsOut;
 };
-
-main();

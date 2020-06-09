@@ -36,7 +36,7 @@ export interface Segment {
   from_lon: number;
   to_lat: number;
   to_lon: number;
-  direction: "N" | "B" | "F";
+  direction: 'N' | 'B' | 'F';
   region_from: string;
   region_to: string;
 }
@@ -61,6 +61,9 @@ export interface Waypoint {
   ident: string;
   laty: number;
   lonx: number;
+  is_terminal: boolean;
+  is_enroute: boolean;
+  is_boundary: boolean;
 }
 
 export interface Fir {
@@ -80,6 +83,15 @@ export interface Area {
   min_laty: number;
   min_lonx: number;
   multiple_code: string;
+  digest: string;
+}
+
+export interface AreaDetail {
+  digest: string;
+  type: 'D' | 'R' | 'P' | 'TMA' | 'CTR' | 'ATZ' | 'other';
+  name: string;
+  use: boolean;
+  checked: boolean;
 }
 
 export interface Metadata {

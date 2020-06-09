@@ -4,7 +4,7 @@ import { resolve } from 'path';
 const lines = readFileSync(resolve(__dirname, '../result/vtbb.sct'))
   .toString()
   .split('\n')
-  .map(s => {
+  .map((s) => {
     return s.split(';', 2)[0].trimRight();
   });
 
@@ -54,9 +54,9 @@ const checkCoordinateFormat = (
       const parts = text.match(/^([NEWS])(\d{3})\.(\d{2})\.(\d{2})\.(\d{3})$/);
       if (parts) {
         let hasNaN = false;
-        const numbers = parts.slice(2).map(n => {
+        const numbers = parts.slice(2).map((n) => {
           const x = Number(n);
-          if (x === NaN) {
+          if (isNaN(x)) {
             hasNaN = true;
           }
           return x;
@@ -96,29 +96,23 @@ const checkCoordinateFormat = (
 const checkFrequencyFormat = (text: string): boolean => {
   const result = text.match(/^(\d{3})\.(\d{3})$/);
   if (result) {
-    let hasNaN = false;
-    const numbers = result.map(n => {
+    return !result.some((n) => {
       const x = Number(n);
-      if (x === NaN) {
-        hasNaN = true;
+      if (isNaN(x)) {
+        return true;
       }
-      return x;
-    });
-    if (hasNaN) {
       return false;
-    } else {
-      return true;
-    }
+    });
   } else {
     return false;
   }
-}
+};
 
-let errors: { line: number, reason: string }[] = [];
+const errors: { line: number; reason: string }[] = [];
 
-let identifiers: string[] = [];
+const identifiers: string[] = [];
 
-let identifiersToCheck: { line: number, name: string }[] = [];
+const identifiersToCheck: { line: number; name: string }[] = [];
 
 const getNewMode = (text: string): string | null => {
   if (text[0] === '[' && text[text.length - 1] === ']') {
@@ -126,27 +120,27 @@ const getNewMode = (text: string): string | null => {
   } else {
     return null;
   }
-}
+};
 
 let mode = Modes.Preamable;
 
 for (let i = 0; i <= lines.length - 1; i++) {
-  const pushError = (reason: string) => {
+  const pushError = (reason: string): void => {
     errors.push({
       line: i + 1,
       reason
     });
   };
-  const pushIdentifier = (name: string) => {
+  const pushIdentifier = (name: string): void => {
     if (name) {
       identifiers.push(name);
     }
-  }
-  const pushIdentifierToCheck = (name: string) => {
+  };
+  const pushIdentifierToCheck = (name: string): void => {
     if (name) {
       identifiersToCheck.push({ line: i + 1, name });
     }
-  }
+  };
   let line = lines[i];
   if (line !== '') {
     // Check if mode is changed
@@ -202,17 +196,17 @@ for (let i = 0; i <= lines.length - 1; i++) {
       switch (mode) {
         case Modes.Preamable:
           break;
-        case Modes.Info:
+        case Modes.Info: {
           const infoRegexes = [
             /^[A-Z]{4}$/,
             /^[A-Z]{4}_(CTR|APP|TWR|GND)$/,
             /^[A-Z]{4}$/
-          ]
+          ];
           for (let j = 0; j <= infoRegexes.length - 1; j++) {
             const regex = infoRegexes[j];
             const result = line.match(regex);
             if (!result) {
-              pushError(`Invalid infomation section`)
+              pushError(`Invalid infomation section`);
             }
             do {
               i++;
@@ -240,26 +234,29 @@ for (let i = 0; i <= lines.length - 1; i++) {
             i++;
             line = lines[i];
           } while (line === '');
-          if (Number(line) === NaN) {
+          if (isNaN(Number(line))) {
             pushError('Invalid information section - distance of latitude');
           }
           do {
             i++;
             line = lines[i];
           } while (line === '');
-          if (Number(line) === NaN) {
+          if (isNaN(Number(line))) {
             pushError('Invalid information section - magnetic variation');
           }
           do {
             i++;
             line = lines[i];
           } while (line === '');
-          if (Number(line) === NaN) {
+          if (isNaN(Number(line))) {
             pushError('Invalid information section - scaling factor');
           }
           break;
-        case Modes.VOR:
-          const VORResult = line.match(/^([A-Z ]{3}) (\d{3}\.\d{3}) ([NS]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([EW]\d{3}\.\d{2}\.\d{2}\.\d{3})$/);
+        }
+        case Modes.VOR: {
+          const VORResult = line.match(
+            /^([A-Z ]{3}) (\d{3}\.\d{3}) ([NS]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([EW]\d{3}\.\d{2}\.\d{2}\.\d{3})$/
+          );
           if (!VORResult) {
             pushError('Invalid VOR');
           } else {
@@ -275,8 +272,11 @@ for (let i = 0; i <= lines.length - 1; i++) {
             pushIdentifier(VORResult[1].trim());
           }
           break;
-        case Modes.NDB:
-          const NDBResult = line.match(/^([A-Z ]{5}) (\d{3}\.\d{3}) ([NS]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([EW]\d{3}\.\d{2}\.\d{2}\.\d{3})$/);
+        }
+        case Modes.NDB: {
+          const NDBResult = line.match(
+            /^([A-Z ]{5}) (\d{3}\.\d{3}) ([NS]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([EW]\d{3}\.\d{2}\.\d{2}\.\d{3})$/
+          );
           if (!NDBResult) {
             pushError('Invalid NDB');
           } else {
@@ -292,8 +292,11 @@ for (let i = 0; i <= lines.length - 1; i++) {
             pushIdentifier(NDBResult[1].trim());
           }
           break;
-        case Modes.Fix:
-          const fixResult = line.match(/^([A-Z _0-9]{5}) ([NS]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([EW]\d{3}\.\d{2}\.\d{2}\.\d{3})$/);
+        }
+        case Modes.Fix: {
+          const fixResult = line.match(
+            /^([A-Z _0-9]{5}) ([NS]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([EW]\d{3}\.\d{2}\.\d{2}\.\d{3})$/
+          );
           if (!fixResult) {
             pushError('Invalid fix');
           } else {
@@ -306,26 +309,37 @@ for (let i = 0; i <= lines.length - 1; i++) {
             pushIdentifier(fixResult[1].trim());
           }
           break;
-        case Modes.Airport:
-          const airportResult = line.match(/^([A-Z0-9]{4}) (\d{3}\.\d{3}|\.      ) ([NS]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([EW]\d{3}\.\d{2}\.\d{2}\.\d{3}) .$/);
+        }
+        case Modes.Airport: {
+          const airportResult = line.match(
+            /^([A-Z0-9]{4}) (\d{3}\.\d{3}|\. {6}) ([NS]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([EW]\d{3}\.\d{2}\.\d{2}\.\d{3}) .$/
+          );
           if (!airportResult) {
             pushError('Invalid airport');
           } else {
             if (!checkFrequencyFormat(airportResult[2])) {
-              if (airportResult[2] !== '.      ' && airportResult[2] !== '  ?    ') {
+              if (
+                airportResult[2] !== '.      ' &&
+                airportResult[2] !== '  ?    '
+              ) {
                 pushError('Invalid airport - Frequency');
               }
             }
             if (!checkCoordinateFormat(airportResult[3], Directions.Latitude)) {
               pushError('Invalid airport - Latitude');
             }
-            if (!checkCoordinateFormat(airportResult[4], Directions.Longtitude)) {
+            if (
+              !checkCoordinateFormat(airportResult[4], Directions.Longtitude)
+            ) {
               pushError('Invalid airport - Longtitude');
             }
           }
           break;
-        case Modes.Runway:
-          const runwayResult = line.match(/^([0-3][0-9])([LRC ]) ([0-3][0-9])([LRC ]) ([0-9]{3}) ([0-9]{3}) ([NS]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([EW]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([NS]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([EW]\d{3}\.\d{2}\.\d{2}\.\d{3})$/);
+        }
+        case Modes.Runway: {
+          const runwayResult = line.match(
+            /^([0-3][0-9])([LRC ]) ([0-3][0-9])([LRC ]) ([0-9]{3}) ([0-9]{3}) ([NS]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([EW]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([NS]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([EW]\d{3}\.\d{2}\.\d{2}\.\d{3})$/
+          );
           if (!runwayResult) {
             pushError('Invalid runway');
           } else {
@@ -344,22 +358,27 @@ for (let i = 0; i <= lines.length - 1; i++) {
             if (!checkCoordinateFormat(runwayResult[7], Directions.Latitude)) {
               pushError('Invalid airport - Latitude 1');
             }
-            if (!checkCoordinateFormat(runwayResult[8], Directions.Longtitude)) {
+            if (
+              !checkCoordinateFormat(runwayResult[8], Directions.Longtitude)
+            ) {
               pushError('Invalid airport - Longtitude 1');
             }
             if (!checkCoordinateFormat(runwayResult[9], Directions.Latitude)) {
               pushError('Invalid airport - Latitude 2');
             }
-            if (!checkCoordinateFormat(runwayResult[10], Directions.Longtitude)) {
+            if (
+              !checkCoordinateFormat(runwayResult[10], Directions.Longtitude)
+            ) {
               pushError('Invalid airport - Longtitude 2');
             }
           }
           break;
+        }
+        // TODO: Should airways have name on every line?
         case Modes.SID:
         case Modes.STAR:
-        // TODO: Should airways have name on every line?
         case Modes.HighAirway:
-        case Modes.LowAirway:
+        case Modes.LowAirway: {
           let word1 = '';
           switch (mode) {
             case Modes.SID:
@@ -375,7 +394,9 @@ for (let i = 0; i <= lines.length - 1; i++) {
               word1 = 'Low Airway';
               break;
           }
-          const SIDResult = line.match(/^(.{25}) (([NS]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([EW]\d{3}\.\d{2}\.\d{2}\.\d{3})|(.{29})) (([NS]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([EW]\d{3}\.\d{2}\.\d{2}\.\d{3})|(.{1,29}))$/)
+          const SIDResult = line.match(
+            /^(.{25}) (([NS]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([EW]\d{3}\.\d{2}\.\d{2}\.\d{3})|(.{29})) (([NS]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([EW]\d{3}\.\d{2}\.\d{2}\.\d{3})|(.{1,29}))$/
+          );
           if (!SIDResult) {
             pushError(`Invalid ${word1}`);
           } else {
@@ -401,14 +422,15 @@ for (let i = 0; i <= lines.length - 1; i++) {
             }
           }
           break;
+        }
         case Modes.ARTCC:
         case Modes.HighARTCC:
-        case Modes.LowARTCC:
+        case Modes.LowARTCC: {
           let word2 = '';
           switch (mode) {
             case Modes.ARTCC:
               word2 = 'SID';
-              break;;
+              break;
             case Modes.HighARTCC:
               word2 = 'High ARTCC';
               break;
@@ -416,7 +438,9 @@ for (let i = 0; i <= lines.length - 1; i++) {
               word2 = 'Low ARTCC';
               break;
           }
-          const ARTCC = line.match(/^(.{10}) (([NS]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([EW]\d{3}\.\d{2}\.\d{2}\.\d{3})|(.{29})) (([NS]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([EW]\d{3}\.\d{2}\.\d{2}\.\d{3})|(.{1,29}))$/)
+          const ARTCC = line.match(
+            /^(.{10}) (([NS]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([EW]\d{3}\.\d{2}\.\d{2}\.\d{3})|(.{29})) (([NS]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([EW]\d{3}\.\d{2}\.\d{2}\.\d{3})|(.{1,29}))$/
+          );
           if (!ARTCC) {
             pushError(`Invalid ${word2}`);
           } else {
@@ -442,8 +466,11 @@ for (let i = 0; i <= lines.length - 1; i++) {
             }
           }
           break;
-        case Modes.Geographical:
-          const geoResult = line.match(/^([NS]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([EW]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([NS]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([EW]\d{3}\.\d{2}\.\d{2}\.\d{3}) (.{1,14})$/);
+        }
+        case Modes.Geographical: {
+          const geoResult = line.match(
+            /^([NS]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([EW]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([NS]\d{3}\.\d{2}\.\d{2}\.\d{3}) ([EW]\d{3}\.\d{2}\.\d{2}\.\d{3}) (.{1,14})$/
+          );
           if (!geoResult) {
             pushError(`Invalid geo`);
           } else {
@@ -460,13 +487,14 @@ for (let i = 0; i <= lines.length - 1; i++) {
               pushError('Invalid geo - Longtitide 2');
             }
           }
+        }
       }
     }
   }
 }
 
 for (let i = 0; i <= identifiersToCheck.length - 1; i++) {
-  const check = identifiersToCheck[i]
+  const check = identifiersToCheck[i];
   if (identifiers.indexOf(check.name) === -1) {
     errors.push({
       line: check.line,
