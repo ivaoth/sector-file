@@ -47,6 +47,7 @@ const aptAirspaceMap: {
   VTSR: 'C',
   VTSS: 'C',
   VTST: 'C',
+  VTSY: 'D',
   VTUD: 'C',
   VTUI: 'C',
   VTUK: 'C',
