@@ -5567,6 +5567,38 @@
   ],
   [
     {
+      "name": "W44",
+      "segment_no": 1,
+      "sequence_no": 1,
+      "wpt_from": "BET",
+      "wpt_to": "ERVES",
+      "type": "B",
+      "from_lat": 5.78546667098999,
+      "from_lon": 101.1440658569336,
+      "to_lat": 6.202188968658447,
+      "to_lon": 101.4814453125,
+      "direction": "N",
+      "region_from": "VT",
+      "region_to": "VT"
+    },
+    {
+      "name": "W44",
+      "segment_no": 1,
+      "sequence_no": 2,
+      "wpt_from": "ERVES",
+      "wpt_to": "NTW",
+      "type": "B",
+      "from_lat": 6.202188968658447,
+      "from_lon": 101.4814453125,
+      "to_lat": 6.527288913726807,
+      "to_lon": 101.74513244628906,
+      "direction": "N",
+      "region_from": "VT",
+      "region_to": "VT"
+    }
+  ],
+  [
+    {
       "name": "W5",
       "segment_no": 5,
       "sequence_no": 1,

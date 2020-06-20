@@ -357,6 +357,8 @@ W42                       MENEX                         EGUBO
                           TOPER                         PAKRI                        
                           PAKRI                         RAMEI                        
 W43                       CMP                           OKENA                        
+W44                       BET                           ERVES                        
+                          ERVES                         NTW                          
 W5                        UDN                           KKN                          
                           KKN                           ROT                          
                           ROT                           UBL                          
