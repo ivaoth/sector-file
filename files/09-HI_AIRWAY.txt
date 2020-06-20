@@ -464,7 +464,8 @@ Y93                       AKVUG                         OTGOL
                           DORNA                         SMU                          
 Y94                       NKS                           DOXAS                        
                           DOXAS                         LOSDA                        
-Y95                       SMU                           PAGLU                        
+Y95                       SMU                           RUMVA                        
+                          RUMVA                         PAGLU                        
                           PAGLU                         RIPMU                        
                           RIPMU                         APOBI                        
                           APOBI                         LOSDA                        
