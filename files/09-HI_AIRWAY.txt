@@ -413,6 +413,9 @@ Y17                       SMU                           OLBAG
 Y18                       BET                           PETAC                        
                           PETAC                         TONUV                        
                           TONUV                         HTY                          
+Y19                       BET                           PETAC                        
+                          PETAC                         LERNI                        
+                          LERNI                         PT                           
 Y2                        KKN                           UBLOD                        
                           UBLOD                         PIPOB                        
 Y3                        BOKAK                         RIMSO                        
