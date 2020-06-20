@@ -36,8 +36,8 @@ A581                      BGO                           BOMAS
                           TATEL                         GOGOP                        
                           GOGOP                         CMA                          
                           CMA                           ADLUS                        
-                          ADLUS                         BURBI                        
-                          BURBI                         PONUK                        
+                          ADLUS                         CTR                          
+                          CTR                           PONUK                        
 B202                      UBL                           PAK                          
 B204                      GOMES                         AGEDO                        
                           AGEDO                         SRE                          
@@ -158,7 +158,7 @@ R207                      SISUK                         MACHI
                           MONLO                         NAN                          
                           NAN                           ANBOK                        
                           ANBOK                         VTN                          
-R215                      BURBI                         NAN                          
+R215                      CTR                           NAN                          
                           NAN                           TOMIP                        
 R325                      IKULA                         MUDMA                        
                           MUDMA                         UPSAB                        
@@ -246,13 +246,13 @@ W19                       BKK                           POLAK
                           IDRUK                         ADNEP                        
                           ADNEP                         NTW                          
 W20                       CMA                           ADLUS                        
-                          ADLUS                         BURBI                        
+                          ADLUS                         CTR                          
 W21                       BKK                           NOBER                        
                           NOBER                         CMP                          
                           CMP                           UDN                          
 W22                       PSL                           NIROP                        
                           NIROP                         PAE                          
-                          PAE                           BURBI                        
+                          PAE                           CTR                          
 W23                       PSL                           POLOB                        
                           POLOB                         PIVUT                        
                           PIVUT                         LPN                          
@@ -272,7 +272,7 @@ W27                       PSL                           REMER
 W28                       STN                           SEGRA                        
                           SEGRA                         NKS                          
                           NKS                           HTY                          
-W29                       BURBI                         NAN                          
+W29                       CTR                           NAN                          
                           NAN                           UTTAR                        
                           UTTAR                         GOSTA                        
                           GOSTA                         PSL                          
