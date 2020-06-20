@@ -394,6 +394,9 @@ Y16                       BKK                           UPKUP
 Y17                       SMU                           OLBAG                        
                           OLBAG                         APUSA                        
                           APUSA                         DONSI                        
+Y18                       BET                           PETAC                        
+                          PETAC                         TONUV                        
+                          TONUV                         HTY                          
 Y2                        KKN                           UBLOD                        
                           UBLOD                         PIPOB                        
 Y3                        BOKAK                         RIMSO                        

@@ -6413,6 +6413,53 @@
   ],
   [
     {
+      "name": "Y18",
+      "segment_no": 1,
+      "sequence_no": 1,
+      "wpt_from": "BET",
+      "wpt_to": "PETAC",
+      "type": "B",
+      "from_lat": 5.78546667098999,
+      "from_lon": 101.1440658569336,
+      "to_lat": 6.294394493103027,
+      "to_lon": 101.32918548583984,
+      "direction": "N",
+      "region_from": "VT",
+      "region_to": "VT"
+    },
+    {
+      "name": "Y18",
+      "segment_no": 1,
+      "sequence_no": 2,
+      "wpt_from": "PETAC",
+      "wpt_to": "TONUV",
+      "type": "B",
+      "from_lat": 6.294394493103027,
+      "from_lon": 101.32918548583984,
+      "to_lat": 6.388641834259033,
+      "to_lon": 101.19082641601562,
+      "direction": "N",
+      "region_from": "VT",
+      "region_to": "VT"
+    },
+    {
+      "name": "Y18",
+      "segment_no": 1,
+      "sequence_no": 3,
+      "wpt_from": "TONUV",
+      "wpt_to": "HTY",
+      "type": "B",
+      "from_lat": 6.388641834259033,
+      "from_lon": 101.19082641601562,
+      "to_lat": 6.9340972900390625,
+      "to_lon": 100.38790893554688,
+      "direction": "N",
+      "region_from": "VT",
+      "region_to": "VT"
+    }
+  ],
+  [
+    {
       "name": "Y2",
       "segment_no": 1,
       "sequence_no": 1,
