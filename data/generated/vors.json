@@ -1,5 +1,12 @@
 [
   {
+    "ident": "BET",
+    "name": "BETONG YALA",
+    "frequency": 113100,
+    "laty": 5.78546667,
+    "lonx": 101.14406944
+  },
+  {
     "ident": "BKK",
     "name": "BANGKOK",
     "frequency": 117700,
