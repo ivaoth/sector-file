@@ -4445,7 +4445,7 @@
   [
     {
       "name": "W28",
-      "segment_no": 3,
+      "segment_no": 2,
       "sequence_no": 1,
       "wpt_from": "STN",
       "wpt_to": "SEGRA",
@@ -4460,7 +4460,7 @@
     },
     {
       "name": "W28",
-      "segment_no": 3,
+      "segment_no": 2,
       "sequence_no": 2,
       "wpt_from": "SEGRA",
       "wpt_to": "NKS",
@@ -4475,7 +4475,7 @@
     },
     {
       "name": "W28",
-      "segment_no": 3,
+      "segment_no": 2,
       "sequence_no": 3,
       "wpt_from": "NKS",
       "wpt_to": "HTY",
