@@ -6460,6 +6460,53 @@
   ],
   [
     {
+      "name": "Y19",
+      "segment_no": 1,
+      "sequence_no": 1,
+      "wpt_from": "BET",
+      "wpt_to": "PETAC",
+      "type": "B",
+      "from_lat": 5.78546667098999,
+      "from_lon": 101.1440658569336,
+      "to_lat": 6.294394493103027,
+      "to_lon": 101.32918548583984,
+      "direction": "N",
+      "region_from": "VT",
+      "region_to": "VT"
+    },
+    {
+      "name": "Y19",
+      "segment_no": 1,
+      "sequence_no": 2,
+      "wpt_from": "PETAC",
+      "wpt_to": "LERNI",
+      "type": "B",
+      "from_lat": 6.294394493103027,
+      "from_lon": 101.32918548583984,
+      "to_lat": 6.451619625091553,
+      "to_lon": 101.27154541015625,
+      "direction": "N",
+      "region_from": "VT",
+      "region_to": "VT"
+    },
+    {
+      "name": "Y19",
+      "segment_no": 1,
+      "sequence_no": 3,
+      "wpt_from": "LERNI",
+      "wpt_to": "PT",
+      "type": "B",
+      "from_lat": 6.451619625091553,
+      "from_lon": 101.27154541015625,
+      "to_lat": 6.788458347320557,
+      "to_lon": 101.14791870117188,
+      "direction": "N",
+      "region_from": "VT",
+      "region_to": "VT"
+    }
+  ],
+  [
+    {
       "name": "Y2",
       "segment_no": 1,
       "sequence_no": 1,
