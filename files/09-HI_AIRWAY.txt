@@ -308,7 +308,8 @@ W32                       TRN                           TUNRA
                           VEGNA                         ADLAL                        
                           ADLAL                         DORNA                        
                           DORNA                         SMU                          
-                          SMU                           SUPOJ                        
+                          SMU                           ENRAG                        
+                          ENRAG                         SUPOJ                        
                           SUPOJ                         GOKEX                        
                           GOKEX                         REGOS                        
 W33                       PUT                           ONETI                        
