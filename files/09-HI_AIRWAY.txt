@@ -314,7 +314,8 @@ W32                       TRN                           TUNRA
                           GOKEX                         REGOS                        
 W33                       PUT                           ONETI                        
                           ONETI                         RECNO                        
-                          RECNO                         SMU                          
+                          RECNO                         MESEM                        
+                          MESEM                         SMU                          
                           SMU                           VININ                        
                           VININ                         UPNEP                        
                           UPNEP                         MABKO                        
