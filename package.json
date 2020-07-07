@@ -28,7 +28,7 @@
     "@types/archiver": "3.1.0",
     "@types/fs-extra": "9.0.1",
     "@types/inquirer": "6.5.0",
-    "@types/node": "12.12.47",
+    "@types/node": "12.12.48",
     "@types/rimraf": "3.0.0",
     "@types/sqlite3": "3.1.6",
     "@types/xml": "1.0.5",
