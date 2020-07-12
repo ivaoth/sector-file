@@ -91,14 +91,6 @@ out += `${metadata.include}\n`;
 // TODO: DEFINE
 out += '[ATC]\n';
 
-for (const airport of airports) {
-  const fileName = `${airport.ident}.atc`;
-  const checkFile = resolve(auroraPath, fileName);
-  if (existsSync(checkFile)) {
-    copySync(checkFile, resolve(auroraIncludePath, fileName));
-  }
-}
-
 for (const tf of extraFiles.atc) {
   out += `F;${tf}\n`;
   copySync(resolve(auroraPath, tf), resolve(auroraIncludePath, tf));
