@@ -48,8 +48,10 @@ B346                      BKK                           NOBER
                           NOBER                         PCB                          
                           PCB                           YAKUA                        
                           YAKUA                         LPB                          
-B460                      KRT                           ROT                          
-                          ROT                           SAV                          
+B460                      KRT                           BODUR                        
+                          BODUR                         ROT                          
+                          ROT                           RURAR                        
+                          RURAR                         SAV                          
 B579                      PUT                           REBED                        
                           REBED                         NUTGU                        
                           NUTGU                         DALAN                        
