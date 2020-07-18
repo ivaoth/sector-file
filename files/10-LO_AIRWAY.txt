@@ -180,8 +180,10 @@ R468                      PNH                           BOKAK
                           GOMES                         GORSI                        
                           GORSI                         BKK                          
 R470                      VTN                           UDN                          
-                          UDN                           ROT                          
-                          ROT                           UBL                          
+                          UDN                           DOTUS                        
+                          DOTUS                         ROT                          
+                          ROT                           ENTEK                        
+                          ENTEK                         UBL                          
 R474                      BKK                           ALBOS                        
                           ALBOS                         CMP                          
                           CMP                           LEDER                        
