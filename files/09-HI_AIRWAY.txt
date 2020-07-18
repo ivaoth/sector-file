@@ -339,7 +339,8 @@ W36                       CMA                           LAMUN
                           MACHI                         DOMKA                        
                           DOMKA                         KAKTA                        
 W38                       RAMEI                         BRM                          
-                          BRM                           ROT                          
+                          BRM                           ANKID                        
+                          ANKID                         ROT                          
 W39                       LOY                           PCB                          
                           PCB                           NOBER                        
 W4                        UDN                           ROT                          
