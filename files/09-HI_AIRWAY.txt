@@ -12,7 +12,7 @@ A202                      RAMEI                         GUROK
                           OKENA                         SAV                          
 A334                      HTY                           PASVA                        
 A340                      PNH                           BISOR                        
-                          BISOR                         BOPTO                        
+                          BISOR                         RYN                          
 A457                      VAS                           TAMOS                        
                           TAMOS                         HTY                          
 A464                      CMA                           ENBAT                        
@@ -41,7 +41,7 @@ A581                      BGO                           BOMAS
 B202                      UBL                           PAK                          
 B204                      GOMES                         AGEDO                        
                           AGEDO                         SRE                          
-B205                      BOPTO                         BOKAK                        
+B205                      RYN                           BOKAK                        
 B218                      CMP                           LOY                          
                           LOY                           VTN                          
 B346                      BKK                           NOBER                        
@@ -109,7 +109,7 @@ M626                      EKAVO                         MENEX
                           VALSI                         SUPIN                        
                           SUPIN                         IKOGA                        
                           IKOGA                         KADAX                        
-M644                      BOPTO                         ALUMO                        
+M644                      RYN                           ALUMO                        
                           ALUMO                         TONIK                        
                           TONIK                         DUGON                        
                           DUGON                         ABTOK                        
@@ -154,8 +154,8 @@ M904                      BKK                           KIGOB
                           TIDAR                         ODONO                        
 N891                      XONAN                         BENSA                        
                           BENSA                         ANOBO                        
-                          ANOBO                         BOPTO                        
-                          BOPTO                         DOLNI                        
+                          ANOBO                         RYN                          
+                          RYN                           DOLNI                        
                           DOLNI                         BKK                          
 N895                      PTN                           BETNO                        
 P627                      RUSET                         ANPUB                        
@@ -184,7 +184,7 @@ R325                      IKULA                         MUDMA
                           OSVIP                         UTHAI                        
                           UTHAI                         DUBAX                        
                           DUBAX                         VAS                          
-R334                      BOPTO                         SAKDA                        
+R334                      RYN                           SAKDA                        
 R345                      ROT                           GRASO                        
                           GRASO                         PASAT                        
                           PASAT                         PEKBA                        
@@ -321,7 +321,7 @@ W33                       PUT                           ONETI
                           UPNEP                         MABKO                        
                           MABKO                         SURIX                        
                           SURIX                         TRT                          
-                          TRT                           BOPTO                        
+                          TRT                           RYN                          
 W34                       MENEX                         CPN                          
                           CPN                           RAN                          
                           RAN                           IGEVI                        
@@ -348,8 +348,8 @@ W42                       MENEX                         EGUBO
                           REGOS                         ASEKU                        
                           ASEKU                         PIDEL                        
                           PIDEL                         ALEMI                        
-                          ALEMI                         BOPTO                        
-                          BOPTO                         RUPTA                        
+                          ALEMI                         RYN                          
+                          RYN                           RUPTA                        
                           RUPTA                         BERLU                        
                           BERLU                         ELNIB                        
                           ELNIB                         XIKMA                        
