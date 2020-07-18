@@ -350,8 +350,10 @@ W43                       CMP                           OKENA
 W44                       BET                           ERVES                        
                           ERVES                         NTW                          
 W5                        UDN                           KKN                          
-                          KKN                           ROT                          
-                          ROT                           UBL                          
+                          KKN                           SEDNO                        
+                          SEDNO                         ROT                          
+                          ROT                           ENTEK                        
+                          ENTEK                         UBL                          
 W6                        KRT                           KKN                          
                           KKN                           SKN                          
                           SKN                           NKP                          
