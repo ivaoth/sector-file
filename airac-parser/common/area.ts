@@ -86,7 +86,7 @@ export const extractAreas = async (db: Promise<Database>): Promise<Area[]> => {
   const { geometry: fir } = (await (await db).get<{
     geometry: Buffer;
   }>(
-    `SELECT geometry FROM 'boundary' WHERE name LIKE '%${firName}%' AND type = 'C' LIMIT 1`
+    SQL`SELECT geometry FROM 'boundary' WHERE name = ${firName.toUpperCase()} AND type = 'FIR' LIMIT 1`
   ))!;
   const firPoints: [number, number][] = [];
   let index = 0;
@@ -101,7 +101,7 @@ export const extractAreas = async (db: Promise<Database>): Promise<Area[]> => {
   ))!;
   for (let i = 1; i <= boundaryCount; i++) {
     const boundary = await getBoundary(i, db);
-    if (boundary && boundary.type !== 'C') {
+    if (boundary && boundary.type !== 'C' && boundary.type !== 'FIR') {
       let inside = 0;
       for (let j = 0; j < boundary.points.length; j++) {
         const point = boundary.points[j];

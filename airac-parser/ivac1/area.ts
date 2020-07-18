@@ -1,3 +1,4 @@
+import SQL from 'sql-template-strings';
 import { Database } from 'sqlite';
 import { convertPoint } from './latlon';
 
@@ -37,7 +38,7 @@ const getBoundary = async (
     min_laty: number;
     min_lonx: number;
     multiple_code: string;
-  }>(`SELECT * FROM 'boundary' WHERE boundary_id = ${id}`);
+  }>(SQL`SELECT * FROM 'boundary' WHERE boundary_id = ${id}`);
   if (!data) return null;
   const { geometry: fir, ...otherData } = data;
   const points: [number, number][] = [];
@@ -78,7 +79,7 @@ export const extractAreas = async (
     min_laty: number;
     min_lonx: number;
   }>(
-    `SELECT * FROM 'boundary' WHERE name LIKE '%${firName}%' AND type = 'C' LIMIT 1`
+    SQL`SELECT * FROM 'boundary' WHERE name = ${firName.toUpperCase()} AND type = 'FIR' LIMIT 1`
   ))!;
   const firPoints: [number, number][] = [];
   let index = 0;
@@ -89,13 +90,13 @@ export const extractAreas = async (
     index += 8;
   }
   const { count: boundaryCount } = (await (await db).get<{ count: number }>(
-    `SELECT MAX(boundary_id) AS 'count' FROM 'boundary';`
+    SQL`SELECT MAX(boundary_id) AS 'count' FROM 'boundary';`
   ))!;
   let drpOut = '';
   let tmaOut = '';
   for (let i = 1; i <= boundaryCount; i++) {
     const boundary = await getBoundary(i, await db);
-    if (boundary && boundary.type !== 'C') {
+    if (boundary && boundary.type !== 'C' && boundary.type !== 'FIR') {
       let inside = 0;
       for (let j = 0; j < boundary.points.length; j++) {
         const point = boundary.points[j];
