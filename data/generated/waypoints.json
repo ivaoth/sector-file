@@ -4217,8 +4217,8 @@
   },
   {
     "ident": "LEDER",
-    "laty": 17.84555556,
-    "lonx": 102.47361111,
+    "laty": 17.84568889,
+    "lonx": 102.47348611,
     "is_enroute": true,
     "is_terminal": false,
     "is_boundary": false
@@ -6690,7 +6690,7 @@
   {
     "ident": "POLAK",
     "laty": 13.35169444,
-    "lonx": 100.58172222,
+    "lonx": 100.58175,
     "is_enroute": true,
     "is_terminal": false,
     "is_boundary": false
