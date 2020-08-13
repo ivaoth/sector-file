@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2009.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.2008.1...v2.2009.1) (2020-08-13)
+
+
+### Features
+
+* **airports:** update magetic variations for cycle 2009 ([9dfd466](https://github.com/ivaothai/ivac-sector-file/commit/9dfd466704bc1ad824715fee29807ef2502dca5c))
+* **airports:** update VTUO tower frequency ([a5f2db5](https://github.com/ivaothai/ivac-sector-file/commit/a5f2db578dd1f91ee9fa2745b669d05a26b7e6ae))
+* **airways:** update airway W36 ([de34783](https://github.com/ivaothai/ivac-sector-file/commit/de34783f68550e523986b22bb1671ac0ffe6ae7c))
+* **waypoints:** update waypoints for cycle 2009 ([f3ab283](https://github.com/ivaothai/ivac-sector-file/commit/f3ab283763ddfa3a05941f74dbde842047fd536e))
+
+
+### Bug Fixes
+
+* **deps:** update dependency archiver to v5 ([#647](https://github.com/ivaothai/ivac-sector-file/issues/647)) ([0f48703](https://github.com/ivaothai/ivac-sector-file/commit/0f487031802cb4d506963c3c287d2e9770003cd4))
+* **deps:** update dependency inquirer to v7.3.3 ([#648](https://github.com/ivaothai/ivac-sector-file/issues/648)) ([e304374](https://github.com/ivaothai/ivac-sector-file/commit/e304374dc04864f8b28e0272d1ba08076c1212df))
+* **deps:** update dependency sqlite to v4.0.12 ([#643](https://github.com/ivaothai/ivac-sector-file/issues/643)) ([ab2ee46](https://github.com/ivaothai/ivac-sector-file/commit/ab2ee46f1aaa09953ea09558f0813827e94c98cd))
+* **deps:** update dependency sqlite to v4.0.14 ([#665](https://github.com/ivaothai/ivac-sector-file/issues/665)) ([eafd2ec](https://github.com/ivaothai/ivac-sector-file/commit/eafd2ec5d602d7fc6bbaae6526a37f44a301ce70))
+* **ndbs:** correct LY position ([978a729](https://github.com/ivaothai/ivac-sector-file/commit/978a72966f94a429cf3691bae2905bd93ecb84d4))
+
 ### [2.2008.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.2007.1...v2.2008.1) (2020-07-18)
 
 
