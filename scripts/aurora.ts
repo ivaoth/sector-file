@@ -78,6 +78,8 @@ const extraFiles = JSON.parse(readFileSync(extraFilesFile).toString()) as {
   mva: string[];
 };
 
+const region = 'VT';
+
 removeSync(outPath);
 
 out += '[INFO]\n';
@@ -409,6 +411,9 @@ for (const area of areas) {
         : area.restrictive_type === 'P'
         ? 'Prohibit'
         : 'Unknown';
+    const name = area.multiple_code
+      ? `${region}${area.restrictive_type}-${area.restrictive_designation} (${area.multiple_code}) ${area.name}`
+      : `${region}${area.restrictive_type}-${area.restrictive_designation} ${area.name}`;
     for (const line of area.points.map((point, index, arr): [
       [number, number],
       [number, number]
@@ -420,7 +425,9 @@ for (const area of areas) {
     })) {
       const lineOut = `${line[0][1].toFixed(7)};${line[0][0].toFixed(
         7
-      )};${line[1][1].toFixed(7)};${line[1][0].toFixed(7)};${colour};\n`;
+      )};${line[1][1].toFixed(7)};${line[1][0].toFixed(
+        7
+      )};${colour};${name};\n`;
       switch (area.restrictive_type) {
         case 'D':
           dangerOut += lineOut;
