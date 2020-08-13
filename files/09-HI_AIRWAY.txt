@@ -337,7 +337,7 @@ W35                       UPNEP                         PINUN
 W36                       CMA                           LAMUN                        
                           LAMUN                         MACHI                        
                           MACHI                         DOMKA                        
-                          DOMKA                         KAKTA                        
+                          DOMKA                         MHS                          
 W38                       RAMEI                         BRM                          
                           BRM                           ANKID                        
                           ANKID                         ROT                          
@@ -387,7 +387,7 @@ W9                        BKK                           TL
                           PANTA                         CMA                          
                           CMA                           VISES                        
                           VISES                         BOKIB                        
-                          BOKIB                         KAKTA                        
+                          BOKIB                         MHS                          
 W94                       NKS                           GUPMO                        
 W99                       SMU                           OLBAG                        
                           OLBAG                         APUSA                        
