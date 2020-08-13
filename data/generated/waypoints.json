@@ -3808,14 +3808,6 @@
     "is_boundary": false
   },
   {
-    "ident": "KAKTA",
-    "laty": 19.31964722,
-    "lonx": 97.91208333,
-    "is_enroute": true,
-    "is_terminal": false,
-    "is_boundary": false
-  },
-  {
     "ident": "KALIM",
     "laty": 8.08507222,
     "lonx": 98.01889444,
