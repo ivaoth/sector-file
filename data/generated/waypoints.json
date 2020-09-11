@@ -2176,14 +2176,6 @@
     "is_boundary": false
   },
   {
-    "ident": "DARNO",
-    "laty": 13.82192778,
-    "lonx": 100.55314722,
-    "is_enroute": false,
-    "is_terminal": true,
-    "is_boundary": false
-  },
-  {
     "ident": "DATOE",
     "laty": 6.91401111,
     "lonx": 101.31925556,
