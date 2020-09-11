@@ -6268,15 +6268,15 @@
       "segment_no": 2,
       "sequence_no": 6,
       "wpt_from": "TENUM",
-      "wpt_to": "GOLUD",
+      "wpt_to": "PASVA",
       "type": "B",
       "from_lat": 9.041372299194336,
       "from_lon": 101.6634521484375,
-      "to_lat": 6.284999847412109,
-      "to_lon": 102.27749633789062,
+      "to_lat": 6.2581000328063965,
+      "to_lon": 102.07530212402344,
       "direction": "F",
       "region_from": "VT",
-      "region_to": "VT"
+      "region_to": "WM"
     }
   ],
   [

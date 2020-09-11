@@ -385,7 +385,7 @@ Y11                       KIGOB                         BUT
                           PIDEL                         NOMEP                        
                           NOMEP                         RILVI                        
                           RILVI                         TENUM                        
-                          TENUM                         GOLUD                        
+                          TENUM                         PASVA                        
 Y12                       ALUMO                         ALEMI                        
                           ALEMI                         DOLNI                        
 Y13                       GRASO                         PAKRI                        
