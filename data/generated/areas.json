@@ -4896,7 +4896,7 @@
     "digest": "0a44185b3a2745c2c5dadfc92508d3c3473cd647aa146e68f47c0411f25bc0269a39e1d5c6a211eb8c29efdc62659aeb481529e5a12440889cd56e807b7c698b"
   },
   {
-    "name": "CHIANG RAI (TMA)",
+    "name": "CHIANG RAI TMA",
     "type": "CC",
     "restrictive_type": null,
     "restrictive_designation": null,
@@ -5635,7 +5635,7 @@
         20.199289321899414
       ]
     ],
-    "digest": "e1604c963001420a677f48c678c69f083caee5c1eec0838781938c22da3eebbfd8a3bbe2cc905ef2a8392204139738b98abdbaac5315de6c7d1866ce57047094"
+    "digest": "c46bfbf1e0737766199da512bbda0e8c0e20f117200ec326db72297da9ead4b29666e515422330565aa138fefcabd8089929d858ac978bc5eab15681e1f9f2de"
   },
   {
     "name": "PHETCHABUN",
@@ -9996,7 +9996,7 @@
     "digest": "b37c9e81c798ad300e9ecde0785df5c15b681f394420ec3db5837a7dacad0fc248e5aea7f9a131dc76da2971d78673b1d8df42343161ce3ec49997bd48e21db3"
   },
   {
-    "name": "CHUMPHON (TMA)",
+    "name": "CHUMPHON TMA",
     "type": "CC",
     "restrictive_type": null,
     "restrictive_designation": null,
@@ -10499,7 +10499,7 @@
         11.072102546691895
       ]
     ],
-    "digest": "c3bc09a63c28f7582d24eee2ca6715a7d0afd9b05d2653c4a4a94b7f4949b9e06b4cbb99cf5c461c74a1294d49044d3c94c77660633a8f1de26c082b447ebcdb"
+    "digest": "6460df84a58ddbd1d78030a1094065a5f546eebef1b1bd038fde973db755ab031daa6e92b032605e0b835186d8f3c496c94ebd169118c1f6e92857f98b772cc5"
   },
   {
     "name": "CHUMPHON",
@@ -11704,7 +11704,7 @@
     "max_lonx": 100.22891235351562,
     "min_laty": 9.387225151062012,
     "min_lonx": 99.89089965820312,
-    "multiple_code": "B",
+    "multiple_code": null,
     "points": [
       [
         100.05990600585938,
@@ -11814,7 +11814,7 @@
     "max_lonx": 100.5631103515625,
     "min_laty": 9.08238410949707,
     "min_lonx": 99.72128295898438,
-    "multiple_code": "A",
+    "multiple_code": null,
     "points": [
       [
         100.087890625,
