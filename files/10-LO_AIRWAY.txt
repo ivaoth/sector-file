@@ -34,8 +34,10 @@ A581                      BGO                           BOMAS
                           TATEL                         GOGOP                        
                           GOGOP                         CMA                          
                           CMA                           ADLUS                        
-                          ADLUS                         CTR                          
+                          ADLUS                         NUMDO                        
+                          NUMDO                         CTR                          
                           CTR                           PONUK                        
+                          PONUK                         SAGAG                        
 B202                      UBL                           PAK                          
 B204                      GOMES                         AGEDO                        
                           AGEDO                         SRE                          
