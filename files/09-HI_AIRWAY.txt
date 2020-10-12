@@ -296,7 +296,8 @@ W19                       BKK                           POLAK
                           IDRUK                         ADNEP                        
                           ADNEP                         NTW                          
 W20                       CMA                           ADLUS                        
-                          ADLUS                         CTR                          
+                          ADLUS                         NUMDO                        
+                          NUMDO                         CTR                          
 W21                       BKK                           NOBER                        
                           NOBER                         CMP                          
                           CMP                           UDN                          
