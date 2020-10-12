@@ -218,10 +218,12 @@ R345                      ROT                           GRASO
                           GRASO                         PASAT                        
                           PASAT                         PEKBA                        
                           PEKBA                         BIDEM                        
-R468                      PNH                           BOKAK                        
-                          BOKAK                         GOMES                        
+R468                      AKNAT                         BOKAK                        
+                          BOKAK                         BERLU                        
+                          BERLU                         GOMES                        
                           GOMES                         GORSI                        
-                          GORSI                         BKK                          
+                          GORSI                         UGIPA                        
+                          UGIPA                         BKK                          
 R470                      VTN                           UDN                          
                           UDN                           DOTUS                        
                           DOTUS                         ROT                          
