@@ -154,6 +154,12 @@ M904                      BKK                           KIGOB
                           SIRAT                         TONIK                        
                           TONIK                         TIDAR                        
                           TIDAR                         ODONO                        
+N506                      BKK                           UGIPA                        
+                          UGIPA                         GORSI                        
+                          GORSI                         GOMES                        
+                          GOMES                         BERLU                        
+                          BERLU                         BOKAK                        
+                          BOKAK                         AKNAT                        
 N891                      XONAN                         BENSA                        
                           BENSA                         ANOBO                        
                           ANOBO                         RYN                          
