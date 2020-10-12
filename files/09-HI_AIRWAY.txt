@@ -102,6 +102,11 @@ L759                      TAVUN                         ANPAN
                           SATVA                         PUT                          
 L877                      DWI                           PUMOR                        
                           PUMOR                         MIGAR                        
+L880                      BKK                           ANKOS                        
+                          ANKOS                         DOSBU                        
+                          DOSBU                         ANREN                        
+                          ANREN                         OMURO                        
+                          OMURO                         VIBUN                        
 M502                      BKK                           BONVO                        
                           BONVO                         AKATO                        
                           AKATO                         DALER                        
