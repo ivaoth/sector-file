@@ -41,7 +41,8 @@ A581                      BGO                           BOMAS
 B202                      UBL                           PAK                          
 B204                      GOMES                         AGEDO                        
                           AGEDO                         SRE                          
-B205                      RYN                           BOKAK                        
+B205                      RYN                           OLDIR                        
+                          OLDIR                         BOKAK                        
 B218                      CMP                           LOY                          
                           LOY                           VTN                          
 B346                      BKK                           NOBER                        
