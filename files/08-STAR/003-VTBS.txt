@@ -5,9 +5,11 @@ VTBS-RW19B DOLN3C         DOLNI                         BEATS
                           BS503                         BS501                        
                           BS501                         EKCHO                        
 VTBS-RW19B DOLN3C.ALEMI   ALEMI                         DOLNI                        
-VTBS-RW19B DOLN3C.BATOK   BATOK                         DOLNI                        
+VTBS-RW19B DOLN3C.ANREN   ANREN                         DOLNI                        
 VTBS-RW19B DOLN3C.BUT     BUT                           DOLNI                        
+VTBS-RW19B DOLN3C.DULEM   DULEM                         DOLNI                        
 VTBS-RW19B DOLN3C.GOMES   GOMES                         DOLNI                        
+VTBS-RW19B DOLN3C.NUGPA   NUGPA                         DOLNI                        
 VTBS-RW19B DOLN3C.RYN     RYN                           DOLNI                        
 VTBS-RW01B DOLN3D         DOLNI                         BEATS                        
                           BEATS                         BS405                        
@@ -18,9 +20,11 @@ VTBS-RW01B DOLN3D         DOLNI                         BEATS
                           BS401                         SALSA                        
                           SALSA                         ENKAA                        
 VTBS-RW01B DOLN3D.ALEMI   ALEMI                         DOLNI                        
-VTBS-RW01B DOLN3D.BATOK   BATOK                         DOLNI                        
+VTBS-RW01B DOLN3D.ANREN   ANREN                         DOLNI                        
 VTBS-RW01B DOLN3D.BUT     BUT                           DOLNI                        
+VTBS-RW01B DOLN3D.DULEM   DULEM                         DOLNI                        
 VTBS-RW01B DOLN3D.GOMES   GOMES                         DOLNI                        
+VTBS-RW01B DOLN3D.NUGPA   NUGPA                         DOLNI                        
 VTBS-RW01B DOLN3D.RYN     RYN                           DOLNI                        
 VTBS-RW19B EAST3C         EASTE                         DUMIG                        
                           DUMIG                         SOVKI                        
