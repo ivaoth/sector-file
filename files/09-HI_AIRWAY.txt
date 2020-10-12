@@ -75,9 +75,11 @@ G463                      PUMEK                         BETNO
 G473                      MAKAS                         PSL                          
                           PSL                           CMP                          
                           CMP                           UBL                          
-G474                      BKK                           BATOK                        
-                          BATOK                         MENAM                        
-                          MENAM                         VIBUN                        
+G474                      BKK                           ANKOS                        
+                          ANKOS                         DOSBU                        
+                          DOSBU                         ANREN                        
+                          ANREN                         OMURO                        
+                          OMURO                         VIBUN                        
 L301                      DWI                           TANEK                        
                           TANEK                         PASTO                        
                           PASTO                         BKK                          

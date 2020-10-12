@@ -73,9 +73,11 @@ G463                      PUMEK                         BETNO
                           BETNO                         TARED                        
                           TARED                         BKK                          
 G473                      MAKAS                         PSL                          
-G474                      BKK                           BATOK                        
-                          BATOK                         MENAM                        
-                          MENAM                         VIBUN                        
+G474                      BKK                           ANKOS                        
+                          ANKOS                         DOSBU                        
+                          DOSBU                         ANREN                        
+                          ANREN                         OMURO                        
+                          OMURO                         VIBUN                        
 L301                      TANEK                         PASTO                        
                           PASTO                         BKK                          
 L507                      LUDVI                         NUNLI                        
