@@ -20,36 +20,6 @@ VTBD-RW21L ALBO3C         N013.53.58.450 E100.36.05.488 DE21L
                           DISCO                         BD208                        
                           BD208                         BD209                        
                           BD209                         ALBOS                        
-VTBD-RW03L BATO1B         N013.55.34.869 E100.36.44.626 LIBRA                        
-                          LIBRA                         DM032                        
-                          DM032                         BLUES                        
-                          BLUES                         RUMBA                        
-                          RUMBA                         VIOLA                        
-                          VIOLA                         NITRO                        
-                          NITRO                         BATOK                        
-VTBD-RW03R BATO1D         N013.55.28.411 E100.36.55.970 RIVER                        
-                          RIVER                         DM032                        
-                          DM032                         BLUES                        
-                          BLUES                         RUMBA                        
-                          RUMBA                         VIOLA                        
-                          VIOLA                         NITRO                        
-                          NITRO                         BATOK                        
-VTBD-RW21R BATO3A         N013.53.49.239 E100.35.45.383 DE21R                        
-                          DE21R                         BD201                        
-                          BD201                         BD202                        
-                          BD202                         BD203                        
-                          BD203                         MATLO                        
-                          MATLO                         MEZZO                        
-                          MEZZO                         NITRO                        
-                          NITRO                         BATOK                        
-VTBD-RW21L BATO3C         N013.53.58.450 E100.36.05.488 DE21L                        
-                          DE21L                         BD201                        
-                          BD201                         BD202                        
-                          BD202                         BD203                        
-                          BD203                         MATLO                        
-                          MATLO                         MEZZO                        
-                          MEZZO                         NITRO                        
-                          NITRO                         BATOK                        
 VTBD-RW03L BONV1B         N013.55.34.869 E100.36.44.626 LIBRA                        
                           LIBRA                         DM032                        
                           DM032                         BLUES                        
@@ -68,6 +38,32 @@ VTBD-RW21L BONV3C         N013.53.58.450 E100.36.05.488 DE21L
                           DE21L                         INTOS                        
                           INTOS                         OBMAR                        
                           OBMAR                         BONVO                        
+VTBD-RW03L DOSB1B         N013.55.34.869 E100.36.44.626 LIBRA                        
+                          LIBRA                         DM032                        
+                          DM032                         BLUES                        
+                          BLUES                         RUMBA                        
+                          RUMBA                         VIOLA                        
+                          VIOLA                         DOSBU                        
+VTBD-RW03R DOSB1D         N013.55.28.411 E100.36.55.970 RIVER                        
+                          RIVER                         DM032                        
+                          DM032                         BLUES                        
+                          BLUES                         RUMBA                        
+                          RUMBA                         VIOLA                        
+                          VIOLA                         DOSBU                        
+VTBD-RW21R DOSB3A         N013.53.49.239 E100.35.45.383 DE21R                        
+                          DE21R                         BD201                        
+                          BD201                         BD202                        
+                          BD202                         BD203                        
+                          BD203                         MATLO                        
+                          MATLO                         MEZZO                        
+                          MEZZO                         DOSBU                        
+VTBD-RW21L DOSB3C         N013.53.58.450 E100.36.05.488 DE21L                        
+                          DE21L                         BD201                        
+                          BD201                         BD202                        
+                          BD202                         BD203                        
+                          BD203                         MATLO                        
+                          MATLO                         MEZZO                        
+                          MEZZO                         DOSBU                        
 VTBD-RW03L GORS1B         N013.55.34.869 E100.36.44.626 LIBRA                        
                           LIBRA                         DM032                        
                           DM032                         BLUES                        
