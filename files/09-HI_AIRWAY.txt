@@ -389,9 +389,11 @@ W42                       MENEX                         EGUBO
                           PIDEL                         ALEMI                        
                           ALEMI                         RYN                          
                           RYN                           RUPTA                        
-                          RUPTA                         BERLU                        
-                          BERLU                         ELNIB                        
-                          ELNIB                         XIKMA                        
+                          RUPTA                         NUGPA                        
+                          NUGPA                         BERLU                        
+                          BERLU                         DULEM                        
+                          DULEM                         ANREN                        
+                          ANREN                         XIKMA                        
                           XIKMA                         TOPER                        
                           TOPER                         PAKRI                        
                           PAKRI                         RAMEI                        
