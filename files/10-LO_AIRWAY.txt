@@ -11,8 +11,6 @@ A202                      RAMEI                         GUROK
                           GUROK                         OKENA                        
                           OKENA                         SAV                          
 A334                      HTY                           PASVA                        
-A340                      PNH                           BISOR                        
-                          BISOR                         RYN                          
 A457                      VAS                           TAMOS                        
                           TAMOS                         HTY                          
 A464                      CMA                           ENBAT                        

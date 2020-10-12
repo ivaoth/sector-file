@@ -187,38 +187,6 @@
   ],
   [
     {
-      "name": "A340",
-      "segment_no": 1,
-      "sequence_no": 1,
-      "wpt_from": "PNH",
-      "wpt_to": "BISOR",
-      "type": "B",
-      "from_lat": 11.54397201538086,
-      "from_lon": 104.84391784667969,
-      "to_lat": 12.351805686950684,
-      "to_lon": 102.7798080444336,
-      "direction": "F",
-      "region_from": "VD",
-      "region_to": "VT"
-    },
-    {
-      "name": "A340",
-      "segment_no": 1,
-      "sequence_no": 2,
-      "wpt_from": "BISOR",
-      "wpt_to": "RYN",
-      "type": "B",
-      "from_lat": 12.351805686950684,
-      "from_lon": 102.7798080444336,
-      "to_lat": 12.780083656311035,
-      "to_lon": 101.67825317382812,
-      "direction": "F",
-      "region_from": "VT",
-      "region_to": "VT"
-    }
-  ],
-  [
-    {
       "name": "A457",
       "segment_no": 1,
       "sequence_no": 13,
