@@ -249,7 +249,7 @@ W10                       KPS                           VUTHI
 W12                       CMA                           MONLO                        
                           MONLO                         NAN                          
 W13                       LPN                           PAE                          
-W13                       MENAM                         SRE                          
+W13                       OMURO                         SRE                          
 W14                       PUT                           EPGOT                        
                           EPGOT                         TRN                          
                           TRN                           HTY                          
