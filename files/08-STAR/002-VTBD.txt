@@ -69,8 +69,10 @@ VTBD-RW03B SEHN1B         SEHNA                         BAMBU
                           DM303                         DM302                        
                           DM302                         DM301                        
 VTBD-RW03B SEHN1B.ALEMI   ALEMI                         SEHNA                        
-VTBD-RW03B SEHN1B.BATOK   BATOK                         SEHNA                        
+VTBD-RW03B SEHN1B.ANREN   ANREN                         SEHNA                        
+VTBD-RW03B SEHN1B.DULEM   DULEM                         SEHNA                        
 VTBD-RW03B SEHN1B.GOMES   GOMES                         SEHNA                        
+VTBD-RW03B SEHN1B.NUGPA   NUGPA                         SEHNA                        
 VTBD-RW03B SEHN1B.RYN     RYN                           SEHNA                        
 VTBD-RW21B SEHN3A         SEHNA                         BD120                        
                           BD120                         BD119                        
@@ -84,8 +86,10 @@ VTBD-RW21B SEHN3A         SEHNA                         BD120
                           VARPI                         AROKA                        
                           AROKA                         BD111                        
 VTBD-RW21B SEHN3A.ALEMI   ALEMI                         SEHNA                        
-VTBD-RW21B SEHN3A.BATOK   BATOK                         SEHNA                        
+VTBD-RW21B SEHN3A.ANREN   ANREN                         SEHNA                        
+VTBD-RW21B SEHN3A.DULEM   DULEM                         SEHNA                        
 VTBD-RW21B SEHN3A.GOMES   GOMES                         SEHNA                        
+VTBD-RW21B SEHN3A.NUGPA   NUGPA                         SEHNA                        
 VTBD-RW21B SEHN3A.RYN     RYN                           SEHNA                        
 VTBD-RW03B WEHA1B         WEHHA                         PESTO                        
                           PESTO                         DM308                        
