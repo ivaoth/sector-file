@@ -336,13 +336,6 @@
     "lonx": 102.77501389
   },
   {
-    "ident": "PNH",
-    "name": "PHNOM PENH",
-    "frequency": 114300,
-    "laty": 11.54397222,
-    "lonx": 104.84391667
-  },
-  {
     "ident": "SRE",
     "name": "SIEM REAP",
     "frequency": 113800,
