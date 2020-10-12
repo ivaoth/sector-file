@@ -22,24 +22,6 @@ VTBS-RW01R ALBO3K         N013.41.30.171 E100.45.39.716 EXSON
                           BS104                         BS105                        
                           BS105                         BS106                        
                           BS106                         ALBOS                        
-VTBS-RW19R BATO3G         N013.40.16.601 E100.44.04.794 ROVEN                        
-                          ROVEN                         BS901                        
-                          BS901                         BS902                        
-                          BS902                         MEZZO                        
-                          MEZZO                         NITRO                        
-                          NITRO                         BATOK                        
-VTBS-RW01L BATO3H         N013.42.13.210 E100.44.35.446 VARIS                        
-                          VARIS                         BS101                        
-                          BS101                         BATOK                        
-VTBS-RW19L BATO3J         N013.39.24.110 E100.45.06.592 LOUIS                        
-                          LOUIS                         BS901                        
-                          BS901                         BS902                        
-                          BS902                         MEZZO                        
-                          MEZZO                         NITRO                        
-                          NITRO                         BATOK                        
-VTBS-RW01R BATO3K         N013.41.30.171 E100.45.39.716 EXSON                        
-                          EXSON                         BS101                        
-                          BS101                         BATOK                        
 VTBS-RW19R BONV3G         N013.40.16.601 E100.44.04.794 ROVEN                        
                           ROVEN                         BS907                        
                           BS907                         BS909                        
@@ -72,6 +54,22 @@ VTBS-RW01R BONV3K         N013.41.30.171 E100.45.39.716 EXSON
                           BS117                         BS118                        
                           BS118                         OBMAR                        
                           OBMAR                         BONVO                        
+VTBS-RW19R DOSB3G         N013.40.16.601 E100.44.04.794 ROVEN                        
+                          ROVEN                         BS901                        
+                          BS901                         BS902                        
+                          BS902                         MEZZO                        
+                          MEZZO                         DOSBU                        
+VTBS-RW01L DOSB3H         N013.42.13.210 E100.44.35.446 VARIS                        
+                          VARIS                         BS101                        
+                          BS101                         DOSBU                        
+VTBS-RW19L DOSB3J         N013.39.24.110 E100.45.06.592 LOUIS                        
+                          LOUIS                         BS901                        
+                          BS901                         BS902                        
+                          BS902                         MEZZO                        
+                          MEZZO                         DOSBU                        
+VTBS-RW01R DOSB3K         N013.41.30.171 E100.45.39.716 EXSON                        
+                          EXSON                         BS101                        
+                          BS101                         DOSBU                        
 VTBS-RW19R GORS3G         N013.40.16.601 E100.44.04.794 ROVEN                        
                           ROVEN                         BS901                        
                           BS901                         BS902                        
