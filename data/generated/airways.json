@@ -4820,7 +4820,7 @@
   [
     {
       "name": "W25",
-      "segment_no": 2,
+      "segment_no": 3,
       "sequence_no": 1,
       "wpt_from": "THS",
       "wpt_to": "PAE",
@@ -4835,7 +4835,7 @@
     },
     {
       "name": "W25",
-      "segment_no": 2,
+      "segment_no": 3,
       "sequence_no": 2,
       "wpt_from": "PAE",
       "wpt_to": "NAN",
