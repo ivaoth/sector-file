@@ -182,6 +182,12 @@ N891                      XONAN                         BENSA
 N895                      PTN                           BETNO                        
 P627                      RUSET                         ANPUB                        
                           ANPUB                         PUT                          
+P629                      BKK                           MUBUS                        
+                          MUBUS                         DOLNI                        
+                          DOLNI                         NUGPA                        
+                          NUGPA                         OLDIR                        
+                          OLDIR                         VAPVU                        
+                          VAPVU                         VINAS                        
 P646                      POXEM                         BETNO                        
                           BETNO                         TARED                        
                           TARED                         BKK                          
