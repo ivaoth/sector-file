@@ -119,6 +119,12 @@ M626                      EKAVO                         MENEX
                           VALSI                         SUPIN                        
                           SUPIN                         IKOGA                        
                           IKOGA                         KADAX                        
+M633                      TANEK                         MUBUS                        
+                          MUBUS                         UGIPA                        
+                          UGIPA                         OLTUM                        
+                          OLTUM                         DULEM                        
+                          DULEM                         TUPGO                        
+                          TUPGO                         OROVI                        
 M644                      RYN                           ALUMO                        
                           ALUMO                         TONIK                        
                           TONIK                         DUGON                        
