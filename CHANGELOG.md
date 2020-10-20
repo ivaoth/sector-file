@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2011.2](https://github.com/ivaothai/ivac-sector-file/compare/v2.2011.1...v2.2011.2) (2020-10-20)
+
+
+### Bug Fixes
+
+* **aurora:** change approach and missed approach identifiers ([6304a59](https://github.com/ivaothai/ivac-sector-file/commit/6304a59c27262d8b13bf656f61db8803af006406))
+
 ### [2.2011.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.2009.1...v2.2011.1) (2020-10-20)
 
 
