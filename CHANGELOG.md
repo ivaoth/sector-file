@@ -2,6 +2,58 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2011.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.2009.1...v2.2011.1) (2020-10-20)
+
+
+### Features
+
+* **airports:** update magnetic variation for cycle 2011 ([5212dcf](https://github.com/ivaothai/ivac-sector-file/commit/5212dcf3ffb1aa0901ea7aa992b84c7fcbb52d11))
+* **airways:** add airway L880 (new airway) ([104b332](https://github.com/ivaothai/ivac-sector-file/commit/104b3325220763e7cae8144e7c200d097f75ca58))
+* **airways:** add airway M633 (new airway) ([47decab](https://github.com/ivaothai/ivac-sector-file/commit/47decabb8074958bf3c3e7dcf8afdad63a20e3a3))
+* **airways:** add airway N506 (new airway) ([0f0aa92](https://github.com/ivaothai/ivac-sector-file/commit/0f0aa9258cd5f85c4162733b89d9c15beb0b44b7))
+* **airways:** add airway P629 (new airway) ([4147d19](https://github.com/ivaothai/ivac-sector-file/commit/4147d1963023e01d7aca234f0ef8e66e71cb2c3a))
+* **airways:** remove airway A340 ([41e1fdb](https://github.com/ivaothai/ivac-sector-file/commit/41e1fdb7fb743d2425286f97e7af79942322ff43))
+* **airways:** update airway A581 ([6e75ca1](https://github.com/ivaothai/ivac-sector-file/commit/6e75ca10ce3bff7cb635b5fcea82b2ff9be60f61))
+* **airways:** update airway B205 ([1444eec](https://github.com/ivaothai/ivac-sector-file/commit/1444eec33161de629fd1223b72abd4ab272ab118))
+* **airways:** update airway G474 ([7bdb823](https://github.com/ivaothai/ivac-sector-file/commit/7bdb8239dcf475b63a9ea172cbc6cfb9c39ca863))
+* **airways:** update airway R215 ([4e7deb6](https://github.com/ivaothai/ivac-sector-file/commit/4e7deb61fd84ee079c67db8e8c0a58fb78dcf888))
+* **airways:** update airway R468 ([e88dfa7](https://github.com/ivaothai/ivac-sector-file/commit/e88dfa736b719578b397bf782513cd4eff3ca480))
+* **airways:** update airway W13 ([01aeac2](https://github.com/ivaothai/ivac-sector-file/commit/01aeac2f7f8d9629aa7d71c78593f374b9286ad1))
+* **airways:** update airway W20 ([e75652f](https://github.com/ivaothai/ivac-sector-file/commit/e75652f7956fd757727724b3703b2fec86cc4e75))
+* **airways:** update airway W22 ([69b1183](https://github.com/ivaothai/ivac-sector-file/commit/69b11831bb222e7987b4ebb08b40b9efa153c29b))
+* **airways:** update airway W29 ([c642c38](https://github.com/ivaothai/ivac-sector-file/commit/c642c382099ec1f5c6d3cc76afbaa44272ced89f))
+* **airways:** update airway W42 ([e31979e](https://github.com/ivaothai/ivac-sector-file/commit/e31979ed60435efbc2d33f92ec83c284a32fc5b6))
+* **areas:** add D, R, P names to Aurora sector file ([ad6154a](https://github.com/ivaothai/ivac-sector-file/commit/ad6154aab02708faeb75153c2c76e695236f4277))
+* **aurora:** add lairspace extra files processing ([684bbd4](https://github.com/ivaothai/ivac-sector-file/commit/684bbd45034a44be8688c9a3651a380c4e59d211))
+* **aurora/VTUV:** add VTUV SID ([4034d95](https://github.com/ivaothai/ivac-sector-file/commit/4034d95dd14aee15147f6f1b58ac93867bac89e8))
+* **ivac1/sid/VTBD:** update SID for VTBD ([875769e](https://github.com/ivaothai/ivac-sector-file/commit/875769ec0f418ad6bddcf269548829c55f9e7de6))
+* **ivac1/sid/VTBS:** update SID for VTBS ([e98716c](https://github.com/ivaothai/ivac-sector-file/commit/e98716c5671c6de357c9478c01efad4f3de645dc))
+* **ivac1/star/VTBD:** update STAR for VTBD ([0733903](https://github.com/ivaothai/ivac-sector-file/commit/07339033888a78b82ca6026cdd368fa710c3cbe6))
+* **ivac1/star/VTBS:** update STAR for VTBS ([280db98](https://github.com/ivaothai/ivac-sector-file/commit/280db98846fec3c6274aa7ae8d8803edfd73fd7b))
+* **vors:** update VORs for cycle 2011 ([d2d67c8](https://github.com/ivaothai/ivac-sector-file/commit/d2d67c88c5eb89f84c59b9ec67769d168fa6dc9a))
+* **waypoints:** update fixes for cycle 2011 ([4929579](https://github.com/ivaothai/ivac-sector-file/commit/4929579350db7a7dcb0b32730330b187bc489df7))
+
+
+### Bug Fixes
+
+* **airports:** update magnetic variation for cycle 2010 ([b3b027d](https://github.com/ivaothai/ivac-sector-file/commit/b3b027ded7c010f65758d75ec01d553e177afe98))
+* **airports:** update VTBP ARP ([4965ea2](https://github.com/ivaothai/ivac-sector-file/commit/4965ea25c7a274bb4724d27924f74ae0c0ab116d))
+* **airways:** update Y11 airway ([58a9d70](https://github.com/ivaothai/ivac-sector-file/commit/58a9d70c222e456bbfa995c4b0ca5669666acd17))
+* **areas:** update area metadata for cycle 2010 ([b8cc502](https://github.com/ivaothai/ivac-sector-file/commit/b8cc5021b4d53757e634442e7e45100ce378c170))
+* **aurora/VTBB:** add C frequency ([#697](https://github.com/ivaothai/ivac-sector-file/issues/697)) ([0eebbce](https://github.com/ivaothai/ivac-sector-file/commit/0eebbce76839684f6be45f89baf1b194a4c645d6))
+* **aurora/VTBB:** fix low airspace ([834d995](https://github.com/ivaothai/ivac-sector-file/commit/834d995693c7f7d8fab9ce461a2d383cee850e18))
+* **aurora/VTBD:** update SID and STAR for VTBD ([6c1902c](https://github.com/ivaothai/ivac-sector-file/commit/6c1902c95286140e8134f404e68fb6ce4b988208))
+* **aurora/VTBS:** update SID and STAR for VTBS ([5a9b34e](https://github.com/ivaothai/ivac-sector-file/commit/5a9b34ed36d814ecf2cd5917e7704ba716e81f1b))
+* **aurora/VTCT:** add new approach procedure ([4b0769a](https://github.com/ivaothai/ivac-sector-file/commit/4b0769a0d0c7fdff45b9a87d9d0ef622556990e6))
+* **aurora/VTCT:** update SID for VTCT ([7d784e5](https://github.com/ivaothai/ivac-sector-file/commit/7d784e53e629a150d0d144f87513acc1483de405))
+* **aurora/VTUV:** new approaches ([27b966e](https://github.com/ivaothai/ivac-sector-file/commit/27b966ee684aa7151af46ae789ffedbd62eaed82))
+* **deps:** update dependency archiver to v5.0.1 ([#706](https://github.com/ivaothai/ivac-sector-file/issues/706)) ([f69f885](https://github.com/ivaothai/ivac-sector-file/commit/f69f88592c0495b1918e9097f4bc8370c3a25aea))
+* **deps:** update dependency archiver to v5.0.2 ([#709](https://github.com/ivaothai/ivac-sector-file/issues/709)) ([b37716d](https://github.com/ivaothai/ivac-sector-file/commit/b37716ddaead6fc9525cc7dfdc02fb63e1e7af17))
+* **deps:** update dependency sqlite to v4.0.15 ([#729](https://github.com/ivaothai/ivac-sector-file/issues/729)) ([56eea47](https://github.com/ivaothai/ivac-sector-file/commit/56eea47e208b3b352ed29c7ae7e82e044ff74b38))
+* **fixes:** update fixes for cycle 2010 ([c44ef14](https://github.com/ivaothai/ivac-sector-file/commit/c44ef14cfbcce19c4ab82b79dd32f9ec2f4b0370))
+* **ivac1/VTCT:** remove VTCT STAR ([59d0257](https://github.com/ivaothai/ivac-sector-file/commit/59d0257d8bba046ebb1674ab7a5863f3e0ddae09))
+* **star:** change PERSY1A to VTCT ([448abfe](https://github.com/ivaothai/ivac-sector-file/commit/448abfe34c992a53ed8b9c52b77a2c8fc88c97cf))
+
 ### [2.2009.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.2008.1...v2.2009.1) (2020-08-13)
 
 
