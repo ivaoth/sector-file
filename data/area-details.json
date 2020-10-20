@@ -17,42 +17,42 @@
     "digest": "5db610a4307a71c2215e76ce0fb9f053c4477586dc21baaf2dc6514211db4a33a4af2c51899e28bb2d76b4221f2fb46914623368a50b03309da7941ec997e739",
     "type": "CTR",
     "name": "BKK_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "84ff9e80b570daf6562bf686b2dc2c74b95dd7286bd2120b46756887f4104df315e3bbcbfa13626d63f37adc141daa22f24df1b67ce6a163fd9f3df8ab4cd48b",
     "type": "TMA",
     "name": "BKK_E_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "d1d808d880754f890274ef9f2defb571e8cd7405703b44a8e12598fa775aff5ea046617f49b03b9384891a77d8c07e81f749663f6fda0c981f91d5036dd5ab51",
     "type": "TMA",
     "name": "BKK_S_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "f66d7404dbdbaa88bd62acadfd074dcefea20c1e0468ed5bca1f14247d3fe1d5ff9d484b2456b359a0d548de940d8235fe90dff502ed3728bc2bfb96896b287c",
     "type": "TMA",
     "name": "BKK_W_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "65f8c3735938fb9f20aed006054f2e551af9831bfdd629e4356b7b61d8467d23d0b2c810f81369994cb9f8366fee0077728004dccff4737dae06347b995bd2be",
     "type": "TMA",
     "name": "BKK_N_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "2b9d2e11621b84ca5a95995d9bc3ebc1128e256b4561d37aa9edebc26a7640af24b72c7652770389214994cc8af79a61263e06864c9b51e8b6dd92c9e9729bea",
     "type": "TMA",
     "name": "BKK_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {

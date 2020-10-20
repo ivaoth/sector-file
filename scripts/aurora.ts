@@ -76,6 +76,7 @@ const extraFiles = JSON.parse(readFileSync(extraFilesFile).toString()) as {
   star: string[];
   vfrfix: string[];
   mva: string[];
+  lairspace: string[];
 };
 
 const region = 'VT';
@@ -287,6 +288,11 @@ for (const areaDetail of areaDetails.filter(
   )};${area.points[0][0].toFixed(7)};\n`;
   writeFileSync(areaFile, areaOut);
   out += `F;${areaFileName}\n`;
+}
+
+for (const ef of extraFiles.lairspace) {
+  out += `F;${ef}\n`;
+  copySync(resolve(auroraPath, ef), resolve(auroraIncludePath, ef));
 }
 
 out += '[SID]\n';

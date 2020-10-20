@@ -97,5 +97,10 @@
   "vfrfix": [],
   "mva": [
     "MORA.mva"
+  ],
+  "lairspace": [
+    "BKK.lairspace",
+    "VTBD.lairspace",
+    "VTBS.lairspace"
   ]
 }
