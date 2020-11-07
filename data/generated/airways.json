@@ -2452,38 +2452,6 @@
   ],
   [
     {
-      "name": "M770",
-      "segment_no": 1,
-      "sequence_no": 10,
-      "wpt_from": "PADET",
-      "wpt_to": "RAN",
-      "type": "J",
-      "from_lat": 10.001916885375977,
-      "from_lon": 98.2886962890625,
-      "to_lat": 9.778660774230957,
-      "to_lon": 98.58391571044922,
-      "direction": "B",
-      "region_from": "VY",
-      "region_to": "VT"
-    },
-    {
-      "name": "M770",
-      "segment_no": 1,
-      "sequence_no": 11,
-      "wpt_from": "RAN",
-      "wpt_to": "GOLUD",
-      "type": "J",
-      "from_lat": 9.778660774230957,
-      "from_lon": 98.58391571044922,
-      "to_lat": 6.284999847412109,
-      "to_lon": 102.27749633789062,
-      "direction": "B",
-      "region_from": "VT",
-      "region_to": "VT"
-    }
-  ],
-  [
-    {
       "name": "M904",
       "segment_no": 1,
       "sequence_no": 1,

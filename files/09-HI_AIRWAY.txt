@@ -158,8 +158,6 @@ M769                      BKK                           LEBIM
                           RIPMU                         DOXAS                        
                           DOXAS                         DANDO                        
                           DANDO                         RIGTO                        
-M770                      PADET                         RAN                          
-                          RAN                           GOLUD                        
 M904                      BKK                           KIGOB                        
                           KIGOB                         BUT                          
                           BUT                           PIDEL                        
