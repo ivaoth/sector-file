@@ -91,7 +91,9 @@
     "VTPI.geo",
     "VTPR.geo"
   ],
-  "fillcolor": [],
+  "fillcolor": [
+    "ATConline.tfl"
+  ],
   "sid": [],
   "star": [],
   "vfrfix": [],
