@@ -1,6 +1,6 @@
 {
   "name": "ivac-sector-file",
-  "version": "2.2012.1",
+  "version": "2.2012.2",
   "description": "",
   "scripts": {
     "test:ivac1": "ts-node ./scripts/checker.ts",

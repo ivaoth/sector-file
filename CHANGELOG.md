@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2012.2](https://github.com/ivaothai/ivac-sector-file/compare/v2.2012.1...v2.2012.2) (2020-11-17)
+
+
+### Features
+
+* **aurora/VTBB:** ATC Online TFL ([#774](https://github.com/ivaothai/ivac-sector-file/issues/774)) ([382acea](https://github.com/ivaothai/ivac-sector-file/commit/382acea9e71b06c66713af75a89614d8e14de4ad))
+
+
+### Bug Fixes
+
+* **aurora/VTBD:** fix ILS03L for cycle 2010 ([#775](https://github.com/ivaothai/ivac-sector-file/issues/775)) ([6df3744](https://github.com/ivaothai/ivac-sector-file/commit/6df37449bdf3a778dfadf441a7ef35e7bd2ef422))
+* **deps:** update dependency sqlite to v4.0.17 ([#776](https://github.com/ivaothai/ivac-sector-file/issues/776)) ([ba09715](https://github.com/ivaothai/ivac-sector-file/commit/ba09715ea82b201deb895a705ba884198d1b3e14))
+
 ### [2.2012.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.2011.2...v2.2012.1) (2020-11-07)
 
 
