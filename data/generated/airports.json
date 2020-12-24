@@ -1138,9 +1138,9 @@
   {
     "ident": "VTSY",
     "name": "Betong",
-    "tower_frequency": null,
-    "lonx": 101.14716339111328,
-    "laty": 5.78879451751709,
+    "tower_frequency": 124150,
+    "lonx": 101.14715576171875,
+    "laty": 5.788788795471191,
     "mag_var": -0.24309277534484863,
     "altitude": 738,
     "runways": [
