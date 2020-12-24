@@ -798,6 +798,13 @@
     "checked": true
   },
   {
+    "digest": "e6fe55cd166a649973f11b9f68e0bfc18fea613986fc87fe7847b252dac14b8653776ca40d9542950b1c1e2f99e48babf5900912f99b6b747de715827974fb9c",
+    "type": "CTR",
+    "name": "VTSY_CTR",
+    "use": true,
+    "checked": true
+  },
+  {
     "digest": "14684ef25edc3a548d31fdff51f42cef9b2a2e0842f268230e1b21ac1fd349a8821c08d8835c683560ce732bb927ddb94ef04b650f9c07c379cf51642f7847b2",
     "type": "R",
     "name": "BANGKOK CITY",
