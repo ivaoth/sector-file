@@ -392,7 +392,21 @@
     "checked": true
   },
   {
-    "digest": "1b71720d1b3bcc0eafcd94d6795e4cf27451bec39642ee74f698f86cf4620eeb4c59a813cb3671d260d083c219a71b04856d93fcd598987fe69d0db4413efd34",
+    "digest": "f421efc6b625a7dcb18318a5de59290b2e1698ae834eed4b55f7bb257d04162ac11b01f48993665872cd17035e472f434654c14e2c4bdb3f2457aeb2f566f92e",
+    "type": "TMA",
+    "name": "VTSC_A_TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "5d4fa1a62834f12456cf9fc60aa493badf6acc252284532220bb02246993de382b9c20796d988af665a4a683b3209acfb3a90004c9522ab36cf3757ff903740e",
+    "type": "TMA",
+    "name": "VTSC_B_TMA",
+    "use": true,
+    "checked": true
+  },
+  {
+    "digest": "31b3b1e364cc8365010477852f0fcfaaab046daafbc9af7b2a80b6dd852460df7409b2a00bc2fd9a1b441e7dd4f20433b9a0bf2029f9aafadbe64be6e346c4cc",
     "type": "TMA",
     "name": "VTSC_TMA",
     "use": true,
