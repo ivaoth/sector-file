@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2013.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.2012.3...v2.2013.1) (2020-12-24)
+
+
+### Features
+
+* **areas:** add VTSK ATZ ([66fb6c3](https://github.com/ivaothai/ivac-sector-file/commit/66fb6c312b68688007b8d92cca440fb9ead93cc0))
+* **areas:** add VTSY CTR ([1a80e69](https://github.com/ivaothai/ivac-sector-file/commit/1a80e69abdf6809e556de4e76fdd3c9f1a412d3c))
+* **areas:** update Narathiwat TMA ([874df73](https://github.com/ivaothai/ivac-sector-file/commit/874df731299c459dd13e73cfe9d0c716fa27fcea))
+* **areas:** update VTBP ATZ ([caa0106](https://github.com/ivaothai/ivac-sector-file/commit/caa0106697e317f9cc9c2011337a869ba6d19616))
+* **VTSC:** update runway coordinates ([8726cad](https://github.com/ivaothai/ivac-sector-file/commit/8726cad218673c60e59a025e3ede6ba6482e9a42))
+* **VTSY:** update runway coordinates ([d8e4b80](https://github.com/ivaothai/ivac-sector-file/commit/d8e4b80b8751437a13d13b3edb1b5d3de7b935bf))
+* **VTSY:** update tower frequency and ARP ([5f99246](https://github.com/ivaothai/ivac-sector-file/commit/5f992464d916fe4da1f21d1d568e09397ad95a80))
+* **waypoints:** add new waypoints for cycle 2013 ([9cac1d1](https://github.com/ivaothai/ivac-sector-file/commit/9cac1d1efac0bb07c83cda1142d4bc8d942b5456))
+* update magnetic variation for cycle 2013 ([bf00acf](https://github.com/ivaothai/ivac-sector-file/commit/bf00acf288b25ea575dff43249d08c4822d1ddde))
+
+
+### Bug Fixes
+
+* **deps:** update dependency archiver to v5.1.0 ([#784](https://github.com/ivaothai/ivac-sector-file/issues/784)) ([de49010](https://github.com/ivaothai/ivac-sector-file/commit/de49010c4691308a4c249368e1b030c9c0a47384))
+* **deps:** update dependency sqlite to v4.0.18 ([#804](https://github.com/ivaothai/ivac-sector-file/issues/804)) ([078a5b2](https://github.com/ivaothai/ivac-sector-file/commit/078a5b2b1007eb13edf81a3ac0ed169eba7ce052))
+
 ### [2.2012.3](https://github.com/ivaothai/ivac-sector-file/compare/v2.2012.2...v2.2012.3) (2020-11-17)
 
 
