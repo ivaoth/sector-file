@@ -504,6 +504,13 @@
     "checked": true
   },
   {
+    "digest": "baaf46c4a1baedbe765d6dbbbf5164afb94df82d54203d8e85c0c370b2ca5620fa613fc77dd428d2a5ef74dcacd8b351361b378c67514139f8e6a5005b9a3cf7",
+    "type": "ATZ",
+    "name": "VTSK_ATZ",
+    "use": true,
+    "checked": true
+  },
+  {
     "digest": "9aa4d5078522834633e94d9621371a2cb5269b6299b4f3d617f38686a039557010ee53a241c0f8a59beb837b3f08d0d9555b31537ddf9e1cc99199643a23d6b8",
     "type": "CTR",
     "name": "VTSM_CTR",
