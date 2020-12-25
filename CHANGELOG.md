@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2013.2](https://github.com/ivaothai/ivac-sector-file/compare/v2.2013.1...v2.2013.2) (2020-12-25)
+
+
+### Features
+
+* **aurora/VTSY:** add VTSY SID and STR ([#787](https://github.com/ivaothai/ivac-sector-file/issues/787)) ([7ba6a97](https://github.com/ivaothai/ivac-sector-file/commit/7ba6a973727396b34896e2526462badcd0147e6e))
+
+
+### Bug Fixes
+
+* **aurora/VTSC:** change VTSC STR ([#789](https://github.com/ivaothai/ivac-sector-file/issues/789)) ([44dc847](https://github.com/ivaothai/ivac-sector-file/commit/44dc847bff1cb57ff6b06cfd475c05b70a5fbdcd))
+* **aurora/VTSF:** fix VTSF taxiway label ([#810](https://github.com/ivaothai/ivac-sector-file/issues/810)) ([fb93024](https://github.com/ivaothai/ivac-sector-file/commit/fb93024fc0311d446d835cd665bc42a5d8a0a49a))
+* **aurora/VTSK:** change VTSK STAR ([#790](https://github.com/ivaothai/ivac-sector-file/issues/790)) ([18599cc](https://github.com/ivaothai/ivac-sector-file/commit/18599cc58ad22c5a564e19c1747690ad4ed3df28))
+* **aurora/VTSS:** change VTSS STR ([#788](https://github.com/ivaothai/ivac-sector-file/issues/788)) ([a4bb676](https://github.com/ivaothai/ivac-sector-file/commit/a4bb6764f91a0cf7d331db88639afbea3d345982))
+* **aurora/VTST:** change VTST STR ([#791](https://github.com/ivaothai/ivac-sector-file/issues/791)) ([6367222](https://github.com/ivaothai/ivac-sector-file/commit/636722201fccfdc531580c2f5afaa3faef294bc8))
+* convert missed DMS to decimal ([7312da3](https://github.com/ivaothai/ivac-sector-file/commit/7312da3d00c3aa56025db0cfca45bf12bf927780))
+
 ### [2.2013.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.2012.3...v2.2013.1) (2020-12-24)
 
 
