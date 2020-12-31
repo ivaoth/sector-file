@@ -5184,6 +5184,14 @@
     "is_boundary": false
   },
   {
+    "ident": "MM27",
+    "laty": 8.11539722,
+    "lonx": 98.33770278,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
+  },
+  {
     "ident": "MOCKA",
     "laty": 14.00833056,
     "lonx": 100.66683333,
