@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2014.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.2013.2...v2.2014.1) (2020-12-31)
+
+
+### Features
+
+* **airport/VTBU:** update tower frequency for VTBU ([a73b046](https://github.com/ivaothai/ivac-sector-file/commit/a73b0460cd55cd9bd93eb7f4c439b57a604e6b85))
+* **airports:** update magnetic variation for cycle 2014 ([bd40623](https://github.com/ivaothai/ivac-sector-file/commit/bd40623786b4e607f7add14584448aa6077aa8a7))
+* **waypoints:** add waypoint for cycle 2014 ([dfe7e16](https://github.com/ivaothai/ivac-sector-file/commit/dfe7e1610578d208000e49a636d17b8651ebbc9f))
+
+
+### Bug Fixes
+
+* **deps:** update dependency sqlite to v4.0.19 ([#832](https://github.com/ivaothai/ivac-sector-file/issues/832)) ([b542194](https://github.com/ivaothai/ivac-sector-file/commit/b542194b206bb1692cd0cdf5758e431010e97a82))
+
 ### [2.2013.2](https://github.com/ivaothai/ivac-sector-file/compare/v2.2013.1...v2.2013.2) (2020-12-25)
 
 
