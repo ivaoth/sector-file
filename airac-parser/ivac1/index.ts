@@ -114,7 +114,13 @@ import { extractWaypoints } from './waypoint';
 
   console.log('Preparing airports for SIDs and STARs readings...');
 
-  const allowedSIDandSTARAirportsIdents = ['VTBD', 'VTBS', 'VTSP', 'VTPM'];
+  const allowedSIDandSTARAirportsIdents = [
+    'VTBD',
+    'VTBS',
+    'VTSP',
+    'VTPM',
+    'VTUD'
+  ];
   const airports = (await db).all<{ airport_id: number; ident: string }[]>(SQL`
     SELECT
       airport_id, ident

@@ -1,0 +1,64 @@
+VTUD-RW12 ANPU1B          N017.22.48.622 E102.48.03.719 AKTEN                        
+                          AKTEN                         LUBKA                        
+                          LUBKA                         UD127                        
+                          UD127                         ANPUS                        
+VTUD-RW30 ANPU1D          N017.23.33.721 E102.46.31.653 ERVED                        
+                          ERVED                         ADBUD                        
+                          ADBUD                         UBLAN                        
+                          UBLAN                         UD308                        
+                          UD308                         OBMIL                        
+                          OBMIL                         ANPUS                        
+VTUD-RW12 ELNE1B          N017.22.48.622 E102.48.03.719 AKTEN                        
+                          AKTEN                         ADNOL                        
+                          ADNOL                         BOTMU                        
+                          BOTMU                         SUGLO                        
+                          SUGLO                         IBEGA                        
+                          IBEGA                         ELNET                        
+VTUD-RW30 ELNE1D          N017.23.33.721 E102.46.31.653 ERVED                        
+                          ERVED                         VELMU                        
+                          VELMU                         ELNET                        
+VTUD-RW12 ESGI1B          N017.22.48.622 E102.48.03.719 AKTEN                        
+                          AKTEN                         LUBKA                        
+                          LUBKA                         NUPDU                        
+                          NUPDU                         LIDBO                        
+                          LIDBO                         ESGIB                        
+VTUD-RW30 ESGI1D          N017.23.33.721 E102.46.31.653 ERVED                        
+                          ERVED                         TUVSA                        
+                          TUVSA                         ESGIB                        
+VTUD-RW12 GULN1B          N017.22.48.622 E102.48.03.719 AKTEN                        
+                          AKTEN                         LEVGA                        
+                          LEVGA                         GULNO                        
+VTUD-RW30 GULN1D          N017.23.33.721 E102.46.31.653 ERVED                        
+                          ERVED                         BIXAG                        
+                          BIXAG                         UD309                        
+                          UD309                         ALDES                        
+                          ALDES                         GULNO                        
+VTUD-RW12 POVE1B          N017.22.48.622 E102.48.03.719 AKTEN                        
+                          AKTEN                         BUGDU                        
+                          BUGDU                         POVEX                        
+VTUD-RW30 POVE1D          N017.23.33.721 E102.46.31.653 ERVED                        
+                          ERVED                         ADBUD                        
+                          ADBUD                         UBLAN                        
+                          UBLAN                         UD308                        
+                          UD308                         OBMIL                        
+                          OBMIL                         POVEX                        
+VTUD-RW12 SURG1B          N017.22.48.622 E102.48.03.719 AKTEN                        
+                          AKTEN                         LUBKA                        
+                          LUBKA                         NUPDU                        
+                          NUPDU                         UD128                        
+                          UD128                         SAGBA                        
+                          SAGBA                         SURGU                        
+VTUD-RW30 SURG1D          N017.23.33.721 E102.46.31.653 ERVED                        
+                          ERVED                         ADBUD                        
+                          ADBUD                         UBLAN                        
+                          UBLAN                         DOTGA                        
+                          DOTGA                         SURGU                        
+VTUD-RW12 TERC1B          N017.22.48.622 E102.48.03.719 AKTEN                        
+                          AKTEN                         LUBKA                        
+                          LUBKA                         NUPDU                        
+                          NUPDU                         TERCO                        
+VTUD-RW30 TERC1D          N017.23.33.721 E102.46.31.653 ERVED                        
+                          ERVED                         ADBUD                        
+                          ADBUD                         UBLAN                        
+                          UBLAN                         DOTGA                        
+                          DOTGA                         TERCO                        
