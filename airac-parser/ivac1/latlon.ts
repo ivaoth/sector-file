@@ -1,5 +1,3 @@
-import pad from 'left-pad';
-
 export enum Coordinate {
   Latitude,
   Longtitude
@@ -38,11 +36,10 @@ export const convertCoordinate = (value: number, type: Coordinate): string => {
     num2 = 0;
     num1 += 1;
   }
-  out += `${pad(num1, 3, '0')}.${pad(num2, 2, '0')}.${pad(num3, 2, '0')}.${pad(
-    num4,
-    3,
+  out += `${`${num1}`.padStart(3, '0')}.${`${num2}`.padStart(
+    2,
     '0'
-  )}`;
+  )}.${`${num3}`.padStart(2, '0')}.${`${num4}`.padStart(3, '0')}`;
   return out;
 };
 

@@ -10,7 +10,6 @@ import { extractSID } from './sid';
 import { extractSTAR } from './star';
 import { extractVORs } from './vor';
 import { outputFileSync, removeSync } from 'fs-extra';
-import leftPad from 'left-pad';
 import SQL from 'sql-template-strings';
 import { extractWaypoints } from './waypoint';
 
@@ -91,7 +90,7 @@ import { extractWaypoints } from './waypoint';
     const [code, name] = fir;
     const firResult = extractFir(db, name, code);
     outputFileSync(
-      resolve(buildARTCCPath, `${leftPad(num, 2, '0')}-${code}_CTR.txt`),
+      resolve(buildARTCCPath, `${`${num}`.padStart(2, '0')}-${code}_CTR.txt`),
       await firResult
     );
     num += 1;
@@ -144,7 +143,10 @@ import { extractWaypoints } from './waypoint';
     const SIDResult = extractSID(db, airport);
     if ((await SIDResult) !== '') {
       outputFileSync(
-        resolve(buildSidPath, `${leftPad(num, 3, '0')}-${airport.ident}.txt`),
+        resolve(
+          buildSidPath,
+          `${`${num}`.padStart(2, '0')}-${airport.ident}.txt`
+        ),
         await SIDResult
       );
       num += 1;
@@ -160,7 +162,10 @@ import { extractWaypoints } from './waypoint';
     const STARResult = extractSTAR(db, airport);
     if ((await STARResult) !== '') {
       outputFileSync(
-        resolve(buildStarPath, `${leftPad(num, 3, '0')}-${airport.ident}.txt`),
+        resolve(
+          buildStarPath,
+          `${`${num}`.padStart(3, '0')}-${airport.ident}.txt`
+        ),
         await STARResult
       );
       num += 1;
