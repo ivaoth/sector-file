@@ -118,6 +118,8 @@ M633                      TANEK                         MUBUS
                           OLTUM                         DULEM                        
                           DULEM                         TUPGO                        
                           TUPGO                         OROVI                        
+M648                      BOPNU                         MUGNO                        
+                          MUGNO                         UDN                          
 M751                      BKK                           POLAK                        
                           POLAK                         GUTSO                        
                           GUTSO                         REGOS                        
@@ -208,8 +210,10 @@ R468                      AKNAT                         BOKAK
                           GOMES                         GORSI                        
                           GORSI                         UGIPA                        
                           UGIPA                         BKK                          
-R470                      VTN                           UDN                          
-                          UDN                           DOTUS                        
+R470                      VTN                           ELNET                        
+                          ELNET                         UDN                          
+                          UDN                           POVEX                        
+                          POVEX                         DOTUS                        
                           DOTUS                         ROT                          
                           ROT                           ENTEK                        
                           ENTEK                         UBL                          
@@ -259,8 +263,10 @@ W15                       CMA                           KABMU
                           KABMU                         PAE                          
                           PAE                           PANKU                        
                           PANKU                         LOY                          
-                          LOY                           UDN                          
-                          UDN                           SKN                          
+                          LOY                           ESGIB                        
+                          ESGIB                         UDN                          
+                          UDN                           GULNO                        
+                          GULNO                         SKN                          
 W16                       CMA                           ASAVI                        
                           ASAVI                         UTTAR                        
                           UTTAR                         CMP                          
@@ -284,7 +290,8 @@ W20                       CMA                           ADLUS
                           NUMDO                         CTR                          
 W21                       BKK                           NOBER                        
                           NOBER                         CMP                          
-                          CMP                           UDN                          
+                          CMP                           SURGU                        
+                          SURGU                         UDN                          
 W22                       PSL                           NIROP                        
                           NIROP                         PAE                          
                           PAE                           BENVI                        
@@ -361,7 +368,8 @@ W38                       RAMEI                         BRM
                           ANKID                         ROT                          
 W39                       LOY                           PCB                          
                           PCB                           NOBER                        
-W4                        UDN                           DOTUS                        
+W4                        UDN                           POVEX                        
+                          POVEX                         DOTUS                        
                           DOTUS                         ROT                          
                           ROT                           ENTEK                        
                           ENTEK                         UBL                          
@@ -383,7 +391,8 @@ W42                       RYN                           RUPTA
 W43                       CMP                           OKENA                        
 W44                       BET                           ERVES                        
                           ERVES                         NTW                          
-W5                        UDN                           KKN                          
+W5                        UDN                           ANPUS                        
+                          ANPUS                         KKN                          
                           KKN                           SEDNO                        
                           SEDNO                         ROT                          
                           ROT                           ENTEK                        
@@ -411,7 +420,8 @@ W99                       SMU                           OLBAG
                           OLBAG                         APUSA                        
                           APUSA                         DONSI                        
                           DONSI                         TUSPU                        
-Y1                        UDN                           UBLOD                        
+Y1                        UDN                           TERCO                        
+                          TERCO                         UBLOD                        
                           UBLOD                         PIPOB                        
 Y10                       OBLEX                         HTY                          
 Y11                       KIGOB                         BUT                          
