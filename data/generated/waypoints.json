@@ -1179,7 +1179,7 @@
     "ident": "BOPNU",
     "laty": 17.97388889,
     "lonx": 103.01444444,
-    "is_enroute": false,
+    "is_enroute": true,
     "is_terminal": false,
     "is_boundary": false
   },
@@ -11851,7 +11851,7 @@
     "ident": "XONAN",
     "laty": 9.245,
     "lonx": 102.83833333,
-    "is_enroute": false,
+    "is_enroute": true,
     "is_terminal": false,
     "is_boundary": true
   },
@@ -11859,7 +11859,7 @@
     "ident": "ARATO",
     "laty": 16.36802778,
     "lonx": 97.79633333,
-    "is_enroute": false,
+    "is_enroute": true,
     "is_terminal": false,
     "is_boundary": true
   },
@@ -11875,7 +11875,7 @@
     "ident": "EKAVO",
     "laty": 11.62680556,
     "lonx": 99.50686111,
-    "is_enroute": false,
+    "is_enroute": true,
     "is_terminal": false,
     "is_boundary": true
   },
@@ -11883,7 +11883,7 @@
     "ident": "KAKIP",
     "laty": 14.67606944,
     "lonx": 97.90408611,
-    "is_enroute": false,
+    "is_enroute": true,
     "is_terminal": false,
     "is_boundary": true
   },
@@ -11891,7 +11891,7 @@
     "ident": "MAKAS",
     "laty": 16.82972222,
     "lonx": 98.49691667,
-    "is_enroute": false,
+    "is_enroute": true,
     "is_terminal": false,
     "is_boundary": true
   },
@@ -11907,7 +11907,7 @@
     "ident": "PADET",
     "laty": 10.00191667,
     "lonx": 98.28869444,
-    "is_enroute": false,
+    "is_enroute": true,
     "is_terminal": false,
     "is_boundary": true
   },
@@ -11915,7 +11915,7 @@
     "ident": "POXEM",
     "laty": 15.44308333,
     "lonx": 97.49638889,
-    "is_enroute": false,
+    "is_enroute": true,
     "is_terminal": false,
     "is_boundary": true
   },
@@ -11923,7 +11923,7 @@
     "ident": "PUMEK",
     "laty": 15.91805556,
     "lonx": 97.54636111,
-    "is_enroute": false,
+    "is_enroute": true,
     "is_terminal": false,
     "is_boundary": true
   },
@@ -11931,7 +11931,7 @@
     "ident": "SISUK",
     "laty": 19.80113889,
     "lonx": 98.04525,
-    "is_enroute": false,
+    "is_enroute": true,
     "is_terminal": false,
     "is_boundary": true
   },
@@ -11939,7 +11939,7 @@
     "ident": "TAVUN",
     "laty": 10,
     "lonx": 96.55005556,
-    "is_enroute": false,
+    "is_enroute": true,
     "is_terminal": false,
     "is_boundary": true
   },
@@ -11947,7 +11947,7 @@
     "ident": "GOGOM",
     "laty": 5.71638889,
     "lonx": 100.211275,
-    "is_enroute": false,
+    "is_enroute": true,
     "is_terminal": false,
     "is_boundary": true
   },
@@ -11995,7 +11995,7 @@
     "ident": "RUSET",
     "laty": 7.7711,
     "lonx": 97.7158,
-    "is_enroute": false,
+    "is_enroute": true,
     "is_terminal": false,
     "is_boundary": true
   },
@@ -12003,7 +12003,7 @@
     "ident": "SAPAM",
     "laty": 8.07611111,
     "lonx": 97.55,
-    "is_enroute": false,
+    "is_enroute": true,
     "is_terminal": false,
     "is_boundary": true
   },

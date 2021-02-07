@@ -69,9 +69,14 @@ export const extractAirways = async (
   const enroute: number[] = [];
 
   const { data } = (await filteredSegments).reduce(
-    (prev, curr, i) => {
+    (prev, curr) => {
       const { data: currData, ...others } = prev;
-      if (i === 0 && enroute.indexOf(curr.id_from) === -1) {
+      if (
+        (prev.currentName !== curr.name ||
+          prev.currentFragment !== curr.segment_no ||
+          prev.currentSequence + 1 !== curr.segment_no) &&
+        enroute.indexOf(curr.id_from) === -1
+      ) {
         enroute.push(curr.id_from);
       }
       if (enroute.indexOf(curr.id_to) === -1) {
