@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2101.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.2014.1...v2.2101.1) (2021-02-07)
+
+
+### Features
+
+* **airports:** update magnetic variation for cycle 2101 ([00ee287](https://github.com/ivaothai/ivac-sector-file/commit/00ee287d3a24d76e0703f352b4c986dfa9490754))
+* **airports:** update runway coordinates for VTUD ([457817b](https://github.com/ivaothai/ivac-sector-file/commit/457817b443f80f1fd72830049bb6f3065d80cce3))
+* **airports:** update VTBD ARP ([ef8c4a1](https://github.com/ivaothai/ivac-sector-file/commit/ef8c4a1e16dba4ec135f901c5aa2f7b5d3188a6f))
+* **airways:** add M648 airway ([3a7a3a9](https://github.com/ivaothai/ivac-sector-file/commit/3a7a3a99db1aedd9c94bdce1b1c11ec98955312a))
+* **aurora/VTUD:** add SID and STAR to VTUD ([#863](https://github.com/ivaothai/ivac-sector-file/issues/863)) ([be90833](https://github.com/ivaothai/ivac-sector-file/commit/be90833c49bcf8f7a7c008b7d855f2d751b3b836))
+* **ivac1/VTUD:** add SID and STAR ([a02f7eb](https://github.com/ivaothai/ivac-sector-file/commit/a02f7eb6513dc15ef99483da15d5c11cf8f481fd))
+* **waypoints:** add new waypoints for cycle 2101 ([fd1e780](https://github.com/ivaothai/ivac-sector-file/commit/fd1e780f7c8b4b81fac891b97c7553b070260dc2))
+
+
+### Bug Fixes
+
+* make the from waypoint of the first leg of the segment an enroute waypoint ([53b66f9](https://github.com/ivaothai/ivac-sector-file/commit/53b66f962d4fd76e98e3b95ec4215683d7979744))
+* **aurora/VTUI:** change RNAV to RNP ([#836](https://github.com/ivaothai/ivac-sector-file/issues/836)) ([4501391](https://github.com/ivaothai/ivac-sector-file/commit/4501391d06535fe88c63524a65e9283481b5864b))
+* **aurora/VTUK:** change RNAV to RNP ([#833](https://github.com/ivaothai/ivac-sector-file/issues/833)) ([371c572](https://github.com/ivaothai/ivac-sector-file/commit/371c572edd10706f64f9641b6b11dbd479412e38))
+* **aurora/VTUL:** change RNAV to RNP ([#834](https://github.com/ivaothai/ivac-sector-file/issues/834)) ([a4f7d5a](https://github.com/ivaothai/ivac-sector-file/commit/a4f7d5aa72014fd6b57734010118e8fadbd60dd5))
+* **aurora/VTUW:** change RNAV to RNP ([#835](https://github.com/ivaothai/ivac-sector-file/issues/835)) ([3cf74dc](https://github.com/ivaothai/ivac-sector-file/commit/3cf74dc6f7a71a4af8309f8f4e810f074d0de66c))
+* **deps:** update dependency archiver to v5.2.0 ([#844](https://github.com/ivaothai/ivac-sector-file/issues/844)) ([2f89621](https://github.com/ivaothai/ivac-sector-file/commit/2f89621610e3259b90e61b2c10c8fbf157d2dd14))
+* **deps:** update dependency fs-extra to v9.1.0 ([#855](https://github.com/ivaothai/ivac-sector-file/issues/855)) ([05413df](https://github.com/ivaothai/ivac-sector-file/commit/05413df01e6c1a9428efdef8f2df400693bc5832))
+* **deps:** update dependency sqlite3 to v5.0.1 ([#846](https://github.com/ivaothai/ivac-sector-file/issues/846)) ([5875b32](https://github.com/ivaothai/ivac-sector-file/commit/5875b32a2ef926d8b90ba9905c6c8a59678481df))
+
 ### [2.2014.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.2013.2...v2.2014.1) (2020-12-31)
 
 
