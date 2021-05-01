@@ -145,7 +145,7 @@ import { extractWaypoints } from './waypoint';
       outputFileSync(
         resolve(
           buildSidPath,
-          `${`${num}`.padStart(2, '0')}-${airport.ident}.txt`
+          `${`${num}`.padStart(3, '0')}-${airport.ident}.txt`
         ),
         await SIDResult
       );
