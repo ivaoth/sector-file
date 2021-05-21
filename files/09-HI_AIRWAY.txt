@@ -43,8 +43,10 @@ B204                      GOMES                         AGEDO
                           AGEDO                         SRE                          
 B205                      RYN                           OLDIR                        
                           OLDIR                         BOKAK                        
-B218                      CMP                           LOY                          
-                          LOY                           VTN                          
+B218                      CMP                           BOVGO                        
+                          BOVGO                         LOY                          
+                          LOY                           NOGAD                        
+                          NOGAD                         VTN                          
 B346                      BKK                           NOBER                        
                           NOBER                         PCB                          
                           PCB                           YAKUA                        
