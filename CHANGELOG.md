@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2105.2](https://github.com/ivaothai/ivac-sector-file/compare/v2.2105.1...v2.2105.2) (2021-05-21)
+
 ### [2.2105.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.2101.1...v2.2105.1) (2021-05-21)
 
 
