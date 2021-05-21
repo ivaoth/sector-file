@@ -330,7 +330,8 @@ W26                       MST                           ISBEL
                           GOKON                         PCB                          
                           PCB                           CMP                          
 W27                       PSL                           REMER                        
-                          REMER                         LOY                          
+                          REMER                         RIBDO                        
+                          RIBDO                         LOY                          
 W28                       STN                           SEGRA                        
                           SEGRA                         NKS                          
                           NKS                           HTY                          
