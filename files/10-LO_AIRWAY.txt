@@ -120,7 +120,8 @@ M633                      TANEK                         MUBUS
                           OLTUM                         DULEM                        
                           DULEM                         TUPGO                        
                           TUPGO                         OROVI                        
-M648                      BOPNU                         MUGNO                        
+M648                      NOHET                         BOPNU                        
+                          BOPNU                         MUGNO                        
                           MUGNO                         UDN                          
 M751                      BKK                           POLAK                        
                           POLAK                         GUTSO                        

@@ -132,7 +132,8 @@ M644                      RYN                           ALUMO
                           TONIK                         DUGON                        
                           DUGON                         ABTOK                        
                           ABTOK                         VKB                          
-M648                      BOPNU                         MUGNO                        
+M648                      NOHET                         BOPNU                        
+                          BOPNU                         MUGNO                        
                           MUGNO                         UDN                          
 M751                      BKK                           POLAK                        
                           POLAK                         GUTSO                        
