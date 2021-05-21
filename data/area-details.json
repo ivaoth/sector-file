@@ -1601,5 +1601,12 @@
     "name": "TEMP BALLOON AREA WATTHANA NAK",
     "use": true,
     "checked": false
+  },
+  {
+    "digest": "2dad1a01c37b6dc4b6bb1b4d5b792a6d7fecff1a523af1eb727570e07f2cd0db8ad0640a50ce1f121958db636c72fdd352d92a6a8fccd00267c154cab16aeb78",
+    "type": "D",
+    "name": "KABIN BURI/WATTANA NAKHON, PRA",
+    "use": true,
+    "checked": true
   }
 ]

@@ -23807,6 +23807,36 @@
     "max_laty": 13.983333587646484,
     "max_lonx": 102.33333587646484,
     "min_laty": 13.5,
+    "min_lonx": 101.9000015258789,
+    "multiple_code": null,
+    "points": [
+      [
+        101.9000015258789,
+        13.983333587646484
+      ],
+      [
+        102.33333587646484,
+        13.983333587646484
+      ],
+      [
+        102.33333587646484,
+        13.5
+      ],
+      [
+        101.9000015258789,
+        13.5
+      ]
+    ],
+    "digest": "2dad1a01c37b6dc4b6bb1b4d5b792a6d7fecff1a523af1eb727570e07f2cd0db8ad0640a50ce1f121958db636c72fdd352d92a6a8fccd00267c154cab16aeb78"
+  },
+  {
+    "name": "KABIN BURI/WATTANA NAKHON, PRA",
+    "type": "DA",
+    "restrictive_type": "D",
+    "restrictive_designation": "40",
+    "max_laty": 13.983333587646484,
+    "max_lonx": 102.33333587646484,
+    "min_laty": 13.5,
     "min_lonx": 101.31666564941406,
     "multiple_code": "A",
     "points": [
