@@ -279,8 +279,10 @@ W14                       PUT                           EPGOT
 W15                       CMA                           KABMU                        
                           KABMU                         PAE                          
                           PAE                           PANKU                        
-                          PANKU                         LOY                          
-                          LOY                           ESGIB                        
+                          PANKU                         BARCE                        
+                          BARCE                         LOY                          
+                          LOY                           SWENI                        
+                          SWENI                         ESGIB                        
                           ESGIB                         UDN                          
                           UDN                           GULNO                        
                           GULNO                         SKN                          
