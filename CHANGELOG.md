@@ -2,6 +2,35 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2105.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.2101.1...v2.2105.1) (2021-05-21)
+
+
+### Features
+
+* **airport:** update magnetic variation for cycle 2105 ([38c3350](https://github.com/ivaothai/ivac-sector-file/commit/38c33500d36c66d4d800164510e976cb0f3ca25f))
+* **airports:** update magnetic variation for cycle 2104 ([1da3a11](https://github.com/ivaothai/ivac-sector-file/commit/1da3a11fa7c850bd73f5c038628b6f6a993ae204))
+* **airports:** update VTSG tower frequency ([3de4dc5](https://github.com/ivaothai/ivac-sector-file/commit/3de4dc548b94464dd8844ca00d888e4f9139e5de))
+* **airway:** update B218 routing ([c29036e](https://github.com/ivaothai/ivac-sector-file/commit/c29036ebc5e58c34d426fe7dc8fda6ca417fa19a))
+* **airway:** update M648 routing ([ded2778](https://github.com/ivaothai/ivac-sector-file/commit/ded277807d0e6e6baf7f0b9fafaf6c50e0cda0e6))
+* **airway:** update W15 routing ([58f8e3b](https://github.com/ivaothai/ivac-sector-file/commit/58f8e3b867d49293abe89786655bcbdd6b959389))
+* **airway:** update W27 routing ([c430b30](https://github.com/ivaothai/ivac-sector-file/commit/c430b3083fee8451020fb561dada56cc779943df))
+* **airway:** update W39 routing ([c46c9ad](https://github.com/ivaothai/ivac-sector-file/commit/c46c9ad9c7898f05599f0b5c382b9651115a5525))
+* **airway:** update Y19 routing ([8790032](https://github.com/ivaothai/ivac-sector-file/commit/8790032eb8b44877b1bf4dfb5a43f7bab05370a4))
+* **area:** add new area for Kabin Buri/Wattana Nakhon ([284d756](https://github.com/ivaothai/ivac-sector-file/commit/284d756b9e87e15eb23a834de5e8e0869b08b653))
+* **ndb:** remove NK NDB ([ccf53f6](https://github.com/ivaothai/ivac-sector-file/commit/ccf53f6c393e6258d986a59c0d2fa6192647059c))
+* **vor:** revise CTR VOR position ([bd14f2a](https://github.com/ivaothai/ivac-sector-file/commit/bd14f2a0556653f790bae1f8b2ec8d8aa6c3ca7e))
+* **waypoint:** add and remove waypoints for cycle 2104 ([c8ea60b](https://github.com/ivaothai/ivac-sector-file/commit/c8ea60be15556614ba1dc53598a5d3459fc56f7f))
+
+
+### Bug Fixes
+
+* use 3 digits pad for intepreted SID ([be127ee](https://github.com/ivaothai/ivac-sector-file/commit/be127ee1ab58924e6692ad8033dc7599a18d2ce5))
+* **deps:** update dependency archiver to v5.3.0 ([#899](https://github.com/ivaothai/ivac-sector-file/issues/899)) ([7922394](https://github.com/ivaothai/ivac-sector-file/commit/792239496a315fc207ae25b766110ab0d8751ef3))
+* **deps:** update dependency fs-extra to v10 ([#942](https://github.com/ivaothai/ivac-sector-file/issues/942)) ([e069985](https://github.com/ivaothai/ivac-sector-file/commit/e069985bb9a5e407e2cb8005eb9bf3031dfc0cf6))
+* **deps:** update dependency inquirer to v8 ([#884](https://github.com/ivaothai/ivac-sector-file/issues/884)) ([448ebe9](https://github.com/ivaothai/ivac-sector-file/commit/448ebe9c5a2bad173389fa8348c43d8c2073331a))
+* **deps:** update dependency sqlite to v4.0.21 ([#916](https://github.com/ivaothai/ivac-sector-file/issues/916)) ([5c67f5e](https://github.com/ivaothai/ivac-sector-file/commit/5c67f5ee203f4049fe75b0d3631c47fc4c192189))
+* **deps:** update dependency sqlite3 to v5.0.2 ([#877](https://github.com/ivaothai/ivac-sector-file/issues/877)) ([3b75c68](https://github.com/ivaothai/ivac-sector-file/commit/3b75c687aa617a82df49d39403e9a267d72fe5ee))
+
 ### [2.2101.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.2014.1...v2.2101.1) (2021-02-07)
 
 
