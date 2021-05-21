@@ -459,7 +459,7 @@ Y18                       BET                           PETAC
                           TONUV                         HTY                          
 Y19                       BET                           PETAC                        
                           PETAC                         LERNI                        
-                          LERNI                         PT                           
+                          LERNI                         POXUN                        
 Y2                        KKN                           UBLOD                        
                           UBLOD                         PIPOB                        
 Y3                        BOKAK                         RIMSO                        
