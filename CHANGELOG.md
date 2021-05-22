@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2105.3](https://github.com/ivaothai/ivac-sector-file/compare/v2.2105.2...v2.2105.3) (2021-05-22)
+
+
+### Features
+
+* **aurora:** update ATC frequencies ([501fb55](https://github.com/ivaothai/ivac-sector-file/commit/501fb55f719ce84b8d2a792db8416924f84cdfa6))
+* **aurora/VTCC:** rename RNAV approaches to RNP ([6ef51e0](https://github.com/ivaothai/ivac-sector-file/commit/6ef51e016712db764a41727fc14034b0d71a4c81))
+* **aurora/VTCH:** rename RNAV approaches to RNP ([aa8a622](https://github.com/ivaothai/ivac-sector-file/commit/aa8a622bb99052f723a5fab3550481543d0a1553))
+* **aurora/VTCL:** rename RNAV approaches to RNP ([572581b](https://github.com/ivaothai/ivac-sector-file/commit/572581bbf10c9ccd248292d84e18d91ba992d20b))
+* **aurora/VTPM:** rename RNAV approaches to RNP ([3a3bfb9](https://github.com/ivaothai/ivac-sector-file/commit/3a3bfb9d7bb04ad43b8510fc3781b0a05806581e))
+* **aurora/VTPO:** rename RNAV approaches to RNP ([cb3b384](https://github.com/ivaothai/ivac-sector-file/commit/cb3b38454ae7235e446b2d220443b38b46424f6f))
+* **aurora/VTPP:** rename RNAV approaches to RNP ([7fe5d8d](https://github.com/ivaothai/ivac-sector-file/commit/7fe5d8d34e3ea3cb7eebb9e1550f4401e3a0b0bb))
+* **aurora/VTUL:** add VTUL SIDs ([0447712](https://github.com/ivaothai/ivac-sector-file/commit/04477121fd929fdf5ff9e6578472aa560823a5e8))
+* **aurora/VTUL:** change final approach waypoints ([96c47fc](https://github.com/ivaothai/ivac-sector-file/commit/96c47fcd1db7f63e77c3a2872cc1546760cbeb0f))
+* **aurora/VTUL:** change missed approach point ([5799c12](https://github.com/ivaothai/ivac-sector-file/commit/5799c12f732e17b3db286a1fc4d24d062a424438))
+* **aurora/VTUL:** remove NUPRI transition and add SWENI transition ([c9ed539](https://github.com/ivaothai/ivac-sector-file/commit/c9ed539b3c8117d9a89b59921d73dcfa0f819249))
+* **aurora/VTUO:** rename RNAV approaches to RNP ([8cb8dee](https://github.com/ivaothai/ivac-sector-file/commit/8cb8dee368f28578716fae1aad7765414d08fb79))
+* **aurora/VTUQ:** rename RNAV approaches to RNP ([f73c008](https://github.com/ivaothai/ivac-sector-file/commit/f73c008ca990059785cbfa2fb03a91a2ec2edab0))
+* **aurora/VTUU:** rename RNAV approaches to RNP ([84aa187](https://github.com/ivaothai/ivac-sector-file/commit/84aa187cc255ae94fb5e9042e66aa553336782c8))
+* **aurora/VTUV:** rename RNAV approaches to RNP ([2d4943d](https://github.com/ivaothai/ivac-sector-file/commit/2d4943d6a8487bde1e6157d65ed9969e0ad25767))
+
+
+### Bug Fixes
+
+* **deps:** update dependency inquirer to v8.1.0 ([#953](https://github.com/ivaothai/ivac-sector-file/issues/953)) ([29f7e70](https://github.com/ivaothai/ivac-sector-file/commit/29f7e70c26de7b03113d5aed34148f877392b3c2))
+* **deps:** update dependency sqlite to v4.0.22 ([#947](https://github.com/ivaothai/ivac-sector-file/issues/947)) ([855deae](https://github.com/ivaothai/ivac-sector-file/commit/855deaed59114b17d273bae231670f382cc2ddbe))
+
 ### [2.2105.2](https://github.com/ivaothai/ivac-sector-file/compare/v2.2105.1...v2.2105.2) (2021-05-21)
 
 ### [2.2105.1](https://github.com/ivaothai/ivac-sector-file/compare/v2.2101.1...v2.2105.1) (2021-05-21)
