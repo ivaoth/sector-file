@@ -1,5 +1,5 @@
-[![CircleCI](https://circleci.com/gh/ivaothai/ivac-sector-file.svg?style=svg)](https://circleci.com/gh/ivaothai/ivac-sector-file)
+# IVAO Thailand Sector Files
 
-# IVAC Sector Files
+This is IvAc 1 and Aurora sector file for IVAO Thailand.
 
-This is IvAc 1 sector file for VTBB with CircleCI integration
+For more information, visit https://ivao.aero
