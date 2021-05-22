@@ -10,7 +10,9 @@ export const extractSID = async (
 ): Promise<string> => {
   let out = '';
   // Query for SIDs
-  const sids = await (await db).all<
+  const sids = await (
+    await db
+  ).all<
     {
       approach_id: number;
       fix_ident: string;
@@ -40,7 +42,9 @@ export const extractSID = async (
       const name = `${airport.ident}-${sid.arinc_name} ${sid.fix_ident}`;
       console.log(`>> Processing ${name} (${sid_id})`);
       // Find runway end coordinates
-      const runway_end = (await (await db).get<{ end_type: string }>(SQL`
+      const runway_end = (await (
+        await db
+      ).get<{ end_type: string }>(SQL`
         SELECT
           end_type
         FROM
@@ -52,7 +56,9 @@ export const extractSID = async (
         runway_end.end_type === 'P' ? 'primary_end_id' : 'secondary_end_id';
       const other_field =
         runway_end.end_type === 'S' ? 'primary_end_id' : 'secondary_end_id';
-      const runway = (await (await db).get<{
+      const runway = (await (
+        await db
+      ).get<{
         other_end_id: number;
       }>(
         `
@@ -66,7 +72,9 @@ export const extractSID = async (
         [sid.runway_end_id]
       ))!;
       const other_runway_end_id = runway.other_end_id;
-      const other_runway_end = (await (await db).get<{
+      const other_runway_end = (await (
+        await db
+      ).get<{
         laty: number;
         lonx: number;
       }>(SQL`
@@ -78,7 +86,9 @@ export const extractSID = async (
           runway_end_id = ${other_runway_end_id}
       `))!;
       // Query for legs
-      const legs = await (await db).all<
+      const legs = await (
+        await db
+      ).all<
         {
           leg_id: number;
           type: string;

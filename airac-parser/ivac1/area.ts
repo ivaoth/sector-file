@@ -72,7 +72,9 @@ const pointInPolygon = (
 export const extractAreas = async (
   db: Promise<Database>
 ): Promise<{ drpOut: string; tmaOut: string }> => {
-  const { geometry: fir, ..._firMetadata } = (await (await db).get<{
+  const { geometry: fir, ..._firMetadata } = (await (
+    await db
+  ).get<{
     geometry: Buffer;
     max_laty: number;
     max_lonx: number;
@@ -89,7 +91,9 @@ export const extractAreas = async (
     firPoints.push([fir.readFloatBE(index), fir.readFloatBE(index + 4)]);
     index += 8;
   }
-  const { count: boundaryCount } = (await (await db).get<{ count: number }>(
+  const { count: boundaryCount } = (await (
+    await db
+  ).get<{ count: number }>(
     SQL`SELECT MAX(boundary_id) AS 'count' FROM 'boundary';`
   ))!;
   let drpOut = '';

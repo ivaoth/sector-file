@@ -16,19 +16,19 @@ export const extractWaypoints = async (
   extra: number[],
   enrouteFixes: number[]
 ): Promise<Waypoint[]> => {
-  const addIsEnrouteAndIsBoundaryInfo = (isBoundary: boolean) => (
-    s: WaypointDbData[]
-  ): Waypoint[] => {
-    return s.map((w) => {
-      const { waypoint_id, airport_id, ...others } = w;
-      return {
-        ...others,
-        is_enroute: enrouteFixes.indexOf(waypoint_id) !== -1,
-        is_terminal: !!airport_id,
-        is_boundary: isBoundary
-      };
-    });
-  };
+  const addIsEnrouteAndIsBoundaryInfo =
+    (isBoundary: boolean) =>
+    (s: WaypointDbData[]): Waypoint[] => {
+      return s.map((w) => {
+        const { waypoint_id, airport_id, ...others } = w;
+        return {
+          ...others,
+          is_enroute: enrouteFixes.indexOf(waypoint_id) !== -1,
+          is_terminal: !!airport_id,
+          is_boundary: isBoundary
+        };
+      });
+    };
   const waypoints: Promise<Waypoint[]> = (await db)
     .all<WaypointDbData[]>(
       SQL`

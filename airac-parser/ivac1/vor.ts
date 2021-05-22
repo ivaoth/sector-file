@@ -9,7 +9,9 @@ export const extractVORs = async (
   VOROut: string;
   VORNearbyOut: string;
 }> => {
-  const vors = await (await db).all<
+  const vors = await (
+    await db
+  ).all<
     {
       ident: string;
       name: string;

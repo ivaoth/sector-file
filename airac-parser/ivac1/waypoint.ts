@@ -9,7 +9,9 @@ export const extractWaypoints = async (
   waypointsOut: string;
   waypointsNearbyOut: string;
 }> => {
-  const waypoints = await (await db).all<
+  const waypoints = await (
+    await db
+  ).all<
     {
       ident: string;
       laty: number;

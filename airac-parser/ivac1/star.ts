@@ -9,7 +9,9 @@ export const extractSTAR = async (
 ): Promise<string> => {
   let out = '';
   // Query for STARs
-  const stars = await (await db).all<
+  const stars = await (
+    await db
+  ).all<
     {
       approach_id: number;
       fix_ident: string;
@@ -39,7 +41,9 @@ export const extractSTAR = async (
       const name = `${airport.ident}-${star.arinc_name} ${star.fix_ident}`;
       console.log(`>> Processing ${name} (${star_id})`);
       // Query for legs
-      const legs = await (await db).all<
+      const legs = await (
+        await db
+      ).all<
         {
           leg_id: number;
           type: string;
@@ -67,7 +71,9 @@ export const extractSTAR = async (
         out += pad(point_a, 29) + ' ';
         out += pad(point_b, 29) + '\n';
       }
-      const star_transitions = await (await db).all<
+      const star_transitions = await (
+        await db
+      ).all<
         {
           fix_ident: string;
           transition_id: number;
@@ -91,7 +97,9 @@ export const extractSTAR = async (
         console.log(
           `>>> Processing ${transition_name} (${star_transition_id})`
         );
-        const transition_legs = await (await db).all<
+        const transition_legs = await (
+          await db
+        ).all<
           {
             leg_id: number;
             type: string;

@@ -31,7 +31,9 @@ const getBoundary = async (
   multiple_code: string;
   points: [number, number][];
 } | null> => {
-  const data = await (await db).get<AreaDbData>(SQL`
+  const data = await (
+    await db
+  ).get<AreaDbData>(SQL`
     SELECT
       name,
       geometry,
@@ -83,7 +85,9 @@ const pointInPolygon = (
 export const extractAreas = async (db: Promise<Database>): Promise<Area[]> => {
   const firName = 'Bangkok';
   const data: Area[] = [];
-  const { geometry: fir } = (await (await db).get<{
+  const { geometry: fir } = (await (
+    await db
+  ).get<{
     geometry: Buffer;
   }>(
     SQL`SELECT geometry FROM 'boundary' WHERE name = ${firName.toUpperCase()} AND type = 'FIR' LIMIT 1`
@@ -96,7 +100,9 @@ export const extractAreas = async (db: Promise<Database>): Promise<Area[]> => {
     firPoints.push([fir.readFloatBE(index), fir.readFloatBE(index + 4)]);
     index += 8;
   }
-  const { count: boundaryCount } = (await (await db).get<{ count: number }>(
+  const { count: boundaryCount } = (await (
+    await db
+  ).get<{ count: number }>(
     SQL`SELECT MAX(boundary_id) AS 'count' FROM 'boundary';`
   ))!;
   for (let i = 1; i <= boundaryCount; i++) {
