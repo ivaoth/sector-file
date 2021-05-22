@@ -6,7 +6,9 @@ export const extractFir = async (
   name: string,
   code: string
 ): Promise<string> => {
-  const row = (await (await db).get<{ geometry: Buffer }>(
+  const row = (await (
+    await db
+  ).get<{ geometry: Buffer }>(
     `SELECT
     *
     FROM

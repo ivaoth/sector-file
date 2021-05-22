@@ -8,7 +8,9 @@ export const extractAirways = async (
   extras: number[];
 }> => {
   const extras: number[] = [];
-  const rows = await (await db).all<
+  const rows = await (
+    await db
+  ).all<
     {
       airway_name: string;
       wpt_from: string;
@@ -88,7 +90,9 @@ export const extractAirways = async (
     }
   }
 
-  const rows2 = await (await db).all<
+  const rows2 = await (
+    await db
+  ).all<
     {
       airway_name: string;
       wpt_from: string;

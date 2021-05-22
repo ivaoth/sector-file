@@ -9,7 +9,9 @@ export const extractNDB = async (
   NDBOut: string;
   NDBNearbyOut: string;
 }> => {
-  const ndbs = await (await db).all<
+  const ndbs = await (
+    await db
+  ).all<
     {
       ident: string;
       name: string;

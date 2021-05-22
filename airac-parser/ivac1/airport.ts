@@ -107,7 +107,9 @@ export const extractAirports = async (
     lonx: number;
     laty: number;
     mag_var: number;
-  }[] = await (await db).all(SQL`
+  }[] = await (
+    await db
+  ).all(SQL`
       SELECT
       airport_id, ident, name, tower_frequency, lonx, laty, mag_var
       FROM
@@ -139,7 +141,9 @@ export const extractAirports = async (
       hdg2: number;
       lat2: number;
       lon2: number;
-    }[] = await (await db).all(
+    }[] = await (
+      await db
+    ).all(
       `SELECT
       RE1.name as name1, RE1.heading as hdg1, RE1.laty as lat1, RE1.lonx as lon1, RE2.name as name2, RE2.heading as hdg2, RE2.laty as lat2, RE2.lonx as lon2
       FROM
