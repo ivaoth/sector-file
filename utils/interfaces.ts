@@ -103,4 +103,5 @@ export interface Metadata {
   magVar: number;
   scalingFactor: number;
   include: string;
+  colorScheme: string;
 }
