@@ -28,7 +28,7 @@ const generatedDataPath = resolve(dataPath, 'generated');
 const buildPath = resolve(rootPath, 'build');
 const resultPath = resolve(rootPath, 'result');
 const outPath = resolve(buildPath, 'aurora');
-const outFile = resolve(outPath, `vtbb.isc`);
+const outFile = resolve(outPath, `Bangkok FIR (VTBB).isc`);
 
 const metadataFile = resolve(dataPath, 'metadata.json');
 const airportsFile = resolve(generatedDataPath, 'airports.json');
