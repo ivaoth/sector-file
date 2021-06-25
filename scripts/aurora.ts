@@ -420,15 +420,14 @@ for (const area of areas) {
     const name = area.multiple_code
       ? `${region}${area.restrictive_type}-${area.restrictive_designation} (${area.multiple_code}) ${area.name}`
       : `${region}${area.restrictive_type}-${area.restrictive_designation} ${area.name}`;
-    for (const line of area.points.map((point, index, arr): [
-      [number, number],
-      [number, number]
-    ] => {
-      if (index === arr.length - 1) {
-        return [point, arr[0]];
+    for (const line of area.points.map(
+      (point, index, arr): [[number, number], [number, number]] => {
+        if (index === arr.length - 1) {
+          return [point, arr[0]];
+        }
+        return [point, arr[index + 1]];
       }
-      return [point, arr[index + 1]];
-    })) {
+    )) {
       const lineOut = `${line[0][1].toFixed(7)};${line[0][0].toFixed(
         7
       )};${line[1][1].toFixed(7)};${line[1][0].toFixed(
