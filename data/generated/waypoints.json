@@ -1124,7 +1124,7 @@
     "laty": 15.151925,
     "lonx": 102.45593611,
     "is_enroute": false,
-    "is_terminal": false,
+    "is_terminal": true,
     "is_boundary": false
   },
   {
@@ -1976,9 +1976,9 @@
     "is_boundary": false
   },
   {
-    "ident": "CN003",
-    "laty": 18.79951111,
-    "lonx": 100.78008611,
+    "ident": "CN004",
+    "laty": 18.80014444,
+    "lonx": 100.78033611,
     "is_enroute": false,
     "is_terminal": true,
     "is_boundary": false
@@ -11436,7 +11436,7 @@
     "laty": 13.64230556,
     "lonx": 100.64598333,
     "is_enroute": false,
-    "is_terminal": false,
+    "is_terminal": true,
     "is_boundary": false
   },
   {
@@ -12033,8 +12033,16 @@
   },
   {
     "ident": "DALAN",
-    "laty": 6.46888889,
-    "lonx": 99.65555556,
+    "laty": 6.4689,
+    "lonx": 99.6556,
+    "is_enroute": true,
+    "is_terminal": false,
+    "is_boundary": true
+  },
+  {
+    "ident": "GUTEB",
+    "laty": 5.78428611,
+    "lonx": 100.51595833,
     "is_enroute": true,
     "is_terminal": false,
     "is_boundary": true
