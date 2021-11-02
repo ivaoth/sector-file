@@ -1543,105 +1543,105 @@
     "digest": "e3b3f5f907cc0e3a96845ce03aa6483a446b436cfda7492cb6bc1eaa6510f64d3925e9dda527899afa1f7edcd245ce3b1272017d145da330d343fd14bc23ca6f",
     "type": "W",
     "name": "TEMP BALLOON AREA BAN PHUE",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "62ebdff6a2da86034a58b64d83159f78419e5fc8aa60a85272048fd64cce36beada348d061361527f1d899152ca0f929027fd1a8118fe6a58ede0ed00bff0d3a",
     "type": "W",
     "name": "TEMP BALLOON AREA CHANTHABURI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "19f5ae298f3e7203e7d13b7077cef0056286f5cff0f12e2a3222858b36e3d8d4ce232d98c2de7b9e92f3bd46228d6ef149e482c628692ccbea76c380a43c659f",
     "type": "W",
     "name": "TEMP BALLOON AREA HUA HIN",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "d387bd1d551033ea30d187db0f45eb6cbc3eb629e93fd24d80d2baf4e2640b16c551b9ec6e2a332d4bae5827a441a4a8ae010b8255136c1955601e8f0f2963d2",
     "type": "W",
     "name": "TEMP BALLOON AREA KANCHANABURI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "2613056b938f9013f9e345550bb338bdd3f106ca2adea5dba4d77fb884f6c97a5e7d68b86f0a33017482c77e1931b3a3c35209d6efbc1941cb5fd08ed3c3a40c",
     "type": "W",
     "name": "TEMP BALLOON AREA KING MONGKUT",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "59fcbaf1e764ed8f842c4beee75fabf584e8f5b68e2ec5596db66648198e8a5037c27cdff62c3ecc62092427aee813a8a05a45f9bdf85815bb67aeb5d71776d5",
     "type": "W",
     "name": "TEMP BALLOON AREA OMKOI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "e84e9623f8d61ec7ff1a7854977d1ac9b45c33f5146d4ecf1c90117a6968862e45c4d6be28cdd6abc689a82b81d78364f88553df3b4bf4f420660d25d2dd2164",
     "type": "W",
     "name": "TEMP BALLOON AREA PHANOM",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "d5b8d6e0475abb0de64e87eae996ec50f0d8ab1ae737ac857785cc73a261c879eaf7b9e58fec7b9e02a5ce43099df38751651be7cfa6012914394a690e657182",
     "type": "W",
     "name": "TEMP BALLOON AREA PHIMAI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "034bd909fd9b9b4b474abeb303761553738f0999d4f758e7c351a1ade3be82123a039a76f94dac4f8012778ae48826490716edb1291f9fbd00a35c0ae03919fb",
     "type": "W",
     "name": "TEMP BALLOON AREA PHOTHARAM",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "e1e8686aebb170760bf48814c086f85896a4a3ada8754d0df30ffc5ecce97eea7a1a43199c4280348a0dbccd06cc414233e7dfd4e90809f066b8acd46054fbf6",
     "type": "W",
     "name": "TEMP BALLOON AREA PHRAE",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "dba82cf87e5d2bc6b3a79724cf2fde2becda4a6fc9e1418ac38a4cbabc6e32a1222eedb00d329f9468a261ef0326be89071eeb4f447028d0d63e45650e1d0ba0",
     "type": "W",
     "name": "TEMP BALLOON AREA RASI SALAI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "bffac47bc9d137beef23e726305b57518721ff05bea924a6a3c5c66f6bcf85cbf35bb521570495bb0c913fc8259d048d394860bea3159686699184ff03911bf2",
     "type": "W",
     "name": "TEMP BALLOON AREA SATTAHIP",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "96b3af043b2e4865328655b06584195e37e54baa90335aa956e171c9ef58b7bda12c6c2fc52e60f6c6a63658b2e77ae491abe0710af956fefe640bf303dd3d69",
     "type": "W",
     "name": "TEMP BALLOON AREA SINGHA NAKHO",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "4ad21245841d174776b08731e6536ab3239c325e70b50d33427cf2dcb58f2723526dbe3bf55d4a1b49888fd3a04f54e6cb65ef2f22eaad948a68761add7039c5",
     "type": "W",
     "name": "TEMP BALLOON AREA TAKHLI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "ba0f7d34e6a75f5abaf1afdbd474e0822a2107e2da88515d41b76d68bff396842903ef81b382e38773d1b2f13a4af43d3fd2ba905cf215bf92de5d8c75eb5188",
     "type": "W",
     "name": "TEMP BALLOON AREA WATTHANA NAK",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
