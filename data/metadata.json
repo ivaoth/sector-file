@@ -9,5 +9,6 @@
   "ratio": [60, 58],
   "magVar": -0.599,
   "scalingFactor": 1,
-  "include": "VTBB"
+  "include": "VTBB",
+  "colorScheme": "TOPSKY_V1.clr"
 }
