@@ -496,6 +496,7 @@ Y5                        PUT                           IGEVI
                           MENEX                         EGUBO                        
                           EGUBO                         UPVIL                        
                           UPVIL                         SURMA                        
+Y502                      GUTEB                         DUBAX                        
 Y6                        BKK                           TANGO                        
                           TANGO                         DUKEN                        
                           DUKEN                         BORNO                        

@@ -7725,6 +7725,23 @@
   ],
   [
     {
+      "name": "Y502",
+      "segment_no": 2,
+      "sequence_no": 2,
+      "wpt_from": "GUTEB",
+      "wpt_to": "DUBAX",
+      "type": "B",
+      "from_lat": 5.784286022186279,
+      "from_lon": 100.51596069335938,
+      "to_lat": 6.432194232940674,
+      "to_lon": 100.1268310546875,
+      "direction": "F",
+      "region_from": "WM",
+      "region_to": "VT"
+    }
+  ],
+  [
+    {
       "name": "Y6",
       "segment_no": 1,
       "sequence_no": 1,
