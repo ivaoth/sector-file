@@ -289,7 +289,8 @@ W15                       CMA                           KABMU
 W16                       CMA                           ASAVI                        
                           ASAVI                         UTTAR                        
                           UTTAR                         CMP                          
-                          CMP                           KKN                          
+                          CMP                           ONUVI                        
+                          ONUVI                         KKN                          
 W17                       RAN                           TOGIM                        
                           TOGIM                         STN                          
                           STN                           EMVEL                        
@@ -367,8 +368,8 @@ W33                       PUT                           ONETI
                           VININ                         UPNEP                        
                           UPNEP                         MABKO                        
                           MABKO                         SURIX                        
-                          SURIX                         TRT                          
-                          TRT                           RYN                          
+                          SURIX                         ARONE                        
+                          ARONE                         RYN                          
 W34                       MENEX                         CPN                          
                           CPN                           RAN                          
                           RAN                           IGEVI                        
@@ -414,13 +415,16 @@ W43                       CMP                           OKENA
 W44                       BET                           ERVES                        
                           ERVES                         NTW                          
 W5                        UDN                           ANPUS                        
-                          ANPUS                         KKN                          
+                          ANPUS                         ALGIT                        
+                          ALGIT                         KKN                          
                           KKN                           SEDNO                        
                           SEDNO                         ROT                          
                           ROT                           ENTEK                        
                           ENTEK                         UBL                          
-W6                        KRT                           KKN                          
-                          KKN                           SKN                          
+W6                        KRT                           EMRUT                        
+                          EMRUT                         KKN                          
+                          KKN                           AKRET                        
+                          AKRET                         SKN                          
                           SKN                           NKP                          
 W7                        CMA                           PUMAM                        
                           PUMAM                         LILRI                        
@@ -474,7 +478,8 @@ Y18                       BET                           PETAC
 Y19                       BET                           PETAC                        
                           PETAC                         LERNI                        
                           LERNI                         POXUN                        
-Y2                        KKN                           UBLOD                        
+Y2                        KKN                           NEMTE                        
+                          NEMTE                         UBLOD                        
                           UBLOD                         PIPOB                        
 Y3                        BOKAK                         RIMSO                        
 Y3                        MENEX                         DORNA                        

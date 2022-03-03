@@ -2,7 +2,7 @@ VTBD-RW03L ALBO1B         N013.55.34.869 E100.36.44.626 LIBRA
                           LIBRA                         DM030                        
                           DM030                         FANTA                        
                           FANTA                         ALBOS                        
-VTBD-RW03R ALBO1D         N013.55.28.411 E100.36.55.970 RIVER                        
+VTBD-RW03R ALBO1D         N013.55.38.367 E100.37.01.545 RIVER                        
                           RIVER                         DM030                        
                           DM030                         FANTA                        
                           FANTA                         ALBOS                        
@@ -25,7 +25,7 @@ VTBD-RW03L BONV1B         N013.55.34.869 E100.36.44.626 LIBRA
                           DM032                         BLUES                        
                           BLUES                         JROCK                        
                           JROCK                         BONVO                        
-VTBD-RW03R BONV1D         N013.55.28.411 E100.36.55.970 RIVER                        
+VTBD-RW03R BONV1D         N013.55.38.367 E100.37.01.545 RIVER                        
                           RIVER                         DM032                        
                           DM032                         BLUES                        
                           BLUES                         JROCK                        
@@ -44,7 +44,7 @@ VTBD-RW03L DOSB1B         N013.55.34.869 E100.36.44.626 LIBRA
                           BLUES                         RUMBA                        
                           RUMBA                         VIOLA                        
                           VIOLA                         DOSBU                        
-VTBD-RW03R DOSB1D         N013.55.28.411 E100.36.55.970 RIVER                        
+VTBD-RW03R DOSB1D         N013.55.38.367 E100.37.01.545 RIVER                        
                           RIVER                         DM032                        
                           DM032                         BLUES                        
                           BLUES                         RUMBA                        
@@ -71,7 +71,7 @@ VTBD-RW03L GORS1B         N013.55.34.869 E100.36.44.626 LIBRA
                           RUMBA                         VIOLA                        
                           VIOLA                         MEZZO                        
                           MEZZO                         GORSI                        
-VTBD-RW03R GORS1D         N013.55.28.411 E100.36.55.970 RIVER                        
+VTBD-RW03R GORS1D         N013.55.38.367 E100.37.01.545 RIVER                        
                           RIVER                         DM032                        
                           DM032                         BLUES                        
                           BLUES                         RUMBA                        
@@ -100,7 +100,7 @@ VTBD-RW03L HHN1B          N013.55.34.869 E100.36.44.626 LIBRA
                           CORUS                         SALMA                        
                           SALMA                         SABIS                        
                           SABIS                         HHN                          
-VTBD-RW03R HHN1D          N013.55.28.411 E100.36.55.970 RIVER                        
+VTBD-RW03R HHN1D          N013.55.38.367 E100.37.01.545 RIVER                        
                           RIVER                         DM032                        
                           DM032                         BLUES                        
                           BLUES                         RUMBA                        
@@ -130,7 +130,7 @@ VTBD-RW03L KASN1B         N013.55.34.869 E100.36.44.626 LIBRA
                           BLUES                         RUMBA                        
                           RUMBA                         SAMBA                        
                           SAMBA                         KASNI                        
-VTBD-RW03R KASN1D         N013.55.28.411 E100.36.55.970 RIVER                        
+VTBD-RW03R KASN1D         N013.55.38.367 E100.37.01.545 RIVER                        
                           RIVER                         DM032                        
                           DM032                         BLUES                        
                           BLUES                         RUMBA                        
@@ -156,7 +156,7 @@ VTBD-RW03L KIGO1B         N013.55.34.869 E100.36.44.626 LIBRA
                           BLUES                         RUMBA                        
                           RUMBA                         SAMBA                        
                           SAMBA                         KIGOB                        
-VTBD-RW03R KIGO1D         N013.55.28.411 E100.36.55.970 RIVER                        
+VTBD-RW03R KIGO1D         N013.55.38.367 E100.37.01.545 RIVER                        
                           RIVER                         DM032                        
                           DM032                         BLUES                        
                           BLUES                         RUMBA                        
@@ -182,7 +182,7 @@ VTBD-RW03L NOBE1B         N013.55.34.869 E100.36.44.626 LIBRA
                           DANCY                         DISCO                        
                           DISCO                         TANGO                        
                           TANGO                         NOBER                        
-VTBD-RW03R NOBE1D         N013.55.28.411 E100.36.55.970 RIVER                        
+VTBD-RW03R NOBE1D         N013.55.38.367 E100.37.01.545 RIVER                        
                           RIVER                         DM032                        
                           DM032                         DANCY                        
                           DANCY                         DISCO                        
@@ -205,7 +205,7 @@ VTBD-RW03L NUNL1B         N013.55.34.869 E100.36.44.626 LIBRA
                           DM032                         DANCY                        
                           DANCY                         DISCO                        
                           DISCO                         NUNLI                        
-VTBD-RW03R NUNL1D         N013.55.28.411 E100.36.55.970 RIVER                        
+VTBD-RW03R NUNL1D         N013.55.38.367 E100.37.01.545 RIVER                        
                           RIVER                         DM032                        
                           DM032                         DANCY                        
                           DANCY                         DISCO                        
@@ -225,7 +225,7 @@ VTBD-RW03L PAST1B         N013.55.34.869 E100.36.44.626 LIBRA
                           DM032                         BLUES                        
                           BLUES                         JROCK                        
                           JROCK                         PASTO                        
-VTBD-RW03R PAST1D         N013.55.28.411 E100.36.55.970 RIVER                        
+VTBD-RW03R PAST1D         N013.55.38.367 E100.37.01.545 RIVER                        
                           RIVER                         DM032                        
                           DM032                         BLUES                        
                           BLUES                         JROCK                        
@@ -245,7 +245,7 @@ VTBD-RW03L REGO1B         N013.55.34.869 E100.36.44.626 LIBRA
                           RUMBA                         SAMBA                        
                           SAMBA                         KASNI                        
                           KASNI                         REGOS                        
-VTBD-RW03R REGO1D         N013.55.28.411 E100.36.55.970 RIVER                        
+VTBD-RW03R REGO1D         N013.55.38.367 E100.37.01.545 RIVER                        
                           RIVER                         DM032                        
                           DM032                         BLUES                        
                           BLUES                         RUMBA                        
@@ -272,7 +272,7 @@ VTBD-RW03L ROBK1B         N013.55.34.869 E100.36.44.626 LIBRA
                           LIBRA                         DM030                        
                           DM030                         DM031                        
                           DM031                         ROBKA                        
-VTBD-RW03R ROBK1D         N013.55.28.411 E100.36.55.970 RIVER                        
+VTBD-RW03R ROBK1D         N013.55.38.367 E100.37.01.545 RIVER                        
                           RIVER                         DM030                        
                           DM030                         DM031                        
                           DM031                         ROBKA                        
@@ -299,7 +299,7 @@ VTBD-RW03L RYN1B          N013.55.34.869 E100.36.44.626 LIBRA
                           RUMBA                         VIOLA                        
                           VIOLA                         MEZZO                        
                           MEZZO                         RYN                          
-VTBD-RW03R RYN1D          N013.55.28.411 E100.36.55.970 RIVER                        
+VTBD-RW03R RYN1D          N013.55.38.367 E100.37.01.545 RIVER                        
                           RIVER                         DM032                        
                           DM032                         BLUES                        
                           BLUES                         RUMBA                        
@@ -327,7 +327,7 @@ VTBD-RW03L SABI2B         N013.55.34.869 E100.36.44.626 LIBRA
                           RUMBA                         CORUS                        
                           CORUS                         SALMA                        
                           SALMA                         SABIS                        
-VTBD-RW03R SABI2D         N013.55.28.411 E100.36.55.970 RIVER                        
+VTBD-RW03R SABI2D         N013.55.38.367 E100.37.01.545 RIVER                        
                           RIVER                         DM032                        
                           DM032                         BLUES                        
                           BLUES                         RUMBA                        
@@ -354,7 +354,7 @@ VTBD-RW03L SEMB1B         N013.55.34.869 E100.36.44.626 LIBRA
                           DANCY                         DISCO                        
                           DISCO                         TANGO                        
                           TANGO                         SEMBO                        
-VTBD-RW03R SEMB1D         N013.55.28.411 E100.36.55.970 RIVER                        
+VTBD-RW03R SEMB1D         N013.55.38.367 E100.37.01.545 RIVER                        
                           RIVER                         DM032                        
                           DM032                         DANCY                        
                           DANCY                         DISCO                        
@@ -377,7 +377,7 @@ VTBD-RW03L TANG1B         N013.55.34.869 E100.36.44.626 LIBRA
                           DM032                         DANCY                        
                           DANCY                         DISCO                        
                           DISCO                         TANGO                        
-VTBD-RW03R TANG1D         N013.55.28.411 E100.36.55.970 RIVER                        
+VTBD-RW03R TANG1D         N013.55.38.367 E100.37.01.545 RIVER                        
                           RIVER                         DM032                        
                           DM032                         DANCY                        
                           DANCY                         DISCO                        
@@ -397,7 +397,7 @@ VTBD-RW03L TARE1B         N013.55.34.869 E100.36.44.626 LIBRA
                           DM032                         DM033                        
                           DM033                         TEMPO                        
                           TEMPO                         TARED                        
-VTBD-RW03R TARE1D         N013.55.28.411 E100.36.55.970 RIVER                        
+VTBD-RW03R TARE1D         N013.55.38.367 E100.37.01.545 RIVER                        
                           RIVER                         DM032                        
                           DM032                         DM033                        
                           DM033                         TEMPO                        
@@ -417,7 +417,7 @@ VTBD-RW03L TL1B           N013.55.34.869 E100.36.44.626 LIBRA
                           DISCO                         TANGO                        
                           TANGO                         SEMBO                        
                           SEMBO                         TL                           
-VTBD-RW03R TL1D           N013.55.28.411 E100.36.55.970 RIVER                        
+VTBD-RW03R TL1D           N013.55.38.367 E100.37.01.545 RIVER                        
                           RIVER                         DM032                        
                           DM032                         DANCY                        
                           DANCY                         DISCO                        
@@ -446,7 +446,7 @@ VTBD-RW03L UKER1B         N013.55.34.869 E100.36.44.626 LIBRA
                           CORUS                         SALMA                        
                           SALMA                         SABIS                        
                           SABIS                         UKERA                        
-VTBD-RW03R UKER1D         N013.55.28.411 E100.36.55.970 RIVER                        
+VTBD-RW03R UKER1D         N013.55.38.367 E100.37.01.545 RIVER                        
                           RIVER                         DM032                        
                           DM032                         BLUES                        
                           BLUES                         RUMBA                        
@@ -474,7 +474,7 @@ VTBD-RW03L UPKU1B         N013.55.34.869 E100.36.44.626 LIBRA
                           LIBRA                         DM030                        
                           DM030                         DM031                        
                           DM031                         UPKUP                        
-VTBD-RW03R UPKU1D         N013.55.28.411 E100.36.55.970 RIVER                        
+VTBD-RW03R UPKU1D         N013.55.38.367 E100.37.01.545 RIVER                        
                           RIVER                         DM030                        
                           DM030                         DM031                        
                           DM031                         UPKUP                        

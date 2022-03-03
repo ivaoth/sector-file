@@ -3,10 +3,7 @@ VTBD-RW03B ENDU1B         ENDUU                         MOTIF
                           PIANO                         BRENT                        
                           BRENT                         FERDO                        
                           FERDO                         DM307                        
-                          DM307                         DM304                        
-                          DM304                         DM303                        
-                          DM303                         DM302                        
-                          DM302                         DM301                        
+                          DM307                         DOTLI                        
 VTBD-RW03B ENDU1B.UBLOD   UBLOD                         ENDUU                        
 VTBD-RW21B ENDU3A         ENDUU                         BD115                        
                           BD115                         OPERA                        
@@ -19,10 +16,7 @@ VTBD-RW03B NAKO1B         NAKON                         PIANO
                           PIANO                         BRENT                        
                           BRENT                         FERDO                        
                           FERDO                         DM307                        
-                          DM307                         DM304                        
-                          DM304                         DM303                        
-                          DM303                         DM302                        
-                          DM302                         DM301                        
+                          DM307                         DOTLI                        
 VTBD-RW03B NAKO1B.ALBOS   ALBOS                         NAKON                        
 VTBD-RW03B NAKO1B.NOBER   NOBER                         NAKON                        
 VTBD-RW03B NAKO1B.SEMBO   SEMBO                         NAKON                        
@@ -37,10 +31,7 @@ VTBD-RW21B NAKO3A.SEMBO   SEMBO                         NAKON
 VTBD-RW21B NAKO3A.TL      TL                            NAKON                        
 VTBD-RW03B SABA1B         SABAI                         ARMUS                        
                           ARMUS                         DM305                        
-                          DM305                         DM304                        
-                          DM304                         DM303                        
-                          DM303                         DM302                        
-                          DM302                         DM301                        
+                          DM305                         DOTLI                        
 VTBD-RW03B SABA1B.BUT     BUT                           SABAI                        
 VTBD-RW03B SABA1B.GUTSO   GUTSO                         SABAI                        
 VTBD-RW03B SABA1B.HOTEL   HOTEL                         SABAI                        
@@ -64,10 +55,7 @@ VTBD-RW03B SEHN1B         SEHNA                         BAMBU
                           BAMBU                         DM306                        
                           DM306                         ARMUS                        
                           ARMUS                         DM305                        
-                          DM305                         DM304                        
-                          DM304                         DM303                        
-                          DM303                         DM302                        
-                          DM302                         DM301                        
+                          DM305                         DOTLI                        
 VTBD-RW03B SEHN1B.ALEMI   ALEMI                         SEHNA                        
 VTBD-RW03B SEHN1B.ANREN   ANREN                         SEHNA                        
 VTBD-RW03B SEHN1B.DULEM   DULEM                         SEHNA                        
@@ -96,10 +84,7 @@ VTBD-RW03B WEHA1B         WEHHA                         PESTO
                           DM308                         BRENT                        
                           BRENT                         FERDO                        
                           FERDO                         DM307                        
-                          DM307                         DM304                        
-                          DM304                         DM303                        
-                          DM303                         DM302                        
-                          DM302                         DM301                        
+                          DM307                         DOTLI                        
 VTBD-RW03B WEHA1B.BONVO   BONVO                         WEHHA                        
 VTBD-RW03B WEHA1B.IBETO   IBETO                         WEHHA                        
 VTBD-RW03B WEHA1B.IGONI   IGONI                         WEHHA                        
