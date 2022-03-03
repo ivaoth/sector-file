@@ -1,0 +1,38 @@
+VTUK-RW03 AKRE1A          N016.28.41.551 E102.47.29.084 ENPIR                        
+                          ENPIR                         AKRET                        
+VTUK-RW21 AKRE1B          N016.27.18.165 E102.46.33.274 MOVMI                        
+                          MOVMI                         LEKAM                        
+                          LEKAM                         RIKVU                        
+                          RIKVU                         AKRET                        
+VTUK-RW03 ALGI1A          N016.28.41.551 E102.47.29.084 ENPIR                        
+                          ENPIR                         ALGIT                        
+VTUK-RW21 ALGI1B          N016.27.18.165 E102.46.33.274 MOVMI                        
+                          MOVMI                         SEBMI                        
+                          SEBMI                         OSRUS                        
+                          OSRUS                         ALGIT                        
+VTUK-RW03 EMRU1A          N016.28.41.551 E102.47.29.084 ENPIR                        
+                          ENPIR                         IPMAX                        
+                          IPMAX                         LIPKU                        
+                          LIPKU                         EMRUT                        
+VTUK-RW21 EMRU1B          N016.27.18.165 E102.46.33.274 MOVMI                        
+                          MOVMI                         EMRUT                        
+VTUK-RW03 NEMT1A          N016.28.41.551 E102.47.29.084 ENPIR                        
+                          ENPIR                         IPMAX                        
+                          IPMAX                         LIPKU                        
+                          LIPKU                         NEMTE                        
+VTUK-RW21 NEMT1B          N016.27.18.165 E102.46.33.274 MOVMI                        
+                          MOVMI                         NEMTE                        
+VTUK-RW03 ONUV1A          N016.28.41.551 E102.47.29.084 ENPIR                        
+                          ENPIR                         LETVI                        
+                          LETVI                         ONUVI                        
+VTUK-RW21 ONUV1B          N016.27.18.165 E102.46.33.274 MOVMI                        
+                          MOVMI                         SEBMI                        
+                          SEBMI                         ONUVI                        
+VTUK-RW03 SEDN1C          N016.28.41.551 E102.47.29.084 ENPIR                        
+                          ENPIR                         IPMAX                        
+                          IPMAX                         METAV                        
+                          METAV                         SEDNO                        
+VTUK-RW21 SEDN1D          N016.27.18.165 E102.46.33.274 MOVMI                        
+                          MOVMI                         LEKAM                        
+                          LEKAM                         UKMED                        
+                          UKMED                         SEDNO                        
