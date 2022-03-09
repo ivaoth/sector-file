@@ -78,6 +78,7 @@ const extraFiles = JSON.parse(readFileSync(extraFilesFile).toString()) as {
   mva: string[];
   lairspace: string[];
   colorscheme: string[];
+  manualAirport: string[];
 };
 
 const region = 'VT';
@@ -114,6 +115,11 @@ for (const airport of airports) {
   aptOut += `${airport.ident};${airport.altitude};11000;${airport.laty.toFixed(
     6
   )};${airport.lonx.toFixed(7)};${airport.name};\n`;
+}
+
+for (const tf of extraFiles.manualAirport) {
+  out += `F;${tf}\n`;
+  copySync(resolve(auroraPath, tf), resolve(auroraIncludePath, tf));
 }
 
 writeFileSync(airportFile, aptOut);
