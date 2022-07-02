@@ -1545,5 +1545,89 @@
     "name": "KABIN BURI/WATTANA NAKHON, PRA",
     "use": true,
     "checked": true
+  },
+  {
+    "digest": "e3b3f5f907cc0e3a96845ce03aa6483a446b436cfda7492cb6bc1eaa6510f64d3925e9dda527899afa1f7edcd245ce3b1272017d145da330d343fd14bc23ca6f",
+    "type": "W",
+    "name": "TEMP BALLOON AREA BAN PHUE",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "00e033f5468bd111231d04daed1b1bdc5f02ecc0035fa8868d854000f7b290f02161ec699504b9123c8e37dca45ac01c978c92b40d11c5442f7f6e43d90705d2",
+    "type": "W",
+    "name": "TEMP BALLOON AREA CHANTHABURI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "d387bd1d551033ea30d187db0f45eb6cbc3eb629e93fd24d80d2baf4e2640b16c551b9ec6e2a332d4bae5827a441a4a8ae010b8255136c1955601e8f0f2963d2",
+    "type": "W",
+    "name": "TEMP BALLOON AREA KANCHANABURI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "2613056b938f9013f9e345550bb338bdd3f106ca2adea5dba4d77fb884f6c97a5e7d68b86f0a33017482c77e1931b3a3c35209d6efbc1941cb5fd08ed3c3a40c",
+    "type": "W",
+    "name": "TEMP BALLOON AREA KING MONGKUT",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "620f81a63843939e926a543ce885005146b50509d96333d81fe4bb90fd00389caee91063ed061a3f315777597e78ada5bc798fb4caaefb48563ae96b35f57794",
+    "type": "W",
+    "name": "TEMP BALLOON AREA OMKOI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "e84e9623f8d61ec7ff1a7854977d1ac9b45c33f5146d4ecf1c90117a6968862e45c4d6be28cdd6abc689a82b81d78364f88553df3b4bf4f420660d25d2dd2164",
+    "type": "W",
+    "name": "TEMP BALLOON AREA PHANOM",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "d5b8d6e0475abb0de64e87eae996ec50f0d8ab1ae737ac857785cc73a261c879eaf7b9e58fec7b9e02a5ce43099df38751651be7cfa6012914394a690e657182",
+    "type": "W",
+    "name": "TEMP BALLOON AREA PHIMAI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "e1e8686aebb170760bf48814c086f85896a4a3ada8754d0df30ffc5ecce97eea7a1a43199c4280348a0dbccd06cc414233e7dfd4e90809f066b8acd46054fbf6",
+    "type": "W",
+    "name": "TEMP BALLOON AREA PHRAE",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "dba82cf87e5d2bc6b3a79724cf2fde2becda4a6fc9e1418ac38a4cbabc6e32a1222eedb00d329f9468a261ef0326be89071eeb4f447028d0d63e45650e1d0ba0",
+    "type": "W",
+    "name": "TEMP BALLOON AREA RASI SALAI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "bffac47bc9d137beef23e726305b57518721ff05bea924a6a3c5c66f6bcf85cbf35bb521570495bb0c913fc8259d048d394860bea3159686699184ff03911bf2",
+    "type": "W",
+    "name": "TEMP BALLOON AREA SATTAHIP",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "96b3af043b2e4865328655b06584195e37e54baa90335aa956e171c9ef58b7bda12c6c2fc52e60f6c6a63658b2e77ae491abe0710af956fefe640bf303dd3d69",
+    "type": "W",
+    "name": "TEMP BALLOON AREA SINGHA NAKHO",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "4ad21245841d174776b08731e6536ab3239c325e70b50d33427cf2dcb58f2723526dbe3bf55d4a1b49888fd3a04f54e6cb65ef2f22eaad948a68761add7039c5",
+    "type": "W",
+    "name": "TEMP BALLOON AREA TAKHLI",
+    "use": false,
+    "checked": true
   }
 ]
