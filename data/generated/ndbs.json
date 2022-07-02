@@ -245,13 +245,6 @@
     "lonx": 100.99498889
   },
   {
-    "ident": "UT",
-    "name": "U-TAPHAO INTL RAYONG",
-    "frequency": 23400,
-    "laty": 12.70166667,
-    "lonx": 101
-  },
-  {
     "ident": "WN",
     "name": "WATTHANA NAKHON",
     "frequency": 27000,

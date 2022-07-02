@@ -1,6 +1,7 @@
 [LOW AIRWAY]
 A1                        PAPRA                         BUTRA                        
-                          BUTRA                         UBL                          
+                          BUTRA                         BAMBO                        
+                          BAMBO                         UBL                          
                           UBL                           PASAT                        
                           PASAT                         SANOT                        
                           SANOT                         TOPER                        
@@ -38,7 +39,8 @@ A581                      BGO                           BOMAS
                           NUMDO                         CTR                          
                           CTR                           PONUK                        
                           PONUK                         SAGAG                        
-B202                      UBL                           PAK                          
+B202                      UBL                           PACER                        
+                          PACER                         PAK                          
 B204                      GOMES                         AGEDO                        
                           AGEDO                         SRE                          
 B205                      RYN                           OLDIR                        
@@ -51,7 +53,8 @@ B346                      BKK                           NOBER
                           NOBER                         PCB                          
                           PCB                           YAKUA                        
                           YAKUA                         LPB                          
-B460                      KRT                           BODUR                        
+B460                      KRT                           BLUVY                        
+                          BLUVY                         BODUR                        
                           BODUR                         ROT                          
                           ROT                           RURAR                        
                           RURAR                         SAV                          
@@ -219,7 +222,8 @@ R470                      VTN                           ELNET
                           POVEX                         DOTUS                        
                           DOTUS                         ROT                          
                           ROT                           ENTEK                        
-                          ENTEK                         UBL                          
+                          ENTEK                         ROONY                        
+                          ROONY                         UBL                          
 R474                      BKK                           ALBOS                        
                           ALBOS                         CMP                          
                           CMP                           LEDER                        
@@ -356,8 +360,8 @@ W33                       PUT                           ONETI
                           VININ                         UPNEP                        
                           UPNEP                         MABKO                        
                           MABKO                         SURIX                        
-                          SURIX                         ARONE                        
-                          ARONE                         RYN                          
+                          SURIX                         TRT                          
+                          TRT                           RYN                          
 W34                       MENEX                         CPN                          
                           CPN                           RAN                          
                           RAN                           IGEVI                        
@@ -380,7 +384,8 @@ W4                        UDN                           POVEX
                           POVEX                         DOTUS                        
                           DOTUS                         ROT                          
                           ROT                           ENTEK                        
-                          ENTEK                         UBL                          
+                          ENTEK                         ROONY                        
+                          ROONY                         UBL                          
 W40                       PAE                           PCB                          
 W42                       MENEX                         EGUBO                        
                           EGUBO                         UPVIL                        
@@ -405,8 +410,10 @@ W5                        UDN                           ANPUS
                           KKN                           SEDNO                        
                           SEDNO                         ROT                          
                           ROT                           ENTEK                        
-                          ENTEK                         UBL                          
-W6                        KRT                           EMRUT                        
+                          ENTEK                         ROONY                        
+                          ROONY                         UBL                          
+W6                        KRT                           SITTA                        
+                          SITTA                         EMRUT                        
                           EMRUT                         KKN                          
                           KKN                           AKRET                        
                           AKRET                         SKN                          
@@ -467,6 +474,33 @@ Y19                       BET                           PETAC
 Y2                        KKN                           NEMTE                        
                           NEMTE                         UBLOD                        
                           UBLOD                         PIPOB                        
+Y20                       BKK                           MALKI                        
+                          MALKI                         UBLOD                        
+                          UBLOD                         KRT                          
+                          KRT                           RAMEI                        
+                          RAMEI                         RAMBU                        
+                          RAMBU                         GRASO                        
+                          GRASO                         UBL                          
+Y21                       UDN                           POVEX                        
+                          POVEX                         DOTUS                        
+                          DOTUS                         ROT                          
+                          ROT                           ENTEK                        
+                          ENTEK                         ROONY                        
+                          ROONY                         UBL                          
+Y22                       UDN                           ANPUS                        
+                          ANPUS                         ALGIT                        
+                          ALGIT                         KKN                          
+                          KKN                           SEDNO                        
+                          SEDNO                         ROT                          
+                          ROT                           ENTEK                        
+                          ENTEK                         ROONY                        
+                          ROONY                         UBL                          
+Y23                       KRT                           SITTA                        
+                          SITTA                         EMRUT                        
+                          EMRUT                         KKN                          
+                          KKN                           AKRET                        
+                          AKRET                         SKN                          
+                          SKN                           NKP                          
 Y3                        BOKAK                         RIMSO                        
 Y3                        MENEX                         DORNA                        
                           DORNA                         TEDOS                        
