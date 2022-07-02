@@ -119,7 +119,8 @@ import { extractWaypoints } from './waypoint';
     'VTSP',
     'VTPM',
     'VTUD',
-    'VTUK'
+    'VTUK',
+    'VTCC'
   ];
   const airports = (await db).all<{ airport_id: number; ident: string }[]>(SQL`
     SELECT

@@ -1,0 +1,161 @@
+VTCC-RW36 ADLU2A          ADLUS                         CC113                        
+                          CC113                         ATNUT                        
+                          ATNUT                         TASIV                        
+                          TASIV                         CC115                        
+                          CC115                         CC116                        
+                          CC116                         CC117                        
+                          CC117                         PUKAT                        
+                          PUKAT                         RIGTA                        
+VTCC-RW18 ADLU2B          ADLUS                         CC511                        
+                          CC511                         CC513                        
+                          CC513                         EMSOG                        
+                          EMSOG                         TUNTU                        
+                          TUNTU                         SUSEG                        
+                          SUSEG                         MESUX                        
+                          MESUX                         PILEX                        
+VTCC-RW18 ADLU2X          ADLUS                         MESUX                        
+                          MESUX                         PILEX                        
+VTCC-RW36 ASAV2A          ASAVI                         CC114                        
+                          CC114                         ATNUT                        
+                          ATNUT                         TASIV                        
+                          TASIV                         CC115                        
+                          CC115                         CC116                        
+                          CC116                         CC117                        
+                          CC117                         PUKAT                        
+                          PUKAT                         RIGTA                        
+VTCC-RW18 ASAV2B          ASAVI                         CC502                        
+                          CC502                         RAXOM                        
+                          RAXOM                         CC515                        
+                          CC515                         EMSOG                        
+                          EMSOG                         TUNTU                        
+                          TUNTU                         SUSEG                        
+                          SUSEG                         MESUX                        
+                          MESUX                         PILEX                        
+VTCC-RW36 CMA2A           CMA                           CC111                        
+                          CC111                         CC112                        
+                          CC112                         CC113                        
+                          CC113                         ATNUT                        
+                          ATNUT                         TASIV                        
+                          TASIV                         CC115                        
+                          CC115                         CC116                        
+                          CC116                         CC117                        
+                          CC117                         PUKAT                        
+                          PUKAT                         RIGTA                        
+VTCC-RW18 CMA2B           CMA                           CC514                        
+                          CC514                         CC515                        
+                          CC515                         EMSOG                        
+                          EMSOG                         TUNTU                        
+                          TUNTU                         SUSEG                        
+                          SUSEG                         MESUX                        
+                          MESUX                         PILEX                        
+VTCC-RW36 ENBA2A          ENBAT                         UPDOS                        
+                          UPDOS                         CC101                        
+                          CC101                         CC102                        
+                          CC102                         CC103                        
+                          CC103                         PUKAT                        
+                          PUKAT                         RIGTA                        
+VTCC-RW18 ENBA2B          ENBAT                         CC504                        
+                          CC504                         RAXOM                        
+                          RAXOM                         CC515                        
+                          CC515                         EMSOG                        
+                          EMSOG                         TUNTU                        
+                          TUNTU                         SUSEG                        
+                          SUSEG                         MESUX                        
+                          MESUX                         PILEX                        
+VTCC-RW36 GOGO2A          GOGOP                         UPDOS                        
+                          UPDOS                         CC101                        
+                          CC101                         CC102                        
+                          CC102                         CC103                        
+                          CC103                         PUKAT                        
+                          PUKAT                         RIGTA                        
+VTCC-RW18 GOGO2B          GOGOP                         CC506                        
+                          CC506                         RAXOM                        
+                          RAXOM                         CC515                        
+                          CC515                         EMSOG                        
+                          EMSOG                         TUNTU                        
+                          TUNTU                         SUSEG                        
+                          SUSEG                         MESUX                        
+                          MESUX                         PILEX                        
+VTCC-RW36 KABM2A          KABMU                         CC114                        
+                          CC114                         ATNUT                        
+                          ATNUT                         TASIV                        
+                          TASIV                         CC115                        
+                          CC115                         CC116                        
+                          CC116                         CC117                        
+                          CC117                         PUKAT                        
+                          PUKAT                         RIGTA                        
+VTCC-RW18 KABM2B          KABMU                         CC501                        
+                          CC501                         RAXOM                        
+                          RAXOM                         CC515                        
+                          CC515                         EMSOG                        
+                          EMSOG                         TUNTU                        
+                          TUNTU                         SUSEG                        
+                          SUSEG                         MESUX                        
+                          MESUX                         PILEX                        
+VTCC-RW36 LAMU2A          LAMUN                         CC632                        
+                          CC632                         ANSAB                        
+                          ANSAB                         ENRIS                        
+                          ENRIS                         RIGTA                        
+VTCC-RW18 LAMU2X          LAMUN                         SANRA                        
+                          SANRA                         PILEX                        
+VTCC-RW36 MARN2A          MARNI                         UPDOS                        
+                          UPDOS                         CC101                        
+                          CC101                         CC102                        
+                          CC102                         CC103                        
+                          CC103                         PUKAT                        
+                          PUKAT                         RIGTA                        
+VTCC-RW18 MARN2B          MARNI                         CC505                        
+                          CC505                         RAXOM                        
+                          RAXOM                         CC515                        
+                          CC515                         EMSOG                        
+                          EMSOG                         TUNTU                        
+                          TUNTU                         SUSEG                        
+                          SUSEG                         MESUX                        
+                          MESUX                         PILEX                        
+VTCC-RW36 MONL2A          MONLO                         ATNUT                        
+                          ATNUT                         TASIV                        
+                          TASIV                         CC115                        
+                          CC115                         CC116                        
+                          CC116                         CC117                        
+                          CC117                         PUKAT                        
+                          PUKAT                         RIGTA                        
+VTCC-RW18 MONL2B          MONLO                         CC512                        
+                          CC512                         CC513                        
+                          CC513                         EMSOG                        
+                          EMSOG                         TUNTU                        
+                          TUNTU                         SUSEG                        
+                          SUSEG                         MESUX                        
+                          MESUX                         PILEX                        
+VTCC-RW36 PANT2A          PANTA                         CC101                        
+                          CC101                         CC102                        
+                          CC102                         CC103                        
+                          CC103                         PUKAT                        
+                          PUKAT                         RIGTA                        
+VTCC-RW18 PANT2B          PANTA                         CC503                        
+                          CC503                         RAXOM                        
+                          RAXOM                         CC515                        
+                          CC515                         EMSOG                        
+                          EMSOG                         TUNTU                        
+                          TUNTU                         SUSEG                        
+                          SUSEG                         MESUX                        
+                          MESUX                         PILEX                        
+VTCC-RW36 PUMA2A          PUMAM                         UPDOS                        
+                          UPDOS                         CC101                        
+                          CC101                         CC102                        
+                          CC102                         CC103                        
+                          CC103                         PUKAT                        
+                          PUKAT                         RIGTA                        
+VTCC-RW18 PUMA2B          PUMAM                         CC507                        
+                          CC507                         RAXOM                        
+                          RAXOM                         CC515                        
+                          CC515                         EMSOG                        
+                          EMSOG                         TUNTU                        
+                          TUNTU                         SUSEG                        
+                          SUSEG                         MESUX                        
+                          MESUX                         PILEX                        
+VTCC-RW36 VISE2A          VISES                         CC632                        
+                          CC632                         ANSAB                        
+                          ANSAB                         ENRIS                        
+                          ENRIS                         RIGTA                        
+VTCC-RW18 VISE2X          VISES                         SANRA                        
+                          SANRA                         PILEX                        
