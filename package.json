@@ -51,7 +51,7 @@
     "pad": "3.2.0",
     "rimraf": "3.0.2",
     "sql-template-strings": "2.2.2",
-    "sqlite": "4.1.1",
+    "sqlite": "4.1.2",
     "sqlite3": "5.0.8",
     "xml": "1.0.1"
   }
