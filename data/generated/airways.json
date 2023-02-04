@@ -1158,7 +1158,7 @@
     {
       "name": "G463",
       "segment_no": 1,
-      "sequence_no": 24,
+      "sequence_no": 25,
       "wpt_from": "PUMEK",
       "wpt_to": "BETNO",
       "type": "B",
@@ -1173,7 +1173,7 @@
     {
       "name": "G463",
       "segment_no": 1,
-      "sequence_no": 25,
+      "sequence_no": 26,
       "wpt_from": "BETNO",
       "wpt_to": "TARED",
       "type": "B",
@@ -1188,7 +1188,7 @@
     {
       "name": "G463",
       "segment_no": 1,
-      "sequence_no": 26,
+      "sequence_no": 27,
       "wpt_from": "TARED",
       "wpt_to": "BKK",
       "type": "B",
@@ -2790,22 +2790,22 @@
     {
       "name": "N891",
       "segment_no": 1,
-      "sequence_no": 10,
-      "wpt_from": "XONAN",
+      "sequence_no": 11,
+      "wpt_from": "IPLIS",
       "wpt_to": "BENSA",
       "type": "B",
-      "from_lat": 9.244999885559082,
-      "from_lon": 102.83833312988281,
+      "from_lat": 9.815217018127441,
+      "from_lon": 102.65101623535156,
       "to_lat": 10.441944122314453,
       "to_lon": 102.4415283203125,
       "direction": "N",
-      "region_from": "VV",
+      "region_from": "VD",
       "region_to": "VT"
     },
     {
       "name": "N891",
       "segment_no": 1,
-      "sequence_no": 11,
+      "sequence_no": 12,
       "wpt_from": "BENSA",
       "wpt_to": "ANOBO",
       "type": "B",
@@ -2820,7 +2820,7 @@
     {
       "name": "N891",
       "segment_no": 1,
-      "sequence_no": 12,
+      "sequence_no": 13,
       "wpt_from": "ANOBO",
       "wpt_to": "RYN",
       "type": "B",
@@ -2835,7 +2835,7 @@
     {
       "name": "N891",
       "segment_no": 1,
-      "sequence_no": 13,
+      "sequence_no": 14,
       "wpt_from": "RYN",
       "wpt_to": "DOLNI",
       "type": "B",
@@ -2850,7 +2850,7 @@
     {
       "name": "N891",
       "segment_no": 1,
-      "sequence_no": 14,
+      "sequence_no": 15,
       "wpt_from": "DOLNI",
       "wpt_to": "BKK",
       "type": "B",
@@ -3752,7 +3752,7 @@
     {
       "name": "R575",
       "segment_no": 1,
-      "sequence_no": 8,
+      "sequence_no": 7,
       "wpt_from": "SAKDA",
       "wpt_to": "ANOBO",
       "type": "B",
@@ -3767,7 +3767,7 @@
     {
       "name": "R575",
       "segment_no": 1,
-      "sequence_no": 9,
+      "sequence_no": 8,
       "wpt_from": "ANOBO",
       "wpt_to": "ALUMO",
       "type": "B",
@@ -3782,7 +3782,7 @@
     {
       "name": "R575",
       "segment_no": 1,
-      "sequence_no": 10,
+      "sequence_no": 9,
       "wpt_from": "ALUMO",
       "wpt_to": "RILVI",
       "type": "B",
@@ -3797,7 +3797,7 @@
     {
       "name": "R575",
       "segment_no": 1,
-      "sequence_no": 11,
+      "sequence_no": 10,
       "wpt_from": "RILVI",
       "wpt_to": "EMELA",
       "type": "B",
@@ -3812,7 +3812,7 @@
     {
       "name": "R575",
       "segment_no": 1,
-      "sequence_no": 12,
+      "sequence_no": 11,
       "wpt_from": "EMELA",
       "wpt_to": "UPNEP",
       "type": "B",
@@ -3827,7 +3827,7 @@
     {
       "name": "R575",
       "segment_no": 1,
-      "sequence_no": 13,
+      "sequence_no": 12,
       "wpt_from": "UPNEP",
       "wpt_to": "VININ",
       "type": "B",
@@ -3842,7 +3842,7 @@
     {
       "name": "R575",
       "segment_no": 1,
-      "sequence_no": 14,
+      "sequence_no": 13,
       "wpt_from": "VININ",
       "wpt_to": "SMU",
       "type": "B",
@@ -3857,7 +3857,7 @@
     {
       "name": "R575",
       "segment_no": 1,
-      "sequence_no": 15,
+      "sequence_no": 14,
       "wpt_from": "SMU",
       "wpt_to": "MESEM",
       "type": "B",
@@ -3872,7 +3872,7 @@
     {
       "name": "R575",
       "segment_no": 1,
-      "sequence_no": 16,
+      "sequence_no": 15,
       "wpt_from": "MESEM",
       "wpt_to": "RECNO",
       "type": "B",
@@ -3887,7 +3887,7 @@
     {
       "name": "R575",
       "segment_no": 1,
-      "sequence_no": 17,
+      "sequence_no": 16,
       "wpt_from": "RECNO",
       "wpt_to": "ONETI",
       "type": "B",
@@ -3902,7 +3902,7 @@
     {
       "name": "R575",
       "segment_no": 1,
-      "sequence_no": 18,
+      "sequence_no": 17,
       "wpt_from": "ONETI",
       "wpt_to": "PUT",
       "type": "B",
@@ -4162,7 +4162,7 @@
   [
     {
       "name": "W10",
-      "segment_no": 5,
+      "segment_no": 4,
       "sequence_no": 1,
       "wpt_from": "KPS",
       "wpt_to": "VUTHI",
@@ -4177,7 +4177,7 @@
     },
     {
       "name": "W10",
-      "segment_no": 5,
+      "segment_no": 4,
       "sequence_no": 2,
       "wpt_from": "VUTHI",
       "wpt_to": "TL",
@@ -5080,7 +5080,7 @@
       "segment_no": 2,
       "sequence_no": 1,
       "wpt_from": "MST",
-      "wpt_to": "ISBEL",
+      "wpt_to": "KADAV",
       "type": "B",
       "from_lat": 16.697813034057617,
       "from_lon": 98.54158020019531,
@@ -5094,7 +5094,7 @@
       "name": "W26",
       "segment_no": 2,
       "sequence_no": 2,
-      "wpt_from": "ISBEL",
+      "wpt_from": "KADAV",
       "wpt_to": "TK",
       "type": "B",
       "from_lat": 16.79840087890625,
@@ -6628,7 +6628,7 @@
   [
     {
       "name": "W6",
-      "segment_no": 7,
+      "segment_no": 6,
       "sequence_no": 1,
       "wpt_from": "KRT",
       "wpt_to": "SITTA",
@@ -6643,7 +6643,7 @@
     },
     {
       "name": "W6",
-      "segment_no": 7,
+      "segment_no": 6,
       "sequence_no": 2,
       "wpt_from": "SITTA",
       "wpt_to": "EMRUT",
@@ -6658,7 +6658,7 @@
     },
     {
       "name": "W6",
-      "segment_no": 7,
+      "segment_no": 6,
       "sequence_no": 3,
       "wpt_from": "EMRUT",
       "wpt_to": "KKN",
@@ -6673,7 +6673,7 @@
     },
     {
       "name": "W6",
-      "segment_no": 7,
+      "segment_no": 6,
       "sequence_no": 4,
       "wpt_from": "KKN",
       "wpt_to": "AKRET",
@@ -6688,7 +6688,7 @@
     },
     {
       "name": "W6",
-      "segment_no": 7,
+      "segment_no": 6,
       "sequence_no": 5,
       "wpt_from": "AKRET",
       "wpt_to": "SKN",
@@ -6703,7 +6703,7 @@
     },
     {
       "name": "W6",
-      "segment_no": 7,
+      "segment_no": 6,
       "sequence_no": 6,
       "wpt_from": "SKN",
       "wpt_to": "NKP",
@@ -6755,7 +6755,7 @@
       "segment_no": 4,
       "sequence_no": 2,
       "wpt_from": "PUMAM",
-      "wpt_to": "LILRI",
+      "wpt_to": "VEGRA",
       "type": "B",
       "from_lat": 18.14181900024414,
       "from_lon": 98.83363342285156,
@@ -6769,7 +6769,7 @@
       "name": "W7",
       "segment_no": 4,
       "sequence_no": 3,
-      "wpt_from": "LILRI",
+      "wpt_from": "VEGRA",
       "wpt_to": "MST",
       "type": "B",
       "from_lat": 17.059200286865234,
@@ -7079,7 +7079,7 @@
   [
     {
       "name": "Y10",
-      "segment_no": 2,
+      "segment_no": 3,
       "sequence_no": 1,
       "wpt_from": "OBLEX",
       "wpt_to": "HTY",
@@ -8336,7 +8336,7 @@
   [
     {
       "name": "Y6",
-      "segment_no": 1,
+      "segment_no": 2,
       "sequence_no": 1,
       "wpt_from": "BKK",
       "wpt_to": "TANGO",
@@ -8351,7 +8351,7 @@
     },
     {
       "name": "Y6",
-      "segment_no": 1,
+      "segment_no": 2,
       "sequence_no": 2,
       "wpt_from": "TANGO",
       "wpt_to": "DUKEN",
@@ -8366,7 +8366,7 @@
     },
     {
       "name": "Y6",
-      "segment_no": 1,
+      "segment_no": 2,
       "sequence_no": 3,
       "wpt_from": "DUKEN",
       "wpt_to": "BORNO",
@@ -8381,7 +8381,7 @@
     },
     {
       "name": "Y6",
-      "segment_no": 1,
+      "segment_no": 2,
       "sequence_no": 4,
       "wpt_from": "BORNO",
       "wpt_to": "SANAL",
@@ -8396,7 +8396,7 @@
     },
     {
       "name": "Y6",
-      "segment_no": 1,
+      "segment_no": 2,
       "sequence_no": 5,
       "wpt_from": "SANAL",
       "wpt_to": "RINKA",
@@ -8411,7 +8411,7 @@
     },
     {
       "name": "Y6",
-      "segment_no": 1,
+      "segment_no": 2,
       "sequence_no": 6,
       "wpt_from": "RINKA",
       "wpt_to": "MARNI",
@@ -8426,7 +8426,7 @@
     },
     {
       "name": "Y6",
-      "segment_no": 1,
+      "segment_no": 2,
       "sequence_no": 7,
       "wpt_from": "MARNI",
       "wpt_to": "CMA",
@@ -8490,7 +8490,7 @@
   [
     {
       "name": "Y8",
-      "segment_no": 1,
+      "segment_no": 2,
       "sequence_no": 1,
       "wpt_from": "BKK",
       "wpt_to": "MOTNA",
@@ -8505,7 +8505,7 @@
     },
     {
       "name": "Y8",
-      "segment_no": 1,
+      "segment_no": 2,
       "sequence_no": 2,
       "wpt_from": "MOTNA",
       "wpt_to": "SABIS",
@@ -8520,7 +8520,7 @@
     },
     {
       "name": "Y8",
-      "segment_no": 1,
+      "segment_no": 2,
       "sequence_no": 3,
       "wpt_from": "SABIS",
       "wpt_to": "VANKO",
@@ -8535,7 +8535,7 @@
     },
     {
       "name": "Y8",
-      "segment_no": 1,
+      "segment_no": 2,
       "sequence_no": 4,
       "wpt_from": "VANKO",
       "wpt_to": "BUXEL",
@@ -8550,7 +8550,7 @@
     },
     {
       "name": "Y8",
-      "segment_no": 1,
+      "segment_no": 2,
       "sequence_no": 5,
       "wpt_from": "BUXEL",
       "wpt_to": "MENEX",
@@ -8565,7 +8565,7 @@
     },
     {
       "name": "Y8",
-      "segment_no": 1,
+      "segment_no": 2,
       "sequence_no": 6,
       "wpt_from": "MENEX",
       "wpt_to": "IKERA",
@@ -8580,7 +8580,7 @@
     },
     {
       "name": "Y8",
-      "segment_no": 1,
+      "segment_no": 2,
       "sequence_no": 7,
       "wpt_from": "IKERA",
       "wpt_to": "STN",
@@ -8595,7 +8595,7 @@
     },
     {
       "name": "Y8",
-      "segment_no": 1,
+      "segment_no": 2,
       "sequence_no": 8,
       "wpt_from": "STN",
       "wpt_to": "LAMUL",
@@ -8610,7 +8610,7 @@
     },
     {
       "name": "Y8",
-      "segment_no": 1,
+      "segment_no": 2,
       "sequence_no": 9,
       "wpt_from": "LAMUL",
       "wpt_to": "SAVSA",
@@ -8625,7 +8625,7 @@
     },
     {
       "name": "Y8",
-      "segment_no": 1,
+      "segment_no": 2,
       "sequence_no": 10,
       "wpt_from": "SAVSA",
       "wpt_to": "PUT",

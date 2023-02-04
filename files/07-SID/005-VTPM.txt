@@ -1,11 +1,14 @@
-VTPM-RW09 ISBE1A          N016.41.59.852 E098.33.07.701 GOVNO                        
-                          GOVNO                         NOBIX                        
-                          NOBIX                         ISBEL                        
-VTPM-RW09 ISBE1B          N016.41.59.852 E098.33.07.701 GOVNO                        
-                          GOVNO                         MEKUB                        
-                          MEKUB                         MADMO                        
-                          MADMO                         NOBIX                        
-                          NOBIX                         ISBEL                        
-VTPM-RW09 LILR1A          N016.41.59.852 E098.33.07.701 GOVNO                        
-                          GOVNO                         POROD                        
-                          POROD                         LILRI                        
+VTPM-RW09 KADA1A          N016.42.00.250 E098.33.35.881 GUSAV                        
+                          GUSAV                         UPRUK                        
+                          UPRUK                         KADAV                        
+VTPM-RW09 KADA1B          N016.42.00.250 E098.33.35.881 GUSAV                        
+                          GUSAV                         UPDEK                        
+                          UPDEK                         LEDOK                        
+                          LEDOK                         KADAV                        
+VTPM-RW09 KADA1C          N016.42.00.250 E098.33.35.881 GUSAV                        
+                          GUSAV                         VESAD                        
+                          VESAD                         VATKA                        
+                          VATKA                         KADAV                        
+VTPM-RW09 VEGR1A          N016.42.00.250 E098.33.35.881 GUSAV                        
+                          GUSAV                         UPDEK                        
+                          UPDEK                         VEGRA                        

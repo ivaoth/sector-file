@@ -1,53 +1,53 @@
-VTCC-RW36 ADLU2N          N018.47.01.529 E098.57.46.516 CC202                        
+VTCC-RW36 ADLU2N          N018.47.01.516 E098.57.46.516 CC202                        
                           CC202                         CC214                        
                           CC214                         ADLUS                        
-VTCC-RW18 ADLU2S          N018.45.10.952 E098.57.46.269 CC602                        
+VTCC-RW18 ADLU2S          N018.45.10.938 E098.57.46.269 CC602                        
                           CC602                         CC206                        
                           CC206                         CC612                        
                           CC612                         CC613                        
                           CC613                         CC614                        
                           CC614                         CC615                        
                           CC615                         ADLUS                        
-VTCC-RW36 ASAV2C          N018.47.01.529 E098.57.46.516 CC202                        
+VTCC-RW36 ASAV2C          N018.47.01.516 E098.57.46.516 CC202                        
                           CC202                         CC203                        
                           CC203                         POVUT                        
                           POVUT                         CC205                        
                           CC205                         CC206                        
                           CC206                         CC210                        
                           CC210                         ASAVI                        
-VTCC-RW36 ASAV2N          N018.47.01.529 E098.57.46.516 CC201                        
+VTCC-RW36 ASAV2N          N018.47.01.516 E098.57.46.516 CC201                        
                           CC201                         CC204                        
                           CC204                         POVUT                        
                           POVUT                         CC205                        
                           CC205                         CC206                        
                           CC206                         CC210                        
                           CC210                         ASAVI                        
-VTCC-RW18 ASAV2S          N018.45.10.952 E098.57.46.269 CC601                        
+VTCC-RW18 ASAV2S          N018.45.10.938 E098.57.46.269 CC601                        
                           CC601                         CC621                        
                           CC621                         CC622                        
                           CC622                         CC623                        
                           CC623                         ASAVI                        
-VTCC-RW18 CTR1A           N018.45.10.952 E098.57.46.269 CMA                          
+VTCC-RW18 CTR1A           N018.45.10.938 E098.57.46.269 CMA                          
                           CMA                           CTR                          
-VTCC-RW36 CTR1B           N018.47.01.529 E098.57.46.516 CMA                          
+VTCC-RW36 CTR1B           N018.47.01.516 E098.57.46.516 CMA                          
                           CMA                           CTR                          
-VTCC-RW36 ENBA2C          N018.47.01.529 E098.57.46.516 CC202                        
+VTCC-RW36 ENBA2C          N018.47.01.516 E098.57.46.516 CC202                        
                           CC202                         CC203                        
                           CC203                         POVUT                        
                           POVUT                         CC205                        
                           CC205                         CC206                        
                           CC206                         NUDMA                        
                           NUDMA                         ENBAT                        
-VTCC-RW36 ENBA2N          N018.47.01.529 E098.57.46.516 CC201                        
+VTCC-RW36 ENBA2N          N018.47.01.516 E098.57.46.516 CC201                        
                           CC201                         CC204                        
                           CC204                         POVUT                        
                           POVUT                         CC205                        
                           CC205                         CC206                        
                           CC206                         NUDMA                        
                           NUDMA                         ENBAT                        
-VTCC-RW18 ENBA2S          N018.45.10.952 E098.57.46.269 CC603                        
+VTCC-RW18 ENBA2S          N018.45.10.938 E098.57.46.269 CC603                        
                           CC603                         ENBAT                        
-VTCC-RW36 GOGO2C          N018.47.01.529 E098.57.46.516 CC202                        
+VTCC-RW36 GOGO2C          N018.47.01.516 E098.57.46.516 CC202                        
                           CC202                         CC203                        
                           CC203                         POVUT                        
                           POVUT                         CC205                        
@@ -55,7 +55,7 @@ VTCC-RW36 GOGO2C          N018.47.01.529 E098.57.46.516 CC202
                           CC206                         NUDMA                        
                           NUDMA                         CC211                        
                           CC211                         GOGOP                        
-VTCC-RW36 GOGO2N          N018.47.01.529 E098.57.46.516 CC201                        
+VTCC-RW36 GOGO2N          N018.47.01.516 E098.57.46.516 CC201                        
                           CC201                         CC204                        
                           CC204                         POVUT                        
                           POVUT                         CC205                        
@@ -63,93 +63,93 @@ VTCC-RW36 GOGO2N          N018.47.01.529 E098.57.46.516 CC201
                           CC206                         NUDMA                        
                           NUDMA                         CC211                        
                           CC211                         GOGOP                        
-VTCC-RW18 GOGO2S          N018.45.10.952 E098.57.46.269 CC603                        
+VTCC-RW18 GOGO2S          N018.45.10.938 E098.57.46.269 CC603                        
                           CC603                         CC604                        
                           CC604                         GOGOP                        
-VTCC-RW36 KABM2C          N018.47.01.529 E098.57.46.516 CC202                        
+VTCC-RW36 KABM2C          N018.47.01.516 E098.57.46.516 CC202                        
                           CC202                         CC203                        
                           CC203                         POVUT                        
                           POVUT                         CC205                        
                           CC205                         CC206                        
                           CC206                         CC209                        
                           CC209                         KABMU                        
-VTCC-RW36 KABM2N          N018.47.01.529 E098.57.46.516 CC201                        
+VTCC-RW36 KABM2N          N018.47.01.516 E098.57.46.516 CC201                        
                           CC201                         CC204                        
                           CC204                         POVUT                        
                           POVUT                         CC205                        
                           CC205                         CC206                        
                           CC206                         CC209                        
                           CC209                         KABMU                        
-VTCC-RW18 KABM2S          N018.45.10.952 E098.57.46.269 CC601                        
+VTCC-RW18 KABM2S          N018.45.10.938 E098.57.46.269 CC601                        
                           CC601                         CC621                        
                           CC621                         CC622                        
                           CC622                         CC623                        
                           CC623                         KABMU                        
-VTCC-RW18 KEDO1A          N018.45.10.952 E098.57.46.269 KEDOB                        
-VTCC-RW36 KEDO1B          N018.47.01.529 E098.57.46.516 KEDOB                        
-VTCC-RW36 LAMU2N          N018.47.01.529 E098.57.46.516 CC202                        
+VTCC-RW18 KEDO1A          N018.45.10.938 E098.57.46.269 KEDOB                        
+VTCC-RW36 KEDO1B          N018.47.01.516 E098.57.46.516 KEDOB                        
+VTCC-RW36 LAMU2N          N018.47.01.516 E098.57.46.516 CC202                        
                           CC202                         CC213                        
                           CC213                         LAMUN                        
-VTCC-RW18 LAMU2S          N018.45.10.952 E098.57.46.269 CC602                        
+VTCC-RW18 LAMU2S          N018.45.10.938 E098.57.46.269 CC602                        
                           CC602                         CC206                        
                           CC206                         CC612                        
                           CC612                         CC613                        
                           CC613                         CC614                        
                           CC614                         CC616                        
                           CC616                         LAMUN                        
-VTCC-RW18 LAMU2W          N018.45.10.952 E098.57.46.269 CC601                        
+VTCC-RW18 LAMU2W          N018.45.10.938 E098.57.46.269 CC601                        
                           CC601                         CC631                        
                           CC631                         CC632                        
                           CC632                         CC634                        
                           CC634                         LAMUN                        
-VTCC-RW18 MHS1A           N018.45.10.952 E098.57.46.269 CMA                          
+VTCC-RW18 MHS1A           N018.45.10.938 E098.57.46.269 CMA                          
                           CMA                           MHS                          
-VTCC-RW36 MHS1B           N018.47.01.529 E098.57.46.516 CMA                          
+VTCC-RW36 MHS1B           N018.47.01.516 E098.57.46.516 CMA                          
                           CMA                           MHS                          
-VTCC-RW36 MONL2C          N018.47.01.529 E098.57.46.516 CC202                        
+VTCC-RW36 MONL2C          N018.47.01.516 E098.57.46.516 CC202                        
                           CC202                         CC203                        
                           CC203                         POVUT                        
                           POVUT                         CC205                        
                           CC205                         CC207                        
                           CC207                         CC208                        
                           CC208                         MONLO                        
-VTCC-RW36 MONL2N          N018.47.01.529 E098.57.46.516 CC201                        
+VTCC-RW36 MONL2N          N018.47.01.516 E098.57.46.516 CC201                        
                           CC201                         CC204                        
                           CC204                         POVUT                        
                           POVUT                         CC205                        
                           CC205                         CC207                        
                           CC207                         CC208                        
                           CC208                         MONLO                        
-VTCC-RW18 MONL2S          N018.45.10.952 E098.57.46.269 CC601                        
+VTCC-RW18 MONL2S          N018.45.10.938 E098.57.46.269 CC601                        
                           CC601                         CC621                        
                           CC621                         CC622                        
                           CC622                         CC623                        
                           CC623                         MONLO                        
-VTCC-RW36 PANT2C          N018.47.01.529 E098.57.46.516 CC202                        
+VTCC-RW36 PANT2C          N018.47.01.516 E098.57.46.516 CC202                        
                           CC202                         CC203                        
                           CC203                         POVUT                        
                           POVUT                         CC205                        
                           CC205                         CC206                        
                           CC206                         NUDMA                        
                           NUDMA                         PANTA                        
-VTCC-RW36 PANT2N          N018.47.01.529 E098.57.46.516 CC201                        
+VTCC-RW36 PANT2N          N018.47.01.516 E098.57.46.516 CC201                        
                           CC201                         CC204                        
                           CC204                         POVUT                        
                           POVUT                         CC205                        
                           CC205                         CC206                        
                           CC206                         NUDMA                        
                           NUDMA                         PANTA                        
-VTCC-RW18 PANT2S          N018.45.10.952 E098.57.46.269 CC603                        
+VTCC-RW18 PANT2S          N018.45.10.938 E098.57.46.269 CC603                        
                           CC603                         PANTA                        
-VTCC-RW18 PR1A            N018.45.10.952 E098.57.46.269 CMA                          
+VTCC-RW18 PR1A            N018.45.10.938 E098.57.46.269 CMA                          
                           CMA                           PR                           
-VTCC-RW36 PR1B            N018.47.01.529 E098.57.46.516 CMA                          
+VTCC-RW36 PR1B            N018.47.01.516 E098.57.46.516 CMA                          
                           CMA                           PR                           
-VTCC-RW18 PSL1A           N018.45.10.952 E098.57.46.269 CMA                          
+VTCC-RW18 PSL1A           N018.45.10.938 E098.57.46.269 CMA                          
                           CMA                           PSL                          
-VTCC-RW36 PSL1B           N018.47.01.529 E098.57.46.516 CMA                          
+VTCC-RW36 PSL1B           N018.47.01.516 E098.57.46.516 CMA                          
                           CMA                           PSL                          
-VTCC-RW36 PUMA2C          N018.47.01.529 E098.57.46.516 CC202                        
+VTCC-RW36 PUMA2C          N018.47.01.516 E098.57.46.516 CC202                        
                           CC202                         CC203                        
                           CC203                         POVUT                        
                           POVUT                         CC205                        
@@ -157,7 +157,7 @@ VTCC-RW36 PUMA2C          N018.47.01.529 E098.57.46.516 CC202
                           CC206                         NUDMA                        
                           NUDMA                         CC211                        
                           CC211                         PUMAM                        
-VTCC-RW36 PUMA2N          N018.47.01.529 E098.57.46.516 CC201                        
+VTCC-RW36 PUMA2N          N018.47.01.516 E098.57.46.516 CC201                        
                           CC201                         CC204                        
                           CC204                         POVUT                        
                           POVUT                         CC205                        
@@ -165,24 +165,24 @@ VTCC-RW36 PUMA2N          N018.47.01.529 E098.57.46.516 CC201
                           CC206                         NUDMA                        
                           NUDMA                         CC211                        
                           CC211                         PUMAM                        
-VTCC-RW18 PUMA2S          N018.45.10.952 E098.57.46.269 CC603                        
+VTCC-RW18 PUMA2S          N018.45.10.938 E098.57.46.269 CC603                        
                           CC603                         CC604                        
                           CC604                         PUMAM                        
-VTCC-RW18 UTTA1A          N018.45.10.952 E098.57.46.269 CMA                          
+VTCC-RW18 UTTA1A          N018.45.10.938 E098.57.46.269 CMA                          
                           CMA                           UTTAR                        
-VTCC-RW36 UTTA1B          N018.47.01.529 E098.57.46.516 CMA                          
+VTCC-RW36 UTTA1B          N018.47.01.516 E098.57.46.516 CMA                          
                           CMA                           UTTAR                        
-VTCC-RW36 VISE2N          N018.47.01.529 E098.57.46.516 CC202                        
+VTCC-RW36 VISE2N          N018.47.01.516 E098.57.46.516 CC202                        
                           CC202                         CC212                        
                           CC212                         VISES                        
-VTCC-RW18 VISE2S          N018.45.10.952 E098.57.46.269 CC602                        
+VTCC-RW18 VISE2S          N018.45.10.938 E098.57.46.269 CC602                        
                           CC602                         CC206                        
                           CC206                         CC612                        
                           CC612                         CC613                        
                           CC613                         CC614                        
                           CC614                         CC617                        
                           CC617                         VISES                        
-VTCC-RW18 VISE2W          N018.45.10.952 E098.57.46.269 CC601                        
+VTCC-RW18 VISE2W          N018.45.10.938 E098.57.46.269 CC601                        
                           CC601                         CC631                        
                           CC631                         CC632                        
                           CC632                         CC633                        

@@ -180,7 +180,7 @@ N506                      BKK                           UGIPA
                           GOMES                         BERLU                        
                           BERLU                         BOKAK                        
                           BOKAK                         AKNAT                        
-N891                      XONAN                         BENSA                        
+N891                      IPLIS                         BENSA                        
                           BENSA                         ANOBO                        
                           ANOBO                         RYN                          
                           RYN                           DOLNI                        
@@ -328,8 +328,8 @@ W24                       STN                           IDNAR
                           BITEN                         TRN                          
 W25                       THS                           PAE                          
                           PAE                           NAN                          
-W26                       MST                           ISBEL                        
-                          ISBEL                         TK                           
+W26                       MST                           KADAV                        
+                          KADAV                         TK                           
                           TK                            PSL                          
                           PSL                           GOKON                        
                           GOKON                         PCB                          
@@ -434,8 +434,8 @@ W6                        KRT                           SITTA
                           AKRET                         SKN                          
                           SKN                           NKP                          
 W7                        CMA                           PUMAM                        
-                          PUMAM                         LILRI                        
-                          LILRI                         MST                          
+                          PUMAM                         VEGRA                        
+                          VEGRA                         MST                          
 W8                        TL                            KRT                          
 W9                        BKK                           TL                           
                           TL                            PEBLI                        
