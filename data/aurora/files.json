@@ -106,5 +106,8 @@
     "BKK.lairspace",
     "VTBD.lairspace",
     "VTBS.lairspace"
+  ],
+  "colorscheme": [
+    "TOPSKY_V1.clr"
   ]
 }
