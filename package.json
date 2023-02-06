@@ -16,14 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ivaothai/ivac-sector-file.git"
+    "url": "git+https://github.com/ivaoth/ivac-sector-file.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ivaothai/ivac-sector-file/issues"
+    "url": "https://github.com/ivaoth/ivac-sector-file/issues"
   },
-  "homepage": "https://github.com/ivaothai/ivac-sector-file#readme",
+  "homepage": "https://github.com/ivaoth/ivac-sector-file#readme",
   "devDependencies": {
     "@types/archiver": "5.3.1",
     "@types/fs-extra": "11.0.1",

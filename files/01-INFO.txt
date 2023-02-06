@@ -6,9 +6,9 @@
 ;  Sarun Intaralawan (402515)
 ;  Phumrapee Limpianchop (562320)
 ;  Nuttawat Chotsirithanikkul (439117)
-; Please check for update at https://github.com/ivaothai/ivac-sector-file/releases/latest
+; Please check for update at https://github.com/ivaoth/ivac-sector-file/releases/latest
 
-; If you found bug or have any suggestion, please file an issue at https://github.com/ivaothai/ivac-sector-file
+; If you found bug or have any suggestion, please file an issue at https://github.com/ivaoth/ivac-sector-file
 
 [INFO]
 VTBB
