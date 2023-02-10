@@ -107,6 +107,9 @@
     "VTBD.lairspace",
     "VTBS.lairspace"
   ],
+  "hairspace": [
+    "VTBB.hairspace"
+  ],
   "colorscheme": [
     "TOPSKY_V1.clr"
   ]
