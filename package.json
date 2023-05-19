@@ -47,7 +47,7 @@
     "fs-extra": "11.1.1",
     "inquirer": "9.1.5",
     "pad": "3.2.0",
-    "rimraf": "5.0.0",
+    "rimraf": "5.0.1",
     "sql-template-strings": "2.2.2",
     "sqlite": "4.1.2",
     "sqlite3": "5.1.6",
