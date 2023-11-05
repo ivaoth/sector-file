@@ -34,7 +34,7 @@
     "@types/xml": "1.0.8",
     "@typescript-eslint/eslint-plugin": "6.2.1",
     "@typescript-eslint/parser": "6.2.1",
-    "commit-and-tag-version": "11.2.2",
+    "commit-and-tag-version": "11.3.0",
     "eslint": "8.46.0",
     "eslint-config-prettier": "8.9.0",
     "eslint-plugin-prettier": "5.0.0",
