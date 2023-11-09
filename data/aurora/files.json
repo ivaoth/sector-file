@@ -99,7 +99,9 @@
   "sid": [],
   "star": [],
   "vfrfix": [],
-  "mva": [],
+  "mva": [
+    "MORA.mva"
+  ],
   "lairspace": [
     "BKK.lairspace",
     "VTBD.lairspace",
