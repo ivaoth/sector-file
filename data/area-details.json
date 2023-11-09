@@ -147,7 +147,7 @@
     "checked": true
   },
   {
-    "digest": "e2faa82c9d452e1a428f0546a15f8d7de997375700d99e3268166585602fd864222cf98f59d47af4743d038efbbc8bbcfef259ecd8f200fdd26202acfe1ecfc3",
+    "digest": "e4ea4a7de29037402dbf1473d1d740c62f3ecf89a9583b48470d604360487ad307531d17ee48d0dbe35a52025259db72b8305ac5250b596a83595dfcc3539e4d",
     "type": "ATZ",
     "name": "VTBW_CTR",
     "use": true,
@@ -203,7 +203,7 @@
     "checked": true
   },
   {
-    "digest": "be879382d305b1eaf567a8bc0476a99108ac62fc0ba30f14b379d093ce5329831db7403a1dc0bc65711737128660adba84428a54f2f73f95ce0a94d593611067",
+    "digest": "39b4f4476943a8be872e4f792cf2afdb39466d8d57fd2fcf3c73755eed2e77e421ee874b6c6e8ade42edc307939a9ff3d3d1c96b3713f469bd32c04edaaac280",
     "type": "CTR",
     "name": "VTCL_CTR",
     "use": true,
@@ -217,7 +217,7 @@
     "checked": true
   },
   {
-    "digest": "043bc20c457db6bd5d0a98db3ff06245e1dba212ad5ad3265a450e867d91dc6f9c85f27993771533139deaf1928e2a4b569c8f37df04040be993abb52522f125",
+    "digest": "7345908ac1079bd6bf87fb9c2d4fa710ae16df226ba73f3a0bc5f2db347a29e8c890e6fa67a47b716f094c241865401fcfc48de011c617808641469015f4958d",
     "type": "ATZ",
     "name": "VTCL_ATZ",
     "use": true,
@@ -294,7 +294,7 @@
     "checked": true
   },
   {
-    "digest": "dca6f23654fb7653ac95678144976f7efccb404e424b20967d8ba339a4a43070368b3acfc791ab027de643887676678235dd4a37fe88418f36385f38936007de",
+    "digest": "be3780c9b14d5ce476106cbb270427674e73e12648b63cc93b039567e94dd13bd9553159ba43661a9defc375a44789044bd42455d301362de4af88a29de46de2",
     "type": "CTR",
     "name": "VTPB_CTR",
     "use": true,
@@ -343,14 +343,14 @@
     "checked": true
   },
   {
-    "digest": "c241ed906c779d5ad5c0019b4f225d035a9e92b1eaf89894745b6272fe0b7893eac49a328c761f2b86328a3b00abee8794817a184990f0c3976a0a728efb9b30",
+    "digest": "4d59c08e72c97df9fb07c9ae385c360423e3138d5d1415b55b0b614a910452b5cf6941dc18ac4b8fe660bab578e92ee3b8c0bf9fd9b968f559f2b1fe6075fe83",
     "type": "ATZ",
     "name": "VTPM_ATZ",
     "use": true,
     "checked": true
   },
   {
-    "digest": "50293c122c2900b199e50fed4cfe47788954b86517f741612c1e157399ad5b31a990cbdf23430cd16d901e3d51fcd6a2be5bdc210921086382fac046cd26b85e",
+    "digest": "b7c06dfa6ecfd0f96af5737e1c0b524323b0072a0e43d6d54e58383595ad5d480115143e3c458962fba283d083e66784beb6f9a1001c55598d3852f579037620",
     "type": "CTR",
     "name": "VTPM_CTR",
     "use": true,
@@ -441,14 +441,14 @@
     "checked": true
   },
   {
-    "digest": "581c4dcdfebd8c7420e025f3620f3553dea36c4b4db8b5df7bd4ff0029abe40c08efcfd9d11c1ccf5e649c02955fa0903948e9feac173838bfbb572157b56beb",
+    "digest": "aa8fda17c57ca1caea0c74a219509ad59ba7d561d8a1b953289e67ff41f0aa37113f018afbf450c92abd019b30deff5de1d61067a7373f3ace60d9b47ecddc24",
     "type": "CTR",
     "name": "VTSC_CTR",
     "use": true,
     "checked": true
   },
   {
-    "digest": "f421efc6b625a7dcb18318a5de59290b2e1698ae834eed4b55f7bb257d04162ac11b01f48993665872cd17035e472f434654c14e2c4bdb3f2457aeb2f566f92e",
+    "digest": "fb7024dc047ef868284f52521cd02f4f59cda3412f40aeae55d84334978b2e846dc4a2e22dd825417d11f2cc2e6f317d2505d25ec26ca384d865740feef8c111",
     "type": "TMA",
     "name": "VTSC_A_TMA",
     "use": false,
@@ -458,18 +458,18 @@
     "digest": "5d4fa1a62834f12456cf9fc60aa493badf6acc252284532220bb02246993de382b9c20796d988af665a4a683b3209acfb3a90004c9522ab36cf3757ff903740e",
     "type": "TMA",
     "name": "VTSC_B_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
-    "digest": "31b3b1e364cc8365010477852f0fcfaaab046daafbc9af7b2a80b6dd852460df7409b2a00bc2fd9a1b441e7dd4f20433b9a0bf2029f9aafadbe64be6e346c4cc",
+    "digest": "50ac3e122efa64563f5920ea35f2456c6e9c26fe2cb5338958655d8d36e71ec93c1e86207b5c4629487303044a3054c196aab53bcb8bccd13b4a8ae914ddecc8",
     "type": "TMA",
     "name": "VTSC_TMA",
     "use": true,
     "checked": true
   },
   {
-    "digest": "f1ce16d4575ee28613f84a266cfdd5520a4e3a302888e68dffdceeeefda2dff8afe072a1600932db3b8ba8036c064c3da2361d4b762961988f095bb54054b906",
+    "digest": "29ff4957c4904fb2a93892be371de0e07d71bf6369c9cddd942bf036e451fed96a87d9bf125eaaa97153da6ebc4ee476aca5f52a3ec15a245fa526f3fcf71fb6",
     "type": "ATZ",
     "name": "VTSC_ATZ",
     "use": true,
@@ -728,14 +728,14 @@
     "checked": true
   },
   {
-    "digest": "8eb002bf126788ecd7dc53cba45804f9bb3b3e55b6fd473d6f9291260d517352118f1f900a2132fa13081838ebc22a42540ee50c745c76cee6ca08edb1e0d376",
+    "digest": "6f2cc0221f38b1da429aafd471948365a79015bb6421b8fc06cd8e98438da5db6b823e6165ba90316012ead991cb31bfc97e91014ea9e60e490e6305b26747b8",
     "type": "ATZ",
     "name": "VTUK_ATZ",
     "use": true,
     "checked": true
   },
   {
-    "digest": "e1fff10b4c33be057d760d315e39c02417d484d57208bc4c625b02ff7e936be3d8d2c7f0c8aa2a95b8cf2e121e11e76d6ae1935e57b243a070975ab987ad47e7",
+    "digest": "eb8d99e36101f380489d5a45e336ccbcd5a7f2e439e01cb8b31ec42f27fa3ae294814d454c447a50c79941bad3939a6886663851576bef7923fdaa9dfbdd459c",
     "type": "CTR",
     "name": "VTUK_CTR",
     "use": true,
@@ -805,14 +805,14 @@
     "checked": true
   },
   {
-    "digest": "365808566a4c7db54bbbba2e4edd37211ab5bee0280c41861915b0520ad1c42a8ea90398fd93744522485f58e7bf4826d5c89411d241e4dc4917e2dff6f74c21",
+    "digest": "5a8477585bb9e14e9dffcae5923562cc2f1d9cf476ba06ef002a0328d1ff0f896fbc2353b9fb79e182dfd0483208aa34a4bde82d8635d0174f242bf86dd1e917",
     "type": "CTR",
     "name": "VTUU_CTR",
     "use": true,
     "checked": true
   },
   {
-    "digest": "32cf11864991dd9620d1aac793e91cb9c1b84056a560e5138b09948b17197578808f8914971c43a6f463d45337a8c8d59344eb6b5c032fff63607ea9078e552f",
+    "digest": "3a293feacbf5a5746586e11bc1e329af2f5dbec47c04e08cc0f3dea16efe326e1a37d7d285985c2c7322e443c1e482618a398e38c8a73bcd7a9f2b9a25c00479",
     "type": "TMA",
     "name": "VTUU_TMA",
     "use": true,
@@ -1057,16 +1057,16 @@
     "checked": true
   },
   {
-    "digest": "5fb564dd7ca4801e1dd6191c2f121cb8b0a922bb3690e0f1335b6546284b448e11b4f1d786668744c7a3c43f36856998af7f6049884a6d8d7f9842820871f74e",
+    "digest": "bd0c94a48d81470f0b813b8580a3cd577fcaf450c2dcd57c467e663127ad911f349ca0cf971292254560988cf35bf4f765338ba7ffac613fe29f25f1dc541f44",
     "type": "D",
-    "name": "WEST NAKHON RATCHASIMA",
+    "name": "NAKHON RATCHASIMA",
     "use": true,
     "checked": true
   },
   {
-    "digest": "395dd87c5d33c486628a78fabccde1a10c6f9aef8c2ea81f53b424fdcc6355ba83507b390bd7d3a35456cbda1b13817048585ccbd7ea5d2b0d38b85a5f0b0f06",
+    "digest": "960ae49f6beec45d2720cb3a68284b6ae2ee122630011721d9c34582226eed49b056d4ac25c1bf339f1a39b833a9170d97b53f197afa19625f0f487348ab1022",
     "type": "D",
-    "name": "EAST NAKHON RATCHASIMA",
+    "name": "NAKHON RATCHASIMA",
     "use": true,
     "checked": true
   },
@@ -1544,6 +1544,90 @@
     "type": "D",
     "name": "KABIN BURI/WATTANA NAKHON, PRA",
     "use": true,
+    "checked": true
+  },
+  {
+    "digest": "23fba238b55707a1005e9e9ba11196e3e7fcb67df04b4f67e8398c96f8617fffb221bc9279fa6ca4b4932be048cfbb15fa0bdacb5789d7df0b9df2a15b989816",
+    "type": "W",
+    "name": "TEMP BALLOON AREA BAN PHUE",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "2dd06d0f2973753e170689198e4f881dd97a3deb3bc00b8ab5adb9484f0e90e88fad6f45f0926419cf72af1ab50dbb238d40c26d6b6dd78759142e1270760d29",
+    "type": "W",
+    "name": "TEMP BALLOON AREA CHANTHABURI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "e21d52a45c1e126e7f845b86e2036f90f9826e23e6653eaf1a1e42e054eee41e9db7b8803a25a3b8acdbad771e789be0925450af14bdd38e2cb6ed73dc7511c0",
+    "type": "W",
+    "name": "TEMP BALLOON AREA KANCHANABURI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "1c60018eeba2b3688ce0c7e0bbd5126666b40b04dc09abb9c7f4ee24d626865e998400021af5ef8e90ecaf10c75b7cd736220dcec0f7e3b98b5721376c47430f",
+    "type": "W",
+    "name": "TEMP BALLOON AREA KING MONGKUT",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "9df14c352fd1061cd892d4cbe806b896946a54d0a3e0631df636f32f8c2bb38b347dc4ea069cdbd806f2088eae4cf08a8a1e3434d007acd9086e78c81a401f43",
+    "type": "W",
+    "name": "TEMP BALLOON AREA OMKOI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "e84e9623f8d61ec7ff1a7854977d1ac9b45c33f5146d4ecf1c90117a6968862e45c4d6be28cdd6abc689a82b81d78364f88553df3b4bf4f420660d25d2dd2164",
+    "type": "W",
+    "name": "TEMP BALLOON AREA PHANOM",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "d5b8d6e0475abb0de64e87eae996ec50f0d8ab1ae737ac857785cc73a261c879eaf7b9e58fec7b9e02a5ce43099df38751651be7cfa6012914394a690e657182",
+    "type": "W",
+    "name": "TEMP BALLOON AREA PHIMAI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "e1e8686aebb170760bf48814c086f85896a4a3ada8754d0df30ffc5ecce97eea7a1a43199c4280348a0dbccd06cc414233e7dfd4e90809f066b8acd46054fbf6",
+    "type": "W",
+    "name": "TEMP BALLOON AREA PHRAE",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "350efb3afb022eadd94ed62606514189c5cf5033c967576a50d8ee99d5a47ba0bdf84003d4863ad6bf0da170a167726999e195a0e4c24907b3fe6d4fdb441708",
+    "type": "W",
+    "name": "TEMP BALLOON AREA RASI SALAI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "bffac47bc9d137beef23e726305b57518721ff05bea924a6a3c5c66f6bcf85cbf35bb521570495bb0c913fc8259d048d394860bea3159686699184ff03911bf2",
+    "type": "W",
+    "name": "TEMP BALLOON AREA SATTAHIP",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "76221ea0b9a73dbe98e3229c78f4ebe7f18b75cad05510de4dafb8ab5a16cca92dd4387c4604d51180c36d9b288c17337e5b70d174f514ffaf930528fc375385",
+    "type": "W",
+    "name": "TEMP BALLOON AREA SINGHA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "4ad21245841d174776b08731e6536ab3239c325e70b50d33427cf2dcb58f2723526dbe3bf55d4a1b49888fd3a04f54e6cb65ef2f22eaad948a68761add7039c5",
+    "type": "W",
+    "name": "TEMP BALLOON AREA TAKHLI",
+    "use": false,
     "checked": true
   }
 ]

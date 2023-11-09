@@ -329,11 +329,11 @@
     "lonx": 102.77501389
   },
   {
-    "ident": "SRE",
+    "ident": "REP",
     "name": "SIEM REAP",
-    "frequency": 113800,
-    "laty": 13.408,
-    "lonx": 103.80630556
+    "frequency": 112000,
+    "laty": 13.36055556,
+    "lonx": 104.21969444
   },
   {
     "ident": "LPB",

@@ -59,8 +59,8 @@
     "ident": "LB",
     "name": "LOP BURI",
     "frequency": 28000,
-    "laty": 14.87166667,
-    "lonx": 100.655
+    "laty": 14.87674167,
+    "lonx": 100.65734722
   },
   {
     "ident": "LP",
@@ -108,8 +108,8 @@
     "ident": "NT",
     "name": "NARATHIWAT",
     "frequency": 38300,
-    "laty": 6.52239167,
-    "lonx": 101.74854167
+    "laty": 6.52814167,
+    "lonx": 101.74974722
   },
   {
     "ident": "PB",
@@ -229,13 +229,6 @@
     "frequency": 37300,
     "laty": 15.24050833,
     "lonx": 104.86354722
-  },
-  {
-    "ident": "UD",
-    "name": "UDON THANI",
-    "frequency": 23600,
-    "laty": 17.38782222,
-    "lonx": 102.76987222
   },
   {
     "ident": "UP",

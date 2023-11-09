@@ -42,7 +42,7 @@ A581                      BGO                           BOMAS
 B202                      UBL                           PACER                        
                           PACER                         PAK                          
 B204                      GOMES                         AGEDO                        
-                          AGEDO                         SRE                          
+                          AGEDO                         REP                          
 B205                      RYN                           OLDIR                        
                           OLDIR                         BOKAK                        
 B218                      CMP                           BOVGO                        
@@ -70,8 +70,8 @@ G458                      BKK                           MOTNA
                           UKERA                         MENEX                        
                           MENEX                         APRIL                        
                           APRIL                         IKERA                        
-                          IKERA                         STN                          
-                          STN                           LAMUL                        
+                          IKERA                         SAPUD                        
+                          SAPUD                         LAMUL                        
                           LAMUL                         SAVSA                        
                           SAVSA                         PUT                          
 G463                      PUMEK                         BETNO                        
@@ -82,7 +82,7 @@ G474                      BKK                           ANKOS
                           ANKOS                         DOSBU                        
                           DOSBU                         ANREN                        
                           ANREN                         OMURO                        
-                          OMURO                         VIBUN                        
+                          OMURO                         ISVOD                        
 L301                      TANEK                         PASTO                        
                           PASTO                         BKK                          
 L507                      LUDVI                         NUNLI                        
@@ -104,7 +104,7 @@ L880                      BKK                           ANKOS
                           ANKOS                         DOSBU                        
                           DOSBU                         ANREN                        
                           ANREN                         OMURO                        
-                          OMURO                         VIBUN                        
+                          OMURO                         ISVOD                        
 M502                      BKK                           BONVO                        
                           BONVO                         AKATO                        
                           AKATO                         DALER                        
@@ -122,7 +122,7 @@ M633                      TANEK                         MUBUS
                           UGIPA                         OLTUM                        
                           OLTUM                         DULEM                        
                           DULEM                         TUPGO                        
-                          TUPGO                         OROVI                        
+                          TUPGO                         UXARO                        
 M648                      NOHET                         BOPNU                        
                           BOPNU                         MUGNO                        
                           MUGNO                         UDN                          
@@ -230,8 +230,8 @@ R474                      BKK                           ALBOS
                           LEDER                         VTN                          
 R575                      SAKDA                         ANOBO                        
                           ANOBO                         ALUMO                        
-                          ALUMO                         RILVI                        
-                          RILVI                         EMELA                        
+                          ALUMO                         ANBUX                        
+                          ANBUX                         EMELA                        
                           EMELA                         UPNEP                        
                           UPNEP                         VININ                        
                           VININ                         SMU                          
@@ -245,8 +245,8 @@ R588                      PUT                           EMRIT
                           RELIP                         IDRUK                        
                           IDRUK                         SUPIN                        
                           SUPIN                         MUBAN                        
-                          MUBAN                         TENUM                        
-                          TENUM                         TONIK                        
+                          MUBAN                         OSROG                        
+                          OSROG                         TONIK                        
                           TONIK                         BASIT                        
 W1                        BKK                           MALKI                        
                           MALKI                         UBLOD                        
@@ -259,15 +259,19 @@ W10                       KPS                           VUTHI
                           VUTHI                         TL                           
 W12                       CMA                           MONLO                        
                           MONLO                         NAN                          
-W13                       LPN                           PAE                          
-W13                       OMURO                         SRE                          
+W13                       LPN                           PAHIN                        
+                          PAHIN                         PAMOK                        
+                          PAMOK                         PAE                          
 W14                       PUT                           EPGOT                        
                           EPGOT                         TRN                          
                           TRN                           HTY                          
                           HTY                           POXUN                        
                           POXUN                         NTW                          
-W15                       CMA                           KABMU                        
-                          KABMU                         PAE                          
+W15                       CMA                           TOHAN                        
+                          TOHAN                         KABMU                        
+                          KABMU                         JUMKA                        
+                          JUMKA                         PHATA                        
+                          PHATA                         PAE                          
                           PAE                           PANKU                        
                           PANKU                         BARCE                        
                           BARCE                         LOY                          
@@ -282,8 +286,8 @@ W16                       CMA                           ASAVI
                           CMP                           ONUVI                        
                           ONUVI                         KKN                          
 W17                       RAN                           TOGIM                        
-                          TOGIM                         STN                          
-                          STN                           EMVEL                        
+                          TOGIM                         SAPUD                        
+                          SAPUD                         EMVEL                        
                           EMVEL                         HTY                          
 W19                       BKK                           POLAK                        
                           POLAK                         GUTSO                        
@@ -308,8 +312,10 @@ W22                       PSL                           NIROP
                           BENVI                         CTR                          
 W23                       PSL                           POLOB                        
                           POLOB                         PIVUT                        
-                          PIVUT                         LPN                          
-W24                       STN                           IDNAR                        
+                          PIVUT                         WANSA                        
+                          WANSA                         MARBO                        
+                          MARBO                         LPN                          
+W24                       SAPUD                         IDNAR                        
                           IDNAR                         BITEN                        
                           BITEN                         TRN                          
 W25                       THS                           PAE                          
@@ -323,7 +329,7 @@ W26                       MST                           KADAV
 W27                       PSL                           REMER                        
                           REMER                         RIBDO                        
                           RIBDO                         LOY                          
-W28                       STN                           SEGRA                        
+W28                       SAPUD                         SEGRA                        
                           SEGRA                         NKS                          
                           NKS                           HTY                          
 W29                       CTR                           DUBEN                        
@@ -343,8 +349,8 @@ W32                       TRN                           TUNRA
                           LUXIR                         NULMA                        
                           NULMA                         TAVAT                        
                           TAVAT                         TEDOS                        
-                          TEDOS                         STN                          
-                          STN                           VEGNA                        
+                          TEDOS                         SAPUD                        
+                          SAPUD                         VEGNA                        
                           VEGNA                         ADLAL                        
                           ADLAL                         DORNA                        
                           DORNA                         SMU                          
@@ -418,7 +424,6 @@ W6                        KRT                           SITTA
                           KKN                           AKRET                        
                           AKRET                         SKN                          
                           SKN                           NKP                          
-W650                      HTY                           POPID                        
 W7                        CMA                           PUMAM                        
                           PUMAM                         VEGRA                        
                           VEGRA                         MST                          
@@ -428,7 +433,9 @@ W9                        BKK                           TL
                           PEBLI                         PSL                          
                           PSL                           PIBIK                        
                           PIBIK                         SARIM                        
-                          SARIM                         PANTA                        
+                          SARIM                         SAMAI                        
+                          SAMAI                         MARWA                        
+                          MARWA                         PANTA                        
                           PANTA                         CMA                          
                           CMA                           VISES                        
                           VISES                         BOKIB                        
@@ -445,9 +452,10 @@ Y10                       OBLEX                         HTY
 Y11                       KIGOB                         BUT                          
                           BUT                           PIDEL                        
                           PIDEL                         NOMEP                        
-                          NOMEP                         RILVI                        
-                          RILVI                         TENUM                        
-                          TENUM                         PASVA                        
+                          NOMEP                         ANBUX                        
+                          ANBUX                         OSROG                        
+                          OSROG                         TIKAL                        
+                          TIKAL                         PASVA                        
 Y12                       ALUMO                         ALEMI                        
                           ALEMI                         DOLNI                        
 Y13                       GRASO                         PAKRI                        
@@ -538,8 +546,8 @@ Y8                        BKK                           MOTNA
                           VANKO                         BUXEL                        
                           BUXEL                         MENEX                        
                           MENEX                         IKERA                        
-                          IKERA                         STN                          
-                          STN                           LAMUL                        
+                          IKERA                         SAPUD                        
+                          SAPUD                         LAMUL                        
                           LAMUL                         SAVSA                        
                           SAVSA                         PUT                          
 Y9                        HTY                           DANDO                        
