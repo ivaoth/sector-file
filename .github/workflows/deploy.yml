@@ -55,7 +55,7 @@ jobs:
       run: |
         npm run test:aurora
     - name: "Artifacts: Upload"
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: vtbb-aurora
         path: build/aurora
@@ -86,7 +86,7 @@ jobs:
       run: |
         npm run test:ivac1
     - name: "Artifacts: Upload"
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: vtbb-ivac1
         path: result/vtbb.sct
