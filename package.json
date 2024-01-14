@@ -50,7 +50,7 @@
     "rimraf": "5.0.5",
     "sql-template-strings": "2.2.2",
     "sqlite": "5.1.1",
-    "sqlite3": "5.1.6",
+    "sqlite3": "5.1.7",
     "xml": "1.0.1"
   }
 }
