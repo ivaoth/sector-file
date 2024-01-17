@@ -191,8 +191,8 @@ for (const waypoint of waypoints) {
         ? 2
         : 0
       : waypoint.is_terminal
-      ? 1
-      : 3
+        ? 1
+        : 3
   };${waypoint.is_boundary ? 1 : 0};\n`;
 }
 
@@ -423,10 +423,10 @@ for (const area of areas) {
       area.restrictive_type === 'D'
         ? 'Danger'
         : area.restrictive_type === 'R'
-        ? 'Restrict'
-        : area.restrictive_type === 'P'
-        ? 'Prohibit'
-        : 'Unknown';
+          ? 'Restrict'
+          : area.restrictive_type === 'P'
+            ? 'Prohibit'
+            : 'Unknown';
     const name = area.multiple_code
       ? `${region}${area.restrictive_type}-${area.restrictive_designation} (${area.multiple_code}) ${area.name}`
       : `${region}${area.restrictive_type}-${area.restrictive_designation} ${area.name}`;
