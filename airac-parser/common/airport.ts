@@ -5,7 +5,6 @@ import { Airport } from '../../utils/interfaces';
 const aptAirspaceMap: { [key: string]: 'C' | 'D' } = {
   VTCH: 'D',
   VTPH: 'D',
-  VTUJ: 'D',
   VTBW: 'D',
   VTBP: 'D',
   VTSE: 'D',
