@@ -76,6 +76,7 @@ const extraFiles = JSON.parse(readFileSync(extraFilesFile).toString()) as {
   star: string[];
   vfrfix: string[];
   mva: string[];
+  mvaenr: string[];
   lairspace: string[];
   colorscheme: string[];
   manualAirport: string[];
@@ -359,6 +360,13 @@ for (const airport of airports) {
     copySync(checkFile, resolve(auroraIncludePath, fileName));
   }
 }
+
+for (const ef of extraFiles.mva) {
+  out += `F;${ef}\n`;
+  copySync(resolve(auroraPath, ef), resolve(auroraIncludePath, ef));
+}
+
+out += '[MVAENR]\n';
 
 for (const ef of extraFiles.mva) {
   out += `F;${ef}\n`;

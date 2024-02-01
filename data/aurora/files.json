@@ -98,8 +98,9 @@
   "sid": [],
   "star": [],
   "vfrfix": [],
-  "mva": [
-    "MORA.mva"
+  "mva": [],
+  "mvaenr": [
+    "VTBB.mva"
   ],
   "lairspace": [
     "BKK.lairspace",
@@ -113,6 +114,5 @@
     "TOPSKY_V1.clr"
   ],
   "manualAirport": [
-    "MORA.apt"
   ]
 }
