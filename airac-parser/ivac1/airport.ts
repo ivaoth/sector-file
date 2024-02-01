@@ -7,7 +7,6 @@ const aptAirspaceMap: {
 } = {
   VTCH: 'D',
   VTPH: 'D',
-  VTUJ: 'D',
   VTBW: 'D',
   VTBP: 'D',
   VTSE: 'D',
