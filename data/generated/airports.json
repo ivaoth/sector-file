@@ -1213,32 +1213,6 @@
     "airspaceClass": "C"
   },
   {
-    "ident": "VTUJ",
-    "name": "Surin",
-    "tower_frequency": 122700,
-    "lonx": 103.4888916015625,
-    "laty": 14.869277954101562,
-    "mag_var": -1.053813099861145,
-    "altitude": 478,
-    "runways": [
-      {
-        "runway1": "01",
-        "ils1": null,
-        "lon1": 103.4974136352539,
-        "lat1": 14.8614501953125,
-        "hdg1": 7.465000152587891,
-        "alt1": 499,
-        "runway2": "19",
-        "ils2": null,
-        "lon2": 103.49928283691406,
-        "lat2": 14.875219345092773,
-        "hdg2": 187.46499633789062,
-        "alt2": 494
-      }
-    ],
-    "airspaceClass": "D"
-  },
-  {
     "ident": "VTUK",
     "name": "Khon Kaen",
     "tower_frequency": 122250,
