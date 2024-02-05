@@ -1,3 +1,24 @@
+//VFR ENTRY PROCEDURE
+VTUV;18:36;VFR ENTRY PROCEDURE;0;0;
+J Point (VTUV);J Point (VTUV);
+T Point (VTUV);T Point (VTUV);
+16.1218275;103.7522908;
+H Point (VTUV);H Point (VTUV);<br>
+H Point (VTUV);H Point (VTUV);
+C Point (VTUV);C Point (VTUV);
+16.1068789;103.7516236;
+L Point (VTUV);L Point (VTUV);<br>
+L Point (VTUV);L Point (VTUV);
+C Point (VTUV);C Point (VTUV);
+Y Point (VTUV);Y Point (VTUV);<br>
+Y Point (VTUV);Y Point (VTUV);
+S Point (VTUV);S Point (VTUV);
+16.1052661;103.7948686;
+Z Point (VTUV);Z Point (VTUV);<br>
+Z Point (VTUV);Z Point (VTUV);
+B Point (VTUV);B Point (VTUV);
+16.1341367;103.7961572;
+
 //RUNWAY 18
 VTUV;18;ANKID1A;15.8330450;103.6557358;
 //RUNWAY 18
