@@ -3,14 +3,14 @@
     "digest": "3cdea26b395043fc1a2bb1200c4899ca350473745cff79b1d813410faebf3fd8c9710b2bb9d577d608834f27b668e2610b72399ac940ab641e80231b19c4d8f0",
     "type": "other",
     "name": "ALFA_HIGH",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "3350e3385f7475afdc17e97e207a8bd58c88ffe28254aeb6a1eaedb1f6c68d3f01bdd21a3374593886e101bcdfddea0d1f3dd6d1f269b28a30b7133a3068a178",
     "type": "other",
     "name": "ALFA_LOW",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
@@ -59,35 +59,35 @@
     "digest": "d8c0f939b8308de945a328006a2cb6b8bf6eaeb8d74169c08203398d681135858de68dd3123d8e29bc3293995aa55b7e5541bfcc985376e23facb29c0e2ddc63",
     "type": "ATZ",
     "name": "VTBK_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "10ee4ff5469e5237aada0ced673576f9b6695c32de4b2af3b3443e9b85c71f4a757469c8e9593e486c550726c3665700217a954eb0b0a683bad812171a08dff8",
     "type": "CTR",
     "name": "VTBK_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "2d7fc7e4082a3d4663c54a53d3831200bbf8606f5cc18dd7b60adb7f77e2dea1aef7e993880c16f047112a49a9603e6cd5052ddd909b302a6c7d880a79285cb4",
     "type": "CTR",
     "name": "VTBO_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "4b2a6e5a3d2f80061933f9a4cd5ba374bfc9a77c6ba1d1d2b18538cc782d99127949d9278c53adc1cb3b4318dda3a2788fbd98d2da502ce50df05d57ed85daec",
     "type": "",
     "name": "VTBO_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "30a278b4611819544441fd973d83aff544b8f8959049a3f019faa1ae84b43529f411aeb5035c65c84a8b52b28fdb09fe603c339be80094cdf6b73373efe8b24a",
     "type": "ATZ",
     "name": "VTBP_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
@@ -129,7 +129,7 @@
     "digest": "b4eaf3881feb3396fe1905c22229a14a24806ba7e0a2c2223d7dcf2756221291ebfdd3117c56a1887bd47d27f95d4a0a83fa053486c5a41cc0142716c21c9156",
     "type": "TMA",
     "name": "VTBU_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
@@ -143,308 +143,308 @@
     "digest": "5d37b4b7f834b3234291d10410da74525b935a1da987568cf8c2e8c47f16d641d68b39f9804abd71646254e78deaa982037e7623c1e65064eb189994c8e4eb2d",
     "type": "CTR",
     "name": "VTBU_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "e4ea4a7de29037402dbf1473d1d740c62f3ecf89a9583b48470d604360487ad307531d17ee48d0dbe35a52025259db72b8305ac5250b596a83595dfcc3539e4d",
     "type": "ATZ",
     "name": "VTBW_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "cd5062674c5d8c3ae39b9be78c659c78d2e77e13306a1a00c79e5c203b7898d4cc9b8bd220de37d26e0404012b62d51fe372a1471873b5bd7454d2a7359c0cc3",
     "type": "ATZ",
     "name": "VTCC_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "9f8a7c8816368d3fec6f8dcde214751d69a9b65daff10615286f8a4b0a03851342ee2aa8f4c091f89ebe1282fb49edaf09982cc8e905428fa24dfd04825e2f32",
     "type": "",
     "name": "VTCC_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "e82cfeb2584d415373f7f79df0ada80ccd7465c60371c9e1f41c0ce3d2f73cc000e6c72f8a69faf8db43886fbcb1b4def95fc3dacbbddaec1063407f7f2fcc86",
     "type": "CTR",
     "name": "VTCC_1_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "ae14df7d1251bb5abbc2772d88dac7c42b5bb55788365e8f2b344c1388be60fb3c8916ceab7b1c97d9c4e15feed7e75e9b50a440952dbe169c5c06a8d9b6b348",
     "type": "TMA",
     "name": "VTCC_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "430ef18cad4f0b1650ae6ab1b7b4f2fdeda5ab602918faffb24e3baef94f066fefe423ec62c383b9ce9248fc8d799acb51c7422858ad00d6f2a132fd942ceed3",
     "type": "ATZ",
     "name": "VTCH_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "60a32f624f7cb96d461298e470a857d4f775bd805089390cd439732780e5bb0088bafe31ff27a047188828d6bbfbd883230952f840dd749c9ed8b7f7879adba8",
     "type": "CTR",
     "name": "VTCH_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "38988074d6e119d7f78864507664885b06639707223fc525ccf3bd94f08c14841420e52ad1d328fac137d94a3a91c9ff1b8d55cea274313257d205e1bd769632",
     "type": "TMA",
     "name": "VTCH_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "39b4f4476943a8be872e4f792cf2afdb39466d8d57fd2fcf3c73755eed2e77e421ee874b6c6e8ade42edc307939a9ff3d3d1c96b3713f469bd32c04edaaac280",
     "type": "CTR",
     "name": "VTCL_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "5d4739c9b798f5bd2190cd580902a9fd19e70a553163f5d896cbdaeeecc602e9d19aa968185d8ceddc1167fefb5c379f43db29a08c44ef5d2e365003e0742361",
     "type": "TMA",
     "name": "VTCL_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "7345908ac1079bd6bf87fb9c2d4fa710ae16df226ba73f3a0bc5f2db347a29e8c890e6fa67a47b716f094c241865401fcfc48de011c617808641469015f4958d",
     "type": "ATZ",
     "name": "VTCL_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "869c6fed1869c760a98efae60ee7477ebef9dde39c1de6cafcbbc1d130805d1369ca29c591b63d40ec09f5b6d23926f78909b80b817e875efc1a2ec6f94fac54",
     "type": "ATZ",
     "name": "VTCN_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "b48ea9d8655f69bd137534cd85e502eabc7e1f319b55b6db06a65ce39670bf621cb40732b9e41a002e287a3dc3bc491faaa3c74520c25eebab84591e8ba35432",
     "type": "CTR",
     "name": "VTCN_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "8160bf0fb73aacc87a4b0398c6ad49903f71338ade791ffc95de0b5678745d501751dd3f0d894e45107f395d54b6d2bb7f7ce98d4a67059bbb7484e5b5b16efd",
     "type": "TMA",
     "name": "VTCN_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "9db2426496cb8bb76def270360e4e3c333552126ad594d8c022066d051ebd814d44caf9ac25ffaed04b9dd7a3912b216ab3f31f10d62f9be85fc5a58e474ed57",
     "type": "ATZ",
     "name": "VTCP_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "2543a4c8cfb371b435ff33efe6ab47432a1ab3b5572efaf78c6cc66435dd7c32a5288eef97e386ac4f3ea185db99a67482a266324e65155d4226ff776d48a8ac",
     "type": "CTR",
     "name": "VTCP_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "d70a1475ed5a0f3ff238628d488f0d9ffe776bae267b1914995c4663919d0ee3008fad87e0bb246545e7191adcf607073e0b5dbede689ccf70daa4f8ad624e41",
     "type": "TMA",
     "name": "VTCP_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "67e4a339ed218b68f678924dae807d8f8225444e4177df7fa7150248f92c0477da35651a986c46b1c2674cd44863ee999313ae9df728cb7d83579c649d71ee52",
     "type": "ATZ",
     "name": "VTCT_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "d83d36c11589360df16206fb510e3e17d6c1b43ca72494d4dd35be41297ed0ea1d7c97d43db4fec96b871fffea3c95816fe06244372dc524ef84791cb9b59977",
     "type": "CTR",
     "name": "VTCT_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "70b8fca4cd2858deadd75449cefa3ed9b04859df42fc62a1d778f3eeec0488fb6d4d59aa7b496b4bb2a8a50b306d19674cc8c3e86116bb583626492de291029f",
     "type": "TMA",
     "name": "VTCT_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "eab2ad8fe6879c4d0ed59bf34b57941ab62daaf3f44106ff5644fb1ca2989d865eb0ac2d438cf3fe19480e08e6d42e00f09638496749004fad2e9e26ddebd080",
     "type": "ATZ",
     "name": "VTPB_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "be3780c9b14d5ce476106cbb270427674e73e12648b63cc93b039567e94dd13bd9553159ba43661a9defc375a44789044bd42455d301362de4af88a29de46de2",
     "type": "CTR",
     "name": "VTPB_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "125669a3278244719ae909c6dac1c3ec8bc97676932f4fd45954ae63a341cc3dcbd4d2ac9c682a0e0d8c0ad8ecca72903b472c07b48d58780906a7177b3119aa",
     "type": "TMA",
     "name": "VTPB_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "b5e6b45e525f4ed773531e8d473d9409bfcd9ba1c6ae36d09384470cc1d778fc761895405f4fafd1978178d361569f488ed8a7a18e9a3d41a79d91c45c722e20",
     "type": "ATZ",
     "name": "VTPH_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "70503a4dd1dcef36573b6da09d139c3b8df35ba8b5e7f7aea4d1c6bb56b9c8b493e87abca9a2be853079402552501a36183050fb3dadce112778baddbe459155",
     "type": "CTR",
     "name": "VTPH_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "e49fbe9dd52180bb85112c5d00e7b95cc7abbd8ac43e91ac4a5d08e1ae169873489302f70f53d653705e604e693f3d5c63c0e1070d952e7f275ab37d7020d755",
     "type": "TMA",
     "name": "VTPH_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "9187b170d35a17ca64772a9f97715d875bff91c9e14091167bd2da51a9ade4c6d614a41f21486e2fa884f9685c7160256c85f2c55d9c0f8a14d8cb02dc3b05b7",
     "type": "ATZ",
     "name": "VTPI_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "b3ec4c4e318cb80f2de6db9520b1b7e5756ac4ceff93285a5e3d236e55af2b82dae94d3c2544859203c11507b41dbc95ca89afe69ddfff018baed9409eb533da",
     "type": "CTR",
     "name": "VTPI_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "4d59c08e72c97df9fb07c9ae385c360423e3138d5d1415b55b0b614a910452b5cf6941dc18ac4b8fe660bab578e92ee3b8c0bf9fd9b968f559f2b1fe6075fe83",
     "type": "ATZ",
     "name": "VTPM_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "b7c06dfa6ecfd0f96af5737e1c0b524323b0072a0e43d6d54e58383595ad5d480115143e3c458962fba283d083e66784beb6f9a1001c55598d3852f579037620",
     "type": "CTR",
     "name": "VTPM_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "10e1ac2b66e86dd460675f280e57f8f39e9b3fdc234f8485c0f72b3c4990308a8f922f345e8abcf605e6c0a2feaf4ca080b411b116b1f148e8ce3ad594e7b996",
     "type": "TMA",
     "name": "VTPM_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "d352e68390b66f393e7dea35ff2cbaac7ae10b4037ab4398d69dffd13c3a4c41962b89b09d227526a2db891e622f827af78ecc62a64029292d854a469d64b099",
     "type": "CTR",
     "name": "VTPO_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "ee481497f38f1be777dfc6c1a021aa2fc98fcff9047fbe124c7d35a195ddc97b11343c44ddb7cc66a529107c3d05814f2a3afdb0a2c93dde3d4653e684e78794",
     "type": "TMA",
     "name": "VTPO_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "79e00f5293f2f7acb5adf688a898a9ea46fd9172ac0d5841f8e1aa597bf47c26cea583ec4d69ecfc6f25b92f139486c21566082e51501044695af6d4ff56b7fa",
     "type": "ATZ",
     "name": "VTPP_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "62c3168c28867a34c37484b0d09a74519f73f0bf649a2b1688ecf14c1ab491fc03bea5d4f0249402b52ae6cc8c29bd6301d86f5999162e10e96d749565bb2b89",
     "type": "CTR",
     "name": "VTPP_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "0e14385d07748936c17e7357703589eb62a396a979a2119ba6ecee43b7de34ed8d54382f0054ca9a7b808214960985480e3898329f9e708be8baa15ae1ad95f2",
     "type": "TMA",
     "name": "VTPP_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "01edb7ca937f09ddabd161fe894be6017c80644327d9461d0a2704cfc04396c7caf20a728eb4c71ede82801a5f92c7335e4808892dd2922bdab90bd7f9a16eed",
     "type": "ATZ",
     "name": "VTPT_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "f0641b13f4faecbab9ae6b1582a5d4816073d9ef92162d70b6649bc6ace06c8341cf0d53369dc0d32c8ab40051b64f4d1a5026eaa967d63812dba55dc2f120fa",
     "type": "CTR",
     "name": "VTPT_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "d2e73493d0df89a93c9419a3dac756b5f3e3a3e1c65457047cc579bf07e48271f2af42cd1306727dfcae9c419c2b7320b0c5273637a4750bd5006f355ccd1dd7",
     "type": "TMA",
     "name": "VTPT_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "922b3f740794e3616395153275f5f2cc1c0ed926d107599fc70de7f19481aa8d349364c5a53c8f6d7d8f1342f31b231081273b599f49f9569a82cc7a38465fa9",
     "type": "CTR",
     "name": "VTSB_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "ea2b6c9839dd9163eb92e9a207791f687333f9b589377cd0a1f40ca70c8a717a7c10b0f54b736059f017534fe36b590e32549621d4ab473eeccf0318eaf75e49",
     "type": "TMA",
     "name": "VTSB_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "29b5ea14fc9adcca99b6ed739108dd70f5264ccf7fa5d2a419965d85488f610c69a4e5fd5c4b5910a976a9054630f31374cb8324b58e42bfe28251923952fca5",
     "type": "ATZ",
     "name": "VTSB_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "aa8fda17c57ca1caea0c74a219509ad59ba7d561d8a1b953289e67ff41f0aa37113f018afbf450c92abd019b30deff5de1d61067a7373f3ace60d9b47ecddc24",
     "type": "CTR",
     "name": "VTSC_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
@@ -465,1085 +465,1085 @@
     "digest": "50ac3e122efa64563f5920ea35f2456c6e9c26fe2cb5338958655d8d36e71ec93c1e86207b5c4629487303044a3054c196aab53bcb8bccd13b4a8ae914ddecc8",
     "type": "TMA",
     "name": "VTSC_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "29ff4957c4904fb2a93892be371de0e07d71bf6369c9cddd942bf036e451fed96a87d9bf125eaaa97153da6ebc4ee476aca5f52a3ec15a245fa526f3fcf71fb6",
     "type": "ATZ",
     "name": "VTSC_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "6460df84a58ddbd1d78030a1094065a5f546eebef1b1bd038fde973db755ab031daa6e92b032605e0b835186d8f3c496c94ebd169118c1f6e92857f98b772cc5",
     "type": "TMA",
     "name": "VTSE_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "f6e7ab16437e48245ec484f1e1a3b1a33558a0616b3bc5b903e9814386e2866651952a209fc2af400e659984fa168a0be7ea99afd53576664e579a1650a8fb9b",
     "type": "ATZ",
     "name": "VTSE_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "984f704753ddbea051c0a3fa7f2544e7abcb2e4863b752c5a9b36867e8b9f1ce4d4b2e7d7e4f1bd6886b029a8ff49b40a0b691c37adc41cdad2eaa94991f5f50",
     "type": "CTR",
     "name": "VTSE_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "9dc09817104969753f70efd7ad125aa9130fa55f614ae91dec9baecce23b89163697c605c07b91e746e4806650f09ecb97c73c41289b32ad801ecf53fe4485df",
     "type": "ATZ",
     "name": "VTSF_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "acc6981618ff8e37c61f96d730766d66cca970f9cbac0c41810413c3aef8724d322629e4a57a5004c9e14bc62682b9bae5bd4f15437f8ddcabbc589f0964e610",
     "type": "CTR",
     "name": "VTSF_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "8f94e36dcbfade4a8305adf0377d82e6868c9fd100989238eb55f5558f43f5a32eb9893d8b4762857e8a00ef43d138420145c4f56e26cb9d5f64b5837f0f4f9a",
     "type": "TMA",
     "name": "VTSF_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "7f1e912cbe4ea55dc201ad68236bd2f4563338c41a12d11f8138aca4680f3951c6ad40c2033a244efec73e74c125616198c2b39638988dd81879f55a7eea4d1e",
     "type": "ATZ",
     "name": "VTSG_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "9acc5136162507b41f58ed3b9555bf921fce36324813b40e29691a56ab1cb856f412e816c507f3dfe5baf472a34be4add2f11cf2494bf07d3de0839b2f40a014",
     "type": "CTR",
     "name": "VTSG_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "de797a11cec1414aaf42cfca814788ab461458b8bdc8a093f78d33aeaf4783a2bd006b912f19d4c93a32dffc284b891840ce370e47a8b3e17e2b6b7d7d3d5cd0",
     "type": "TMA",
     "name": "VTSG_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "95ab1672ec5c5af2b5eca6147ae74eba7201450b8499acec6a135e28d85427b8f0c67af0e6de672a9cc33e42fd1bd43b230694c618f199f83b9554dfb7b2ee6e",
     "type": "ATZ",
     "name": "VTSH_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "c6c3f5ec7ada1cc6fae9e714c02a796ec670c85830131604f432aa6752eebe3a09022e39200378c6ad8d7e18739528c46c981605e27ed135e51a3c16d6f62293",
     "type": "CTR",
     "name": "VTSK_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "f5b45666ad07baa0113e742a9f0d6a55fead007d9c473853d347e0301cf117f9a8cd2dc78a3b41ceadc4165bfee0b99f0485b50a5e80d4a646b5b85ca1897a17",
     "type": "TMA",
     "name": "VTSK_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "baaf46c4a1baedbe765d6dbbbf5164afb94df82d54203d8e85c0c370b2ca5620fa613fc77dd428d2a5ef74dcacd8b351361b378c67514139f8e6a5005b9a3cf7",
     "type": "ATZ",
     "name": "VTSK_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "2dd95d92d3cd44b16db1ff30f98d9105c892fd2fdc37ed74b7a60f24657af392d560e39cebdcf49509f67e7974efbe0acdabd7adf17777d8f0aad957877b038a",
     "type": "CTR",
     "name": "VTSM_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "a6e1850deef8653e92618fb242fb9b1c7dd587c19b61435d8b1a0aebfd13a2e7f71b1960c5f48d5140963af4ec1303510deb915e242f6d344ab99f2869effeb1",
     "type": "TMA",
     "name": "VTSM_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "7989a2c9758d515202ee6bf01d4e77eab804603e00545bde2dc5811e28449cf521b2e8a9968c71ce8a2795525c4aead89f3360cc4e5469bc25637ddef0311c4f",
     "type": "ATZ",
     "name": "VTSN_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "aea3f2138197d1ac7e68e00efd74d82041aa873a45ee31a1ca008879b63c3d50720c8112e8c2735ab2b08cce32a4523c49faed3f958cf8c872beefe29316c088",
     "type": "ATZ",
     "name": "VTSP_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "eca9b8c0225948d032bc8a2c3fc89786b7087d9feb322bec7ce40bb46a51079bb5f9add2519d6e4d822977bedf2b1e673d1f03b33d27fb6edef3b8e50c755919",
     "type": "CTR",
     "name": "VTSP_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "098948a98519cb9536f56c5b03299a4ed5212f1af47a77d9704bf67c02464adf292ae2bf3584f80c1ee503ade8a27cad70e94b9861d4673d5df21dcbde3ffd66",
     "type": "TMA",
     "name": "VTSP_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "eed4c69e2cc334f207d530dd1d8404876c1a56e0c3f12ed0e3e5904908ff8793f3e40719e79cf1b06129c772a71b1ea1de23fbb59da46226fedbb398083da77e",
     "type": "CTR",
     "name": "VTSR_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "14257f144144d4600240b975e6e79d71d0591a9d1efd9c4d9172548ce041fd69a3378114100ebfe7be784bd752e51ff23aa8eeca4594e21f74c1b578afd21469",
     "type": "TMA",
     "name": "VTSR_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "acc57e246fe35e5053b74a30bfda8be67878b69e776a0b225af56c000a9ff376964860dcaa6ce9000fe3cf4bee9ef41295e3ddd2f1231066aca639ca48e01d8e",
     "type": "ATZ",
     "name": "VTSR_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "a417ab0cb6ae3767670481080284964aca061778e336a32655902d6e2817c8bbc41debfdabf442d36a7681aa999d828b4404f7bbfda083a8178c3484f14329ef",
     "type": "ATZ",
     "name": "VTSS_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "6f0b7d8f29a1f0ccb8f8941c5f66ed3e63f60f6acaa376bc6199af6873eac185adfc37e7866df07edb5ab317046a4a16550fa4f8326beacbb1ee8546d427540e",
     "type": "CTR",
     "name": "VTSS_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "85fa9dbf74deae3372dd50dbad6af71a24406205cf6962dacdb169c722fc07a189689c940ae80b51d4c95a5a76b2390465683c9966423ffd625d1e0ae0a68a8a",
     "type": "TMA",
     "name": "VTSS_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "42460dc7e570fbe85bfdc59779901a78801b9b769552bba30ede5159889ca4300796193c326767bd8cecd6fdb3caf7bd0c52ee48650b4326b16d0d9451b547ca",
     "type": "ATZ",
     "name": "VTST_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "687758bcb8081a743a030e1d2e65eff0684784fad7e5c630df6f0480fa3c478887a37900fb18c4da9cd7b9f8f65c1b0869f8a30e9ba2f958115b5ec528944e59",
     "type": "CTR",
     "name": "VTST_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "43fc1fa508398e9fce3c42c14f00212a830b3ef86286483eb6dfdc9f9e3bdaa1c48fab429c58ede1c6785b1ed4719a755ba982e3bf87ce04128d684ccccfa851",
     "type": "TMA",
     "name": "VTST_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "9529e0f2c5de0a64b02338e58e6d8e8f97d6f3240c0444c6826607571667dca9c2c2d86bff4c58a9d7b6f5a3a4adec3b188e4a31984739a8c720de2208b94a3b",
     "type": "ATZ",
     "name": "VTUD_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "3dbd3a33cf1edacc420d78903fbce280f0dad21332b32f4a9932d9fea1ba56ff904c1ea5fa0bb6fd764746c89ae919a17934b603fe1f7b31cbba6e94174043d8",
     "type": "CTR",
     "name": "VTUD_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "aa70bea33894b81c1603fc8107b82357430ed17455b1968bc3177bf2ecd5b6b9422aa25f1580612e0fa5874b157be0a1146f778138ceb4f26e0d4a7757053aeb",
     "type": "TMA",
     "name": "VTUD_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "841c3a436f2bb04e0d17fdbb7dc033830c540357a0fe11ce99f2ea6fdea652e3455f5b24b15ec3115692eca0d895313810286ff934b33c9ec322e674c68261d5",
     "type": "ATZ",
     "name": "VTUI_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "615facfedc8b9369f15778fd3f53787197900248e90afc05ac9b650cbcd39339ff05d32d2bf7c10688d93eb926afbf2f047ec071454222a48c3bf0c129a7f798",
     "type": "CTR",
     "name": "VTUI_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "99a23cae813ecf07be88814805c324aa272ad58c7244b7653bd708f2f3a3290daa7380d53c86167586cb543e98e57f7f45573ffe94916034bf9909f792f84e2f",
     "type": "TMA",
     "name": "VTUI_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "dbb5bd43f0c152a35a31b82efbf252beb7288fa5c0eabf66dbc0b52c287aa7db4793d5714de7943ea21032c7c5d1368f3e3526550520c798031834ce42de3a67",
     "type": "CTR",
     "name": "VTUJ_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "5391383379053194d9acbff591610450b303bd440e819404305514ccb26b0acfadb38ec0cb1aad72ee9fb30ccba8c62b69ffebffd86889edea7d67921b447538",
     "type": "TMA",
     "name": "VTUJ_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "6f2cc0221f38b1da429aafd471948365a79015bb6421b8fc06cd8e98438da5db6b823e6165ba90316012ead991cb31bfc97e91014ea9e60e490e6305b26747b8",
     "type": "ATZ",
     "name": "VTUK_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "eb8d99e36101f380489d5a45e336ccbcd5a7f2e439e01cb8b31ec42f27fa3ae294814d454c447a50c79941bad3939a6886663851576bef7923fdaa9dfbdd459c",
     "type": "CTR",
     "name": "VTUK_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "849bbaf509032322b183108cb0fbaed50b25a880a836cb364aae8fc0be86c5c3492a119364e9099ba158cf53611e304e30b69b970936dfaab373c31742d8393b",
     "type": "TMA",
     "name": "VTUK_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "5c7419f6bcc39894aca42c8c2941387e3182a930a3c1ec3c7419baa09a1df488d884622886ee7eb62d7c0d48665837c4a4fc2e09241449f27a9ef30b71abe8f3",
     "type": "ATZ",
     "name": "VTUL_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "6eb2e26d41a5b31b3a774e331726de608055cb07ad9d1f66a1f2080c87ba800bc8dcadebdacaa54381245308bc8775a90894e3ec279e48b688438891f762a55e",
     "type": "CTR",
     "name": "VTUL_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "6e1e477a242b42a8775fc3df9f6fa7e36f504f197e4ce62a9a48d4cad58d6913cbeb54e0e615cceb4d5a4eed11806f71b94c4ed91f722e5baddf76b7f8948a33",
     "type": "TMA",
     "name": "VTUL_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "67abc40ce59f2b6bf8747f6ba5c71bf84ed5c501e25df86aa9ec7a28e880e8b9c69d5800ed569ba3d85af399bc070257efe35864806ccdb83eb7c221aeebc3ce",
     "type": "ATZ",
     "name": "VTUN_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "78f5e5cc3cc6546d314a2ddb88afcc2e74fed15f6379fce4d827890f56786368c807e7cd170d20329155035e1242a1abae258d7ac6df08fe70cab802252067de",
     "type": "CTR",
     "name": "VTUN_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "fed0d3e65964cde3a67cece3bc0c218ac409f1f2c34329c4b63d7c0735be225346ac7bc2e3715d52646dfdf8482fc29172b49a0dc68f0b4cee68d88d78adb32f",
     "type": "ATZ",
     "name": "VTUO_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "e28f206b931439ed7e1f195fee6c73dfe4b2cca006f7a8355805c9cb4476a62bac9cee1eae9a9fa10963d0e982220f149f5fe1c6e2882eed6368aa9df48bc6fc",
     "type": "ATZ",
     "name": "VTUQ_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "5277583bf615795293ceafadf483d560689fd063093bbfbb2eb40dfb75e6b765f5720f47bb63a10b29e4fc049f9567dd438beac67617db091b6d1433d81ba02f",
     "type": "ATZ",
     "name": "VTUU_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "5a8477585bb9e14e9dffcae5923562cc2f1d9cf476ba06ef002a0328d1ff0f896fbc2353b9fb79e182dfd0483208aa34a4bde82d8635d0174f242bf86dd1e917",
     "type": "CTR",
     "name": "VTUU_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "3a293feacbf5a5746586e11bc1e329af2f5dbec47c04e08cc0f3dea16efe326e1a37d7d285985c2c7322e443c1e482618a398e38c8a73bcd7a9f2b9a25c00479",
     "type": "TMA",
     "name": "VTUU_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "a5c1ada824c8db252835a88f9d51a90852a5e66acfc2c6c9385651aca232d74407e7e05bbf49a84efe3f366247ee721400210dd418bce4b553a86d1460f280d5",
     "type": "ATZ",
     "name": "VTUV_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "aabc6202e08e5b2d73b84e7e92cfa826ff729a84c3185a13082390b94c0850b584190687f2b714cbb9146a4c340acb70c63d827e60223f4cb1eb112b86ba2eea",
     "type": "CTR",
     "name": "VTUV_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "a62137c6a30ba03ab47659456ce7364a34cc8ddf61f538156b64118d37125cde85552dda4ab4bfb2613d7838832b59dbc767d59316f55238fafa494cf9050252",
     "type": "TMA",
     "name": "VTUV_TMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "1cce6c72f8e2693063b3fb2dcbb5db9316a6ae5a645bb810d8b4951e1f8e9dd20842c709df8f3ceba32abbc3078a4d693cd29e3d6877a4e66eb9a945cf846ccc",
     "type": "ATZ",
     "name": "VTUW_ATZ",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "34ad588d03db37dcedeb6f79431fe96e799d707c256c54c396448d53a85256c4041fe87d772bb7758df5b01aaa8e7a2535dba3be22954a71dfa99f0718cfb107",
     "type": "CTR",
     "name": "VTUW_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "e6fe55cd166a649973f11b9f68e0bfc18fea613986fc87fe7847b252dac14b8653776ca40d9542950b1c1e2f99e48babf5900912f99b6b747de715827974fb9c",
     "type": "CTR",
     "name": "VTSY_CTR",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "14684ef25edc3a548d31fdff51f42cef9b2a2e0842f268230e1b21ac1fd349a8821c08d8835c683560ce732bb927ddb94ef04b650f9c07c379cf51642f7847b2",
     "type": "R",
     "name": "BANGKOK CITY",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "ea637b4bd84c3973549fc8a92880577a28c3eb17e6f2790cdabdaf46974aac316fcb485b1a3198e0ab85ec0d4b9a6f77eba17653a8eca2a7affffa557ee92b3c",
     "type": "R",
     "name": "KO HIN CHALAM, SATTAHIP",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "bef596f97c23557ae151ed695203ff027e96bcebbb01fc73af5e999f0f144f94be8ded764e6be58d0a76ae64ab12fe7884953e3a08aaba9f2df2ccbaab004a02",
     "type": "R",
     "name": "KO LUAM, PRACHUAP KHIRI KHAN",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "d9ca7192fa304357b29655ad87dfae96c8c1134609b0eb245988a3a65717876629df0bf17b82696ed42546547321e968a4451c0c670dc8026b0f626f193d04a0",
     "type": "R",
     "name": "KO SAMET, RAYONG",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "101fe4ec8218d7f3adad5bddb243535b8131c517c4efbd43872cd5c1fba9faf86919cb08484fce430aa4cefb1671b5aaa9ff866a9b3ecbd8ac9b8d57087f8b75",
     "type": "R",
     "name": "UBON",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "c40d7292c413e170f28b5d3fb6259febd8614fe7ee83e204d441e5ccfd389d2bbf25d8438ad30133d8b980951efb18d8380ebc8c4e02cf3a51b237f64d610386",
     "type": "D",
     "name": "RATCHABURI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "b4c4e8d27ea50ae37784c2cf12e3e01294e1aec1b524c31f990b8c02404365d36e3b18763f9d0e81e895c65b4813395365f842bf15652361aba5ccc36114fc7f",
     "type": "D",
     "name": "RATCHABURI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "a68927c7e88e5e89c9b191887716151b9c6f48b3b1ae33bc7d57e663ce772e154ba2b79d29955ffd5a5e8fff4340cf696bf47b932dba36c5ddaaaf44b6b1a48d",
     "type": "D",
     "name": "KANCHANABURI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "80129ffd98d40ac4919aa889fbf4a497dc91251100c7edff1bdae34d2d3f9abf2e7607834585ff55993eda3d7b4004414eaf52fd5f355c5c50b64fac7c7d3c0d",
     "type": "D",
     "name": "KANCHANABURI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "c05613935f4bb780109fb50776d36187df296e4e7b31d69bd20a0b8379b60749d5a06c41a50f637a0aee37c85c491f177d0afa0baf139a5c3cd898e9a030478f",
     "type": "D",
     "name": "SUPHAN BURI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "c3cfcbd4fa57ca8f12e1968bcc6853acc6ccb407c925fdab33c04abca5d08f268d0bc7cc0996d466494aa6a3b501e851a6a92e07ac2190650a75d52d65d001ff",
     "type": "D",
     "name": "SUPHAN BURI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "9a6d16454e4431cb7663184207596f047ca9e3e9a94259306b8b767af8f0665eca9c5f805b3156a21c2954460ab7316698b21064f4b6d235d64bf20fc2276195",
     "type": "D",
     "name": "SUPHAN BURI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "c3cfcbd4fa57ca8f12e1968bcc6853acc6ccb407c925fdab33c04abca5d08f268d0bc7cc0996d466494aa6a3b501e851a6a92e07ac2190650a75d52d65d001ff",
     "type": "D",
     "name": "SUPHAN BURI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "0d251cbfe9637640c39ee6089c4517f0cf1dfa959e6e922f3081edda136c86942b614a36ed00ab9e822fd477ced7399e6747deabb552f9b734ed24fe05fc6552",
     "type": "D",
     "name": "MAE KLONG",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "1beb20b1d420a795c72afd96d5ac69253460efc3e4bdc95a6b5e1a4ba88f7a78eea3bf5b6d1d04742643bff9b4160345f47cab179688bb96e8f75fbbf50586bb",
     "type": "R",
     "name": "CHITRLADA PALACE",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "3dc47e944749e0016d96c802c7901fc230385a94b0462cf51b2d97927632cb99691c10539f1eaf4936ef358da351392bdc91cea70200f98b99bf8e12654094b6",
     "type": "D",
     "name": "HUA HIN",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "06fc50592b7eb99ca8e1f67a013713dddf88097757a01c1958b1c5073f07890da537655b74a48be4a3dd2f7035dc475dcba68258370938d0839cc4ff0cabe8d5",
     "type": "D",
     "name": "SATTAHIP BAY",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "adf9816bde31f6641bc972a1350fdf6af5df364737a459192af25e053fabaae0ba0bc77aba1aaabfde636836e46f928ce64d6a9ae14dca6423a2831fdef5120e",
     "type": "D",
     "name": "SATTAHIP BAY",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "42ecc6affd078ef059037fab0b4de330f907364809b673e33d9d6fb661ff317c539a2fe50a7a100e3076acbea7ac489febaff9a9a6eff4bd785780f97095f1ee",
     "type": "D",
     "name": "SATTAHIP BAY",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "6b3b6a9236756cc4b42fdca7909fab575d92cafa5bd998eb9cd612febcd5a78adf907dde4357a139bff53a1ff4ab70df3d24ebb3b40cf44e1c428e49f607cc2e",
     "type": "D",
     "name": "KO KHRAM, SATTAHIP",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "e9621bab2dd9884c03df69e413a635c55f9d6a4813b644719aa4384a5680c4f51950837cb6309b038f5438178ce3e0ebb8cd07c549e2dd34923dcb31e32568d5",
     "type": "D",
     "name": "KO PHAI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "ce194f9025280000885dbe0c0e3e03e579eda906f61e372608a526c367e36e2c7fa2fb21de82e0709d7fabee187ec298d1022aae2802a936d75dec87d2994b83",
     "type": "D",
     "name": "KO CHANG, TRAT",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "337eb4b518ccd604881e7b128b611ebcabf2c587a6d1bdcf3e9eddf008466ec08d919cb96b2da4f68efd9fa09ea5f05e91164aee07e55bf326b3c6d7bef5b93f",
     "type": "D",
     "name": "KO TAO, CHUMPHON",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "471ac0ceff5cce44c5547f1714354ca6622762e1774e2182b5d1ce0bf6704b5115a7e3573f9e88985c94a669730595163f31bff02b176a773e96de3e77972a7d",
     "type": "D",
     "name": "CHONG SAMAE SAN, SATTAHIP",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "a5b9360b9601fd231120e88ff0bfc467fad274073a54f3b38c92778a3e41e3565e1520867918f9bcc3bf4fc7c079fc9da08707079bb5714d8c47e8af6409e0c4",
     "type": "D",
     "name": "PONG NAM RON, CHANTHABURI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "b73694674ca624cafd93f7876d05f36fe65fd90e5e1c8c42ed52d9880144b5003df5a56ec9e0e8ab01eb5a3d2c66db611fd4501dd553bb58e4cc190aed3c579b",
     "type": "D",
     "name": "SATTAHIP",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "664e884f85aefd4ecf6798891c3b0710efcf9e21665ce6e7341704d9cd53491f25234f87a3e69d85c09a0c8b39d3435312bbd435e8c0c764bc4d85ecab164a73",
     "type": "D",
     "name": "HIN RAKIT, PATTANI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "693c7080144d77ca2925557030aaaa5ce1ab537893083874989566d63c44607e7cc20763d9e4c7676c0ae751bfffa4117c2debe22adc821fc94d46809bbdf19c",
     "type": "R",
     "name": "HUA HIN PALACE",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "bd0c94a48d81470f0b813b8580a3cd577fcaf450c2dcd57c467e663127ad911f349ca0cf971292254560988cf35bf4f765338ba7ffac613fe29f25f1dc541f44",
     "type": "D",
     "name": "NAKHON RATCHASIMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "960ae49f6beec45d2720cb3a68284b6ae2ee122630011721d9c34582226eed49b056d4ac25c1bf339f1a39b833a9170d97b53f197afa19625f0f487348ab1022",
     "type": "D",
     "name": "NAKHON RATCHASIMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "32d4ed110da5e7edefe5e363af401ad0ab3a8d7503b741d9e16c447fd4a386a8030448a33273e8245ad7b1239a3f741738c7e6c9eca065c0915b278981d051a1",
     "type": "D",
     "name": "LOP BURI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "66134affada621c4add7d78f33e7ea9221c629f1d794fdc47db3833d67edcb469d5e6c4e079c6e49e837ad098ca2bc70b70ca78a365a492b156f5282bac390a7",
     "type": "D",
     "name": "NAKHON RATCHASIMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "1539a27490b724e9a2f5090d3fe9852db23b7426d4cc00b52a9d3e9a992b42c249af2b94ac8f67e1b5896a187e3978e11791f5f9dcf4c9d7405597845245655b",
     "type": "D",
     "name": "NAKHON SAWAN, CHAI NAT",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "63766713402f162f427dfc3c83ffbaf42c885b05293123e0d45a4e25c0ae6723f3454274ccaf891bad63b95892acc2802d7a5b20a78924d65db61b92960e633f",
     "type": "D",
     "name": "NAKHON SAWAN, CHAI NAT",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "c285520888e327af5ab42c7847490ca1490cf336732fe3da7c3a75825b5dd7a073679fc8635f4b71a3982f918ce540b5c40d7d080cac6c77c2c7ea058b589463",
     "type": "D",
     "name": "PHETCHABUN, PHICHIT",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "21333e9ffb2a3e34d675bce3de04ea649273ba1f7c8c71683175182859cae3e02ec098fd4fd8f75bae3375f25c956436eed1018f2ccaaf744a0f8df13107377d",
     "type": "D",
     "name": "PHETCHABUN, PHICHIT",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "8d61c8933d8204f501bf7c551af5688db8b121a4fbbedc0b40e1c5ca723120e65861df8ef790c250ff49777ced4f48d24b6ba59267832a7bcaaa9638d0461d72",
     "type": "D",
     "name": "PRACHUAP KHIRI KHAN",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "013e453f2e0878ac8c2ddadf9da9f3dae1fd7973b58e65615ba44f443c8f767463df67658726ad3d7e051c458221f6c6ebc21b39474a7668cb5edff610414b44",
     "type": "P",
     "name": "KHAO SOIDAO TAI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "737480460392b8801a082907a00e18e32542e08878e2ee7de9959f81fd8d7eb9d3a438c8d62f3a5c39d5fb03bb306507bb4af7aa66b96ca0a67d01e47f59c27c",
     "type": "P",
     "name": "KHAO KHLONG OA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "f13369b2858c18ef9d92042119a98da7fe7f46b4719dda487078b12cac08f36260dcd756003b7cb3f277501d357e6b45a64a4c9032ea85bdeb8d3fc2dbcabbf3",
     "type": "P",
     "name": "KO CHANG-KO KHUD",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "f47942e681e902a42be3e603005280b7eae1ebcdf7f0b71cebe18764cfb4e5d8a101f7381d50eb33b9fdc3a76f7df65ffd8bec96bd7d36fca8596bbbff755892",
     "type": "P",
     "name": "MUANG KOM",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "9c24eb399067fc4b6d19edb7e5120b4ea5b048d14e148491ff914207a0a8f09a6aeb98e0d6b57ef60aa559588b28baed04f9361f3b87a34290f4b01f8e84ee5f",
     "type": "D",
     "name": "KABIN BURI/WATTANA NAKHON, PRA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "9c24eb399067fc4b6d19edb7e5120b4ea5b048d14e148491ff914207a0a8f09a6aeb98e0d6b57ef60aa559588b28baed04f9361f3b87a34290f4b01f8e84ee5f",
     "type": "D",
     "name": "KABIN BURI/WATTANA NAKHON, PRA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "3b9596583071d0598a008542f6edac35b0b5bd45df1b2b331fdf2906931e240f931f37c72b34b3e3e1ed9eba427a7bba52e73343dd2df01ed6e4f5001b0c87bd",
     "type": "D",
     "name": "MAE RIM CHIANG MAI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "23d3e40e4f86dce698009a4cf02e2e9dae87292edac4e9daa1e3a87707655127eaefbdb6c1bd365f7122a0c269100d0aa28bea190c57ece341f0cf1e72a8e948",
     "type": "D",
     "name": "CHOM THONG, CHIANG MAI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "b23bb0e42e79eabdd73b4b17f3b20776ef5b733afa306c3d70f9d7692b994bc72b91cbd30bb2e7547760a3319482fe3855e150ffab1f011ee4c89d549dd819e9",
     "type": "D",
     "name": "LOP BURI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "b1046c9fea51ef4088bd10797f5f6a6a469893e702b585160cffb60ec94316d7f3ebca986dd4b25b798e8bce75569b5322988cd33a4e156fb41c2d8ff6744c04",
     "type": "D",
     "name": "UBON, YASOTHON",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "75c33a4cf4b93f22ceeb02921662ea059baba1cade0e2ea27c7104a5d2eacba9f2d948b70b705d37926d203186e1b2a235eab0b732bc48f207f4f69161d352f9",
     "type": "D",
     "name": "UBON, SI SA KET",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "9376b8d3f8dd04120b86b0db5b1437e34ffa32a8a4b799c8fc9a3ca80e178fbd8e137c7a780a558aefae9eec1eb63ef3374db46d0638158782f38bbad53aebc6",
     "type": "D",
     "name": "NAKHON RATCHASIMA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "0ff65070ab64008f0dbb30fc13926f0d79bd5ae557f02131db4c298915af19402518225c48a8e544144a90053ea4ded5ed66749333628c09a5268663d7b778f8",
     "type": "D",
     "name": "SAMUT SAKHON",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "96c07a6508a9c72548baef778940d9d68035b1c5710797c43c83ad3af52a2993e11b6eea6e0da2e1471709d2af09ddc0eda90d80610cb5c905f6a5e6d745e94e",
     "type": "D",
     "name": "SONGKHLA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "9a2fedd201829c37c8fe6a987f2fcc766c8627cd2a3ba0c4567dd40fa65e998185334a96b501bc425bef4f92ebe418ba23b316c92006101b3bcc943eb839dbcc",
     "type": "D",
     "name": "SONGKHLA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "1cfeb68a9e3d629fea7b94b1ecef79eecde2c6f2b1ef236f916e1ce883d3ec30b2b2f2aa8bccf0b06a8dfabcb1d487619b26946eb9b01f81aa9c8e4d3735fc62",
     "type": "R",
     "name": "PHU PHING PALACE",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "55d3b25ec97858fc20f5a5b670054cefb5c5932c714efc713ec5cefcbdd3612a4f36be58be1da3eddad43450aab5f1628b193dcf144ecc9bc8c73741e35bb264",
     "type": "D",
     "name": "SONGKHLA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "55d3b25ec97858fc20f5a5b670054cefb5c5932c714efc713ec5cefcbdd3612a4f36be58be1da3eddad43450aab5f1628b193dcf144ecc9bc8c73741e35bb264",
     "type": "D",
     "name": "SONGKHLA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "c980837ade8ae5d62a48fe1e0ecb2cb84f5fbfe4e26b80806df94910f18b08aa4c1ce135e407d78b10dcc77a116472d1cbc38fab2c397bd63e00552f0f019c8e",
     "type": "R",
     "name": "SONGKHLA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "ba61b38721ee966496d7f74b622ee423d93b108e13a333d71de587ca8a1438ca9ecf09e8435fe572fa5abadc6e58d263bdd163e93f07c666be0d367776e58180",
     "type": "R",
     "name": "SONGKHLA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "c92f50bd9f5327c2a03facc0a3b2a027de5b6f8d2b7ac7cfbc614373db2d3657675ede8d14b969443fe4be9e8264cfcca46238c1bcc9baaeda388224fed0defb",
     "type": "D",
     "name": "PHITSANULOK",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "9814499827b41a26305a4e250867c9eebefd75d819541d27b30b52244c1fee15dd7444f1692f85441f47485d7a5046e67bf5566407544b30b4e277017ca3cf12",
     "type": "D",
     "name": "UBON",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "969f1edfb422cb6ba0ac8cb1bb395ca133a2944ebce48dff089d5d3520da7c1f85fc2b330faa7c523c894661975a813f93f830addf6ef033bab11fbae13d7a40",
     "type": "D",
     "name": "UBON",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "817bc2e96de25d90320db7174f690c75297a50ab503fee09c17181fe4704c750aacf1ece34c4c16f50833dbd3b9d0ba009d7f12bb71568d9f080e622acff1d13",
     "type": "D",
     "name": "PHITSANULOK",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "ae0a6d3878296dcf714219eabc652c88767ef77c92f5abc182144d85bcf2cff35adc6112ccded1b344c4ac92dc439c0467767dcb8271e171767de95e38728cdd",
     "type": "D",
     "name": "PHITSANULOK",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "1ef2d83a073a28eb010165e8f9a7f9085d177e8deca5806c84cd298c62a5b0971a5f7e21c63c8b418b42dc2de15891e8a46f0f3434a9d66a5acb34b5d94c955a",
     "type": "D",
     "name": "SURAT THANI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "b6f54a3dbe5559d975d435296f9a743eb63b7b1794e1e2a66eee70fa5f544dd004bf37f99d7196f3a7a9faa371ea308c05f7ad3be93a7bddd5d7e78304f6c037",
     "type": "D",
     "name": "SURAT THANI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "063831f36e7e679725bdb679d75dc13fd80bb971489ed9fc2cf7ed579bc53982f3b19cc1391e086969b4e94ca12a99bc51071e7a8a32d670cc661f121caaec6e",
     "type": "D",
     "name": "SURAT THANI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "d411fb3ff1e3ea22820f83def48fe770bd02c905c7a4d082984aad8c54e926284e5347f1679063c005d0a707f21d317e34cbc34005e2d7b443619ed5c448ecf9",
     "type": "R",
     "name": "THAK SIN PALACE",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "0d356c8b2e472ec9fc89d1ea56a3b4c5f7594b3c4d3d749a94f958911173c818fad31f626c98fa49100061926b1c346793587a6c9cb8800d74c9d5a3568d41ce",
     "type": "D",
     "name": "SURAT THANI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "38726432bbc9e5ad1ea1a357037655eeb747b3294bbe2f560ca25355fdc7e6f0e3da673a00d1d9b403b9967d7114861040f018748063a30466e04b6835e1d317",
     "type": "D",
     "name": "SURAT THANI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "b316466496a7884e5907c10457fccf64a047335af90c03598fe8f801e70488aaa2982fd761ea9390850ee5dc3e824d0f8bf7a0375dc79f43e0b1e3ef58b29d23",
     "type": "D",
     "name": "SURAT THANI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "e589ff943ab390d8a5090c2e4b12681e4d7310721cb146a9be5b5162a6766e6174aff9dcc27f06eecdeed8f9765f73b0c2d37dc6e6d85f806632edfe304fcb1f",
     "type": "D",
     "name": "UDON, LOEI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "0bc18f2334f5254f099ad015bc2b48d36abd4ac57586e366be9f7de5d246854a31ada94b5f01bcdf15ad740e50a686b7f9f570a0cab06191d6d30e41a8af4ba8",
     "type": "D",
     "name": "UDON, LOEI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "192c4238ac374eaa9c8064066074f149355fb4c506a76d46208359e661cd39f88072e54faece3f35a8114f790e1b32f1aae351ce6b33906a7f3e27102970691a",
     "type": "D",
     "name": "UDON, NONG KHAI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "14573d20151e6bdc1fbb2472e876f57884138e5d21181f89ddd6e31e3d96e8b35efe089bad6fbacdfb0223be992275d0ee67329fe81d13a43548acacff3f56e2",
     "type": "D",
     "name": "NAKHON PHANOM",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "289085c0593e0f793a1839292b31e342aa7bc14137144fedf09f5cede8ee67d4640420fc7e3e7516998729a5c32893896b7950724242f4a2460a8a7b2c668a23",
     "type": "D",
     "name": "NAKHON PHANOM",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "5d925c74636fbb88097baba0deb034ffdbcf2dc421c9a85b1bbd13032681516680f81f478a01e40015d6128e227f500a97572fa20ad90c30b38fbb1896d3ed4f",
     "type": "D",
     "name": "NORTHEASTERN AREA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "24f70815a072ca0e98ea19a4224a4504f5f61fc9f6db048dcaa17a10e34e419f82c888d14a872750f7664907a0331d389a977a0087fb7b34cf12cdcb255f8950",
     "type": "R",
     "name": "PHU PHAN PALACE",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "624fc896d467d72b31c9c3cc35e9a7fadd2be29c9d4f962d43df3f46c7038b5951b1d6f66eab8c6fe9036041135635cc74b1b9cdd58292d591c3543bfad3a1c9",
     "type": "D",
     "name": "KANCHANABURI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "bcfdf55afba94509ca7127abccfb5c83815573ad9fcacd366e14e5072aff9cce849ae7480f53657e3e16c7fc295f64a696e122e1a5d3020344f7137ee7c1497b",
     "type": "R",
     "name": "NAM PHONG",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "281a7ee143ca2adbab5061242dd3f5b85d8cb74b4f0b5c2982459bf1775a5100c3d30241b6396454e21a208aff62ae39cb0a05aca6cdfb70d07665de12f6d251",
     "type": "P",
     "name": "SATTAHIP",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "eff675a60cca25537f4d53fcdfdf5ee5018ebe17389cc11f5d661b3fe5a562740af1db21b870a4212a95fd699f723675887e9eae7bb334a1b6fca985b47ddfdb",
     "type": "D",
     "name": "CHANTHABURI",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "51429f27bece01c9c84f28b43f3602d2959cace91906e878db4cb3185ad0e0ef257a4ec59ec422d433142b0c53b7d3692fa18f621912df32bf0792ebb2a97fd9",
     "type": "D",
     "name": "GULF OF THAILAND",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "c7dfb38488de55b70533ff22a7cd8476b40824e80d83073afc52c520378a8d846aeaee282a44b25cc2efb65720601a7438f45fdc44b13dd8dc03714d13dd86df",
     "type": "D",
     "name": "BANGKOK, NONTHABURI, NAKHON PA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "19f5729d60062f2dee7a1f389822a5cf991993e09042f89831d3f6fdb6b0480e8dff7a366c2fc16d299a94a80065a9449cb6ec0ce4688baa10d4a743a5c99cd7",
     "type": "D",
     "name": "BANGKOK, NONTHABURI, NAKHON PA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "c310d7bbb6e7546541f4d9aa7965b5ff800edb609f5933bd2bb489f5e6c5eccef7d3f14592352d34f2522565ffdc2ff3bc49671a007a511a7662141e420fbb93",
     "type": "D",
     "name": "PHANGNGA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "a7cf10dd0c305296e208c817916da83108c1335bbf7e646e3a8349fed8447a1e708b2b18262071fd7626546bbe104afddec7c5ac4765a3a5a23e38073a5e85c4",
     "type": "D",
     "name": "PHANGNGA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "975f52647e471a513d840bb917e68a21e234f0fc470048578253f5aa33104dd1d6ee0fb4f11c3b324078d2d1ee15c648500476bb4632bee8ea628d21205947dc",
     "type": "D",
     "name": "PHANGNGA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "a8c6f022ff9d53b7d866959434e305bae8bb6ab25b50ec8aba2b641c225daa40dc51a204865111c393d9c6906a86ca9ada6895aa252ff397030e49ce8ec28f8a",
     "type": "D",
     "name": "KHON KAEN",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "cd653ab2cf09196625fad71815ec8a2e0bf72a1b49e102c48d353f803d27ba489acce90f4743ab4c78e82e90d4fa158bfff579ef9eed7795db18a6d94a935dc0",
     "type": "D",
     "name": "KHON KAEN",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "e960080e300ca448efa2fbd2b21976b889947a65a17643ec66a7705bb8bda2231f4c990bdd46ac467dd8864624eb2c6b414485d65dba0289f620095d4143490e",
     "type": "D",
     "name": "KHON KAEN/ROI-ET",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "37d6008967ac3bf757772ab3ceef9908ecfe0cc410f93c90797254f25bef49d3b4b5626ffef1a3cab911e6e59b41cf2a71719aeb9f7192a98e38b720a89aeb86",
     "type": "R",
     "name": "PHIMANMAS PALACE",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "df24347dc087e5cc380a3ceed7c8455ea6d7dfec0907ff8c805a85e334d3fd7d774a9981a460d0eb24f407138a7301418c3e0eefbde0069a183bb32d2b7db1cb",
     "type": "R",
     "name": "KAMPHAENG SAEN JETTISON",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "908a94a76dfc1ec5f9a1fe04f05f4b36ba028c5417b8ed3e38325170a0fe248834c65ea79875989c89c37168ce1ec31cf32eb4e777b5dd6eb39106dcc9b28161",
     "type": "R",
     "name": "SRAPATHUM PALACE",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "c5119737c1a404e72cea0a4af3e5e49e87d24724e35fd172b787c48192691dea1f10db9b34a6b1d084c20c392e614c78e81964bc855863aab5d20ab159383492",
     "type": "R",
     "name": "JAKRIBONGKOT PALACE",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "ed7b47719825cbbfd32cec5f800305cad7956d86c3f01c4e8b1e2bdefa440263dbc56a98e5112ad9bb18593bce2c04104c4530acb11b266c0a62948017877293",
     "type": "R",
     "name": "AMPHORN ROYAL PALACE",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "b2a46f116ffb0dedb4c8ca22b905e1dd17380d617fb9b01b0afeaba39ceeb31009a167671263b2210e159c51cb56f48dab8327d94ac65f7f64829ed7856dd972",
     "type": "R",
     "name": "SUKHOTHAI PALACE",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "28d36f4da9aa612b47ca332ffca4ae5cebc9a194074724e204b95e934ef5933b5026cd6c17d7a425a5a97438659a9dcdb9d02eb5e0cc23846982ad42b58b9ddb",
     "type": "R",
     "name": "TIPPIMARN PALACE",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "932ba2462fafe08c7e2714353ca85c9a8591fee51c69c484b126fdf41a6a8246fa10b10adb7410d966533b1f227db38b1f4000696974c018e2f59ee3308de8a7",
     "type": "D",
     "name": "GAS SEPARATION PLANT",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
     "digest": "2dad1a01c37b6dc4b6bb1b4d5b792a6d7fecff1a523af1eb727570e07f2cd0db8ad0640a50ce1f121958db636c72fdd352d92a6a8fccd00267c154cab16aeb78",
     "type": "D",
     "name": "KABIN BURI/WATTANA NAKHON, PRA",
-    "use": true,
+    "use": false,
     "checked": true
   },
   {
