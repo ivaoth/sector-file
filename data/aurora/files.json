@@ -104,6 +104,7 @@
   ],
   "elevation": [],
   "lairspace": [
+    "VTBB.lairspace",
     "VTBD.lairspace",
     "VTBK.lairspace",
     "VTBL.lairspace",
