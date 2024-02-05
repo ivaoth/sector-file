@@ -452,6 +452,7 @@ const dangerFileName = 'danger.geo';
 const restrictedFileName = 'restricted.geo';
 const prohibitedFileName = 'prohibited.geo';
 
+/* Delete for override by Tatpol's new shape
 const dangerFile = resolve(auroraIncludePath, dangerFileName);
 const restrictedFile = resolve(auroraIncludePath, restrictedFileName);
 const prohibitedFile = resolve(auroraIncludePath, prohibitedFileName);
@@ -504,7 +505,7 @@ for (const area of areas) {
 writeFileSync(dangerFile, dangerOut);
 writeFileSync(restrictedFile, restrictedOut);
 writeFileSync(prohibitedFile, prohibitedOut);
-
+*/
 out += `F;${dangerFileName}\n`;
 out += `F;${restrictedFileName}\n`;
 out += `F;${prohibitedFileName}\n`;
