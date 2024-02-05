@@ -84,7 +84,8 @@ const extraFiles = JSON.parse(readFileSync(extraFilesFile).toString()) as {
   manualAirport: string[];
 };
 
-const region = 'VT';
+//Delete for override by Tatpol's new shape
+//const region = 'VT';
 
 removeSync(outPath);
 
