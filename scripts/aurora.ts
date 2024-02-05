@@ -79,6 +79,7 @@ const extraFiles = JSON.parse(readFileSync(extraFilesFile).toString()) as {
   mvaenr: string[];
   elevation: string[];
   lairspace: string[];
+  hairspace: string[];
   colorscheme: string[];
   manualAirport: string[];
 };
@@ -303,6 +304,32 @@ for (const areaDetail of areaDetails.filter(
 }
 
 for (const ef of extraFiles.lairspace) {
+  out += `F;${ef}\n`;
+  copySync(resolve(auroraPath, ef), resolve(auroraIncludePath, ef));
+}
+
+out += '[AIRSPACE HIGH]\n';
+
+for (const areaDetail of areaDetails.filter(
+  (a) => a.use && ['D', 'R', 'P'].indexOf(a.type) === -1
+)) {
+  const areaFileName = `${areaDetail.name}.hairspace`;
+  const areaFile = resolve(auroraIncludePath, areaFileName);
+  const area = areas.find((s) => s.digest === areaDetail.digest)!;
+  let areaOut = '';
+  for (const point of area.points) {
+    areaOut += `T;${areaDetail.name};${point[1].toFixed(7)};${point[0].toFixed(
+      7
+    )};\n`;
+  }
+  areaOut += `T;${areaDetail.name};${area.points[0][1].toFixed(
+    7
+  )};${area.points[0][0].toFixed(7)};\n`;
+  writeFileSync(areaFile, areaOut);
+  out += `F;${areaFileName}\n`;
+}
+
+for (const ef of extraFiles.hairspace) {
   out += `F;${ef}\n`;
   copySync(resolve(auroraPath, ef), resolve(auroraIncludePath, ef));
 }
