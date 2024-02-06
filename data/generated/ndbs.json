@@ -243,5 +243,12 @@
     "frequency": 27000,
     "laty": 13.76739444,
     "lonx": 102.31841111
+  },
+  {
+    "ident": "MC",
+    "name": "MOCCHAU",
+    "frequency": 51400,
+    "laty": 20.82805556,
+    "lonx": 104.70027778
   }
 ]
