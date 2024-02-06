@@ -1358,13 +1358,6 @@
     "checked": true
   },
   {
-    "digest": "192c4238ac374eaa9c8064066074f149355fb4c506a76d46208359e661cd39f88072e54faece3f35a8114f790e1b32f1aae351ce6b33906a7f3e27102970691a",
-    "type": "D",
-    "name": "UDON, NONG KHAI",
-    "use": false,
-    "checked": true
-  },
-  {
     "digest": "14573d20151e6bdc1fbb2472e876f57884138e5d21181f89ddd6e31e3d96e8b35efe089bad6fbacdfb0223be992275d0ee67329fe81d13a43548acacff3f56e2",
     "type": "D",
     "name": "NAKHON PHANOM",
@@ -1547,86 +1540,16 @@
     "checked": true
   },
   {
-    "digest": "23fba238b55707a1005e9e9ba11196e3e7fcb67df04b4f67e8398c96f8617fffb221bc9279fa6ca4b4932be048cfbb15fa0bdacb5789d7df0b9df2a15b989816",
-    "type": "W",
-    "name": "TEMP BALLOON AREA BAN PHUE",
+    "digest": "206b0dec70b5899016b97a7dcfb30a233a4197d4c4be49c3dcc5bb666f9f036e71c4f7f0de8ad51c2378caca9e797de657005f8a48a69a9d16aaf108928a0080",
+    "type": "D",
+    "name": "UDON, NONG KHAI NORTH AREA",
     "use": false,
     "checked": true
   },
   {
-    "digest": "2dd06d0f2973753e170689198e4f881dd97a3deb3bc00b8ab5adb9484f0e90e88fad6f45f0926419cf72af1ab50dbb238d40c26d6b6dd78759142e1270760d29",
-    "type": "W",
-    "name": "TEMP BALLOON AREA CHANTHABURI",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "e21d52a45c1e126e7f845b86e2036f90f9826e23e6653eaf1a1e42e054eee41e9db7b8803a25a3b8acdbad771e789be0925450af14bdd38e2cb6ed73dc7511c0",
-    "type": "W",
-    "name": "TEMP BALLOON AREA KANCHANABURI",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "1c60018eeba2b3688ce0c7e0bbd5126666b40b04dc09abb9c7f4ee24d626865e998400021af5ef8e90ecaf10c75b7cd736220dcec0f7e3b98b5721376c47430f",
-    "type": "W",
-    "name": "TEMP BALLOON AREA KING MONGKUT",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "9df14c352fd1061cd892d4cbe806b896946a54d0a3e0631df636f32f8c2bb38b347dc4ea069cdbd806f2088eae4cf08a8a1e3434d007acd9086e78c81a401f43",
-    "type": "W",
-    "name": "TEMP BALLOON AREA OMKOI",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "e84e9623f8d61ec7ff1a7854977d1ac9b45c33f5146d4ecf1c90117a6968862e45c4d6be28cdd6abc689a82b81d78364f88553df3b4bf4f420660d25d2dd2164",
-    "type": "W",
-    "name": "TEMP BALLOON AREA PHANOM",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "d5b8d6e0475abb0de64e87eae996ec50f0d8ab1ae737ac857785cc73a261c879eaf7b9e58fec7b9e02a5ce43099df38751651be7cfa6012914394a690e657182",
-    "type": "W",
-    "name": "TEMP BALLOON AREA PHIMAI",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "e1e8686aebb170760bf48814c086f85896a4a3ada8754d0df30ffc5ecce97eea7a1a43199c4280348a0dbccd06cc414233e7dfd4e90809f066b8acd46054fbf6",
-    "type": "W",
-    "name": "TEMP BALLOON AREA PHRAE",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "350efb3afb022eadd94ed62606514189c5cf5033c967576a50d8ee99d5a47ba0bdf84003d4863ad6bf0da170a167726999e195a0e4c24907b3fe6d4fdb441708",
-    "type": "W",
-    "name": "TEMP BALLOON AREA RASI SALAI",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "bffac47bc9d137beef23e726305b57518721ff05bea924a6a3c5c66f6bcf85cbf35bb521570495bb0c913fc8259d048d394860bea3159686699184ff03911bf2",
-    "type": "W",
-    "name": "TEMP BALLOON AREA SATTAHIP",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "76221ea0b9a73dbe98e3229c78f4ebe7f18b75cad05510de4dafb8ab5a16cca92dd4387c4604d51180c36d9b288c17337e5b70d174f514ffaf930528fc375385",
-    "type": "W",
-    "name": "TEMP BALLOON AREA SINGHA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "4ad21245841d174776b08731e6536ab3239c325e70b50d33427cf2dcb58f2723526dbe3bf55d4a1b49888fd3a04f54e6cb65ef2f22eaad948a68761add7039c5",
-    "type": "W",
-    "name": "TEMP BALLOON AREA TAKHLI",
+    "digest": "ef2c3c3a0bf211f8691da2fbeed9da563f38827eefbfd03e5ac5260432e65fc83be09bb757f2d26ec8f18ee48dfffa705be21e809ee7a06e7b259ad2d217d964",
+    "type": "D",
+    "name": "UDON, NONG KHAI SOUTH AREA",
     "use": false,
     "checked": true
   }
