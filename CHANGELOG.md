@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [2.2401.1](https://github.com/ivaoth/ivac-sector-file/compare/v2.2301.1...v2.2401.1) (2024-02-06)
+
+
+### Features
+
+* **aurora:** update airport and area for cycle 2401 ([#1493](https://github.com/ivaoth/ivac-sector-file/issues/1493)) ([9a9ed69](https://github.com/ivaoth/ivac-sector-file/commit/9a9ed691af6675abb4cb51d27e2175aafcef91eb))
+* **aurora:** update airway, VOR, NDB, and waypoint for cycle 2401, including airways connected to Bangkok FIR ([#1492](https://github.com/ivaoth/ivac-sector-file/issues/1492)) ([0f05842](https://github.com/ivaoth/ivac-sector-file/commit/0f05842a2f103a1b512be360f575d29bf5b6df5a))
+* **aurora:** add VFR waypoint for every airport ([#1281](https://github.com/ivaoth/ivac-sector-file/issues/1281)) ([824dfe3](https://github.com/ivaoth/ivac-sector-file/commit/824dfe3cff36a1cef2793e2070141c73a8e64b27))
+* **aurora:** add VFR route for VTUK, VTUQ, VTUV ([#1477](https://github.com/ivaoth/ivac-sector-file/issues/1477)) ([31d8ef5](https://github.com/ivaoth/ivac-sector-file/commit/31d8ef5b669b0747bf70fb0228606b03c506b721))
+* **scripts/aurora:** add generate elevation script ([#1482](https://github.com/ivaoth/ivac-sector-file/issues/1482)) ([ea5d474](https://github.com/ivaoth/ivac-sector-file/commit/ea5d474692ff442ecc0baa1a3b3359cfd04e66f9))
+* **aurora:** add grid MORA to MRV Enroute ([#1481](https://github.com/ivaoth/ivac-sector-file/issues/1481)) ([3fa3b3e](https://github.com/ivaoth/ivac-sector-file/commit/3fa3b3ed213ff0cd8a6ce2c09c2b5663786fff12))
+* **VTUJ:** remove airport ([#1480](https://github.com/ivaoth/ivac-sector-file/issues/1480)) ([6fe67da](https://github.com/ivaoth/ivac-sector-file/commit/6fe67dafcaab1ad7c8d3ec53d4c8e9549a0aafc1))
+* **aurora:** update ATC frequency and transfer list ([#1456](https://github.com/ivaoth/ivac-sector-file/issues/1456)) ([0e00ed2](https://github.com/ivaoth/ivac-sector-file/commit/0e00ed299d5b4beb0bd705267e32e0cc1a750e98))
+* **aurora/VTBS:** remove close sign for SAT taxiway ([#1442](https://github.com/ivaoth/ivac-sector-file/issues/1442)) ([0ffef94](https://github.com/ivaoth/ivac-sector-file/commit/0ffef94684be26d1e330d03032ce6bdbc5ca604d))
+* **aurora/VTSF:** update taxiway indicator ([#1476](https://github.com/ivaoth/ivac-sector-file/issues/1476)) ([54bff76](https://github.com/ivaoth/ivac-sector-file/commit/54bff76e8dd4d16e1fbe76dba80c4fa0449205cb))
+* **aurora:** update SID/STAR following new IVAO TH standard ([#1345](https://github.com/ivaoth/ivac-sector-file/issues/1345)) ([8a54810](https://github.com/ivaoth/ivac-sector-file/commit/8a54810f2333339e2e0d2d9213a1f06c87631731))
+* update AIRAC for cycle 2311 ([036ab31](https://github.com/ivaoth/ivac-sector-file/commit/036ab31900fa48e49ddb99296f80a4068dd646cf))
+* **aurora:** add high airspace ([0f07af1](https://github.com/ivaoth/ivac-sector-file/commit/0f07af175d121cb1987501b9cead3db840a43dcd))
+
+### Bug Fixes
+
+* **aurora:** fix missing Bangkok TMA shape ([#1490](https://github.com/ivaoth/ivac-sector-file/issues/1490)) ([d0cbbfe](https://github.com/ivaoth/ivac-sector-file/commit/d0cbbfec02adcf9f91a79cbf538173067ac57094))
+* **scripts/aurora:** hide auto-generate script for danger, prohibited, and restricted area ([#1489](https://github.com/ivaoth/ivac-sector-file/issues/1489)) ([ed17c39](https://github.com/ivaoth/ivac-sector-file/commit/ed17c394fda88e6c57fbea9a08043b85107e641b))
+* **aurora:** update airspace source ([#1488](https://github.com/ivaoth/ivac-sector-file/issues/1488)) ([0ff4123](https://github.com/ivaoth/ivac-sector-file/commit/0ff4123cda28834e7f143b26dc9fb278e2472345))
+* **aurora:** update grid MORA as a single object ([#1487](https://github.com/ivaoth/ivac-sector-file/issues/1487)) ([dd23274](https://github.com/ivaoth/ivac-sector-file/commit/dd2327424224f016e959ba63cb30b52bc2c72824))
+
 ## [2.2301.1](https://github.com/ivaoth/ivac-sector-file/compare/v2.2105.3...v2.2301.1) (2023-02-06)
 
 
