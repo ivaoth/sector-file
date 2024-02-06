@@ -28,41 +28,52 @@ export const extractAirways = async (
   enroute: number[];
 }> => {
   const filteredSegments = (await db).all<SegmentsDbData[]>(SQL`
-  SELECT
-    airway.airway_name AS name,
-    airway.airway_fragment_no AS segment_no,
-    airway.sequence_no,
-    T1.ident as wpt_from,
-    T2.ident as wpt_to,
-    airway.airway_type AS type,
-    airway.from_laty AS from_lat,
-    airway.from_lonx AS from_lon,
-    airway.to_laty AS to_lat,
-    airway.to_lonx AS to_lon,
-    airway.direction,
-    T1.region AS region_from,
-    T2.region AS region_to,
-    T1.waypoint_id AS id_from,
-    T2.waypoint_id AS id_to
-  FROM
-  (
-    airway
-    INNER JOIN
-    waypoint T1
-    ON
-    airway.from_waypoint_id = T1.waypoint_id
-    INNER JOIN
-    waypoint T2
-    ON
-    airway.to_waypoint_id = T2.waypoint_id
+SELECT
+  airway.airway_name AS name,
+  airway.airway_fragment_no AS segment_no,
+  airway.sequence_no,
+  T1.ident AS wpt_from,
+  T2.ident AS wpt_to,
+  airway.airway_type AS type,
+  airway.from_laty AS from_lat,
+  airway.from_lonx AS from_lon,
+  airway.to_laty AS to_lat,
+  airway.to_lonx AS to_lon,
+  airway.direction,
+  T1.region AS region_from,
+  T2.region AS region_to,
+  T1.waypoint_id AS id_from,
+  T2.waypoint_id AS id_to
+FROM
+  airway
+JOIN
+  waypoint T1 ON airway.from_waypoint_id = T1.waypoint_id
+JOIN
+  waypoint T2 ON airway.to_waypoint_id = T2.waypoint_id
+WHERE
+  (airway.airway_name, airway.airway_fragment_no) IN (
+      SELECT DISTINCT
+          airway_name,
+          airway_fragment_no
+      FROM
+          airway
+      JOIN
+          waypoint ON airway.from_waypoint_id = waypoint.waypoint_id
+      WHERE
+          region = 'VT'
+      UNION
+      SELECT DISTINCT
+          airway_name,
+          airway_fragment_no
+      FROM
+          airway
+      JOIN
+          waypoint ON airway.to_waypoint_id = waypoint.waypoint_id
+      WHERE
+          region = 'VT'
   )
-  WHERE
-  (
-    T1.region = 'VT'
-    OR
-    T2.region = 'VT'
-  )
-  ORDER BY airway_id ASC;
+ORDER BY
+  airway.airway_id ASC;
   `);
 
   const extras: number[] = [];
