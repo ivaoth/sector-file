@@ -329,11 +329,172 @@
     "lonx": 102.77501389
   },
   {
+    "ident": "APU",
+    "name": "ANBU TAIPEI",
+    "frequency": 112500,
+    "laty": 25.17686111,
+    "lonx": 121.52225
+  },
+  {
+    "ident": "HLG",
+    "name": "HOULONG",
+    "frequency": 114000,
+    "laty": 24.55980556,
+    "lonx": 120.72716667
+  },
+  {
+    "ident": "MKG",
+    "name": "MAGONG PENGHU I.",
+    "frequency": 115200,
+    "laty": 23.59544444,
+    "lonx": 119.63727778
+  },
+  {
+    "ident": "HKC",
+    "name": "KAGOSHIMA",
+    "frequency": 113300,
+    "laty": 31.69722222,
+    "lonx": 130.58294167
+  },
+  {
+    "ident": "KEC",
+    "name": "KUSHIMOTO",
+    "frequency": 112900,
+    "laty": 33.44774167,
+    "lonx": 135.79449444
+  },
+  {
+    "ident": "SUC",
+    "name": "SHIMIZU",
+    "frequency": 115200,
+    "laty": 32.75596944,
+    "lonx": 132.99664722
+  },
+  {
+    "ident": "AAE",
+    "name": "AHMEDABAD",
+    "frequency": 113100,
+    "laty": 23.06822222,
+    "lonx": 72.62908333
+  },
+  {
+    "ident": "AAU",
+    "name": "AURANGABAD",
+    "frequency": 116300,
+    "laty": 19.86108333,
+    "lonx": 75.40525
+  },
+  {
+    "ident": "NNP",
+    "name": "NAGPUR",
+    "frequency": 112700,
+    "laty": 21.08144444,
+    "lonx": 79.05630556
+  },
+  {
+    "ident": "KAT",
+    "name": "KATUNAYAKE",
+    "frequency": 114100,
+    "laty": 7.16125556,
+    "lonx": 79.86850833
+  },
+  {
+    "ident": "KOS",
+    "name": "SIHANOUK",
+    "frequency": 116000,
+    "laty": 10.58966667,
+    "lonx": 103.64216667
+  },
+  {
+    "ident": "PNH",
+    "name": "PHNOM PENH",
+    "frequency": 114300,
+    "laty": 11.54397222,
+    "lonx": 104.84391667
+  },
+  {
     "ident": "REP",
     "name": "SIEM REAP",
     "frequency": 112000,
     "laty": 13.36055556,
     "lonx": 104.21969444
+  },
+  {
+    "ident": "BBN",
+    "name": "VARANASI",
+    "frequency": 113900,
+    "laty": 25.45422222,
+    "lonx": 82.8595
+  },
+  {
+    "ident": "BBS",
+    "name": "BHUBANESWAR",
+    "frequency": 113500,
+    "laty": 20.24422222,
+    "lonx": 85.813
+  },
+  {
+    "ident": "CEA",
+    "name": "KOLKATA",
+    "frequency": 112500,
+    "laty": 22.67591667,
+    "lonx": 88.44811111
+  },
+  {
+    "ident": "JJS",
+    "name": "JAMSHEDPUR",
+    "frequency": 115400,
+    "laty": 22.81319444,
+    "lonx": 86.17394444
+  },
+  {
+    "ident": "KKJ",
+    "name": "KHAJURAHO",
+    "frequency": 116400,
+    "laty": 24.803,
+    "lonx": 79.913
+  },
+  {
+    "ident": "VVZ",
+    "name": "VISAKHAPATNAM",
+    "frequency": 114000,
+    "laty": 17.66883333,
+    "lonx": 83.25286111
+  },
+  {
+    "ident": "CTG",
+    "name": "CHATTOGRAM",
+    "frequency": 113400,
+    "laty": 22.25775,
+    "lonx": 91.82749444
+  },
+  {
+    "ident": "DAC",
+    "name": "DHAKA",
+    "frequency": 112700,
+    "laty": 23.82428333,
+    "lonx": 90.41292222
+  },
+  {
+    "ident": "RAJ",
+    "name": "RAJSHAHI",
+    "frequency": 114600,
+    "laty": 24.43898889,
+    "lonx": 88.61523056
+  },
+  {
+    "ident": "AGG",
+    "name": "AGRA",
+    "frequency": 112000,
+    "laty": 27.15727778,
+    "lonx": 77.95655556
+  },
+  {
+    "ident": "DPN",
+    "name": "DELHI",
+    "frequency": 116100,
+    "laty": 28.56691667,
+    "lonx": 77.09352778
   },
   {
     "ident": "LPB",
@@ -364,6 +525,55 @@
     "lonx": 102.54047222
   },
   {
+    "ident": "SMR",
+    "name": "SIMARA",
+    "frequency": 112900,
+    "laty": 27.16416667,
+    "lonx": 84.98222222
+  },
+  {
+    "ident": "DAN",
+    "name": "DA NANG",
+    "frequency": 114400,
+    "laty": 16.05277778,
+    "lonx": 108.19819444
+  },
+  {
+    "ident": "NOB",
+    "name": "NOI BAI HANOI",
+    "frequency": 116100,
+    "laty": 21.21302222,
+    "lonx": 105.83493611
+  },
+  {
+    "ident": "PCA",
+    "name": "PHU CAT",
+    "frequency": 116300,
+    "laty": 13.95722222,
+    "lonx": 109.04266667
+  },
+  {
+    "ident": "PLK",
+    "name": "PLEIKU",
+    "frequency": 113400,
+    "laty": 14.00602778,
+    "lonx": 108.02441667
+  },
+  {
+    "ident": "PQU",
+    "name": "PHU QUOC",
+    "frequency": 113000,
+    "laty": 10.16529722,
+    "lonx": 104.03894444
+  },
+  {
+    "ident": "TSH",
+    "name": "TAN SON NHAT",
+    "frequency": 116800,
+    "laty": 10.81830556,
+    "lonx": 106.65055556
+  },
+  {
     "ident": "BGO",
     "name": "BAGO",
     "frequency": 112600,
@@ -378,11 +588,25 @@
     "lonx": 98.20680278
   },
   {
+    "ident": "MDY",
+    "name": "MANDALAY",
+    "frequency": 112800,
+    "laty": 21.93427778,
+    "lonx": 96.12975
+  },
+  {
     "ident": "PTN",
     "name": "PATHEIN",
     "frequency": 115600,
     "laty": 16.80868889,
     "lonx": 94.76955
+  },
+  {
+    "ident": "TPG",
+    "name": "TANJUNGPINANG",
+    "frequency": 114800,
+    "laty": 0.90357778,
+    "lonx": 104.51446389
   },
   {
     "ident": "VAS",
@@ -392,10 +616,143 @@
     "lonx": 100.397
   },
   {
+    "ident": "VBA",
+    "name": "BATU ARANG",
+    "frequency": 114700,
+    "laty": 3.32480556,
+    "lonx": 101.45691667
+  },
+  {
+    "ident": "VIH",
+    "name": "IPOH",
+    "frequency": 117300,
+    "laty": 4.57361111,
+    "lonx": 101.09392778
+  },
+  {
+    "ident": "VJB",
+    "name": "JOHOR BAHRU",
+    "frequency": 112500,
+    "laty": 1.664,
+    "lonx": 103.66088889
+  },
+  {
     "ident": "VKB",
     "name": "KOTA BHARU",
     "frequency": 112300,
-    "laty": 6.16345,
-    "lonx": 102.31421389
+    "laty": 6.16345556,
+    "lonx": 102.3142
+  },
+  {
+    "ident": "VKL",
+    "name": "KUALA LUMPUR",
+    "frequency": 116100,
+    "laty": 2.72444444,
+    "lonx": 101.73805556
+  },
+  {
+    "ident": "VPG",
+    "name": "PENANG",
+    "frequency": 116200,
+    "laty": 5.2794,
+    "lonx": 100.26077222
+  },
+  {
+    "ident": "VPK",
+    "name": "PEKAN",
+    "frequency": 115600,
+    "laty": 3.38791667,
+    "lonx": 103.42102778
+  },
+  {
+    "ident": "VPL",
+    "name": "LANGKAWI",
+    "frequency": 114100,
+    "laty": 6.35435,
+    "lonx": 99.74545278
+  },
+  {
+    "ident": "PU",
+    "name": "PAPA UNIFORM SINGAPORE",
+    "frequency": 115100,
+    "laty": 1.42333333,
+    "lonx": 103.93333333
+  },
+  {
+    "ident": "SJ",
+    "name": "SINJON SINGAPORE",
+    "frequency": 113500,
+    "laty": 1.22259444,
+    "lonx": 103.85422778
+  },
+  {
+    "ident": "GYA",
+    "name": "GAOYAO",
+    "frequency": 116500,
+    "laty": 23.07,
+    "lonx": 112.48666667
+  },
+  {
+    "ident": "HUY",
+    "name": "HUAYUAN",
+    "frequency": 112000,
+    "laty": 28.58,
+    "lonx": 109.45
+  },
+  {
+    "ident": "LIN",
+    "name": "LINLI",
+    "frequency": 117500,
+    "laty": 29.35333333,
+    "lonx": 111.64833333
+  },
+  {
+    "ident": "LON",
+    "name": "LONGZHOU",
+    "frequency": 112200,
+    "laty": 22.35666667,
+    "lonx": 106.86833333
+  },
+  {
+    "ident": "WUY",
+    "name": "NANNING",
+    "frequency": 112400,
+    "laty": 22.58598889,
+    "lonx": 108.15007222
+  },
+  {
+    "ident": "WHA",
+    "name": "TIANHE",
+    "frequency": 112200,
+    "laty": 30.78166667,
+    "lonx": 114.20333333
+  },
+  {
+    "ident": "SGM",
+    "name": "XISHAN",
+    "frequency": 110600,
+    "laty": 25.08166667,
+    "lonx": 102.52
+  },
+  {
+    "ident": "XFA",
+    "name": "PANLONG",
+    "frequency": 110800,
+    "laty": 25.40166667,
+    "lonx": 102.93333333
+  },
+  {
+    "ident": "LPS",
+    "name": "LIUPANSHUI",
+    "frequency": 116300,
+    "laty": 26.64333333,
+    "lonx": 105.03
+  },
+  {
+    "ident": "QNX",
+    "name": "QIANXI",
+    "frequency": 113100,
+    "laty": 27.04166667,
+    "lonx": 106.03
   }
 ]
