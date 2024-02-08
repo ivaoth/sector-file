@@ -1,3 +1,16 @@
+//VFR ENTRY ROUTE
+VTSE;06:24;VFR ENTRY ROUTE;10.7963511;99.4701011;
+N2 Point (VTSE);N2 Point (VTSE);
+N1 Point (VTSE);N1 Point (VTSE);
+A Point (VTSE);A Point (VTSE);
+W Point (VTSE);W Point (VTSE);
+CPN;CPN;
+S2 Point (VTSE);S2 Point (VTSE);<br>
+S2 Point (VTSE);S2 Point (VTSE);
+S1 Point (VTSE);S1 Point (VTSE);
+L Point (VTSE);L Point (VTSE);
+CPN;CPN;
+
 //APPROACH
 //RUNWAY 06
 VTSE;06;NDB06;10.6856792;99.3008533;4;
