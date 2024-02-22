@@ -1,173 +1,5 @@
 [
   {
-    "digest": "3cdea26b395043fc1a2bb1200c4899ca350473745cff79b1d813410faebf3fd8c9710b2bb9d577d608834f27b668e2610b72399ac940ab641e80231b19c4d8f0",
-    "type": "other",
-    "name": "ALFA_HIGH",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "3350e3385f7475afdc17e97e207a8bd58c88ffe28254aeb6a1eaedb1f6c68d3f01bdd21a3374593886e101bcdfddea0d1f3dd6d1f269b28a30b7133a3068a178",
-    "type": "other",
-    "name": "ALFA_LOW",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "710277fab353cb31f37b9e4e8961fd0d4526a7e92f10ec0cf1c41716b7e5b2682514808288d02e4a24978b84bc5629f39215abfec82a864a665370c3ec668dc8",
-    "type": "CTR",
-    "name": "BKK_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "84ff9e80b570daf6562bf686b2dc2c74b95dd7286bd2120b46756887f4104df315e3bbcbfa13626d63f37adc141daa22f24df1b67ce6a163fd9f3df8ab4cd48b",
-    "type": "TMA",
-    "name": "BKK_E_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "d1d808d880754f890274ef9f2defb571e8cd7405703b44a8e12598fa775aff5ea046617f49b03b9384891a77d8c07e81f749663f6fda0c981f91d5036dd5ab51",
-    "type": "TMA",
-    "name": "BKK_S_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "f66d7404dbdbaa88bd62acadfd074dcefea20c1e0468ed5bca1f14247d3fe1d5ff9d484b2456b359a0d548de940d8235fe90dff502ed3728bc2bfb96896b287c",
-    "type": "TMA",
-    "name": "BKK_W_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "65f8c3735938fb9f20aed006054f2e551af9831bfdd629e4356b7b61d8467d23d0b2c810f81369994cb9f8366fee0077728004dccff4737dae06347b995bd2be",
-    "type": "TMA",
-    "name": "BKK_N_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "2b9d2e11621b84ca5a95995d9bc3ebc1128e256b4561d37aa9edebc26a7640af24b72c7652770389214994cc8af79a61263e06864c9b51e8b6dd92c9e9729bea",
-    "type": "TMA",
-    "name": "BKK_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "d8c0f939b8308de945a328006a2cb6b8bf6eaeb8d74169c08203398d681135858de68dd3123d8e29bc3293995aa55b7e5541bfcc985376e23facb29c0e2ddc63",
-    "type": "ATZ",
-    "name": "VTBK_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "10ee4ff5469e5237aada0ced673576f9b6695c32de4b2af3b3443e9b85c71f4a757469c8e9593e486c550726c3665700217a954eb0b0a683bad812171a08dff8",
-    "type": "CTR",
-    "name": "VTBK_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "2d7fc7e4082a3d4663c54a53d3831200bbf8606f5cc18dd7b60adb7f77e2dea1aef7e993880c16f047112a49a9603e6cd5052ddd909b302a6c7d880a79285cb4",
-    "type": "CTR",
-    "name": "VTBO_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "4b2a6e5a3d2f80061933f9a4cd5ba374bfc9a77c6ba1d1d2b18538cc782d99127949d9278c53adc1cb3b4318dda3a2788fbd98d2da502ce50df05d57ed85daec",
-    "type": "",
-    "name": "VTBO_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "30a278b4611819544441fd973d83aff544b8f8959049a3f019faa1ae84b43529f411aeb5035c65c84a8b52b28fdb09fe603c339be80094cdf6b73373efe8b24a",
-    "type": "ATZ",
-    "name": "VTBP_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "1b4e97e5c6b4918b28c4ab712b974f07ea5d55cbd8f2b44cef5605f05b6549cce88d8c63fc722306e2d3807d24004e533bd132c2b061bc9738a397b6e95f0013",
-    "type": "TMA",
-    "name": "VTBU_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "b4beee90936a0fbe1881a24953badad76c0a56c2ff22cb040a46e6242a7fb1e17fa1bb9c7ebff8b0b96eaf9e94bfaa86e10314205d7529b303e1c2c4eb41cbdc",
-    "type": "TMA",
-    "name": "VTBU_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "de70ee04d47e2ae4510677d05dfb648b7558abf246631b0983378dd0ff9e5f77792cd4565985f678e4f2c94567435e8983c6d41d3625877afb0d76a7a86588ee",
-    "type": "TMA",
-    "name": "VTBU_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "12a0a4b88e3483fb7c6853b150eca3149db7836cdb9297cd2419a633a9fb5279272df74c634ae9407f0e354f3dea70d2caaa8f62b752543e77e1fd9b578f5289",
-    "type": "TMA",
-    "name": "VTBU_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "ca5f2f17e940e10e97830a0516289a909752068844a02f09dc3881da374a6aa81e5ce61595339b14349466538c5a6236c9abc06267cae50a523777f90b8573e2",
-    "type": "TMA",
-    "name": "VTBU_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "b4eaf3881feb3396fe1905c22229a14a24806ba7e0a2c2223d7dcf2756221291ebfdd3117c56a1887bd47d27f95d4a0a83fa053486c5a41cc0142716c21c9156",
-    "type": "TMA",
-    "name": "VTBU_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "853c622f50d9414efac33b72cd390f63d4055b070d30f94064fa84ff92f0f1de659dd4199f99179ee2c8cd7e50be472055d3cb9aaecee6b17febeb2b33668392",
-    "type": "ATZ",
-    "name": "VTBU_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "5d37b4b7f834b3234291d10410da74525b935a1da987568cf8c2e8c47f16d641d68b39f9804abd71646254e78deaa982037e7623c1e65064eb189994c8e4eb2d",
-    "type": "CTR",
-    "name": "VTBU_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "e4ea4a7de29037402dbf1473d1d740c62f3ecf89a9583b48470d604360487ad307531d17ee48d0dbe35a52025259db72b8305ac5250b596a83595dfcc3539e4d",
-    "type": "ATZ",
-    "name": "VTBW_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "cd5062674c5d8c3ae39b9be78c659c78d2e77e13306a1a00c79e5c203b7898d4cc9b8bd220de37d26e0404012b62d51fe372a1471873b5bd7454d2a7359c0cc3",
-    "type": "ATZ",
-    "name": "VTCC_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "9f8a7c8816368d3fec6f8dcde214751d69a9b65daff10615286f8a4b0a03851342ee2aa8f4c091f89ebe1282fb49edaf09982cc8e905428fa24dfd04825e2f32",
-    "type": "",
-    "name": "VTCC_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
     "digest": "e82cfeb2584d415373f7f79df0ada80ccd7465c60371c9e1f41c0ce3d2f73cc000e6c72f8a69faf8db43886fbcb1b4def95fc3dacbbddaec1063407f7f2fcc86",
     "type": "CTR",
     "name": "VTCC_1_CTR",
@@ -175,716 +7,9 @@
     "checked": true
   },
   {
-    "digest": "ae14df7d1251bb5abbc2772d88dac7c42b5bb55788365e8f2b344c1388be60fb3c8916ceab7b1c97d9c4e15feed7e75e9b50a440952dbe169c5c06a8d9b6b348",
-    "type": "TMA",
-    "name": "VTCC_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "430ef18cad4f0b1650ae6ab1b7b4f2fdeda5ab602918faffb24e3baef94f066fefe423ec62c383b9ce9248fc8d799acb51c7422858ad00d6f2a132fd942ceed3",
-    "type": "ATZ",
-    "name": "VTCH_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "60a32f624f7cb96d461298e470a857d4f775bd805089390cd439732780e5bb0088bafe31ff27a047188828d6bbfbd883230952f840dd749c9ed8b7f7879adba8",
-    "type": "CTR",
-    "name": "VTCH_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "38988074d6e119d7f78864507664885b06639707223fc525ccf3bd94f08c14841420e52ad1d328fac137d94a3a91c9ff1b8d55cea274313257d205e1bd769632",
-    "type": "TMA",
-    "name": "VTCH_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "39b4f4476943a8be872e4f792cf2afdb39466d8d57fd2fcf3c73755eed2e77e421ee874b6c6e8ade42edc307939a9ff3d3d1c96b3713f469bd32c04edaaac280",
-    "type": "CTR",
-    "name": "VTCL_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "5d4739c9b798f5bd2190cd580902a9fd19e70a553163f5d896cbdaeeecc602e9d19aa968185d8ceddc1167fefb5c379f43db29a08c44ef5d2e365003e0742361",
-    "type": "TMA",
-    "name": "VTCL_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "7345908ac1079bd6bf87fb9c2d4fa710ae16df226ba73f3a0bc5f2db347a29e8c890e6fa67a47b716f094c241865401fcfc48de011c617808641469015f4958d",
-    "type": "ATZ",
-    "name": "VTCL_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "869c6fed1869c760a98efae60ee7477ebef9dde39c1de6cafcbbc1d130805d1369ca29c591b63d40ec09f5b6d23926f78909b80b817e875efc1a2ec6f94fac54",
-    "type": "ATZ",
-    "name": "VTCN_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "b48ea9d8655f69bd137534cd85e502eabc7e1f319b55b6db06a65ce39670bf621cb40732b9e41a002e287a3dc3bc491faaa3c74520c25eebab84591e8ba35432",
-    "type": "CTR",
-    "name": "VTCN_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "8160bf0fb73aacc87a4b0398c6ad49903f71338ade791ffc95de0b5678745d501751dd3f0d894e45107f395d54b6d2bb7f7ce98d4a67059bbb7484e5b5b16efd",
-    "type": "TMA",
-    "name": "VTCN_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "9db2426496cb8bb76def270360e4e3c333552126ad594d8c022066d051ebd814d44caf9ac25ffaed04b9dd7a3912b216ab3f31f10d62f9be85fc5a58e474ed57",
-    "type": "ATZ",
-    "name": "VTCP_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "2543a4c8cfb371b435ff33efe6ab47432a1ab3b5572efaf78c6cc66435dd7c32a5288eef97e386ac4f3ea185db99a67482a266324e65155d4226ff776d48a8ac",
-    "type": "CTR",
-    "name": "VTCP_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "d70a1475ed5a0f3ff238628d488f0d9ffe776bae267b1914995c4663919d0ee3008fad87e0bb246545e7191adcf607073e0b5dbede689ccf70daa4f8ad624e41",
-    "type": "TMA",
-    "name": "VTCP_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "67e4a339ed218b68f678924dae807d8f8225444e4177df7fa7150248f92c0477da35651a986c46b1c2674cd44863ee999313ae9df728cb7d83579c649d71ee52",
-    "type": "ATZ",
-    "name": "VTCT_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "d83d36c11589360df16206fb510e3e17d6c1b43ca72494d4dd35be41297ed0ea1d7c97d43db4fec96b871fffea3c95816fe06244372dc524ef84791cb9b59977",
-    "type": "CTR",
-    "name": "VTCT_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "70b8fca4cd2858deadd75449cefa3ed9b04859df42fc62a1d778f3eeec0488fb6d4d59aa7b496b4bb2a8a50b306d19674cc8c3e86116bb583626492de291029f",
-    "type": "TMA",
-    "name": "VTCT_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "eab2ad8fe6879c4d0ed59bf34b57941ab62daaf3f44106ff5644fb1ca2989d865eb0ac2d438cf3fe19480e08e6d42e00f09638496749004fad2e9e26ddebd080",
-    "type": "ATZ",
-    "name": "VTPB_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "be3780c9b14d5ce476106cbb270427674e73e12648b63cc93b039567e94dd13bd9553159ba43661a9defc375a44789044bd42455d301362de4af88a29de46de2",
-    "type": "CTR",
-    "name": "VTPB_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "125669a3278244719ae909c6dac1c3ec8bc97676932f4fd45954ae63a341cc3dcbd4d2ac9c682a0e0d8c0ad8ecca72903b472c07b48d58780906a7177b3119aa",
-    "type": "TMA",
-    "name": "VTPB_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "b5e6b45e525f4ed773531e8d473d9409bfcd9ba1c6ae36d09384470cc1d778fc761895405f4fafd1978178d361569f488ed8a7a18e9a3d41a79d91c45c722e20",
-    "type": "ATZ",
-    "name": "VTPH_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "70503a4dd1dcef36573b6da09d139c3b8df35ba8b5e7f7aea4d1c6bb56b9c8b493e87abca9a2be853079402552501a36183050fb3dadce112778baddbe459155",
-    "type": "CTR",
-    "name": "VTPH_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "e49fbe9dd52180bb85112c5d00e7b95cc7abbd8ac43e91ac4a5d08e1ae169873489302f70f53d653705e604e693f3d5c63c0e1070d952e7f275ab37d7020d755",
-    "type": "TMA",
-    "name": "VTPH_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "9187b170d35a17ca64772a9f97715d875bff91c9e14091167bd2da51a9ade4c6d614a41f21486e2fa884f9685c7160256c85f2c55d9c0f8a14d8cb02dc3b05b7",
-    "type": "ATZ",
-    "name": "VTPI_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "b3ec4c4e318cb80f2de6db9520b1b7e5756ac4ceff93285a5e3d236e55af2b82dae94d3c2544859203c11507b41dbc95ca89afe69ddfff018baed9409eb533da",
-    "type": "CTR",
-    "name": "VTPI_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "4d59c08e72c97df9fb07c9ae385c360423e3138d5d1415b55b0b614a910452b5cf6941dc18ac4b8fe660bab578e92ee3b8c0bf9fd9b968f559f2b1fe6075fe83",
-    "type": "ATZ",
-    "name": "VTPM_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "b7c06dfa6ecfd0f96af5737e1c0b524323b0072a0e43d6d54e58383595ad5d480115143e3c458962fba283d083e66784beb6f9a1001c55598d3852f579037620",
-    "type": "CTR",
-    "name": "VTPM_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "10e1ac2b66e86dd460675f280e57f8f39e9b3fdc234f8485c0f72b3c4990308a8f922f345e8abcf605e6c0a2feaf4ca080b411b116b1f148e8ce3ad594e7b996",
-    "type": "TMA",
-    "name": "VTPM_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "d352e68390b66f393e7dea35ff2cbaac7ae10b4037ab4398d69dffd13c3a4c41962b89b09d227526a2db891e622f827af78ecc62a64029292d854a469d64b099",
-    "type": "CTR",
-    "name": "VTPO_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "ee481497f38f1be777dfc6c1a021aa2fc98fcff9047fbe124c7d35a195ddc97b11343c44ddb7cc66a529107c3d05814f2a3afdb0a2c93dde3d4653e684e78794",
-    "type": "TMA",
-    "name": "VTPO_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "79e00f5293f2f7acb5adf688a898a9ea46fd9172ac0d5841f8e1aa597bf47c26cea583ec4d69ecfc6f25b92f139486c21566082e51501044695af6d4ff56b7fa",
-    "type": "ATZ",
-    "name": "VTPP_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "62c3168c28867a34c37484b0d09a74519f73f0bf649a2b1688ecf14c1ab491fc03bea5d4f0249402b52ae6cc8c29bd6301d86f5999162e10e96d749565bb2b89",
-    "type": "CTR",
-    "name": "VTPP_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "0e14385d07748936c17e7357703589eb62a396a979a2119ba6ecee43b7de34ed8d54382f0054ca9a7b808214960985480e3898329f9e708be8baa15ae1ad95f2",
-    "type": "TMA",
-    "name": "VTPP_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "01edb7ca937f09ddabd161fe894be6017c80644327d9461d0a2704cfc04396c7caf20a728eb4c71ede82801a5f92c7335e4808892dd2922bdab90bd7f9a16eed",
-    "type": "ATZ",
-    "name": "VTPT_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "f0641b13f4faecbab9ae6b1582a5d4816073d9ef92162d70b6649bc6ace06c8341cf0d53369dc0d32c8ab40051b64f4d1a5026eaa967d63812dba55dc2f120fa",
-    "type": "CTR",
-    "name": "VTPT_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "d2e73493d0df89a93c9419a3dac756b5f3e3a3e1c65457047cc579bf07e48271f2af42cd1306727dfcae9c419c2b7320b0c5273637a4750bd5006f355ccd1dd7",
-    "type": "TMA",
-    "name": "VTPT_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "922b3f740794e3616395153275f5f2cc1c0ed926d107599fc70de7f19481aa8d349364c5a53c8f6d7d8f1342f31b231081273b599f49f9569a82cc7a38465fa9",
-    "type": "CTR",
-    "name": "VTSB_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "ea2b6c9839dd9163eb92e9a207791f687333f9b589377cd0a1f40ca70c8a717a7c10b0f54b736059f017534fe36b590e32549621d4ab473eeccf0318eaf75e49",
-    "type": "TMA",
-    "name": "VTSB_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "29b5ea14fc9adcca99b6ed739108dd70f5264ccf7fa5d2a419965d85488f610c69a4e5fd5c4b5910a976a9054630f31374cb8324b58e42bfe28251923952fca5",
-    "type": "ATZ",
-    "name": "VTSB_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "aa8fda17c57ca1caea0c74a219509ad59ba7d561d8a1b953289e67ff41f0aa37113f018afbf450c92abd019b30deff5de1d61067a7373f3ace60d9b47ecddc24",
-    "type": "CTR",
-    "name": "VTSC_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "fb7024dc047ef868284f52521cd02f4f59cda3412f40aeae55d84334978b2e846dc4a2e22dd825417d11f2cc2e6f317d2505d25ec26ca384d865740feef8c111",
-    "type": "TMA",
-    "name": "VTSC_A_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "5d4fa1a62834f12456cf9fc60aa493badf6acc252284532220bb02246993de382b9c20796d988af665a4a683b3209acfb3a90004c9522ab36cf3757ff903740e",
-    "type": "TMA",
-    "name": "VTSC_B_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "50ac3e122efa64563f5920ea35f2456c6e9c26fe2cb5338958655d8d36e71ec93c1e86207b5c4629487303044a3054c196aab53bcb8bccd13b4a8ae914ddecc8",
-    "type": "TMA",
-    "name": "VTSC_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "29ff4957c4904fb2a93892be371de0e07d71bf6369c9cddd942bf036e451fed96a87d9bf125eaaa97153da6ebc4ee476aca5f52a3ec15a245fa526f3fcf71fb6",
-    "type": "ATZ",
-    "name": "VTSC_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "6460df84a58ddbd1d78030a1094065a5f546eebef1b1bd038fde973db755ab031daa6e92b032605e0b835186d8f3c496c94ebd169118c1f6e92857f98b772cc5",
-    "type": "TMA",
-    "name": "VTSE_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "f6e7ab16437e48245ec484f1e1a3b1a33558a0616b3bc5b903e9814386e2866651952a209fc2af400e659984fa168a0be7ea99afd53576664e579a1650a8fb9b",
-    "type": "ATZ",
-    "name": "VTSE_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "984f704753ddbea051c0a3fa7f2544e7abcb2e4863b752c5a9b36867e8b9f1ce4d4b2e7d7e4f1bd6886b029a8ff49b40a0b691c37adc41cdad2eaa94991f5f50",
-    "type": "CTR",
-    "name": "VTSE_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "9dc09817104969753f70efd7ad125aa9130fa55f614ae91dec9baecce23b89163697c605c07b91e746e4806650f09ecb97c73c41289b32ad801ecf53fe4485df",
-    "type": "ATZ",
-    "name": "VTSF_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "acc6981618ff8e37c61f96d730766d66cca970f9cbac0c41810413c3aef8724d322629e4a57a5004c9e14bc62682b9bae5bd4f15437f8ddcabbc589f0964e610",
-    "type": "CTR",
-    "name": "VTSF_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "8f94e36dcbfade4a8305adf0377d82e6868c9fd100989238eb55f5558f43f5a32eb9893d8b4762857e8a00ef43d138420145c4f56e26cb9d5f64b5837f0f4f9a",
-    "type": "TMA",
-    "name": "VTSF_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "7f1e912cbe4ea55dc201ad68236bd2f4563338c41a12d11f8138aca4680f3951c6ad40c2033a244efec73e74c125616198c2b39638988dd81879f55a7eea4d1e",
-    "type": "ATZ",
-    "name": "VTSG_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "9acc5136162507b41f58ed3b9555bf921fce36324813b40e29691a56ab1cb856f412e816c507f3dfe5baf472a34be4add2f11cf2494bf07d3de0839b2f40a014",
-    "type": "CTR",
-    "name": "VTSG_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "de797a11cec1414aaf42cfca814788ab461458b8bdc8a093f78d33aeaf4783a2bd006b912f19d4c93a32dffc284b891840ce370e47a8b3e17e2b6b7d7d3d5cd0",
-    "type": "TMA",
-    "name": "VTSG_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "95ab1672ec5c5af2b5eca6147ae74eba7201450b8499acec6a135e28d85427b8f0c67af0e6de672a9cc33e42fd1bd43b230694c618f199f83b9554dfb7b2ee6e",
-    "type": "ATZ",
-    "name": "VTSH_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "c6c3f5ec7ada1cc6fae9e714c02a796ec670c85830131604f432aa6752eebe3a09022e39200378c6ad8d7e18739528c46c981605e27ed135e51a3c16d6f62293",
-    "type": "CTR",
-    "name": "VTSK_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
     "digest": "f5b45666ad07baa0113e742a9f0d6a55fead007d9c473853d347e0301cf117f9a8cd2dc78a3b41ceadc4165bfee0b99f0485b50a5e80d4a646b5b85ca1897a17",
     "type": "TMA",
     "name": "VTSK_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "baaf46c4a1baedbe765d6dbbbf5164afb94df82d54203d8e85c0c370b2ca5620fa613fc77dd428d2a5ef74dcacd8b351361b378c67514139f8e6a5005b9a3cf7",
-    "type": "ATZ",
-    "name": "VTSK_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "2dd95d92d3cd44b16db1ff30f98d9105c892fd2fdc37ed74b7a60f24657af392d560e39cebdcf49509f67e7974efbe0acdabd7adf17777d8f0aad957877b038a",
-    "type": "CTR",
-    "name": "VTSM_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "a6e1850deef8653e92618fb242fb9b1c7dd587c19b61435d8b1a0aebfd13a2e7f71b1960c5f48d5140963af4ec1303510deb915e242f6d344ab99f2869effeb1",
-    "type": "TMA",
-    "name": "VTSM_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "7989a2c9758d515202ee6bf01d4e77eab804603e00545bde2dc5811e28449cf521b2e8a9968c71ce8a2795525c4aead89f3360cc4e5469bc25637ddef0311c4f",
-    "type": "ATZ",
-    "name": "VTSN_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "aea3f2138197d1ac7e68e00efd74d82041aa873a45ee31a1ca008879b63c3d50720c8112e8c2735ab2b08cce32a4523c49faed3f958cf8c872beefe29316c088",
-    "type": "ATZ",
-    "name": "VTSP_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "eca9b8c0225948d032bc8a2c3fc89786b7087d9feb322bec7ce40bb46a51079bb5f9add2519d6e4d822977bedf2b1e673d1f03b33d27fb6edef3b8e50c755919",
-    "type": "CTR",
-    "name": "VTSP_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "098948a98519cb9536f56c5b03299a4ed5212f1af47a77d9704bf67c02464adf292ae2bf3584f80c1ee503ade8a27cad70e94b9861d4673d5df21dcbde3ffd66",
-    "type": "TMA",
-    "name": "VTSP_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "eed4c69e2cc334f207d530dd1d8404876c1a56e0c3f12ed0e3e5904908ff8793f3e40719e79cf1b06129c772a71b1ea1de23fbb59da46226fedbb398083da77e",
-    "type": "CTR",
-    "name": "VTSR_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "14257f144144d4600240b975e6e79d71d0591a9d1efd9c4d9172548ce041fd69a3378114100ebfe7be784bd752e51ff23aa8eeca4594e21f74c1b578afd21469",
-    "type": "TMA",
-    "name": "VTSR_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "acc57e246fe35e5053b74a30bfda8be67878b69e776a0b225af56c000a9ff376964860dcaa6ce9000fe3cf4bee9ef41295e3ddd2f1231066aca639ca48e01d8e",
-    "type": "ATZ",
-    "name": "VTSR_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "a417ab0cb6ae3767670481080284964aca061778e336a32655902d6e2817c8bbc41debfdabf442d36a7681aa999d828b4404f7bbfda083a8178c3484f14329ef",
-    "type": "ATZ",
-    "name": "VTSS_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "6f0b7d8f29a1f0ccb8f8941c5f66ed3e63f60f6acaa376bc6199af6873eac185adfc37e7866df07edb5ab317046a4a16550fa4f8326beacbb1ee8546d427540e",
-    "type": "CTR",
-    "name": "VTSS_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "85fa9dbf74deae3372dd50dbad6af71a24406205cf6962dacdb169c722fc07a189689c940ae80b51d4c95a5a76b2390465683c9966423ffd625d1e0ae0a68a8a",
-    "type": "TMA",
-    "name": "VTSS_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "42460dc7e570fbe85bfdc59779901a78801b9b769552bba30ede5159889ca4300796193c326767bd8cecd6fdb3caf7bd0c52ee48650b4326b16d0d9451b547ca",
-    "type": "ATZ",
-    "name": "VTST_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "687758bcb8081a743a030e1d2e65eff0684784fad7e5c630df6f0480fa3c478887a37900fb18c4da9cd7b9f8f65c1b0869f8a30e9ba2f958115b5ec528944e59",
-    "type": "CTR",
-    "name": "VTST_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "43fc1fa508398e9fce3c42c14f00212a830b3ef86286483eb6dfdc9f9e3bdaa1c48fab429c58ede1c6785b1ed4719a755ba982e3bf87ce04128d684ccccfa851",
-    "type": "TMA",
-    "name": "VTST_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "9529e0f2c5de0a64b02338e58e6d8e8f97d6f3240c0444c6826607571667dca9c2c2d86bff4c58a9d7b6f5a3a4adec3b188e4a31984739a8c720de2208b94a3b",
-    "type": "ATZ",
-    "name": "VTUD_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "3dbd3a33cf1edacc420d78903fbce280f0dad21332b32f4a9932d9fea1ba56ff904c1ea5fa0bb6fd764746c89ae919a17934b603fe1f7b31cbba6e94174043d8",
-    "type": "CTR",
-    "name": "VTUD_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "aa70bea33894b81c1603fc8107b82357430ed17455b1968bc3177bf2ecd5b6b9422aa25f1580612e0fa5874b157be0a1146f778138ceb4f26e0d4a7757053aeb",
-    "type": "TMA",
-    "name": "VTUD_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "841c3a436f2bb04e0d17fdbb7dc033830c540357a0fe11ce99f2ea6fdea652e3455f5b24b15ec3115692eca0d895313810286ff934b33c9ec322e674c68261d5",
-    "type": "ATZ",
-    "name": "VTUI_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "615facfedc8b9369f15778fd3f53787197900248e90afc05ac9b650cbcd39339ff05d32d2bf7c10688d93eb926afbf2f047ec071454222a48c3bf0c129a7f798",
-    "type": "CTR",
-    "name": "VTUI_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "99a23cae813ecf07be88814805c324aa272ad58c7244b7653bd708f2f3a3290daa7380d53c86167586cb543e98e57f7f45573ffe94916034bf9909f792f84e2f",
-    "type": "TMA",
-    "name": "VTUI_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "dbb5bd43f0c152a35a31b82efbf252beb7288fa5c0eabf66dbc0b52c287aa7db4793d5714de7943ea21032c7c5d1368f3e3526550520c798031834ce42de3a67",
-    "type": "CTR",
-    "name": "VTUJ_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "5391383379053194d9acbff591610450b303bd440e819404305514ccb26b0acfadb38ec0cb1aad72ee9fb30ccba8c62b69ffebffd86889edea7d67921b447538",
-    "type": "TMA",
-    "name": "VTUJ_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "6f2cc0221f38b1da429aafd471948365a79015bb6421b8fc06cd8e98438da5db6b823e6165ba90316012ead991cb31bfc97e91014ea9e60e490e6305b26747b8",
-    "type": "ATZ",
-    "name": "VTUK_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "eb8d99e36101f380489d5a45e336ccbcd5a7f2e439e01cb8b31ec42f27fa3ae294814d454c447a50c79941bad3939a6886663851576bef7923fdaa9dfbdd459c",
-    "type": "CTR",
-    "name": "VTUK_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "849bbaf509032322b183108cb0fbaed50b25a880a836cb364aae8fc0be86c5c3492a119364e9099ba158cf53611e304e30b69b970936dfaab373c31742d8393b",
-    "type": "TMA",
-    "name": "VTUK_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "5c7419f6bcc39894aca42c8c2941387e3182a930a3c1ec3c7419baa09a1df488d884622886ee7eb62d7c0d48665837c4a4fc2e09241449f27a9ef30b71abe8f3",
-    "type": "ATZ",
-    "name": "VTUL_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "6eb2e26d41a5b31b3a774e331726de608055cb07ad9d1f66a1f2080c87ba800bc8dcadebdacaa54381245308bc8775a90894e3ec279e48b688438891f762a55e",
-    "type": "CTR",
-    "name": "VTUL_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "6e1e477a242b42a8775fc3df9f6fa7e36f504f197e4ce62a9a48d4cad58d6913cbeb54e0e615cceb4d5a4eed11806f71b94c4ed91f722e5baddf76b7f8948a33",
-    "type": "TMA",
-    "name": "VTUL_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "67abc40ce59f2b6bf8747f6ba5c71bf84ed5c501e25df86aa9ec7a28e880e8b9c69d5800ed569ba3d85af399bc070257efe35864806ccdb83eb7c221aeebc3ce",
-    "type": "ATZ",
-    "name": "VTUN_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "78f5e5cc3cc6546d314a2ddb88afcc2e74fed15f6379fce4d827890f56786368c807e7cd170d20329155035e1242a1abae258d7ac6df08fe70cab802252067de",
-    "type": "CTR",
-    "name": "VTUN_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "fed0d3e65964cde3a67cece3bc0c218ac409f1f2c34329c4b63d7c0735be225346ac7bc2e3715d52646dfdf8482fc29172b49a0dc68f0b4cee68d88d78adb32f",
-    "type": "ATZ",
-    "name": "VTUO_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "e28f206b931439ed7e1f195fee6c73dfe4b2cca006f7a8355805c9cb4476a62bac9cee1eae9a9fa10963d0e982220f149f5fe1c6e2882eed6368aa9df48bc6fc",
-    "type": "ATZ",
-    "name": "VTUQ_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "5277583bf615795293ceafadf483d560689fd063093bbfbb2eb40dfb75e6b765f5720f47bb63a10b29e4fc049f9567dd438beac67617db091b6d1433d81ba02f",
-    "type": "ATZ",
-    "name": "VTUU_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "5a8477585bb9e14e9dffcae5923562cc2f1d9cf476ba06ef002a0328d1ff0f896fbc2353b9fb79e182dfd0483208aa34a4bde82d8635d0174f242bf86dd1e917",
-    "type": "CTR",
-    "name": "VTUU_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "3a293feacbf5a5746586e11bc1e329af2f5dbec47c04e08cc0f3dea16efe326e1a37d7d285985c2c7322e443c1e482618a398e38c8a73bcd7a9f2b9a25c00479",
-    "type": "TMA",
-    "name": "VTUU_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "a5c1ada824c8db252835a88f9d51a90852a5e66acfc2c6c9385651aca232d74407e7e05bbf49a84efe3f366247ee721400210dd418bce4b553a86d1460f280d5",
-    "type": "ATZ",
-    "name": "VTUV_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "aabc6202e08e5b2d73b84e7e92cfa826ff729a84c3185a13082390b94c0850b584190687f2b714cbb9146a4c340acb70c63d827e60223f4cb1eb112b86ba2eea",
-    "type": "CTR",
-    "name": "VTUV_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "a62137c6a30ba03ab47659456ce7364a34cc8ddf61f538156b64118d37125cde85552dda4ab4bfb2613d7838832b59dbc767d59316f55238fafa494cf9050252",
-    "type": "TMA",
-    "name": "VTUV_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "1cce6c72f8e2693063b3fb2dcbb5db9316a6ae5a645bb810d8b4951e1f8e9dd20842c709df8f3ceba32abbc3078a4d693cd29e3d6877a4e66eb9a945cf846ccc",
-    "type": "ATZ",
-    "name": "VTUW_ATZ",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "34ad588d03db37dcedeb6f79431fe96e799d707c256c54c396448d53a85256c4041fe87d772bb7758df5b01aaa8e7a2535dba3be22954a71dfa99f0718cfb107",
-    "type": "CTR",
-    "name": "VTUW_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "e6fe55cd166a649973f11b9f68e0bfc18fea613986fc87fe7847b252dac14b8653776ca40d9542950b1c1e2f99e48babf5900912f99b6b747de715827974fb9c",
-    "type": "CTR",
-    "name": "VTSY_CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "14684ef25edc3a548d31fdff51f42cef9b2a2e0842f268230e1b21ac1fd349a8821c08d8835c683560ce732bb927ddb94ef04b650f9c07c379cf51642f7847b2",
-    "type": "R",
-    "name": "BANGKOK CITY",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "ea637b4bd84c3973549fc8a92880577a28c3eb17e6f2790cdabdaf46974aac316fcb485b1a3198e0ab85ec0d4b9a6f77eba17653a8eca2a7affffa557ee92b3c",
-    "type": "R",
-    "name": "KO HIN CHALAM, SATTAHIP",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "bef596f97c23557ae151ed695203ff027e96bcebbb01fc73af5e999f0f144f94be8ded764e6be58d0a76ae64ab12fe7884953e3a08aaba9f2df2ccbaab004a02",
-    "type": "R",
-    "name": "KO LUAM, PRACHUAP KHIRI KHAN",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "d9ca7192fa304357b29655ad87dfae96c8c1134609b0eb245988a3a65717876629df0bf17b82696ed42546547321e968a4451c0c670dc8026b0f626f193d04a0",
-    "type": "R",
-    "name": "KO SAMET, RAYONG",
     "use": false,
     "checked": true
   },
@@ -910,65 +35,9 @@
     "checked": true
   },
   {
-    "digest": "a68927c7e88e5e89c9b191887716151b9c6f48b3b1ae33bc7d57e663ce772e154ba2b79d29955ffd5a5e8fff4340cf696bf47b932dba36c5ddaaaf44b6b1a48d",
-    "type": "D",
-    "name": "KANCHANABURI",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "80129ffd98d40ac4919aa889fbf4a497dc91251100c7edff1bdae34d2d3f9abf2e7607834585ff55993eda3d7b4004414eaf52fd5f355c5c50b64fac7c7d3c0d",
-    "type": "D",
-    "name": "KANCHANABURI",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "c05613935f4bb780109fb50776d36187df296e4e7b31d69bd20a0b8379b60749d5a06c41a50f637a0aee37c85c491f177d0afa0baf139a5c3cd898e9a030478f",
-    "type": "D",
-    "name": "SUPHAN BURI",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "c3cfcbd4fa57ca8f12e1968bcc6853acc6ccb407c925fdab33c04abca5d08f268d0bc7cc0996d466494aa6a3b501e851a6a92e07ac2190650a75d52d65d001ff",
-    "type": "D",
-    "name": "SUPHAN BURI",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "9a6d16454e4431cb7663184207596f047ca9e3e9a94259306b8b767af8f0665eca9c5f805b3156a21c2954460ab7316698b21064f4b6d235d64bf20fc2276195",
-    "type": "D",
-    "name": "SUPHAN BURI",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "c3cfcbd4fa57ca8f12e1968bcc6853acc6ccb407c925fdab33c04abca5d08f268d0bc7cc0996d466494aa6a3b501e851a6a92e07ac2190650a75d52d65d001ff",
-    "type": "D",
-    "name": "SUPHAN BURI",
-    "use": false,
-    "checked": true
-  },
-  {
     "digest": "0d251cbfe9637640c39ee6089c4517f0cf1dfa959e6e922f3081edda136c86942b614a36ed00ab9e822fd477ced7399e6747deabb552f9b734ed24fe05fc6552",
     "type": "D",
     "name": "MAE KLONG",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "1beb20b1d420a795c72afd96d5ac69253460efc3e4bdc95a6b5e1a4ba88f7a78eea3bf5b6d1d04742643bff9b4160345f47cab179688bb96e8f75fbbf50586bb",
-    "type": "R",
-    "name": "CHITRLADA PALACE",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "3dc47e944749e0016d96c802c7901fc230385a94b0462cf51b2d97927632cb99691c10539f1eaf4936ef358da351392bdc91cea70200f98b99bf8e12654094b6",
-    "type": "D",
-    "name": "HUA HIN",
     "use": false,
     "checked": true
   },
@@ -1008,20 +77,6 @@
     "checked": true
   },
   {
-    "digest": "ce194f9025280000885dbe0c0e3e03e579eda906f61e372608a526c367e36e2c7fa2fb21de82e0709d7fabee187ec298d1022aae2802a936d75dec87d2994b83",
-    "type": "D",
-    "name": "KO CHANG, TRAT",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "337eb4b518ccd604881e7b128b611ebcabf2c587a6d1bdcf3e9eddf008466ec08d919cb96b2da4f68efd9fa09ea5f05e91164aee07e55bf326b3c6d7bef5b93f",
-    "type": "D",
-    "name": "KO TAO, CHUMPHON",
-    "use": false,
-    "checked": true
-  },
-  {
     "digest": "471ac0ceff5cce44c5547f1714354ca6622762e1774e2182b5d1ce0bf6704b5115a7e3573f9e88985c94a669730595163f31bff02b176a773e96de3e77972a7d",
     "type": "D",
     "name": "CHONG SAMAE SAN, SATTAHIP",
@@ -1039,20 +94,6 @@
     "digest": "b73694674ca624cafd93f7876d05f36fe65fd90e5e1c8c42ed52d9880144b5003df5a56ec9e0e8ab01eb5a3d2c66db611fd4501dd553bb58e4cc190aed3c579b",
     "type": "D",
     "name": "SATTAHIP",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "664e884f85aefd4ecf6798891c3b0710efcf9e21665ce6e7341704d9cd53491f25234f87a3e69d85c09a0c8b39d3435312bbd435e8c0c764bc4d85ecab164a73",
-    "type": "D",
-    "name": "HIN RAKIT, PATTANI",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "693c7080144d77ca2925557030aaaa5ce1ab537893083874989566d63c44607e7cc20763d9e4c7676c0ae751bfffa4117c2debe22adc821fc94d46809bbdf19c",
-    "type": "R",
-    "name": "HUA HIN PALACE",
     "use": false,
     "checked": true
   },
@@ -1078,13 +119,6 @@
     "checked": true
   },
   {
-    "digest": "66134affada621c4add7d78f33e7ea9221c629f1d794fdc47db3833d67edcb469d5e6c4e079c6e49e837ad098ca2bc70b70ca78a365a492b156f5282bac390a7",
-    "type": "D",
-    "name": "NAKHON RATCHASIMA",
-    "use": false,
-    "checked": true
-  },
-  {
     "digest": "1539a27490b724e9a2f5090d3fe9852db23b7426d4cc00b52a9d3e9a992b42c249af2b94ac8f67e1b5896a187e3978e11791f5f9dcf4c9d7405597845245655b",
     "type": "D",
     "name": "NAKHON SAWAN, CHAI NAT",
@@ -1099,37 +133,9 @@
     "checked": true
   },
   {
-    "digest": "c285520888e327af5ab42c7847490ca1490cf336732fe3da7c3a75825b5dd7a073679fc8635f4b71a3982f918ce540b5c40d7d080cac6c77c2c7ea058b589463",
-    "type": "D",
-    "name": "PHETCHABUN, PHICHIT",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "21333e9ffb2a3e34d675bce3de04ea649273ba1f7c8c71683175182859cae3e02ec098fd4fd8f75bae3375f25c956436eed1018f2ccaaf744a0f8df13107377d",
-    "type": "D",
-    "name": "PHETCHABUN, PHICHIT",
-    "use": false,
-    "checked": true
-  },
-  {
     "digest": "8d61c8933d8204f501bf7c551af5688db8b121a4fbbedc0b40e1c5ca723120e65861df8ef790c250ff49777ced4f48d24b6ba59267832a7bcaaa9638d0461d72",
     "type": "D",
     "name": "PRACHUAP KHIRI KHAN",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "013e453f2e0878ac8c2ddadf9da9f3dae1fd7973b58e65615ba44f443c8f767463df67658726ad3d7e051c458221f6c6ebc21b39474a7668cb5edff610414b44",
-    "type": "P",
-    "name": "KHAO SOIDAO TAI",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "737480460392b8801a082907a00e18e32542e08878e2ee7de9959f81fd8d7eb9d3a438c8d62f3a5c39d5fb03bb306507bb4af7aa66b96ca0a67d01e47f59c27c",
-    "type": "P",
-    "name": "KHAO KHLONG OA",
     "use": false,
     "checked": true
   },
@@ -1162,13 +168,6 @@
     "checked": true
   },
   {
-    "digest": "3b9596583071d0598a008542f6edac35b0b5bd45df1b2b331fdf2906931e240f931f37c72b34b3e3e1ed9eba427a7bba52e73343dd2df01ed6e4f5001b0c87bd",
-    "type": "D",
-    "name": "MAE RIM CHIANG MAI",
-    "use": false,
-    "checked": true
-  },
-  {
     "digest": "23d3e40e4f86dce698009a4cf02e2e9dae87292edac4e9daa1e3a87707655127eaefbdb6c1bd365f7122a0c269100d0aa28bea190c57ece341f0cf1e72a8e948",
     "type": "D",
     "name": "CHOM THONG, CHIANG MAI",
@@ -1197,13 +196,6 @@
     "checked": true
   },
   {
-    "digest": "9376b8d3f8dd04120b86b0db5b1437e34ffa32a8a4b799c8fc9a3ca80e178fbd8e137c7a780a558aefae9eec1eb63ef3374db46d0638158782f38bbad53aebc6",
-    "type": "D",
-    "name": "NAKHON RATCHASIMA",
-    "use": false,
-    "checked": true
-  },
-  {
     "digest": "0ff65070ab64008f0dbb30fc13926f0d79bd5ae557f02131db4c298915af19402518225c48a8e544144a90053ea4ded5ed66749333628c09a5268663d7b778f8",
     "type": "D",
     "name": "SAMUT SAKHON",
@@ -1219,27 +211,6 @@
   },
   {
     "digest": "9a2fedd201829c37c8fe6a987f2fcc766c8627cd2a3ba0c4567dd40fa65e998185334a96b501bc425bef4f92ebe418ba23b316c92006101b3bcc943eb839dbcc",
-    "type": "D",
-    "name": "SONGKHLA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "1cfeb68a9e3d629fea7b94b1ecef79eecde2c6f2b1ef236f916e1ce883d3ec30b2b2f2aa8bccf0b06a8dfabcb1d487619b26946eb9b01f81aa9c8e4d3735fc62",
-    "type": "R",
-    "name": "PHU PHING PALACE",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "55d3b25ec97858fc20f5a5b670054cefb5c5932c714efc713ec5cefcbdd3612a4f36be58be1da3eddad43450aab5f1628b193dcf144ecc9bc8c73741e35bb264",
-    "type": "D",
-    "name": "SONGKHLA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "55d3b25ec97858fc20f5a5b670054cefb5c5932c714efc713ec5cefcbdd3612a4f36be58be1da3eddad43450aab5f1628b193dcf144ecc9bc8c73741e35bb264",
     "type": "D",
     "name": "SONGKHLA",
     "use": false,
@@ -1267,62 +238,6 @@
     "checked": true
   },
   {
-    "digest": "9814499827b41a26305a4e250867c9eebefd75d819541d27b30b52244c1fee15dd7444f1692f85441f47485d7a5046e67bf5566407544b30b4e277017ca3cf12",
-    "type": "D",
-    "name": "UBON",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "969f1edfb422cb6ba0ac8cb1bb395ca133a2944ebce48dff089d5d3520da7c1f85fc2b330faa7c523c894661975a813f93f830addf6ef033bab11fbae13d7a40",
-    "type": "D",
-    "name": "UBON",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "817bc2e96de25d90320db7174f690c75297a50ab503fee09c17181fe4704c750aacf1ece34c4c16f50833dbd3b9d0ba009d7f12bb71568d9f080e622acff1d13",
-    "type": "D",
-    "name": "PHITSANULOK",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "ae0a6d3878296dcf714219eabc652c88767ef77c92f5abc182144d85bcf2cff35adc6112ccded1b344c4ac92dc439c0467767dcb8271e171767de95e38728cdd",
-    "type": "D",
-    "name": "PHITSANULOK",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "1ef2d83a073a28eb010165e8f9a7f9085d177e8deca5806c84cd298c62a5b0971a5f7e21c63c8b418b42dc2de15891e8a46f0f3434a9d66a5acb34b5d94c955a",
-    "type": "D",
-    "name": "SURAT THANI",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "b6f54a3dbe5559d975d435296f9a743eb63b7b1794e1e2a66eee70fa5f544dd004bf37f99d7196f3a7a9faa371ea308c05f7ad3be93a7bddd5d7e78304f6c037",
-    "type": "D",
-    "name": "SURAT THANI",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "063831f36e7e679725bdb679d75dc13fd80bb971489ed9fc2cf7ed579bc53982f3b19cc1391e086969b4e94ca12a99bc51071e7a8a32d670cc661f121caaec6e",
-    "type": "D",
-    "name": "SURAT THANI",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "d411fb3ff1e3ea22820f83def48fe770bd02c905c7a4d082984aad8c54e926284e5347f1679063c005d0a707f21d317e34cbc34005e2d7b443619ed5c448ecf9",
-    "type": "R",
-    "name": "THAK SIN PALACE",
-    "use": false,
-    "checked": true
-  },
-  {
     "digest": "0d356c8b2e472ec9fc89d1ea56a3b4c5f7594b3c4d3d749a94f958911173c818fad31f626c98fa49100061926b1c346793587a6c9cb8800d74c9d5a3568d41ce",
     "type": "D",
     "name": "SURAT THANI",
@@ -1333,27 +248,6 @@
     "digest": "38726432bbc9e5ad1ea1a357037655eeb747b3294bbe2f560ca25355fdc7e6f0e3da673a00d1d9b403b9967d7114861040f018748063a30466e04b6835e1d317",
     "type": "D",
     "name": "SURAT THANI",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "b316466496a7884e5907c10457fccf64a047335af90c03598fe8f801e70488aaa2982fd761ea9390850ee5dc3e824d0f8bf7a0375dc79f43e0b1e3ef58b29d23",
-    "type": "D",
-    "name": "SURAT THANI",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "e589ff943ab390d8a5090c2e4b12681e4d7310721cb146a9be5b5162a6766e6174aff9dcc27f06eecdeed8f9765f73b0c2d37dc6e6d85f806632edfe304fcb1f",
-    "type": "D",
-    "name": "UDON, LOEI",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "0bc18f2334f5254f099ad015bc2b48d36abd4ac57586e366be9f7de5d246854a31ada94b5f01bcdf15ad740e50a686b7f9f570a0cab06191d6d30e41a8af4ba8",
-    "type": "D",
-    "name": "UDON, LOEI",
     "use": false,
     "checked": true
   },
@@ -1372,20 +266,6 @@
     "checked": true
   },
   {
-    "digest": "5d925c74636fbb88097baba0deb034ffdbcf2dc421c9a85b1bbd13032681516680f81f478a01e40015d6128e227f500a97572fa20ad90c30b38fbb1896d3ed4f",
-    "type": "D",
-    "name": "NORTHEASTERN AREA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "24f70815a072ca0e98ea19a4224a4504f5f61fc9f6db048dcaa17a10e34e419f82c888d14a872750f7664907a0331d389a977a0087fb7b34cf12cdcb255f8950",
-    "type": "R",
-    "name": "PHU PHAN PALACE",
-    "use": false,
-    "checked": true
-  },
-  {
     "digest": "624fc896d467d72b31c9c3cc35e9a7fadd2be29c9d4f962d43df3f46c7038b5951b1d6f66eab8c6fe9036041135635cc74b1b9cdd58292d591c3543bfad3a1c9",
     "type": "D",
     "name": "KANCHANABURI",
@@ -1396,13 +276,6 @@
     "digest": "bcfdf55afba94509ca7127abccfb5c83815573ad9fcacd366e14e5072aff9cce849ae7480f53657e3e16c7fc295f64a696e122e1a5d3020344f7137ee7c1497b",
     "type": "R",
     "name": "NAM PHONG",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "281a7ee143ca2adbab5061242dd3f5b85d8cb74b4f0b5c2982459bf1775a5100c3d30241b6396454e21a208aff62ae39cb0a05aca6cdfb70d07665de12f6d251",
-    "type": "P",
-    "name": "SATTAHIP",
     "use": false,
     "checked": true
   },
@@ -1470,65 +343,9 @@
     "checked": true
   },
   {
-    "digest": "e960080e300ca448efa2fbd2b21976b889947a65a17643ec66a7705bb8bda2231f4c990bdd46ac467dd8864624eb2c6b414485d65dba0289f620095d4143490e",
-    "type": "D",
-    "name": "KHON KAEN/ROI-ET",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "37d6008967ac3bf757772ab3ceef9908ecfe0cc410f93c90797254f25bef49d3b4b5626ffef1a3cab911e6e59b41cf2a71719aeb9f7192a98e38b720a89aeb86",
-    "type": "R",
-    "name": "PHIMANMAS PALACE",
-    "use": false,
-    "checked": true
-  },
-  {
     "digest": "df24347dc087e5cc380a3ceed7c8455ea6d7dfec0907ff8c805a85e334d3fd7d774a9981a460d0eb24f407138a7301418c3e0eefbde0069a183bb32d2b7db1cb",
     "type": "R",
     "name": "KAMPHAENG SAEN JETTISON",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "908a94a76dfc1ec5f9a1fe04f05f4b36ba028c5417b8ed3e38325170a0fe248834c65ea79875989c89c37168ce1ec31cf32eb4e777b5dd6eb39106dcc9b28161",
-    "type": "R",
-    "name": "SRAPATHUM PALACE",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "c5119737c1a404e72cea0a4af3e5e49e87d24724e35fd172b787c48192691dea1f10db9b34a6b1d084c20c392e614c78e81964bc855863aab5d20ab159383492",
-    "type": "R",
-    "name": "JAKRIBONGKOT PALACE",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "ed7b47719825cbbfd32cec5f800305cad7956d86c3f01c4e8b1e2bdefa440263dbc56a98e5112ad9bb18593bce2c04104c4530acb11b266c0a62948017877293",
-    "type": "R",
-    "name": "AMPHORN ROYAL PALACE",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "b2a46f116ffb0dedb4c8ca22b905e1dd17380d617fb9b01b0afeaba39ceeb31009a167671263b2210e159c51cb56f48dab8327d94ac65f7f64829ed7856dd972",
-    "type": "R",
-    "name": "SUKHOTHAI PALACE",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "28d36f4da9aa612b47ca332ffca4ae5cebc9a194074724e204b95e934ef5933b5026cd6c17d7a425a5a97438659a9dcdb9d02eb5e0cc23846982ad42b58b9ddb",
-    "type": "R",
-    "name": "TIPPIMARN PALACE",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "932ba2462fafe08c7e2714353ca85c9a8591fee51c69c484b126fdf41a6a8246fa10b10adb7410d966533b1f227db38b1f4000696974c018e2f59ee3308de8a7",
-    "type": "D",
-    "name": "GAS SEPARATION PLANT",
     "use": false,
     "checked": true
   },
@@ -1540,16 +357,1311 @@
     "checked": true
   },
   {
-    "digest": "206b0dec70b5899016b97a7dcfb30a233a4197d4c4be49c3dcc5bb666f9f036e71c4f7f0de8ad51c2378caca9e797de657005f8a48a69a9d16aaf108928a0080",
+    "digest": "e9afd8da1896026ad338c5322a7d7c9d50f8c1733769724868b6edc5312ccf87b7d7d13768b53d3522b9ff8d145031b2ad1e88c3b4278babad9d8e26b5fe1eff",
+    "type": "",
+    "name": "ALFA CONTROL AREA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "36b9a3ea6bbe5bdb0074c9df86a97acff49d40674d976bab37c7c586c99e5754eac08b48035a6be137a1484f15232af8d0c3e40ca52453a23bde754efe8cd9d5",
+    "type": "",
+    "name": "ALFA CONTROL AREA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "2f603435c82fccf6bf00c3209479a309a9e2073e126ea14b370f12afb58a13ce40009f9465dc22241f425b50f8f2925beb5966d1f4ea593dd5b2d8c69e29b70e",
+    "type": "",
+    "name": "BANGKOK CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "bec547a8975035143e2880af54d6998f9e19d4de5eeb7d4ccb4d4c5dd621eb2f71a33f67a5aba763dd3307bb20feaa6366b32513ca97a6cf13c249f18bb29dda",
+    "type": "",
+    "name": "BANGKOK TMA EAST",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "94cc8aabc76e0529304d9d5d7354f54009fca7437cdb9ad3f702bc301c79d062f5c63d3cdce3c539b0b6f83081262e0020ba9ed1f5858dcfcc1723b4355db211",
+    "type": "",
+    "name": "BANGKOK TMA SOUTH",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "769b8acaf7b4bbf44fa16c21fafacb1ca00dab32e31a8b6bdba46dec657e7f3a616361cd1f800e98fd451c84c608f5de2a7b6af1cba48662a76b92b01d5c5192",
+    "type": "",
+    "name": "BANGKOK TMA WEST",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "4feca9977bb8076dd60e2052e3f2a7d9b9ec44f1a98b77c074a75fa071877190d0c8a0e282938805fe3a5d05c613ec7ece8ad68ef0b2d5ec7e95551f177676da",
+    "type": "",
+    "name": "BANGKOK TMA NORTH",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "b8c7e839dbe8fd0fbc12ac606efc7fb6a7c3ac8ddb89ce87a96c94a84cd9b4a20d5150ddfa698c1e3bf3ec0ef2e34039c42ddd1a69e17a32a72525a77d4a2da2",
+    "type": "",
+    "name": "BANGKOK TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "731621aa12a2d102b4f558c616b42fda1bf60d92ddcc050095b63abd642489e721e1d11309f9670601261aa98cbbe6b7a99de30229f7fb8f50795b463eee933c",
+    "type": "",
+    "name": "KAMPHAENG SAEN",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "da0af292ba2816caadd68ab51e95209f184c0f943149338638fafa91e11bb0dbf8eb9a24639deb994de6ae7f033def946a48da9e59751b83a02bf66af32f4773",
+    "type": "",
+    "name": "KAMPHAENG SAEN CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "9b8ab996a4fbfcca84b76d30d159c9830e60d5dcc49b717a07f303f89090c49b282ea24e774e2d58ad6c566bbc9fd0033e19df56347c0dbb887449fe1a411984",
+    "type": "",
+    "name": "TRAT CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "a90335723adfa58457bfba9411d8376eb7fe2092665cef2b94210d4b26159fb23e4c14c5516dfabfeb6dbd25aa81aa838489db99c61889ee5e47ca868d136a1d",
+    "type": "",
+    "name": "TRAT TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "349171acc653d931611110bb526b5f4c8f406cba96aa5f573fedbd36c1e59076eb5efb7ed48a2f5c7f020ef895d6b328e0eb9f169f2badb6f2859ce675732f5c",
+    "type": "",
+    "name": "PRACHUAP KHIRI KHAN",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "a3d7b8372ae46ff2470727da14991d678d55846562622d8368b13747bebd95df5b08e0bd0086e3c2f3bc6f65d2e59bbd197f9857283e210313b303a050d78d6e",
+    "type": "",
+    "name": "U-TAPAO TMA (TCA)",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "aa22b3534c629989142fa69d1d4a4cc9544519f6c6c564a1a3e170672c6dea577c569b4d811e8a812c2e7709c6f679c7804b30fcea944dd8c33975659a02810f",
+    "type": "",
+    "name": "U-TAPAO TMA (TCA)",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "7918a11b73626545cb5009f6cc0ee480e9396b6494f78d3269b934ff75dd83661043191f47cad715c64f3b6c027dce241eb9bb1bc64fbbde5f7aa6ec3390fbdd",
+    "type": "",
+    "name": "U-TAPAO TMA (TCA)",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "a1736f2f6b3bf4b7eee48d3387f5ac1315f973a94519f827bd76c42dba7d4e5cb6c42f0cd64df44f5c6fd3d400aea09dd056f9a2f0344cd724c40adffe399fb4",
+    "type": "",
+    "name": "U-TAPAO TMA (TCA)",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "a9d045b79549fe7ce8fdae05fa7095a9382a751c00813aaf288749c084f4baadb18f412aed6b5d8d29730a98921e4d5103217a589de748ffc14eebdea1d59f85",
+    "type": "",
+    "name": "U-TAPAO TMA (TCA)",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "0aef0d7242b62df50fddb2b52c58547cb807444e69542795200158d179bf55d036aafbcdff6ef21753582fd4d87aa1cc86876892557c6afadcf5b07504f759f7",
+    "type": "",
+    "name": "U-TAPAO (TCA)",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "44f0599dc701ac7adccbdbb12bfebe327d7d97143a96261db94c33b4dcb0465028844d688364f30e52ad7e0e542bcea9ffe93c941bc313281cd8c8c1eb1ed761",
+    "type": "",
+    "name": "U-TAPAO",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "9688126984670332b9915cc91a8ac7ec4079ee535f7215d15d75c9bfac4751842a9d0f633736d5400f94bbc315328f54af8dc788c81d9b9fe3757b0bb14a8847",
+    "type": "",
+    "name": "U-TAPAO CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "2d07bd7f3be6059cec01daaea567f9198fe1d7d764b48cbc60680a1cf6cf43e92b69346bb142d72d035c24f2654673f71387b9457ca0d231f3d05af09b330744",
+    "type": "",
+    "name": "WATTHANA NAKHON CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "cfb8cdb1485c53f447d115db45ef309ffa1856e701798884bd505f0ef7f6083f4b9b1a69ea81cb2f8994b54031a5af95b374f7830c7659ff26c439978d40c016",
+    "type": "",
+    "name": "CHIANG MAI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "5ae91228e2ca553c294f7fab22bde9fd979cd0580d3bf1c5d86431137db87f7c17e748b65113b424e84559c54348d76f03f4e84de3e4643961741b618f9674ef",
+    "type": "",
+    "name": "CHIANG MAI CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "2f5f074594e747331a7c951768a0117d85b707a1b542850acc6927dc86ff1da79dfd369deb6935da133a83a1661cbef0d0fdc148e6ac5abf9691991992b72d3f",
+    "type": "",
+    "name": "CHIANG MAI TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "10069d232ba345101dd4e9b7561ce3bb2f5c57ac58198017908a03fe9231b756bdbf969c8d9cfcf0a7bc785ab07cb865ba4b9617c0a7e425329030bdaeee5329",
+    "type": "",
+    "name": "MAE HONG SON",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "08018216f50335d969fcbc45021c7d01a899577a253a5b8b2763f5839b07e08ef045f28d7f341a3785c2ff0d79a360550fa5c97537a27248f105e47d104e50ba",
+    "type": "",
+    "name": "MAE HONG SON CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "e6eb96b64856fa8729a95b8dde4da5e114faebcb5e781567471021d2e37fc7f9acd8dae4db864e9675a96df385f2668f2f854770fc8b5dd7730eeb03db8466a7",
+    "type": "",
+    "name": "MAE HONG SON TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "2e686330df4d5cd9c3c0116f7a21050b113dee681b9c8c2107a09cabd2699df652ba65a815431fd2d9752f66d43e58e4c6bf1aa55106a02217e6570d49e8fc38",
+    "type": "",
+    "name": "LAMPANG CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "18de76c95b70778622267462c53c58a84d66cbeeb1ab60195e514cd666065ab96b634aefbc66a065fe152e4f04e29f93e84977ec1d8008c6e8222a1b119d2b0a",
+    "type": "",
+    "name": "LAMPANG TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "e0815074cc78c5ff75e3688772a4cad0aba95deac132772bf22da44d7d6938b1d09ea2d339261cb25e9c24f4896bc3ca9f3484ef44098d35825e5e99ba75dddf",
+    "type": "",
+    "name": "LAMPANG",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "f5ee98513e98b5efc62dca428d0bec47b3d2afe7615377bff6383eab7a2a9563462895ccaa4da3e8ca835fd1c37eb2a5df3fad64371768481cd8121ea2a2f77e",
+    "type": "",
+    "name": "NAN",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "df1942565a14bb0f51b98f05ce082ecbe4f033060e1ac4c363025cac693127ea43897c6539fa6c6014f292f15d7f3eda9fa7c03818ed6cc9c891c3a8eb6f9235",
+    "type": "",
+    "name": "NAN CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "be2eb4774179c8f5fa7b0057a4538f59f34c0798b1458fa13bdec9f98972209f8061468978230ca3b0a33e68bb6f662658c11f7d168dc4047f3535ba0e89f40a",
+    "type": "",
+    "name": "NAN TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "cd9a242d7737eb4125b9338a878f189586fc5b1299859575e88db45dff05ebfa0fe7721ca7a30e3df7f4b49bd7dff6ff6d933a523b2f9dabf4abc5a64109ada0",
+    "type": "",
+    "name": "PHRAE",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "27578386cf26941d51a6980f29d5e4b68cbe88341d134a4f12fcf9f6fe1bac18334aec4bfdbdde98cef50f3176c316a11d60283808eb58e1e3d148ccd818bfd2",
+    "type": "",
+    "name": "PHRAE CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "c1428262ce72453773b9ef9d63f1ede92920aba5ca255e458009eba3ec6fc1c0e26ed5ce23aa671d7538f67b8be8821ae3c3cfc95c60413ff5989c67b074b363",
+    "type": "",
+    "name": "PHRAE TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "63acc36c12cb7c31056c214476374992f1b8ccb8f41c50917d9185a63b4773c92c01d1d840becfce91206f35db73e162596f18f42c07e42862680de28e588e42",
+    "type": "",
+    "name": "CHIANG RAI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "e86225446ebed8724a8be2cdb6fcb213c147f697f451d16eb38c82ca9ea8e03b54c60a8c551c49d222ddf0f23759c5ce3da4d1e89e793eca9470393164f6fa8d",
+    "type": "",
+    "name": "CHIANG RAI CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "d102838a32eed0eb0505099e4a5ef1989f23fef4fa5456a627709e961c408806e8936e0eb4643304df8f71ade671360345b53d31b172da59b2e17adbc432c962",
+    "type": "",
+    "name": "CHIANG RAI TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "0a96204551617641a965a1a1b78764f5d4063fb46f2bd8e046e824c98b8bf7bd057fe070f60cf8c90abdbbb58523504cd828204c21f8f414d4a7b65edba91fe4",
+    "type": "",
+    "name": "PHETCHABUN",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "5fac258c138b7bde09eeaaa360f5eb9cec97d03ae0b25ea52b2f0e9ac3cdccc7c3303f7b3ba8b11b92033fd918563bb621c9a20c5ca30d44b113144b23f2c853",
+    "type": "",
+    "name": "PHETCHABUN CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "cfc2ebf5a8aa4288215cdb19463eb9a416aad27e45294eec3f18b052de5399a9549599a665a4297e4027f3bb5fc36903f72d4dcfa4aebebb98bf1f3a65f88cc7",
+    "type": "",
+    "name": "PHETCHABUN TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "9144bc5af26f37427e9a7cc33558cad71a0ae30083b2546c5e41459250797e4a682213a92905d193cb334bff033c15671ef2ac83badacb09c02b7b65026d6f4f",
+    "type": "",
+    "name": "HUA HIN",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "d77f70be1387dc5ef6b6627b81aba11eb2dd10431df6dc903d494a0e398c1579dfa72bf40cf980e3ab9046828581cb0bcc03565bdd98c775f52d6f0cce47d565",
+    "type": "",
+    "name": "HUA HIN CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "f7948bdb23ab30102d757c34423cc20b35ac6c48e7676149ee2841e996439d3d75f24207bad3ff2ae353a8b5a06aea77ef8df2664640e0a2dc671ad010653185",
+    "type": "",
+    "name": "HUA HIN TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "d73bdbea4714425f5b748c0a09ec490746c9507ea21d99d44028db9741da890ff005476d0a25726ac07e3adb1ae068071bfdc83d4a4da17a78a3c1a14fd90bdb",
+    "type": "",
+    "name": "TAKHLI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "e806e4bebff4bd363a1f28681de46696d7aa16a628ba0a411ac8779e9f898ca293294fd263bb6e93b51a0f656d1cbb8cebc7d3213e3bde4356989fc9a5e6615f",
+    "type": "",
+    "name": "TAKHLI CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "0c2e00951a5424bd80b5e7629cc689208796d43e13214c4e9ab8429c29ad858f47a880ae068f2dc0f8f8ecac1bcb9cc11ed49e1126829ae7ffe5db1976cd1bbb",
+    "type": "",
+    "name": "MAE SOT AERO",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "428facbd63bc7eb947e480035cf3638d7b32bf883c4c9fe19f67522109e8c5296d305bbe48d847807cde6ca2b37fb9920909bc12f5cc754e69268174214ca62f",
+    "type": "",
+    "name": "MAE SOT CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "d21d7b35362fc31a92a3955b95c5060f5a49fc73cb5b64f57f5a4a005d7492b9316afeba923c2a822eb962d3963ff04bfc071c2becfc8ce6be71127012ad273d",
+    "type": "",
+    "name": "MAE SOT TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "e975b66f7d35af2dcfab0b679638bab559267abb36d45d9eb3476245e1cf46eb3e441064827aa6ec57bccf124896141dd3bae74494069994076d14f56f1c9236",
+    "type": "",
+    "name": "SUKHOTHAI CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "df28a0d8593bd3dc1d71930c27bb45f8d288532f0e360009882aec0ea46b095a365cbcb2c7a2d727f50cff4e51dbee67c4556a0b62fcc63ecce14031de77d7a8",
+    "type": "",
+    "name": "SUKHOTHAI TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "1f4437bb6da5a0febdbfb476efceb211684409fb982b957963179fe09e4f699ab704dc0a725c8a1b5e30837525b7d241acc022fb8e1993954d38b51375b650a5",
+    "type": "",
+    "name": "PHITSANULOK",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "c9609390f6d6dd6520a4661ffa56e44b9fc9745043528014c1b34e4cd605be7b504d4f24482166e1c95f486644d61023b48f6e784c832315eac83a64376b719d",
+    "type": "",
+    "name": "PHITSANULOK CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "0811e7053e1428d7795addf5f4f07e9ff2a6a90d812cdbc0997c6334c299e7b151087a051b925d9ea9716f6f517ac760ef201f2aaee8ee46d80f55c86fd1ecf1",
+    "type": "",
+    "name": "PHITSANULOK TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "8349c8794316e96afb8dc84ed416d01014a0fa63eaa231098d5bed9fc3869a676b7e4ed7ce4ad43faf7c26209c0220974b05741f13acb4c4b49784e05acdf7a4",
+    "type": "",
+    "name": "TAK",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "882e546f7aa7a51cdcb11ba29492319f8eb42c909451217befa22ef2abf23c420ac8056ff4ba14c13a5d3f0ec6050e76ddd045129d827723d324f629e48ae994",
+    "type": "",
+    "name": "TAK CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "39992741c0118e7c0f9cad21594ec12c89acf503a811888b3dafb9d065ac1cd3ca2324470847dac028f8506f10e1ba6510d3099f292aec7049c8e64e62f5fda0",
+    "type": "",
+    "name": "TAK TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "5d0105fb86cc0f07fb6f8a60c00dd4ddb437e3bd130d5c712cba1e785e4b3d4c7e87098badc92f5696e0eae155eb7d304a5947ed35a09b7a7a3b65b88047c63e",
+    "type": "",
+    "name": "SURAT THANI CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "5058d3aacc9e8073dfde885f4e486c0fb20eab2d9e70c490f6d4444dd711df1035f63fdfedce3eab4f306cec0ec30ef98186c199c6b386fafb2b0081573927bc",
+    "type": "",
+    "name": "SURAT THANI TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "e8c9c4339b6b312c7e5357bf2432133311e2c9cb713d0c77940a00a0ef494181d0f442fe4057c5d64f6876487a8e8a8583fb1a33b2cdca3c42cf5a1d6e14197e",
+    "type": "",
+    "name": "SURAT THANI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "91343cc08caf50b128e5c73832114d2f893804efab57e94ee2a6219e692053eff07f8f4a3f6a4ac6c501f4c5a5ca4944a9e6b040caf7381e224b2d6b5ef0955a",
+    "type": "",
+    "name": "NARATHIWAT",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "3790939a94d236aa7c29061128c5bdce8b9acf356455f8e1def6bdb9577d78a18f13f6d98ca86338f79b8ddb19502f82b285802c6c15305bdba7c43d0070810e",
+    "type": "",
+    "name": "NARATHIWAT CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "e066ee521722e77d42b57230a13f4aebbc5bbd6b5359038b64d34e3c030ebb2cc60d038d319d5b767d1433d1dd1406349b873510b5ecc29d1366346537e21cf3",
+    "type": "",
+    "name": "NARATHIWAT TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "c2cbd03c3d8e6f5dfc3d1aefa2aae1f7b19a0e139b8dfe4d471a79108fc5081dce53a402c95e748c707826928d35e42ac18302a291743d53823f42b47f4747b8",
+    "type": "",
+    "name": "NARATHIWAT TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "f370128306a617b993edfafba4bc2fb8c4218dd307baea520ced4f103b9e8ee8cd8ce196c0cc040998f6f5829360eb2cf593e6d4538520ebf687871584008751",
+    "type": "",
+    "name": "NARATHIWAT TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "60e8455573072f61fd1870bd995b2e01d07b944bbc3112bedbd7110fe95b06484ae6d40e1a0cf89027740bc6184e670dbecab1c4671be0093df3216a3a603698",
+    "type": "",
+    "name": "CHUMPHON TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "501e4533d6b5bba3acd8de8df05c2c325dc9a7f4e36f0cbb3920c31cefaff042fa3e233e358d987bc2c6216f09d3473417476071651f25f0978187701bff39bb",
+    "type": "",
+    "name": "CHUMPHON",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "e29ff825708974d2763fb6c19febae8f3c277f5d126cab390736c0aa319d25159b8d08a618d012e110ba3f4f691b8232e31408532af79e1d922c54ab1d32b7e4",
+    "type": "",
+    "name": "CHUMPHON CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "ecf581add86693b5834e58c5888a186e720cf9adc33988fc54fcda2902034a36fb7935af8c694d0593353319b4721a095a9c81fa23afdc5ad766bf7126097612",
+    "type": "",
+    "name": "NAKHON SI THAMMARAT",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "2603d57ac4db9147ded30da849f213f9d6ba85ed37a5bedcc8447f79c156731c3cfdbd510373eb3d8eba7160e4d89d360f0c97296b1cd629c2d935502d65b0ab",
+    "type": "",
+    "name": "NAKHON SI THAMMARAT CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "bb1711f26df7b8acf0f89cc0a34475c098fb4a49ecd05e92a3767d2dc4c1f0213fd7e9910efe88aacad83210091704e6b28d51fdc4e46c5bb4086f2662f856dc",
+    "type": "",
+    "name": "NAKHON SI THAMMARAT TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "120d202524852226c2622b7e752c2eea7b67779d30535c3e4e37185d1d324911f973b5973748d0fedf1e8cab2ceace8ce932aa0e24ffce9a6d795e825f52c6fa",
+    "type": "",
+    "name": "KRABI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "7a989e3ea0f29479aff606ddbc69f44521b1f55cae1faeb0b84b32cb43f2b1f665f33d88a5bd237baad1c18413763cfbd4551fa6edbfab882b0a9a31488af99c",
+    "type": "",
+    "name": "KRABI CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "454d80a6ff19be4cf2f65e00571720f3b1f593fab8148776cc878644cf2a42f37fe0626c6934f10d2e7c32ae6297b1c4360c32671e1a719fa167cdba969157b9",
+    "type": "",
+    "name": "KRABI TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "365aaf272f6ce15b83887f20c31a3dae29ab8462a172ca54126328682b21d944e4b54435c1ea03e9444143a7add19c0c7fa6f93adaefe80bcd1d564e7d6250d3",
+    "type": "",
+    "name": "SONGKHLA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "c0f50c313c1de64589ef351634f89f189febbfb2adf2cff1732b8b8d309fed2d827719959c19641cd926afbc7aa445a6ff8aa00a903d82ea16fe54a88903cc50",
+    "type": "",
+    "name": "PATTANI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "9661ce989bb0657ba1498e684feab07be99e8df24afe6beb225303c5428b5bf58b19d09237df18cb5cf74fbe98db6af730282268191f4034267add10b2714acb",
+    "type": "",
+    "name": "PATTANI CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "e431e68a8d3b742d4614384036961716aa6a8115db5e5f3de821166452d7a65e6d8a94814f25b1b154a1603387492873803c89865d119b89d57c41eaa0563956",
+    "type": "",
+    "name": "SAMUI CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "0020189c77debefe1e83c6c64dd8f52ccce996932b6761f3977fb3b7936d9d45434f8bb24b3155dc26e0942a80ec7559aa8060e56cae9132baf96d35bfa87db2",
+    "type": "",
+    "name": "SAMUI TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "17ec860b57a3aa456b16d243dcaca26811b14d6c516b02811e56eab7c051d281400f87ebe3097c080d499fa1b09852959f8bd27ebdb8a80dd7bd6337d1480a83",
+    "type": "",
+    "name": "NAKHON SI THAMMARAT",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "b93ac64f8d15fd1a48260f0efc55a145df641d27845a07f296f1b030f4f2b47e8b4e1387b03226a379f78af20cd722490ce09bdf0e0a7588d6afbdec9dd792fd",
+    "type": "",
+    "name": "PHUKET INTL",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "0e5d4cd79659052ad31198595f842c82db6ad2bbd7c416bd1eed2f80909bca056c2473804db2ccf5622b69b14784edd7e5089e403d8666d6eed03ab1bf1be10d",
+    "type": "",
+    "name": "PHUKET CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "3f18f7c3e388150ef4222ce2a7657c6c30e9f09487a2b6800c7dee0f4c94c3d705b0afbb282a54799a920a8379ba6d4896aac9329f07b7292f26cc593d0ff60d",
+    "type": "",
+    "name": "PHUKET TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "6efd4a1fd22c5ec4edd56988cb246a074e2b73633942a7124ccaef3dc0c312c22ee0863f50a4180ab92e72e1582022d87f083a801a788e8e0ca0b5d28005192d",
+    "type": "",
+    "name": "RANONG CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "0f6bc1624a4a04b550483a92a2d8870230851d2851c38473d4774694043bbca85f7de32e2354546be9ea4bde4135d3f00424c657aa9ca91c2d8dda19212c536c",
+    "type": "",
+    "name": "RANONG TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "128822c884ebd82f746b665f51901122677e09ac116e10d3c8a9166539f8c7af8bdb9cbaaed943c628ac12bb30735a5fc7b999fe904e93a0b794170dd23ead6a",
+    "type": "",
+    "name": "RANONG",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "22c40f3f9c696d25f97172ec6fcf3718c320f40011832c7b48d7fa055e43ca51ff857239a16af7ee11695926262809a813440b6d1ef4d890b1530263f6299fdd",
+    "type": "",
+    "name": "HAT YAI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "8993a36cf67962c2b55c0f213808bb9d801eb40e1ac95b5ee78523bca2ea5bd1c607aa98b9349b87f213ba6f562548e0ca001daccc416585302d93c48927de21",
+    "type": "",
+    "name": "HAT YAI CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "e1b34805f9b59c0adf094499de3a48a24a2926c8308fc469d33ea38232cd8986a5fdc925624e18cd1e4c4e5dbeac2e9cba8fefe5c85a611bef74d2d825409c9d",
+    "type": "",
+    "name": "HAT YAI TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "681838403f314c9fa70302508b70ed88fd4e14f5cf52232ce47e23eea4fd27b945a3979193b03139a77428e7a35e9b37c8414bf7f69877593b6d6fa8c13365bd",
+    "type": "",
+    "name": "TRANG",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "485e136c9d3a01a6ba2a9175a46c45866b554e62ddccaedaa1c2c36f5af1ca3907d1e901e4a12179d725119468da907643cbf6822d648ac553e3c0c123950468",
+    "type": "",
+    "name": "TRANG CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "74cdb6d7ff5b4845d2cd78f801b910a713360f7fe838599684f722d98a3619341b8a271ebd75e8454cadc902b7133fbf564645d8fccded62a36fc9cae90336ed",
+    "type": "",
+    "name": "TRANG TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "f62ddecf1509a0ec13079fdc4b9a6994f9f24f5cae429de1126025d50a8dc36d0845b8a0840240f28e82c37ae4a2a2345cc7f2a7b5c1d5ccc22c88676ecb10f7",
+    "type": "",
+    "name": "BETONG CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "462774e6d46a91dd880bed25766c5f8ad03d89e95c65acb48de3d38e458c10e4a69604f5cfd8cd0e7156cb16d207821c3a271d7001851e266942faeb661ec417",
+    "type": "",
+    "name": "UDON THANI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "53a79ff861ddbc6c7ca79a13963715f5b5ecfe4a7b5f1dfb472b45608cadaa22f73bc1375a555c797055016a7e2bc45a5d76cd78225e6301aef6338956d53a48",
+    "type": "",
+    "name": "UDON CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "411d8d016e9c55d17d5b3965614f6c5c77eb90c46aab4e22992c170c375e6718e4f4d9f50d25868ade8997fab47cf563d2ab73642644a236324cee7126f32e6c",
+    "type": "",
+    "name": "UDON TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "89a8e582d98aedd5bdf0b8020a07cdbc3019eb2576e6164c7c18b6859d003340c5133469ac0d0e77df0adddbbaf6eac10a5974722ce78800d5c7f63c24d8c97d",
+    "type": "",
+    "name": "SAKON NAKHON",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "6648b0e45c555ec3c62821dc39c439e4490ca9beb9f57228bb5fe9bd317712181f5b7f67e06778bbcb70f001e6652ab4266e9d9d536f8ab3a61ce5a896f5e87a",
+    "type": "",
+    "name": "SAKON NAKHON CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "00a785fe52a650a01fe38893409e98575378465775b0cfe52aa70fe357006bee1acfeb20c87831d6311138acd4b1b5c1420c4d2b727542e4828e2993ec609d54",
+    "type": "",
+    "name": "SAKON NAKHON TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "78ea4489095c7e1c7ac24d02681684958ea7a9109c71ed303f89da8f74c7208259f5b34d504a7803bbb345720863271bf76c488a0b475e2c1e067e7fb5765b05",
+    "type": "",
+    "name": "KHON KAEN",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "9a3d8ab2641102ae3c8df9424694d56bea35ab512fe5aa78410068a2f71fa9666a9cfb83014f7bdb7067bdb3860d3c5cb2bc89a1b652b53d5e4c45f454a8de87",
+    "type": "",
+    "name": "KHON KAEN CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "6942065bdcbb7a7d40c90ac226d0fabaab8ea7823edec0e8edb09b6b13727b05bfab155de2320a4a2117f953f835992c4b7a6539d7b64b7de46c28ccc021b9f9",
+    "type": "",
+    "name": "KHON KAEN TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "54b06a75f4006edcfbbc83f518b68988b479d3dfa6d72bd6add6f48885c7c94657c181739f84b57197581a668c97bd844c077d71e9aa7b86254d2628071ca63d",
+    "type": "",
+    "name": "LOEI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "b3d9502ac5612e69dbe50a273a224206299cb51eb84e96def1f47506c58a64b02100749b5e5d1a2436be9df0f529cb7b836bd3044683cab7d1dcd768dba5af89",
+    "type": "",
+    "name": "LOEI CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "160aae3a9051001577e34b062f27056cb3f628e3d438a79543a250590278fa62e2bbb89744f1900423e17fd3fd64fdf9af4cad847046098f9a784876c342b8ff",
+    "type": "",
+    "name": "LOEI TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "e0bdfa6e6e9acdbe772e928ffbabdb1117fd1e93c0c24e6cc3b027e57fd947bf89ecbc936b0acf98134c440d3e9275bfcec085392a8d1214d993568e6f40deab",
+    "type": "",
+    "name": "KHORAT",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "cfa7149d069db6b25b5ca2f546b3e2b7d0fc4d09dbea90e8552bef7bd206de1310d5c5aa9ad3e68e07b1f5b191bfb6d1eee9f68f5288ab317012ace43f4cf1a9",
+    "type": "",
+    "name": "KHORAT CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "f64e732c9b9f142bbd3971f318b4c53a42d57c55363298053ba6e5bd803d14d34c11a0c32d0fbd33439ee77f38792d914cbade7caea008364954577474481399",
+    "type": "",
+    "name": "BURI RAM",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "70754e7b50f4b1b803774f77f74013446c714e63254a39d0120af374f534dd52cf63e0cedb86dfbf105c845c6757224c06bb07fd46ff9078a908fdd20a36c138",
+    "type": "",
+    "name": "BURI RAM CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "bef9b7a3c058c1f55f915a04fea0cab1ee61cd8255de17b44645107eaa908cf56f337151545e01dea0daa32e63495df51c7ca11c1584dc486beac02935e7863d",
+    "type": "",
+    "name": "BURI RAM TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "24192afd460f2c1f6d9904d1474f9ab2dd098102000e44ffdc98a20e38a47adf263b0dd30b66a30fe96ff90b18153b1a0ac5a8fe7cb0fe7b118578d04e03f888",
+    "type": "",
+    "name": "NAKHON RATCHASIMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "1805d7a67a78e14169128abe08a5ffe4cbefba037e204a5db98fd28641a4b9b6af6828b8879091187b1e843c88d357b121536f44127b12aa2269b2d3524e2122",
+    "type": "",
+    "name": "UBON RATCHATHANI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "1b78858abb319e14b065ed860a533a7d3effbf108ab2bfbdd6fbe2a499adff05ac78c11731d8cfe8a41322066155f1f7eb7ddca6c9a07db6cf60fde4e7c711ed",
+    "type": "",
+    "name": "UBON CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "1aa42b0254480b75d2a64895a6b22421ac4c9bb0e1ce727d28378fbb711bbc3d16a686554c97bb07afb04397d697153098350a956f292b12e9294c8e9c6d0d3b",
+    "type": "",
+    "name": "UBON TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "f31d3bebf431369e0456058c83de9f608e10edea0cdab5b4fa2762fb4e4abf6ed799894b4a3681077c407e878e407d8bac2a0015ec91453f734be0334bf4e473",
+    "type": "",
+    "name": "ROI ET",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "62aa23e495ed41dce3eb51097c13b6493fa1a5a8333c7b3f3d8b93bdaaa3d7d413b093e2f7e45470603ad2f584407e794d5f49bb82fac9693ff56fa4c54d31a1",
+    "type": "",
+    "name": "ROI ET CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "d4d9d65e53d0186dc850fde87d1b93cf3da0d29288c3c944c4ec7fb0464c39271a27d5ab3b3be833b287b79feb4139b32792af781499492e32b4a8a9bd104620",
+    "type": "",
+    "name": "ROI ET TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "b45df2dae297a0ad1f056d6f489ed6e573b777afaaeb82adb43bd81d0f39931af155f9b06b17fab02a433e46a8e2c5ec49f1e0fd985f6254f035aa55b04f166d",
+    "type": "",
+    "name": "NAKHON PHANOM",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "2c104632dd41e2beef5a02d4adee3d985e71aab5bb0c8477a6c270af64ed09ac24dd6c3e6608c16c2171554ae75179bd0ac7a3f76b0f638d64b1c1fb02b8e083",
+    "type": "",
+    "name": "NAKHON PHANOM CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "6ef262ee253b99fcaedeacf7f4af9078751962482821f4dc17e50130b949bcb639b0441bec5f6e8d0d62cd625382b83ffe87ac20771534936998e1f3d0a9b24f",
+    "type": "R",
+    "name": "BANGKOK CITY",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "73fdf86935736cd3e2bb5001aaaff7328ef09c89aac24c7a581a275af8427072007afe6eeb6790c9c722e44f856e2cd4538cbe8ed02e36629f7149c6502ab3e3",
+    "type": "R",
+    "name": "KO HIN CHALAM, SATTAHIP",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "63a8e6f494a73d702e30a0783e5be676304a3dae823eda5cd4ed709570f91974e17ec2fb9a827d8065759795544feed8dba7a9f05059975f42f3c4a1d2d90e4b",
+    "type": "R",
+    "name": "KO LUAM, PRACHUAP KHIRI KHAN",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "ce1a9d84b5dd3011a285791af03366ea2f9cb9372a16acaeb2036153350955230bc2636e1f814b402f35acc7efdd068b15d0b00b69d3a848a1a6f2e85e44037a",
+    "type": "R",
+    "name": "KO SAMET, RAYONG",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "bedceb7fed40e2e8ada1267b92967bd391bec212c37314539d158d09bd1246620b520d60f8ce29dd16585b3a1d89372204b49599cb03766f79dd3b703fcd5d43",
+    "type": "D",
+    "name": "KANCHANABURI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "83011b0fc65c8f9697cd18917a10b02878fe07bce0651cafa8f00efe0560337794f0ac8693acd44475388b51c61d633ead531cf35ff05130734e734bd18a9e5e",
+    "type": "D",
+    "name": "KANCHANABURI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "ec18f78e05a6941410647e9232f56aee164850504a43e2b181bcf183b5116044b12e1ac34cb6b70b17730a0e3f2748b8039032e15c47931d6d1e64f3d6aaf7ba",
+    "type": "D",
+    "name": "SUPHAN BURI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "6195e722e9d0a468b6b5a3bd21fbe76c593aac739d9a947e498c6d193f26c804f2988f6fb725cae07a1fd5d4f9526bee27d69b97b76d8dfbb3cdcc9c51baa344",
+    "type": "D",
+    "name": "SUPHAN BURI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "04243733446d1c4cf1e27635baf03f690c3809fdf3baff2199bd4c02368b9ab7f35a960df1ace933d103c2028fe15997f9763d3e17b0b8f8787dcf5d9549127d",
+    "type": "D",
+    "name": "SUPHAN BURI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "6195e722e9d0a468b6b5a3bd21fbe76c593aac739d9a947e498c6d193f26c804f2988f6fb725cae07a1fd5d4f9526bee27d69b97b76d8dfbb3cdcc9c51baa344",
+    "type": "D",
+    "name": "SUPHAN BURI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "066994e7f5876ff22aec7338e2d3499a1d016d107232261a41fffed11ddf252322f208619e4982a8ed75f77fa764f51494ad6324d20b9a909ce671d87b2f5601",
+    "type": "R",
+    "name": "CHITRLADA PALACE",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "d2f9abcbf90fed07ae5562698f66e759ff6ba50df82f431af24e6f23b74b78c4f317e5d8e55a7aa7c6639b5e83bced80944a9cb1f52aa3686cdad3b4a42afc2a",
+    "type": "D",
+    "name": "HUA HIN",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "64f51e8ddcbdc614256f0211c30a2a0932c15f23f3e34629001e77a044e86e2accc1af8f4cb69d13444bb491367c27cf3e0dcc287559f0c5b53f23c2d7533f4d",
+    "type": "D",
+    "name": "KO CHANG, TRAT",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "96ae61f7ca89e4e29f5753afc4855275a1552a604f8b96314585ebbfc78f14b2c2a58dc4ae97c5caf4fc00b72fa6ce5c8a5a94d25064c532ac07d15dbef5a68e",
+    "type": "D",
+    "name": "KO TAO, CHUMPHON",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "37746137063eca89c4f924c2094a5059f176b4cbba33ee2cc651214c84e795939a0713c58cf2df757ccc832f572b9aa1fb0c57ff68300297b3cbbe28b5ad7928",
+    "type": "D",
+    "name": "HIN RAKIT, PATTANI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "2a74e79b982668797d37c7d9db4411a116b071493fe7eeca0b5a7605655fb8f46e6c7b64c584a3b814aef17cc42da3228c7713cc695e47901101c95483f4452f",
+    "type": "R",
+    "name": "HUA HIN PALACE",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "9ba098329c212ea75b18e7a7ef8f881011807bb97d47bd9c8540a1b445788301ab71a11d210be71137908118ce8ec3d6c2d6b655dacd988b4cbe4252d01ead91",
+    "type": "D",
+    "name": "NAKHON RATCHASIMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "3d24df22594b2d06bba6c4502eca294a1d025b662efd1c2db70c2109607e60b717ac2584261a2e98c2f185c1b13b26edfd6b38138770215fe8b1a6c59019f465",
+    "type": "D",
+    "name": "PHETCHABUN, PHICHIT",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "b8bd714888ac65cbcf5de8c20714c8028310adfe7cf59fe4aea2585bd883461f0409bc6a8444e343f883cd4ceea6228f3defd33543431f2c34cb2a0f89eaa5fa",
+    "type": "D",
+    "name": "PHETCHABUN, PHICHIT",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "82877bd3147892cee73579a5183be5787bc4372b12b1093f57eb0497d2adf26056f7ebaba302f66595af8c32bcbb7d0cb3a5d987bd3395565cc890eba48f2a0a",
+    "type": "P",
+    "name": "KHAO SOIDAO TAI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "8b92149df29badf852ae43584e7db4ffd797806f7abe757ac29b5d959a11345f641853367c6285e02d9923b95324ea9cc3b18606ca102bf57ee764aeec082d80",
+    "type": "P",
+    "name": "KHAO KHLONG OA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "9ba1c0741eaec4e9c8b1056a4bdb75957d352306f6694fcf1d6b4e69bb03ab85aa6eedfca33aa8730589101a2f4636f4f66bbaa0f91fc55f2ed943889ad0bc54",
+    "type": "D",
+    "name": "MAE RIM CHIANG MAI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "9f0ffd5de2094e09d5863df232e2025d861af3fd28963935e7daa730635f603849cb395756f905f9ba379f2da4ea34a14cf31e8772781e88336e39e08b645228",
+    "type": "D",
+    "name": "NAKHON RATCHASIMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "2b77f1d3fb9f81ccd1467923d44b4d4b1db07d8fda506cade3d4228fa4d2f6b816d440e626dcd759daa80f35cebba08883697f26f32b9d6d5626771d8b065d5f",
+    "type": "R",
+    "name": "PHU PHING PALACE",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "9cbe02807f5a055426a11c84abfe1ffb9654cc19beb3458cb64f4d6e9ef06aabf98a7db0ec55269c66c8fa66027550832173e493650831d16c2e7789b49e0d08",
+    "type": "D",
+    "name": "SONGKHLA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "9cbe02807f5a055426a11c84abfe1ffb9654cc19beb3458cb64f4d6e9ef06aabf98a7db0ec55269c66c8fa66027550832173e493650831d16c2e7789b49e0d08",
+    "type": "D",
+    "name": "SONGKHLA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "52def5776bec588b01d5b0ee221bcb3545672f27dc5f56b23721811d6858b92926ea39c62c24c475e5e6c5905b2fb8c639ce68169c07ef4b8eea7c141c2a9e31",
+    "type": "D",
+    "name": "UBON",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "31618b70e3d7bd8c884d2d236d491b27bfe6201b3b3381dc0337bfb09c7ac0dbecaee9bac73c83da0d86948373fbd6a106dfcf9a26eaa29fe17a777efcd46de4",
+    "type": "D",
+    "name": "UBON",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "dc34c840da6f3786bf8da4a17b86c9df3ab7e0a4a132ff7c6d3d7966f18ca1f684ac0ea75736395fd39a08c9d3b6782e3924966331694b881147f2aec7f6a38b",
+    "type": "D",
+    "name": "PHITSANULOK",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "74fc0721d2d79e783cfad9890d9ce353a43024be96b0603c4bf731dfc94cdce2a23dacadb064265d569aaf23de66ee8956a47528cd369dae6d76c5a2adbc2960",
+    "type": "D",
+    "name": "PHITSANULOK",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "f607871d85d666f6222f0aac417b251ceac90f4fe276f7e30a7b559f0330a006e6ce2d2f084b5f112f339e3dc7df4d98589bf3b98de63bdf1e92f791d04b8a9b",
+    "type": "D",
+    "name": "SURAT THANI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "264e0774fffa728768351e2c026e986a2827eddbb7eb2e6965c16658a1fb34cdf911c6ffb77f43ad04b1425c0b059ab15aa8b9f467e1ace10257ccab414f8b21",
+    "type": "D",
+    "name": "SURAT THANI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "afad1c59e60284e3b25220fb4da786e52e25f3710d131949eda07a5b79c2a196410435bafc17a13b2d8be37c57e56a1b5c2ce0c74e92c99803654b725e8c96a9",
+    "type": "D",
+    "name": "SURAT THANI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "f38845b91a6ba097539bf899b9393e6e25a21e41f0775f819b0044dfa907d0df6146af39bd63b636cf5aadbaabf516c75ceea21fe2abf08f1aecae9fb15ea514",
+    "type": "R",
+    "name": "THAK SIN PALACE",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "7bad9e9f144f005eeaae609d885b388d226ddb34a3bcb0b747337f5a560cda46a361739f687a33838b2a97e5072e4e511a76af3720dcf048849707ee98dabbce",
+    "type": "D",
+    "name": "SURAT THANI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "bbfcfd3dd656b07144660c43bb0cd9b64bec068fc447a5544b9e45b76766c9dd5cfd68f195f4afc629e9430d4df92c63b95384960e77e79625fa8d8e5d026b9b",
+    "type": "D",
+    "name": "UDON, LOEI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "c71a0b3ee6a19998e9e6d967ba5b9ac1c4bc6afaa9c6913016a57c28585a1c235531ab8a03c7c099a530121542536a1ff67801967bcb554260d671d87bbeaf68",
+    "type": "D",
+    "name": "UDON, LOEI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "d1843964bdf89a29dcd66e1b139ab57b545a0d654053785cb34d504a28163c6d3262a042b1bd2af8a9afd2a26d9259e8fb095e813460ed2f7666018de26e30d8",
     "type": "D",
     "name": "UDON, NONG KHAI NORTH AREA",
     "use": false,
     "checked": true
   },
   {
-    "digest": "ef2c3c3a0bf211f8691da2fbeed9da563f38827eefbfd03e5ac5260432e65fc83be09bb757f2d26ec8f18ee48dfffa705be21e809ee7a06e7b259ad2d217d964",
+    "digest": "adca6140c634e15e855cbb10455f2bde63453f0ecef93f138deae9f9c87af783cd7e8bed6b524f93fba0d99baff07c8384be023b5c6087c0bfe1df74c561e1ed",
     "type": "D",
     "name": "UDON, NONG KHAI SOUTH AREA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "3e3771a7e4a289344d20629d68b4f6f97d1e4ea0a6263aba9c4427b5a6d800a9abf12fe4bbf40e4898ee28c06bdd478731000271424010b66a657953cea9176a",
+    "type": "D",
+    "name": "NORTHEASTERN AREA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "1acb5b36a0841ec8f43f9db92e805d2c2a4f9b7a47aff0ec7bd7e816e3a775ee2a75e10abab895d1fb2aef7553b07b33cd2eb733c5ecb9132035a3fedba68c10",
+    "type": "R",
+    "name": "PHU PHAN PALACE",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "36507f0b218c9f508ce2649c97ef423a5b761e7ca8de3e4695124418d616d39a03072f0377cb62a156599eba6d4f1f12e3a4f4b1b953e370ad4777ebc9cb1638",
+    "type": "P",
+    "name": "SATTAHIP",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "aee8159feb6ae1c16038a969714435692b43c4c46404b93ff8b89d0c2f655114487312ed1967e69e2ebcb123fc99af3b41f83873a2b49050c33e39154bc3128b",
+    "type": "D",
+    "name": "KHON KAEN/ROI-ET",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "bf8f0a20e17dad3400fa70ff2f48dd82b7428a55d9f3ac6679bdc41aa7cc6c89e4b28b1761163a133726c2d1f260017e7820f0788a5b63625ae1daf8229411e4",
+    "type": "R",
+    "name": "PHIMANMAS PALACE",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "27d4f65b99dbcac1adffee31c616a647cad2ff035285fba4d0e780079de29c1a3b040525d56867cc2cc34277e3d7308aeab49895fc441ecaf9f8354c183c26ba",
+    "type": "R",
+    "name": "SRAPATHUM PALACE",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "0c1872d9f6565847f771fc385e6cfd0098522b2f61b03aa221049680840a494e8a8da03d5dadf57dab8a793994989d4dff84fd057c86be735d273522f5ffffaa",
+    "type": "R",
+    "name": "JAKRIBONGKOT PALACE",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "f2adb4f17d3378966d5966a6f4f278fa937b92591ee996ff96dcd3760e3f0c27123cd0670844af1c6cb30a8378488c2fc7dd918d6bb0cabaf873a09be83af577",
+    "type": "R",
+    "name": "AMPHORN ROYAL PALACE",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "c0e63c20807f970877a6c4527788579f263fdd2c434d4fea50d5f1f8d006efe74527950f61c98a9b36456c0a238ed6acfdb022764907146749d14926f5f1f03d",
+    "type": "R",
+    "name": "SUKHOTHAI PALACE",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "b1e8fd59612256658a8c26999ac4e7493db97f8288342e5cabf8932f6c0e9d4cd753435116706f1902632425b305e49bf594ec4ba882bda2f50bf287715a3753",
+    "type": "R",
+    "name": "TIPPIMARN PALACE",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "a2a572439c5c4dfa7644691f273add67f65ca60fa5261e11d09aa987db5a94202df9464bcb8e7e22015049b886b19ec0c6f0f99538d4d89c5b632fa6f7703e70",
+    "type": "W",
+    "name": "TEMP BALLOON AREA BAN PHUE",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "5c94e31a8a1cf608730321c485842012a1f87b83173d32a7d39b8ade73ef4dc0322809222c7fd2c732b32e21b82d4add5c81354069d7203f4c1d3ebb5ce00cd4",
+    "type": "W",
+    "name": "TEMP BALLOON AREA CHANTHABURI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "f7016d875b3b46d28da06027245c716f57e34dbe5adc3fc5a1a5845cb8f264a5c3a53b63f60d151a52d1be16a9f35a77b5a49d5d1984c2135f23f1c6c2ffeb44",
+    "type": "W",
+    "name": "TEMP BALLOON AREA CHIANG MAI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "9d73588d260be47c933fc114a18e38969a799cc66ba243db58c548c1047d10c6aaf41b9ac2863a2cd57b63b2c392b62491bb0649b2be3d329e3d8b28d7271b66",
+    "type": "W",
+    "name": "TEMP BALLOON AREA CHIANG RAI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "4772bc215372dd7ed0e3de5cfcfe1d99639689f418cb04d5addb8de2f39a04b6d9653f85b2c24d62ae4a7cccffa76352e69e3d8e0e40f98b2c75f29873915a46",
+    "type": "D",
+    "name": "GAS SEPARATION PLANT",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "9905d55ce42101df4436890636f918864efdc5e055d834379d5b67461d5f98668285796146672bf8a2b1b94a1a29ceb7cbd35e034328c37ee6cd6a9595021287",
+    "type": "W",
+    "name": "TEMP BALLOON AREA KANCHANABURI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "dcf36b757e07f8afb18cc23d01ee9ca9c0eaa124f883d6e34da7adaf1b87f451a5e3c71dc42f4dadc233f020fc10f4e3b44e4e813233f1276d39b1246d6a8b12",
+    "type": "W",
+    "name": "TEMP BALLOON AREA KING MONGKUT",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "0a7c2112383db547eab2eb3ef2176ce371d37d6bb9e72684457d703c71a6bbe831fd3e0f3c1b862fe14282f633b2ec7268907e1cf20580041e3f2e738ab8a712",
+    "type": "W",
+    "name": "TEMP BALLOON AREA OMKOI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "db99944555130fd792fbdc915acd4687ec6c01ba2fa0a9e149524f685d2b1fbb9d1bc29bdd3dc54bd6136125fd5fa72cea97cb043efb28f36a592650bc3b49bd",
+    "type": "W",
+    "name": "TEMP BALLOON AREA PHANOM",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "e1124a78ef1f7a79c58817c78c3da20355e948ee2c02ca20f3926966adfc12e6ed6760d7ac68dc93a0baef552c0686a1113c3bb31b0f8c44546ec5b52c0c2e6a",
+    "type": "W",
+    "name": "TEMP BALLOON AREA PHIMAI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "8fc40dccaabf8488b4d79cf9d85ba2ec5ce9573635260129b3f86ee32a69668a97914e5c0ce0e5dd3bae015556f105ec793691ef8b3242814cc5dab97d746943",
+    "type": "W",
+    "name": "TEMP BALLOON AREA PHOTHARAM",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "3f7ad658b1db32bf729d1c23b6cfe6246850350836e7b14e6c7ab96741383d620ea8250db1b0c09f69b7a790025877a7d798a99633594b1d83e8919b322bb0ed",
+    "type": "W",
+    "name": "TEMP BALLOON AREA PHRAE",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "d1a40c5dea1a7c881fe199f174d899dc4a8dde05d28bd8034a7afeffa554079df86b0c56676021612e7eb63eae9eaee207e85b5fd9b307eff7fb283d5786c563",
+    "type": "W",
+    "name": "TEMP BALLOON AREA RASI SALAI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "2c6f882e89ace68e44b645bda2349243c3667f994e405339fd1d94c97a3f0cf648121ab88fc1932cba91e3012b5992288b948384a57e6968ec25c453abac4e64",
+    "type": "W",
+    "name": "TEMP BALLOON AREA SATTAHIP",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "a4313cbd45cf0c27f664ba812c8aa496ae0fb32814d1abdeca64648dc084464c8737a1c86ec8cdc06376587e28c83fef694d57243acf6e72426d95271b079de8",
+    "type": "W",
+    "name": "TEMP BALLOON AREA SINGHA NAKHO",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "dd6b51f32619b7547f27f40c572d2c8ad3bc1f12751b5e2077987c75b5cc2216408ac23bc4a66b1e3e19a099b86982483df88c8ed3a6cfaafb866ac1404f8300",
+    "type": "W",
+    "name": "TEMP BALLOON AREA TAKHLI",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "55ed3581e44b32962cecefe08585705cd245252a9fd83fee1c06afb1e586800dabb9684cb7cb6d2ab43bfedade198d2eb959ec74f939ce3ac93feca8995b9e2b",
+    "type": "W",
+    "name": "TEMP BALLOON AREA WING 3",
     "use": false,
     "checked": true
   }
