@@ -45,7 +45,7 @@
   "dependencies": {
     "archiver": "6.0.1",
     "fs-extra": "11.2.0",
-    "inquirer": "9.2.14",
+    "inquirer": "9.2.22",
     "pad": "3.2.0",
     "rimraf": "5.0.5",
     "sql-template-strings": "2.2.2",
