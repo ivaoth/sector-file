@@ -43,7 +43,7 @@
     "typescript": "5.3.3"
   },
   "dependencies": {
-    "archiver": "6.0.2",
+    "archiver": "7.0.1",
     "fs-extra": "11.2.0",
     "inquirer": "9.2.22",
     "pad": "3.2.0",
