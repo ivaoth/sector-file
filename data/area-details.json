@@ -7,13 +7,6 @@
     "checked": true
   },
   {
-    "digest": "f5b45666ad07baa0113e742a9f0d6a55fead007d9c473853d347e0301cf117f9a8cd2dc78a3b41ceadc4165bfee0b99f0485b50a5e80d4a646b5b85ca1897a17",
-    "type": "TMA",
-    "name": "VTSK_TMA",
-    "use": false,
-    "checked": true
-  },
-  {
     "digest": "101fe4ec8218d7f3adad5bddb243535b8131c517c4efbd43872cd5c1fba9faf86919cb08484fce430aa4cefb1671b5aaa9ff866a9b3ecbd8ac9b8d57087f8b75",
     "type": "R",
     "name": "UBON",
@@ -94,20 +87,6 @@
     "digest": "b73694674ca624cafd93f7876d05f36fe65fd90e5e1c8c42ed52d9880144b5003df5a56ec9e0e8ab01eb5a3d2c66db611fd4501dd553bb58e4cc190aed3c579b",
     "type": "D",
     "name": "SATTAHIP",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "bd0c94a48d81470f0b813b8580a3cd577fcaf450c2dcd57c467e663127ad911f349ca0cf971292254560988cf35bf4f765338ba7ffac613fe29f25f1dc541f44",
-    "type": "D",
-    "name": "NAKHON RATCHASIMA",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "960ae49f6beec45d2720cb3a68284b6ae2ee122630011721d9c34582226eed49b056d4ac25c1bf339f1a39b833a9170d97b53f197afa19625f0f487348ab1022",
-    "type": "D",
-    "name": "NAKHON RATCHASIMA",
     "use": false,
     "checked": true
   },
@@ -346,6 +325,13 @@
     "digest": "df24347dc087e5cc380a3ceed7c8455ea6d7dfec0907ff8c805a85e334d3fd7d774a9981a460d0eb24f407138a7301418c3e0eefbde0069a183bb32d2b7db1cb",
     "type": "R",
     "name": "KAMPHAENG SAEN JETTISON",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "f5b45666ad07baa0113e742a9f0d6a55fead007d9c473853d347e0301cf117f9a8cd2dc78a3b41ceadc4165bfee0b99f0485b50a5e80d4a646b5b85ca1897a17",
+    "type": "",
+    "name": "PATTANI TMA",
     "use": false,
     "checked": true
   },
@@ -1312,6 +1298,20 @@
     "digest": "2a74e79b982668797d37c7d9db4411a116b071493fe7eeca0b5a7605655fb8f46e6c7b64c584a3b814aef17cc42da3228c7713cc695e47901101c95483f4452f",
     "type": "R",
     "name": "HUA HIN PALACE",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "bd0c94a48d81470f0b813b8580a3cd577fcaf450c2dcd57c467e663127ad911f349ca0cf971292254560988cf35bf4f765338ba7ffac613fe29f25f1dc541f44",
+    "type": "D",
+    "name": "NAKHON RATCHASIMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "960ae49f6beec45d2720cb3a68284b6ae2ee122630011721d9c34582226eed49b056d4ac25c1bf339f1a39b833a9170d97b53f197afa19625f0f487348ab1022",
+    "type": "D",
+    "name": "NAKHON RATCHASIMA",
     "use": false,
     "checked": true
   },
