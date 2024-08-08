@@ -12,7 +12,7 @@
     "parse:ivac1": "ts-node ./airac-parser/ivac1",
     "parse:aurora": "ts-node ./airac-parser/common",
     "aurora-prebuilt": "ts-node ./scripts/aurora-prebuilt.ts",
-    "lint": "eslint . --ext .js,.ts"
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
