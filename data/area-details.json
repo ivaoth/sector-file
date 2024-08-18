@@ -1351,13 +1351,6 @@
     "checked": true
   },
   {
-    "digest": "9ba1c0741eaec4e9c8b1056a4bdb75957d352306f6694fcf1d6b4e69bb03ab85aa6eedfca33aa8730589101a2f4636f4f66bbaa0f91fc55f2ed943889ad0bc54",
-    "type": "D",
-    "name": "MAE RIM CHIANG MAI",
-    "use": false,
-    "checked": true
-  },
-  {
     "digest": "9f0ffd5de2094e09d5863df232e2025d861af3fd28963935e7daa730635f603849cb395756f905f9ba379f2da4ea34a14cf31e8772781e88336e39e08b645228",
     "type": "D",
     "name": "NAKHON RATCHASIMA",
@@ -1663,6 +1656,13 @@
     "type": "W",
     "name": "TEMP BALLOON AREA WING 3",
     "use": false,
+    "checked": true
+  },
+  {
+    "digest": "49d45cef3afaae509f4a69bf5c0fe8b33150e9bd523af57d6c04e7b9a27841b913bf78a19d55013221c057b471398cd52d8555c3ff6a0adbe20dc9b17a9f8e32",
+    "type": "D",
+    "name": "MAE RIM CHIANG MAI",
+    "use": true,
     "checked": true
   }
 ]

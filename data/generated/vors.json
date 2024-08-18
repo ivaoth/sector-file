@@ -38,8 +38,8 @@
     "ident": "CHM",
     "name": "CHIANG MAI",
     "frequency": 116200,
-    "laty": 18.77,
-    "lonx": 98.97
+    "laty": 18.77552778,
+    "lonx": 98.96075
   },
   {
     "ident": "CMA",
@@ -388,8 +388,8 @@
     "ident": "NNP",
     "name": "NAGPUR",
     "frequency": 112700,
-    "laty": 21.08144444,
-    "lonx": 79.05630556
+    "laty": 21.08197778,
+    "lonx": 79.05617778
   },
   {
     "ident": "KAT",
@@ -549,7 +549,7 @@
     "ident": "PCA",
     "name": "PHU CAT",
     "frequency": 116300,
-    "laty": 13.95722222,
+    "laty": 13.95725,
     "lonx": 109.04266667
   },
   {
@@ -605,8 +605,8 @@
     "ident": "TPG",
     "name": "TANJUNGPINANG",
     "frequency": 114800,
-    "laty": 0.90357778,
-    "lonx": 104.51446389
+    "laty": 0.90355556,
+    "lonx": 104.51455556
   },
   {
     "ident": "VAS",
@@ -640,8 +640,8 @@
     "ident": "VKB",
     "name": "KOTA BHARU",
     "frequency": 112300,
-    "laty": 6.16345556,
-    "lonx": 102.3142
+    "laty": 6.16344444,
+    "lonx": 102.31419444
   },
   {
     "ident": "VKL",
