@@ -1,0 +1,1 @@
+{ "region" : "default", "structure" : "[STATION_NAME]. Information [ATIS_LETTER] at [ATIS_TIME]. [ARR] Runway in use [DEP]. Transition Level [TL]. [REMARK]. METS report at [ATIS_TIME] [METAR]. Advise controller when initial contact you have information [ATIS_LETTER]." }

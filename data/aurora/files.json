@@ -49,6 +49,18 @@
     "VTUV.atc",
     "VTUW.atc"
   ],
+  "atis": [
+    "VTPH.atis",
+    "VTSB.atis",
+    "VTSE.atis",
+    "VTSF.atis",
+    "VTSG.atis",
+    "VTSM.atis",
+    "VTSP.atis",
+    "VTSR.atis",
+    "VTSS.atis",
+    "VTST.atis"
+  ],
   "taxiway": [],
   "gates": [],
   "geo": [
@@ -131,6 +143,7 @@
     "VTSE.lairspace",
     "VTSF.lairspace",
     "VTSG.lairspace",
+    "VTSH.lairspace",
     "VTSK.lairspace",
     "VTSM.lairspace",
     "VTSP.lairspace",
