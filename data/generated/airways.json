@@ -260,12 +260,12 @@
       "segment_no": 1,
       "sequence_no": 18,
       "wpt_from": "BULAN",
-      "wpt_to": "OSTAR",
+      "wpt_to": "AIPOM",
       "type": "B",
       "from_lat": 27.09166717529297,
       "from_lon": 124,
-      "to_lat": 26.331666946411133,
-      "to_lon": 123,
+      "to_lat": 26.656389236450195,
+      "to_lon": 123.42444610595703,
       "direction": "N",
       "region_from": "RO",
       "region_to": "RC"
@@ -274,13 +274,13 @@
       "name": "A1",
       "segment_no": 1,
       "sequence_no": 19,
-      "wpt_from": "OSTAR",
-      "wpt_to": "AISAR",
+      "wpt_from": "AIPOM",
+      "wpt_to": "OSTAR",
       "type": "B",
-      "from_lat": 26.331666946411133,
-      "from_lon": 123,
-      "to_lat": 25.947500228881836,
-      "to_lon": 122.49333190917969,
+      "from_lat": 26.656389236450195,
+      "from_lon": 123.42444610595703,
+      "to_lat": 26.331666946411133,
+      "to_lon": 123,
       "direction": "N",
       "region_from": "RC",
       "region_to": "RC"
@@ -289,11 +289,26 @@
       "name": "A1",
       "segment_no": 1,
       "sequence_no": 20,
+      "wpt_from": "OSTAR",
+      "wpt_to": "AISAR",
+      "type": "B",
+      "from_lat": 26.331666946411133,
+      "from_lon": 123,
+      "to_lat": 25.943056106567383,
+      "to_lon": 122.49749755859375,
+      "direction": "N",
+      "region_from": "RC",
+      "region_to": "RC"
+    },
+    {
+      "name": "A1",
+      "segment_no": 1,
+      "sequence_no": 21,
       "wpt_from": "AISAR",
       "wpt_to": "DRAKE",
       "type": "B",
-      "from_lat": 25.947500228881836,
-      "from_lon": 122.49333190917969,
+      "from_lat": 25.943056106567383,
+      "from_lon": 122.49749755859375,
       "to_lat": 25.615554809570312,
       "to_lon": 122.07805633544922,
       "direction": "N",
@@ -303,7 +318,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 21,
+      "sequence_no": 22,
       "wpt_from": "DRAKE",
       "wpt_to": "ANNNA",
       "type": "B",
@@ -318,7 +333,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 22,
+      "sequence_no": 23,
       "wpt_from": "ANNNA",
       "wpt_to": "APU",
       "type": "B",
@@ -333,7 +348,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 23,
+      "sequence_no": 24,
       "wpt_from": "APU",
       "wpt_to": "PIDGY",
       "type": "B",
@@ -348,7 +363,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 24,
+      "sequence_no": 25,
       "wpt_from": "PIDGY",
       "wpt_to": "HLG",
       "type": "B",
@@ -363,7 +378,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 25,
+      "sequence_no": 26,
       "wpt_from": "HLG",
       "wpt_to": "WUCHI",
       "type": "B",
@@ -378,7 +393,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 26,
+      "sequence_no": 27,
       "wpt_from": "WUCHI",
       "wpt_to": "SWORD",
       "type": "B",
@@ -393,7 +408,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 27,
+      "sequence_no": 28,
       "wpt_from": "SWORD",
       "wpt_to": "MKG",
       "type": "B",
@@ -408,7 +423,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 28,
+      "sequence_no": 29,
       "wpt_from": "MKG",
       "wpt_to": "KADLO",
       "type": "B",
@@ -423,7 +438,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 29,
+      "sequence_no": 30,
       "wpt_from": "KADLO",
       "wpt_to": "ANPOG",
       "type": "B",
@@ -438,7 +453,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 30,
+      "sequence_no": 31,
       "wpt_from": "ANPOG",
       "wpt_to": "ELATO",
       "type": "B",
@@ -453,7 +468,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 31,
+      "sequence_no": 32,
       "wpt_from": "ELATO",
       "wpt_to": "MAGOG",
       "type": "B",
@@ -468,7 +483,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 32,
+      "sequence_no": 33,
       "wpt_from": "MAGOG",
       "wpt_to": "BIGEX",
       "type": "B",
@@ -483,7 +498,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 33,
+      "sequence_no": 34,
       "wpt_from": "BIGEX",
       "wpt_to": "IDOSI",
       "type": "B",
@@ -498,7 +513,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 34,
+      "sequence_no": 35,
       "wpt_from": "IDOSI",
       "wpt_to": "IKELA",
       "type": "B",
@@ -513,7 +528,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 35,
+      "sequence_no": 36,
       "wpt_from": "IKELA",
       "wpt_to": "LENKO",
       "type": "B",
@@ -528,7 +543,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 36,
+      "sequence_no": 37,
       "wpt_from": "LENKO",
       "wpt_to": "BUNTA",
       "type": "B",
@@ -543,7 +558,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 37,
+      "sequence_no": 38,
       "wpt_from": "BUNTA",
       "wpt_to": "BINKU",
       "type": "B",
@@ -558,7 +573,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 38,
+      "sequence_no": 39,
       "wpt_from": "BINKU",
       "wpt_to": "KANGU",
       "type": "B",
@@ -573,7 +588,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 39,
+      "sequence_no": 40,
       "wpt_from": "KANGU",
       "wpt_to": "DAN",
       "type": "B",
@@ -588,7 +603,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 40,
+      "sequence_no": 41,
       "wpt_from": "DAN",
       "wpt_to": "PATNO",
       "type": "B",
@@ -603,7 +618,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 41,
+      "sequence_no": 42,
       "wpt_from": "PATNO",
       "wpt_to": "TANNA",
       "type": "B",
@@ -618,7 +633,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 42,
+      "sequence_no": 43,
       "wpt_from": "TANNA",
       "wpt_to": "PAPRA",
       "type": "B",
@@ -633,7 +648,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 43,
+      "sequence_no": 44,
       "wpt_from": "PAPRA",
       "wpt_to": "BUTRA",
       "type": "B",
@@ -648,7 +663,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 44,
+      "sequence_no": 45,
       "wpt_from": "BUTRA",
       "wpt_to": "BAMBO",
       "type": "B",
@@ -663,7 +678,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 45,
+      "sequence_no": 46,
       "wpt_from": "BAMBO",
       "wpt_to": "UBL",
       "type": "B",
@@ -678,7 +693,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 46,
+      "sequence_no": 47,
       "wpt_from": "UBL",
       "wpt_to": "PASAT",
       "type": "B",
@@ -693,7 +708,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 47,
+      "sequence_no": 48,
       "wpt_from": "PASAT",
       "wpt_to": "SANOT",
       "type": "B",
@@ -708,7 +723,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 48,
+      "sequence_no": 49,
       "wpt_from": "SANOT",
       "wpt_to": "TOPER",
       "type": "B",
@@ -723,7 +738,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 49,
+      "sequence_no": 50,
       "wpt_from": "TOPER",
       "wpt_to": "SELKA",
       "type": "B",
@@ -738,7 +753,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 50,
+      "sequence_no": 51,
       "wpt_from": "SELKA",
       "wpt_to": "ROBKA",
       "type": "B",
@@ -753,7 +768,7 @@
     {
       "name": "A1",
       "segment_no": 1,
-      "sequence_no": 51,
+      "sequence_no": 52,
       "wpt_from": "ROBKA",
       "wpt_to": "BKK",
       "type": "B",
