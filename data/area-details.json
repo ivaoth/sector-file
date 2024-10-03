@@ -357,48 +357,6 @@
     "checked": true
   },
   {
-    "digest": "2f603435c82fccf6bf00c3209479a309a9e2073e126ea14b370f12afb58a13ce40009f9465dc22241f425b50f8f2925beb5966d1f4ea593dd5b2d8c69e29b70e",
-    "type": "",
-    "name": "BANGKOK CTR",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "bec547a8975035143e2880af54d6998f9e19d4de5eeb7d4ccb4d4c5dd621eb2f71a33f67a5aba763dd3307bb20feaa6366b32513ca97a6cf13c249f18bb29dda",
-    "type": "",
-    "name": "BANGKOK TMA EAST",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "94cc8aabc76e0529304d9d5d7354f54009fca7437cdb9ad3f702bc301c79d062f5c63d3cdce3c539b0b6f83081262e0020ba9ed1f5858dcfcc1723b4355db211",
-    "type": "",
-    "name": "BANGKOK TMA SOUTH",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "769b8acaf7b4bbf44fa16c21fafacb1ca00dab32e31a8b6bdba46dec657e7f3a616361cd1f800e98fd451c84c608f5de2a7b6af1cba48662a76b92b01d5c5192",
-    "type": "",
-    "name": "BANGKOK TMA WEST",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "4feca9977bb8076dd60e2052e3f2a7d9b9ec44f1a98b77c074a75fa071877190d0c8a0e282938805fe3a5d05c613ec7ece8ad68ef0b2d5ec7e95551f177676da",
-    "type": "",
-    "name": "BANGKOK TMA NORTH",
-    "use": false,
-    "checked": true
-  },
-  {
-    "digest": "b8c7e839dbe8fd0fbc12ac606efc7fb6a7c3ac8ddb89ce87a96c94a84cd9b4a20d5150ddfa698c1e3bf3ec0ef2e34039c42ddd1a69e17a32a72525a77d4a2da2",
-    "type": "",
-    "name": "BANGKOK TMA",
-    "use": false,
-    "checked": true
-  },
-  {
     "digest": "731621aa12a2d102b4f558c616b42fda1bf60d92ddcc050095b63abd642489e721e1d11309f9670601261aa98cbbe6b7a99de30229f7fb8f50795b463eee933c",
     "type": "",
     "name": "KAMPHAENG SAEN",
@@ -1662,7 +1620,119 @@
     "digest": "49d45cef3afaae509f4a69bf5c0fe8b33150e9bd523af57d6c04e7b9a27841b913bf78a19d55013221c057b471398cd52d8555c3ff6a0adbe20dc9b17a9f8e32",
     "type": "D",
     "name": "MAE RIM CHIANG MAI",
-    "use": true,
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "701306de5cce1f06184fadb51f8b0a3452706df5e83d03ab60dcb429447862561fa5cc1ea45db9ad60981ff1226333aecffb75f5c316398ff0fbd85339e56cf8",
+    "type": "",
+    "name": "BANGKOK CTR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "c014263e4708d46bdcafae77c9acf726ca2d27cd6ea95cde3e47b610bb653da2f549786bdb042bedffc0e11ebd22dbe56deacb0804beabcfbbcff029ddc33381",
+    "type": "",
+    "name": "BANGKOK TMA APPROACH EAST 1 (A",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "63a1d45a955daa7422179e65338bface392a3e48d46d973c044ca9245433a670db6d2eeab16371dbaedf8061ddc410e4bc879351b1535677afe9324e1df9001f",
+    "type": "",
+    "name": "BANGKOK TMA APPROACH EAST 2 (A",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "0dc14bcf2af20c71be64c8eba9233aa4928d893edb75a58d8662666470c5f612f04de9db9e8ce6b48cf393761a54038cb6d75f7c3db928a9176c486835bb8be5",
+    "type": "",
+    "name": "BANGKOK TMA APPROACH NORTH (AP",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "48996807ffab2af186e6d11f97e338ec3b68c0b45ac66d14622178a2ce33ee4301c36d0a5784dd0f62147a9988188802c8a9b28ea211793327d006c52b87115e",
+    "type": "",
+    "name": "BANGKOK TMA APPROACH SOUTH 1 (",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "a1111208acf3439f3b2f217cf11f602e328597b55fab1e24a7cfb252341a6c3637158e863a8afd184f6afd96ce3b32084660b1db97c99d515c020bdaf4e2b680",
+    "type": "",
+    "name": "BANGKOK TMA APPROACH SOUTH 2 (",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "4a6181f450433bedccd5d7dea264940c18d0b2460c735c4f8f09b9806d492187b62b7136512e726a2648503ba01ca88057f9f5fdb1e34ee6ee93bf4914ca2c1e",
+    "type": "",
+    "name": "BANGKOK TMA APPROACH WEST (APW",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "628dc4ac64aa0c9cacb285206ae53dc33a6c22caf82e0ee6f0b5ecf8380669974bd8e934f10c7f6ae7266e5171a307a2781436a237635ab954d2267825e3245d",
+    "type": "",
+    "name": "BANGKOK TMA DON MUEANG ARRIVAL",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "fec61130d1ea589c7838a49b8231bfc1381f459e9ad50d35f753437cce30c16055a306464144566a5d005e44f47b2dfc476d078e692c40e74b8a7a962881e4d4",
+    "type": "",
+    "name": "BANGKOK TMA DON MUEANG ARRIVAL",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "e5e45ec7717f84bd37f1b7d0ee304d06c2bc08aff91050589a5b0f802d712f14fc5067a11d15f119f42de17e4970dc30d89ae34bc8255f965efec4d2efe0c4d5",
+    "type": "",
+    "name": "BANGKOK TMA DON MUEANG DEPARTU",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "9f1765a26ec679bbb36ae52225bf3a109f64e456684156667c9b7fd938b3d224a79dcbf1c1b43897af78fb74f6e9525119af67952505581a668de26e135ecd57",
+    "type": "",
+    "name": "BANGKOK TMA DON MUEANG DEPARTU",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "1a1908f6754a36b1694c40dcc4bc7d495d3eef25284b0b3e1b9e3b71f2ef623e3971b2b3bbec9e14056a4e5d59495690ad1df9540285d7f078750847205da35d",
+    "type": "",
+    "name": "BANGKOK TMA",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "57092be034f4b97f26434c5f190a520bd8fa0728313d75712547ff9156cc68ebe10c619fde58ab085036a4aa47989cf54ee27acc37b86089131d21efde0a47b6",
+    "type": "",
+    "name": "BANGKOK TMA SUVARNABHUMI ARRIV",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "4fc979d7f1cf6118d5d63ca02e42a276a76def34981a02c18f73bc5bcb1cf8e29cc6df7f3d8e15f935e5cfbad1936f873817ec2660fb9b14526e598fd35b5fc4",
+    "type": "",
+    "name": "BANGKOK TMA SUVARNABHUMI ARRIV",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "6c986588197c9b6926943ea887c944e1d7593f8539a63fa107b39413322d17fb5007679e7273ef4bbb6af895a39e3ea729181da07b93692101f3a5fab8bb5cc4",
+    "type": "",
+    "name": "BANGKOK TMA SUVARNABHUMI DEPAR",
+    "use": false,
+    "checked": true
+  },
+  {
+    "digest": "911b5babb8b5f622af77e1196a1683915c366a3da1dfec058e0ef912daf31c85677149b77480a71d55f2fc0db7d4a33b003fa95031f79c68202eadcbbccf9dea",
+    "type": "",
+    "name": "BANGKOK TMA SUVARNABHUMI DEPAR",
+    "use": false,
     "checked": true
   }
 ]
