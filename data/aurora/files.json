@@ -102,7 +102,10 @@
     "VTCI.geo",
     "VTBW.geo",
     "VTPI.geo",
-    "VTPR.geo"
+    "VTPR.geo",
+    "ZT01.geo",
+    "ZT15.geo",
+    "ZT16.geo"
   ],
   "fillcolor": [
     "ATConline.tfl"
@@ -180,5 +183,9 @@
     "TOPSKY_V1.clr"
   ],
   "manualAirport": [
+    "EXTRA.apt"
+  ],
+  "manualRunway": [
+    "EXTRA.rwy"
   ]
 }
