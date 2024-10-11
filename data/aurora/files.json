@@ -180,5 +180,9 @@
     "TOPSKY_V1.clr"
   ],
   "manualAirport": [
+    "EXTRA.apt"
+  ],
+  "manualRunway": [
+    "EXTRA.rwy"
   ]
 }
