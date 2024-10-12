@@ -83,6 +83,7 @@ const extraFiles = JSON.parse(readFileSync(extraFilesFile).toString()) as {
   colorscheme: string[];
   manualAirport: string[];
   manualRunway: string[];
+  manualTaxiway: string[];
 };
 
 //Delete for override by Tatpol's new shape
@@ -155,6 +156,11 @@ for (const airport of airports) {
   writeFileSync(runwayFile, rwyOut);
 }
 out += '[TAXIWAY]\n';
+
+for (const tf of extraFiles.manualTaxiway) {
+  out += `F;${tf}\n`;
+  copySync(resolve(auroraPath, tf), resolve(auroraIncludePath, tf));
+}
 
 for (const airport of airports) {
   const fileName = `${airport.ident}.txi`;

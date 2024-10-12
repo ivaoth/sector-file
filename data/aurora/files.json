@@ -187,5 +187,10 @@
   ],
   "manualRunway": [
     "EXTRA.rwy"
+  ],
+  "manualTaxiway":[
+    "ZT01.txi",
+    "ZT15.txi",
+    "ZT16.txi"
   ]
 }
