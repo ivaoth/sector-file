@@ -64,6 +64,9 @@
   "taxiway": [],
   "gates": [],
   "geo": [
+    "danger.geo",
+    "prohibited.geo",
+    "restricted.geo",
     "VTBD.geo",
     "VTBS.geo",
     "VTBU.geo",
