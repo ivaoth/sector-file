@@ -207,7 +207,7 @@ const fixesFile: string = resolve(auroraIncludePath, fixesFileName);
 let outFix: string = '';
 
 for (const waypoint of waypoints) {
-  const dmsLat: string = decimalToDMS(waypoint.laty, true); // Convert latitude to DMS
+  let dmsLat: string = decimalToDMS(waypoint.laty, true); // Convert latitude to DMS
   const dmsLon: string = decimalToDMS(waypoint.lonx, false); // Convert longitude to DMS
 
   // Manually adjust MODON's latitude if required
