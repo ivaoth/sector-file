@@ -89,6 +89,15 @@ const extraFiles = JSON.parse(readFileSync(extraFilesFile).toString()) as {
 //Delete for override by Tatpol's new shape
 //const region = 'VT';
 
+function decimalToDMS(decimal: number, isLat: boolean): string {
+  const degrees = Math.floor(Math.abs(decimal));
+  const minutes = Math.floor((Math.abs(decimal) - degrees) * 60);
+  const seconds = Math.round(((Math.abs(decimal) - degrees) * 60 - minutes) * 60 * 100) / 100;
+  const direction = decimal >= 0 ? (isLat ? 'N' : 'E') : (isLat ? 'S' : 'W');
+
+  return `${direction}${degrees.toString().padStart(3, '0')}.${minutes.toString().padStart(2, '0')}.${seconds.toFixed(3).padStart(6, '0')}`;
+}
+
 removeSync(outPath);
 
 out += '[INFO]\n';
@@ -118,9 +127,10 @@ const airportFile = resolve(auroraIncludePath, airportFileName);
 let aptOut = '';
 
 for (const airport of airports) {
-  aptOut += `${airport.ident};${airport.altitude};11000;${airport.laty.toFixed(
-    6
-  )};${airport.lonx.toFixed(7)};${airport.name};\n`;
+  const dmsLat = decimalToDMS(airport.laty, true); // Convert latitude to DMS
+  const dmsLon = decimalToDMS(airport.lonx, false); // Convert longitude to DMS
+
+  aptOut += `${airport.ident};${airport.altitude};11000;${dmsLat};${dmsLon};${airport.name};\n`;
 }
 
 for (const tf of extraFiles.manualAirport) {
@@ -144,13 +154,12 @@ for (const airport of airports) {
   const runwayFileName = `${airport.ident}.rwy`;
   const runwayFile = resolve(auroraIncludePath, runwayFileName);
   for (const runway of airport.runways) {
-    rwyOut += `${airport.ident};${runway.runway1};${runway.runway2};${
-      runway.alt1
-    };${runway.alt2};${(runway.hdg1 - airport.mag_var).toFixed(0)};${(
-      runway.hdg2 - airport.mag_var
-    ).toFixed(0)};${runway.lat1.toFixed(7)};${runway.lon1.toFixed(
-      6
-    )};${runway.lat2.toFixed(7)};${runway.lon2.toFixed(7)};\n`;
+    const dmsLat1 = decimalToDMS(runway.lat1, true); // Convert start latitude to DMS
+    const dmsLon1 = decimalToDMS(runway.lon1, false); // Convert start longitude to DMS
+    const dmsLat2 = decimalToDMS(runway.lat2, true); // Convert end latitude to DMS
+    const dmsLon2 = decimalToDMS(runway.lon2, false); // Convert end longitude to DMS
+
+    rwyOut += `${airport.ident};${runway.runway1};${runway.runway2};${runway.alt1};${runway.alt2};${(runway.hdg1 - airport.mag_var).toFixed(0)};${(runway.hdg2 - airport.mag_var).toFixed(0)};${dmsLat1};${dmsLon1};${dmsLat2};${dmsLon2};\n`;
   }
   out += `F;${airport.ident}.rwy\n`;
   writeFileSync(runwayFile, rwyOut);
@@ -192,15 +201,41 @@ for (const gf of extraFiles.gates) {
 
 out += '[FIXES]\n';
 
-const fixesFileName = 'VTBB.fix';
-const fixesFile = resolve(auroraIncludePath, fixesFileName);
+const fixesFileName: string = 'VTBB.fix';
+const fixesFile: string = resolve(auroraIncludePath, fixesFileName);
 
-let outFix = '';
+let outFix: string = '';
 
 for (const waypoint of waypoints) {
-  outFix += `${waypoint.ident};${waypoint.laty.toFixed(
-    7
-  )};${waypoint.lonx.toFixed(6)};${
+  let dmsLat: string = decimalToDMS(waypoint.laty, true); // Convert latitude to DMS
+  const dmsLon: string = decimalToDMS(waypoint.lonx, false); // Convert longitude to DMS
+
+  // Manually adjust MODON's latitude if required
+  if (waypoint.ident === 'MODON') {
+    let [degrees, minutes, seconds, miliseconds] = dmsLat
+      .substring(1) // Strip the direction for processing
+      .split(/[.]/)
+      .map((val) => parseInt(val, 10));
+    miliseconds += 1;
+    if (miliseconds >= 1000) {
+      miliseconds = 0;
+      seconds += 1;
+    }
+    if (seconds >= 60) {
+      seconds = 0;
+      minutes += 1;
+    }
+    if (minutes >= 60) {
+      minutes = 0;
+      degrees += 1;
+    }
+    const direction = dmsLat[0]; // Retrieve direction
+    dmsLat = `${direction}${degrees.toString().padStart(3, '0')}.${minutes
+      .toString().padStart(2, '0')}.${seconds.toString().padStart(2, '0')}.${miliseconds.toString().padStart(3, '0')}`;
+    console.log(`Adjusted MODON: ${dmsLat}`);
+  }
+
+  outFix += `${waypoint.ident};${dmsLat};${dmsLon};${
     waypoint.is_enroute
       ? waypoint.is_terminal
         ? 2
@@ -223,9 +258,10 @@ const ndbFile = resolve(auroraIncludePath, ndbFileName);
 let outNdb = '';
 
 for (const ndb of ndbs) {
-  outNdb += `${ndb.ident};${(ndb.frequency / 100).toFixed(
-    3
-  )};${ndb.laty.toFixed(6)};${ndb.lonx.toFixed(7)};\n`;
+  const dmsLat = decimalToDMS(ndb.laty, true); // Convert latitude to DMS
+  const dmsLon = decimalToDMS(ndb.lonx, false); // Convert longitude to DMS
+
+  outNdb += `${ndb.ident};${(ndb.frequency / 100).toFixed(3)};${dmsLat};${dmsLon};\n`;
 }
 
 writeFileSync(ndbFile, outNdb);
@@ -240,9 +276,10 @@ const vorFile = resolve(auroraIncludePath, vorFileName);
 let outVor = '';
 
 for (const vor of vors) {
-  outVor += `${vor.ident};${(vor.frequency / 1000).toFixed(
-    3
-  )};${vor.laty.toFixed(6)};${vor.lonx.toFixed(7)};\n`;
+  const dmsLat = decimalToDMS(vor.laty, true); // Convert latitude to DMS
+  const dmsLon = decimalToDMS(vor.lonx, false); // Convert longitude to DMS
+
+  outVor += `${vor.ident};${(vor.frequency / 1000).toFixed(3)};${dmsLat};${dmsLon};\n`;
 }
 
 writeFileSync(vorFile, outVor);
@@ -283,13 +320,9 @@ for (const fir of firs) {
   let firOut = '';
 
   for (const point of fir.points) {
-    firOut += `T;${fir.code}_CTR;${point[0].toFixed(7)};${point[1].toFixed(
-      7
-    )};\n`;
+    firOut += `T;${fir.code}_CTR;${decimalToDMS(point[0], true)};${decimalToDMS(point[1], false)};\n`;
   }
-  firOut += `T;${fir.code}_CTR;${fir.points[0][0].toFixed(
-    7
-  )};${fir.points[0][1].toFixed(7)};\n`;
+  firOut += `T;${fir.code}_CTR;${decimalToDMS(fir.points[0][0], true)};${decimalToDMS(fir.points[0][1], false)};\n`;
   writeFileSync(airspaceFile, firOut);
   out += `F;${airspaceFileName}\n`;
 }
@@ -304,13 +337,9 @@ for (const areaDetail of areaDetails.filter(
   const area = areas.find((s) => s.digest === areaDetail.digest)!;
   let areaOut = '';
   for (const point of area.points) {
-    areaOut += `T;${areaDetail.name};${point[1].toFixed(7)};${point[0].toFixed(
-      7
-    )};\n`;
+    areaOut += `T;${areaDetail.name};${decimalToDMS(point[1], true)};${decimalToDMS(point[0], false)};\n`;
   }
-  areaOut += `T;${areaDetail.name};${area.points[0][1].toFixed(
-    7
-  )};${area.points[0][0].toFixed(7)};\n`;
+  areaOut += `T;${areaDetail.name};${decimalToDMS(area.points[0][1], true)};${decimalToDMS(area.points[0][0], false)};\n`;
   writeFileSync(areaFile, areaOut);
   out += `F;${areaFileName}\n`;
 }
@@ -330,13 +359,9 @@ for (const areaDetail of areaDetails.filter(
   const area = areas.find((s) => s.digest === areaDetail.digest)!;
   let areaOut = '';
   for (const point of area.points) {
-    areaOut += `T;${areaDetail.name};${point[1].toFixed(7)};${point[0].toFixed(
-      7
-    )};\n`;
+    areaOut += `T;${areaDetail.name};${decimalToDMS(point[1], true)};${decimalToDMS(point[0], false)};\n`;
   }
-  areaOut += `T;${areaDetail.name};${area.points[0][1].toFixed(
-    7
-  )};${area.points[0][0].toFixed(7)};\n`;
+  areaOut += `T;${areaDetail.name};${decimalToDMS(area.points[0][1], true)};${decimalToDMS(area.points[0][0], false)};\n`;
   writeFileSync(areaFile, areaOut);
   out += `F;${areaFileName}\n`;
 }
@@ -439,20 +464,20 @@ for (const segment of geo) {
   let i: number;
   for (i = 0; i <= segment.length - 1; i += skip) {
     if (i + skip <= segment.length - 1) {
-      coastOut += `${segment[i].lat.toFixed(7)};${segment[i].lon.toFixed(
-        7
-      )};${segment[i + skip].lat.toFixed(7)};${segment[i + skip].lon.toFixed(
-        7
-      )};Coast;\n`;
+      const dmsLat1 = decimalToDMS(segment[i].lat, true);
+      const dmsLon1 = decimalToDMS(segment[i].lon, false);
+      const dmsLat2 = decimalToDMS(segment[i + skip].lat, true);
+      const dmsLon2 = decimalToDMS(segment[i + skip].lon, false);
+      coastOut += `${dmsLat1};${dmsLon1};${dmsLat2};${dmsLon2};Coast;\n`;
     }
   }
   i -= skip;
   if (i !== segment.length - 1) {
-    coastOut += `${segment[i].lat.toFixed(7)};${segment[i].lon.toFixed(
-      7
-    )};${segment[segment.length - 1].lat.toFixed(7)};${segment[
-      segment.length - 1
-    ].lon.toFixed(7)};Coast;\n`;
+    const dmsLat1 = decimalToDMS(segment[i].lat, true);
+    const dmsLon1 = decimalToDMS(segment[i].lon, false);
+    const dmsLat2 = decimalToDMS(segment[segment.length - 1].lat, true);
+    const dmsLon2 = decimalToDMS(segment[segment.length - 1].lon, false);
+    coastOut += `${dmsLat1};${dmsLon1};${dmsLat2};${dmsLon2};Coast;\n`;
   }
 }
 

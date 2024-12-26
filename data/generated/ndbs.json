@@ -199,15 +199,15 @@
     "ident": "THS",
     "name": "SUKHOTHAI",
     "frequency": 29200,
-    "laty": 17.235225,
-    "lonx": 99.82200833
+    "laty": 17.23522222,
+    "lonx": 99.82202778
   },
   {
     "ident": "TK",
     "name": "TAK",
     "frequency": 33200,
-    "laty": 16.89951111,
-    "lonx": 99.25219722
+    "laty": 16.8995,
+    "lonx": 99.25222222
   },
   {
     "ident": "TL",

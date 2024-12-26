@@ -1,5 +1,15 @@
 import { Segment } from '../../utils/interfaces';
 
+// Function to convert decimal degrees to DMS (Degrees, Minutes, Seconds) format
+function decimalToDMS(decimal: number, isLat: boolean): string {
+  const degrees = Math.floor(Math.abs(decimal));
+  const minutes = Math.floor((Math.abs(decimal) - degrees) * 60);
+  const seconds = Math.round(((Math.abs(decimal) - degrees) * 60 - minutes) * 60 * 100) / 100;
+  const direction = decimal >= 0 ? (isLat ? 'N' : 'E') : (isLat ? 'S' : 'W');
+
+  return `${direction}${degrees.toString().padStart(3, '0')}.${minutes.toString().padStart(2, '0')}.${seconds.toFixed(3).padStart(6, '0')}`;
+}
+
 const getDirection = (
   from_laty: number,
   from_lonx: number,
@@ -69,10 +79,10 @@ export const formatAirways = (
       name: string;
       direction: '⬆️' | '↗️' | '➡️' | '↘️' | '⬇️' | '↙️' | '⬅️' | '↖️' | '';
     }[];
-    from_lat: number;
-    from_lon: number;
-    to_lat: number;
-    to_lon: number;
+    from_lat_decimal: number;
+    from_lon_decimal: number;
+    to_lat_decimal: number;
+    to_lon_decimal: number;
   }[] = [];
   for (const fragment of airways) {
     const filtered = fragment.filter((f) => f.type === mode || f.type === 'B');
@@ -124,10 +134,10 @@ export const formatAirways = (
               )
             }
           ],
-          from_lat: segment.from_lat,
-          from_lon: segment.from_lon,
-          to_lat: segment.to_lat,
-          to_lon: segment.to_lon
+          from_lat_decimal: segment.from_lat,
+          from_lon_decimal: segment.from_lon,
+          to_lat_decimal: segment.to_lat,
+          to_lon_decimal: segment.to_lon
         });
       }
     }
@@ -135,10 +145,7 @@ export const formatAirways = (
   for (const label of segmentLabelMap) {
     out += `L;${label.airways
       .map((s) => `${s.name}${s.direction}`)
-      .join('/')};${((label.from_lat + label.to_lat) / 2).toFixed(6)};${(
-      (label.from_lon + label.to_lon) /
-      2
-    ).toFixed(6)};\n`;
+      .join('/')};${decimalToDMS((label.from_lat_decimal + label.to_lat_decimal) / 2, true)};${decimalToDMS((label.from_lon_decimal + label.to_lon_decimal) / 2, false)};\n`;
   }
   return out;
 };
