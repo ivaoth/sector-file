@@ -45,15 +45,15 @@
     "ident": "CMA",
     "name": "CHIANG MAI",
     "frequency": 116900,
-    "laty": 18.76612778,
-    "lonx": 98.96121667
+    "laty": 18.76613889,
+    "lonx": 98.96122222
   },
   {
     "ident": "CMP",
     "name": "CHUM PHAE",
     "frequency": 112900,
-    "laty": 16.635,
-    "lonx": 101.98833333
+    "laty": 16.63527778,
+    "lonx": 101.98888889
   },
   {
     "ident": "CPN",
@@ -66,8 +66,8 @@
     "ident": "CTR",
     "name": "CHIANG RAI",
     "frequency": 116500,
-    "laty": 19.94823611,
-    "lonx": 99.88336667
+    "laty": 19.94886111,
+    "lonx": 99.88313889
   },
   {
     "ident": "HHN",
@@ -129,15 +129,15 @@
     "ident": "LPN",
     "name": "LAMPANG",
     "frequency": 114700,
-    "laty": 18.27663056,
+    "laty": 18.27663889,
     "lonx": 99.50233333
   },
   {
     "ident": "MHS",
     "name": "MAE HONG SON",
     "frequency": 115500,
-    "laty": 19.31964722,
-    "lonx": 97.91208333
+    "laty": 19.31975,
+    "lonx": 97.91211111
   },
   {
     "ident": "MS",
@@ -150,15 +150,15 @@
     "ident": "MST",
     "name": "MAE SOT TAK",
     "frequency": 116700,
-    "laty": 16.69781389,
-    "lonx": 98.54157778
+    "laty": 16.69780556,
+    "lonx": 98.54158333
   },
   {
     "ident": "NAN",
     "name": "NAN",
     "frequency": 115700,
-    "laty": 18.8091,
-    "lonx": 100.78258611
+    "laty": 18.80911111,
+    "lonx": 100.78261111
   },
   {
     "ident": "NKP",
@@ -192,15 +192,15 @@
     "ident": "PAE",
     "name": "PHRAE",
     "frequency": 111800,
-    "laty": 18.13410556,
-    "lonx": 100.16620833
+    "laty": 18.13413889,
+    "lonx": 100.16625
   },
   {
     "ident": "PCB",
     "name": "PHETCHABUN",
     "frequency": 115400,
-    "laty": 16.67601667,
-    "lonx": 101.1967
+    "laty": 16.676,
+    "lonx": 101.19663889
   },
   {
     "ident": "PCK",
@@ -213,8 +213,8 @@
     "ident": "PSL",
     "name": "PHITSANULOK",
     "frequency": 114100,
-    "laty": 16.77037222,
-    "lonx": 100.29130556
+    "laty": 16.77036111,
+    "lonx": 100.29138889
   },
   {
     "ident": "PUT",
@@ -381,8 +381,8 @@
     "ident": "AAU",
     "name": "AURANGABAD",
     "frequency": 116300,
-    "laty": 19.86108333,
-    "lonx": 75.40525
+    "laty": 19.86088056,
+    "lonx": 75.40605833
   },
   {
     "ident": "NNP",
@@ -472,15 +472,15 @@
     "ident": "DAC",
     "name": "DHAKA",
     "frequency": 112700,
-    "laty": 23.82428333,
-    "lonx": 90.41292222
+    "laty": 23.82427778,
+    "lonx": 90.41291667
   },
   {
     "ident": "RAJ",
     "name": "RAJSHAHI",
     "frequency": 114600,
-    "laty": 24.43898889,
-    "lonx": 88.61523056
+    "laty": 24.439,
+    "lonx": 88.61522222
   },
   {
     "ident": "AGG",
@@ -619,8 +619,8 @@
     "ident": "VBA",
     "name": "BATU ARANG",
     "frequency": 114700,
-    "laty": 3.324825,
-    "lonx": 101.46058611
+    "laty": 3.32508333,
+    "lonx": 101.46088889
   },
   {
     "ident": "VIH",
