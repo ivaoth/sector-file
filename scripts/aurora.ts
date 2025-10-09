@@ -14,7 +14,6 @@ import {
   Ndb,
   Segment,
   Vor,
-  Ils,
   Waypoint,
   Area,
   AreaDetail
@@ -36,7 +35,6 @@ const airportsFile = resolve(generatedDataPath, 'airports.json');
 const waypointsFile = resolve(generatedDataPath, 'waypoints.json');
 const ndbsFile = resolve(generatedDataPath, 'ndbs.json');
 const vorsFile = resolve(generatedDataPath, 'vors.json');
-const ilssFile = resolve(generatedDataPath, 'ilss.json');
 const airwaysFile = resolve(generatedDataPath, 'airways.json');
 const firsFile = resolve(generatedDataPath, 'firs.json');
 const areasFile = resolve(generatedDataPath, 'areas.json');
@@ -55,7 +53,6 @@ const waypoints = JSON.parse(
 ) as Waypoint[];
 const ndbs = JSON.parse(readFileSync(ndbsFile).toString()) as Ndb[];
 const vors = JSON.parse(readFileSync(vorsFile).toString()) as Vor[];
-const ilss = JSON.parse(readFileSync(ilssFile).toString()) as Ils[];
 const airways = JSON.parse(readFileSync(airwaysFile).toString()) as Segment[][];
 const firs = JSON.parse(readFileSync(firsFile).toString()) as Fir[];
 const areas = JSON.parse(readFileSync(areasFile).toString()) as Area[];
@@ -289,25 +286,7 @@ for (const vor of vors) {
 
 writeFileSync(vorFile, outVor);
 
-out += '[ILS]\n';
-
-const ilsFileName = 'VTBB.ils';
-const ilsFile = resolve(auroraIncludePath, ilsFileName);
-
-let outIls = '';
-
-for (const ils of ilss) {
-  const dmeLat = decimalToDMS(ils.dme_laty, true); // Convert latitude to DMS
-  const dmeLon = decimalToDMS(ils.dme_lonx, false); // Convert longitude to DMS
-  const dmsLat = decimalToDMS(ils.laty, true); // Convert latitude to DMS
-  const dmsLon = decimalToDMS(ils.lonx, false); // Convert longitude to DMS
-
-  outIls += `${ils.loc_airport_ident};${ils.loc_runway_name};${ils.ident};${dmsLat};${dmsLon};${dmeLat};${dmeLon};\n`;
-}
-
-writeFileSync(ilsFile, outIls);
-
-out += `F;${ilsFileName}\n`;
+out += `F;${vorFileName}\n`;
 
 out += '[LOW AIRWAY]\n';
 
