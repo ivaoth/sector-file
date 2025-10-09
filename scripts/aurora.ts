@@ -236,13 +236,15 @@ for (const waypoint of waypoints) {
   }
 
   outFix += `${waypoint.ident};${dmsLat};${dmsLon};${
-    waypoint.is_enroute
-      ? waypoint.is_terminal
-        ? 2
-        : 0
-      : waypoint.is_terminal
-        ? 1
-        : 3
+    waypoint.is_extra
+     ? 3 :
+      waypoint.is_enroute
+        ? waypoint.is_terminal
+          ? 2
+          : 0
+        : waypoint.is_terminal
+          ? 1
+          : 3
   };${waypoint.is_boundary ? 1 : 0};\n`;
 }
 
