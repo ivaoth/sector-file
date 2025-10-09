@@ -17,7 +17,7 @@ export const extractWaypoints = async (
   enrouteFixes: number[]
 ): Promise<Waypoint[]> => {
   const addIsEnrouteAndIsBoundaryInfo =
-    (isBoundary: boolean) =>
+    (isBoundary: boolean, isExtra: boolean) =>
     (s: WaypointDbData[]): Waypoint[] => {
       return s.map((w) => {
         const { waypoint_id, airport_id, ...others } = w;
@@ -25,7 +25,8 @@ export const extractWaypoints = async (
           ...others,
           is_enroute: enrouteFixes.indexOf(waypoint_id) !== -1,
           is_terminal: !!airport_id,
-          is_boundary: isBoundary
+          is_boundary: isBoundary,
+          is_extra: isExtra
         };
       });
     };
@@ -42,7 +43,7 @@ export const extractWaypoints = async (
     type = 'WN'
   `
     )
-    .then(addIsEnrouteAndIsBoundaryInfo(false));
+    .then(addIsEnrouteAndIsBoundaryInfo(false, false));
 
   const ids = `(${extra.join(',')})`;
   const extraWaypoints: Promise<Waypoint[]> = (await db)
@@ -63,7 +64,7 @@ export const extractWaypoints = async (
     )
   `)
     )
-    .then(addIsEnrouteAndIsBoundaryInfo(true));
+    .then(addIsEnrouteAndIsBoundaryInfo(true, true));
 
   return (await waypoints).concat(await extraWaypoints);
 };
