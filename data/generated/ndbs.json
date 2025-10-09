@@ -3,15 +3,15 @@
     "ident": "BR",
     "name": "BURIRUM",
     "frequency": 30300,
-    "laty": 15.23866111,
-    "lonx": 103.25254167
+    "laty": 15.23866667,
+    "lonx": 103.25255556
   },
   {
     "ident": "CP",
     "name": "CHUMPHON",
     "frequency": 27900,
-    "laty": 10.71775833,
-    "lonx": 99.36610833
+    "laty": 10.71775,
+    "lonx": 99.36611111
   },
   {
     "ident": "CT",
@@ -24,15 +24,15 @@
     "ident": "HN",
     "name": "HUA HIN",
     "frequency": 21300,
-    "laty": 12.64500833,
-    "lonx": 99.94624722
+    "laty": 12.645,
+    "lonx": 99.94625
   },
   {
     "ident": "KB",
     "name": "KRABI",
     "frequency": 29900,
-    "laty": 8.10527778,
-    "lonx": 98.97451389
+    "laty": 8.10541667,
+    "lonx": 98.97452778
   },
   {
     "ident": "KN",
@@ -52,8 +52,8 @@
     "ident": "KR",
     "name": "NAKHON RATCHASIMA",
     "frequency": 39900,
-    "laty": 14.95646667,
-    "lonx": 102.31470278
+    "laty": 14.95647222,
+    "lonx": 102.31472222
   },
   {
     "ident": "LB",
@@ -73,8 +73,8 @@
     "ident": "LY",
     "name": "LOEI",
     "frequency": 32500,
-    "laty": 17.44863611,
-    "lonx": 101.72650278
+    "laty": 17.44863889,
+    "lonx": 101.72652778
   },
   {
     "ident": "MH",
@@ -101,15 +101,15 @@
     "ident": "NP",
     "name": "NAKHON PHANOM",
     "frequency": 38300,
-    "laty": 17.39241389,
-    "lonx": 104.64262222
+    "laty": 17.39241667,
+    "lonx": 104.64266667
   },
   {
     "ident": "NT",
     "name": "NARATHIWAT",
     "frequency": 38300,
-    "laty": 6.52814167,
-    "lonx": 101.74974722
+    "laty": 6.52813889,
+    "lonx": 101.74975
   },
   {
     "ident": "PB",
@@ -140,13 +140,6 @@
     "lonx": 101.19036111
   },
   {
-    "ident": "PL",
-    "name": "PHITSANULOK",
-    "frequency": 26300,
-    "laty": 16.79595556,
-    "lonx": 100.27572778
-  },
-  {
     "ident": "PR",
     "name": "PHRAE",
     "frequency": 34000,
@@ -164,14 +157,14 @@
     "ident": "RE",
     "name": "ROI ET",
     "frequency": 31900,
-    "laty": 16.11068333,
+    "laty": 16.11069444,
     "lonx": 103.77822222
   },
   {
     "ident": "RN",
     "name": "RANONG",
     "frequency": 37500,
-    "laty": 9.78330833,
+    "laty": 9.78330556,
     "lonx": 98.591
   },
   {
@@ -182,25 +175,18 @@
     "lonx": 100.60388889
   },
   {
-    "ident": "SM",
-    "name": "SAMUI SURAT THANI",
-    "frequency": 31600,
-    "laty": 9.55389167,
-    "lonx": 100.05990278
-  },
-  {
     "ident": "SN",
     "name": "SAKON NAKHON",
     "frequency": 36500,
-    "laty": 17.19699167,
-    "lonx": 104.11483889
+    "laty": 17.19697222,
+    "lonx": 104.11486111
   },
   {
     "ident": "THS",
     "name": "SUKHOTHAI",
     "frequency": 29200,
-    "laty": 17.23522222,
-    "lonx": 99.82202778
+    "laty": 17.23521389,
+    "lonx": 99.82203056
   },
   {
     "ident": "TK",
@@ -221,21 +207,14 @@
     "name": "TRAT",
     "frequency": 38400,
     "laty": 12.27447222,
-    "lonx": 102.31391111
-  },
-  {
-    "ident": "UB",
-    "name": "UBON UBON RATCHATHANI",
-    "frequency": 37300,
-    "laty": 15.24050833,
-    "lonx": 104.86354722
+    "lonx": 102.31391667
   },
   {
     "ident": "UP",
     "name": "U-TAPHAO",
     "frequency": 41400,
-    "laty": 12.66195,
-    "lonx": 100.99498889
+    "laty": 12.66180833,
+    "lonx": 100.994375
   },
   {
     "ident": "WN",

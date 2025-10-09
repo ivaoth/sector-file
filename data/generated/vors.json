@@ -3,8 +3,8 @@
     "ident": "BET",
     "name": "BETONG YALA",
     "frequency": 113100,
-    "laty": 5.78546667,
-    "lonx": 101.14406944
+    "laty": 5.78547222,
+    "lonx": 101.14408333
   },
   {
     "ident": "BKK",
@@ -17,8 +17,15 @@
     "ident": "BRM",
     "name": "BURI RAM",
     "frequency": 117200,
-    "laty": 15.23956389,
-    "lonx": 103.258775
+    "laty": 15.23955556,
+    "lonx": 103.25877778
+  },
+  {
+    "ident": "BTG",
+    "name": "PATTANI",
+    "frequency": 114600,
+    "laty": 6.78733056,
+    "lonx": 101.15084444
   },
   {
     "ident": "BTN",
@@ -31,8 +38,8 @@
     "ident": "BUT",
     "name": "U-TAPAO",
     "frequency": 110800,
-    "laty": 12.66667222,
-    "lonx": 101.000475
+    "laty": 12.66666667,
+    "lonx": 101.00047222
   },
   {
     "ident": "CHM",
@@ -59,8 +66,8 @@
     "ident": "CPN",
     "name": "CHUMPHON",
     "frequency": 110000,
-    "laty": 10.71116944,
-    "lonx": 99.36556389
+    "laty": 10.71119444,
+    "lonx": 99.36558333
   },
   {
     "ident": "CTR",
@@ -73,29 +80,29 @@
     "ident": "HHN",
     "name": "HUA HIN",
     "frequency": 113300,
-    "laty": 12.63445556,
-    "lonx": 99.951175
+    "laty": 12.63441667,
+    "lonx": 99.95116667
   },
   {
     "ident": "HTY",
     "name": "HAT YAI",
     "frequency": 115300,
-    "laty": 6.93409722,
-    "lonx": 100.38790833
+    "laty": 6.93411111,
+    "lonx": 100.38794444
   },
   {
     "ident": "KBI",
     "name": "KRABI",
     "frequency": 111000,
-    "laty": 8.10755278,
-    "lonx": 98.97751944
+    "laty": 8.1075,
+    "lonx": 98.9775
   },
   {
     "ident": "KKN",
     "name": "KHON KAEN",
     "frequency": 114900,
-    "laty": 16.47075833,
-    "lonx": 102.78779722
+    "laty": 16.47091667,
+    "lonx": 102.788
   },
   {
     "ident": "KPS",
@@ -108,8 +115,8 @@
     "ident": "KRT",
     "name": "KHORAT NAKHON RATCHASIMA",
     "frequency": 113700,
-    "laty": 14.91731944,
-    "lonx": 102.13981111
+    "laty": 14.91730556,
+    "lonx": 102.13980556
   },
   {
     "ident": "LOB",
@@ -122,8 +129,8 @@
     "ident": "LOY",
     "name": "LOEI",
     "frequency": 115900,
-    "laty": 17.44705,
-    "lonx": 101.72308889
+    "laty": 17.44705556,
+    "lonx": 101.72311111
   },
   {
     "ident": "LPN",
@@ -164,29 +171,29 @@
     "ident": "NKP",
     "name": "NAKHON PHANOM",
     "frequency": 111600,
-    "laty": 17.38829722,
-    "lonx": 104.63833611
+    "laty": 17.38830556,
+    "lonx": 104.63836111
   },
   {
     "ident": "NKR",
     "name": "NAKHON RATCHASIMA",
     "frequency": 110200,
-    "laty": 14.94657222,
-    "lonx": 102.31120833
+    "laty": 14.94655556,
+    "lonx": 102.31122222
   },
   {
     "ident": "NKS",
     "name": "NAKHON SI THAMMARAT",
     "frequency": 117400,
-    "laty": 8.54165278,
-    "lonx": 99.94685278
+    "laty": 8.54166667,
+    "lonx": 99.94686111
   },
   {
     "ident": "NTW",
     "name": "NARATHIWAT",
     "frequency": 116300,
-    "laty": 6.52728889,
-    "lonx": 101.74513333
+    "laty": 6.52727778,
+    "lonx": 101.74513889
   },
   {
     "ident": "PAE",
@@ -220,29 +227,29 @@
     "ident": "PUT",
     "name": "PHUKET",
     "frequency": 116900,
-    "laty": 8.11523056,
-    "lonx": 98.30630278
+    "laty": 8.11397222,
+    "lonx": 98.307
   },
   {
     "ident": "RAN",
     "name": "RANONG",
     "frequency": 113400,
-    "laty": 9.77866111,
-    "lonx": 98.58391944
+    "laty": 9.77797222,
+    "lonx": 98.58372222
   },
   {
     "ident": "ROT",
     "name": "ROI ET",
     "frequency": 111200,
-    "laty": 16.11683056,
-    "lonx": 103.77206944
+    "laty": 16.11683333,
+    "lonx": 103.77208333
   },
   {
     "ident": "RYN",
     "name": "RAYONG",
     "frequency": 112500,
-    "laty": 12.78008333,
-    "lonx": 101.67825
+    "laty": 12.77863889,
+    "lonx": 101.67644444
   },
   {
     "ident": "SKL",
@@ -255,15 +262,15 @@
     "ident": "SKN",
     "name": "SAKON NAKHON",
     "frequency": 114200,
-    "laty": 17.21413611,
-    "lonx": 104.13676111
+    "laty": 17.21411111,
+    "lonx": 104.13677778
   },
   {
     "ident": "SMU",
     "name": "SAMUI",
     "frequency": 117600,
-    "laty": 9.547075,
-    "lonx": 100.06174167
+    "laty": 9.54702778,
+    "lonx": 100.06175
   },
   {
     "ident": "SPN",
@@ -283,8 +290,8 @@
     "ident": "STN",
     "name": "SURAT THANI",
     "frequency": 110600,
-    "laty": 9.12951111,
-    "lonx": 99.13474722
+    "laty": 9.1295,
+    "lonx": 99.13475
   },
   {
     "ident": "SVB",
@@ -304,29 +311,29 @@
     "ident": "TRN",
     "name": "TRANG",
     "frequency": 116600,
-    "laty": 7.50893611,
-    "lonx": 99.62601944
+    "laty": 7.50891667,
+    "lonx": 99.62602778
   },
   {
     "ident": "TRT",
     "name": "TRAT",
     "frequency": 109900,
-    "laty": 12.27646944,
-    "lonx": 102.31909444
+    "laty": 12.27644444,
+    "lonx": 102.31913889
   },
   {
     "ident": "UBL",
     "name": "UBON UBON RATCHATHANI",
     "frequency": 112700,
-    "laty": 15.24519722,
-    "lonx": 104.86591667
+    "laty": 15.24519444,
+    "lonx": 104.86588889
   },
   {
     "ident": "UDN",
     "name": "UDON THANI",
     "frequency": 114300,
-    "laty": 17.3845,
-    "lonx": 102.77501389
+    "laty": 17.38477778,
+    "lonx": 102.77494444
   },
   {
     "ident": "APU",
@@ -374,15 +381,15 @@
     "ident": "AAE",
     "name": "AHMEDABAD",
     "frequency": 113100,
-    "laty": 23.06822222,
-    "lonx": 72.62908333
+    "laty": 23.06869444,
+    "lonx": 72.62875
   },
   {
     "ident": "AAU",
     "name": "AURANGABAD",
     "frequency": 116300,
-    "laty": 19.86088056,
-    "lonx": 75.40605833
+    "laty": 19.86088889,
+    "lonx": 75.40605556
   },
   {
     "ident": "NNP",
@@ -406,18 +413,18 @@
     "lonx": 103.64216667
   },
   {
-    "ident": "PNH",
-    "name": "PHNOM PENH",
-    "frequency": 114300,
-    "laty": 11.54397222,
-    "lonx": 104.84391667
-  },
-  {
     "ident": "REP",
     "name": "SIEM REAP",
     "frequency": 112000,
     "laty": 13.36055556,
     "lonx": 104.21969444
+  },
+  {
+    "ident": "TIA",
+    "name": "TECHO",
+    "frequency": 111000,
+    "laty": 11.343,
+    "lonx": 104.90394444
   },
   {
     "ident": "BBN",
@@ -466,7 +473,7 @@
     "name": "CHATTOGRAM",
     "frequency": 113400,
     "laty": 22.25775,
-    "lonx": 91.82749444
+    "lonx": 91.8275
   },
   {
     "ident": "DAC",
