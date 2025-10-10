@@ -8,7 +8,7 @@ jobs:
     steps:
     - uses: actions/checkout@v5
     - name: "Init: Summon NodeJS"
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v5
       with:
         node-version: 22.x
     - name: "Cache: node_modules"
@@ -34,7 +34,7 @@ jobs:
     steps:
     - uses: actions/checkout@v5
     - name: "Init: Summon NodeJS"
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v5
       with:
         node-version: 22.x
     - name: "Cache: node_modules"
@@ -65,7 +65,7 @@ jobs:
     steps:
     - uses: actions/checkout@v5
     - name: "Init: Summon NodeJS"
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v5
       with:
         node-version: 22.x
     - name: "Cache: node_modules"
