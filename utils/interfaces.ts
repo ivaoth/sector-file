@@ -49,6 +49,16 @@ export interface Vor {
   lonx: number;
 }
 
+export interface Ils {
+  ident: string;
+  loc_runway_name: string;
+  loc_airport_ident: string;
+  dme_lonx: number;
+  dme_laty: number;
+  laty: number;
+  lonx: number;
+}
+
 export interface Ndb {
   ident: string;
   name: string;
@@ -64,6 +74,7 @@ export interface Waypoint {
   is_terminal: boolean;
   is_enroute: boolean;
   is_boundary: boolean;
+  is_extra: boolean;
 }
 
 export interface Fir {
