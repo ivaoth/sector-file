@@ -198,6 +198,14 @@
     "is_extra": false
   },
   {
+    "ident": "AKMOM",
+    "laty": 15.49869722,
+    "lonx": 104.663525,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
+  },
+  {
     "ident": "AKRET",
     "laty": 16.67111111,
     "lonx": 103.14875278,
@@ -603,6 +611,14 @@
     "is_extra": false
   },
   {
+    "ident": "AREVU",
+    "laty": 15.23082778,
+    "lonx": 104.65015556,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
+  },
+  {
     "ident": "ARMOO",
     "laty": 18.80340833,
     "lonx": 99.09551944,
@@ -655,6 +671,14 @@
     "is_terminal": false,
     "is_boundary": false,
     "is_extra": false
+  },
+  {
+    "ident": "ASABO",
+    "laty": 15.20262222,
+    "lonx": 104.35064167,
+    "is_enroute": true,
+    "is_terminal": false,
+    "is_boundary": false
   },
   {
     "ident": "ASANI",
@@ -718,6 +742,14 @@
     "is_terminal": true,
     "is_boundary": false,
     "is_extra": false
+  },
+  {
+    "ident": "ATMEG",
+    "laty": 15.22315833,
+    "lonx": 104.59738333,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
   },
   {
     "ident": "ATMOB",
@@ -1494,6 +1526,14 @@
     "is_extra": false
   },
   {
+    "ident": "BINEK",
+    "laty": 15.35872222,
+    "lonx": 104.63520833,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
+  },
+  {
     "ident": "BINIX",
     "laty": 16.79807222,
     "lonx": 98.89353889,
@@ -1537,6 +1577,14 @@
     "is_terminal": false,
     "is_boundary": false,
     "is_extra": false
+  },
+  {
+    "ident": "BLAFF",
+    "laty": 15.27595833,
+    "lonx": 100.29753056,
+    "is_enroute": true,
+    "is_terminal": false,
+    "is_boundary": false
   },
   {
     "ident": "BLUES",
@@ -3897,6 +3945,14 @@
     "is_extra": false
   },
   {
+    "ident": "CRIST",
+    "laty": 18.79777778,
+    "lonx": 100.22611111,
+    "is_enroute": true,
+    "is_terminal": false,
+    "is_boundary": false
+  },
+  {
     "ident": "CT031",
     "laty": 19.94029167,
     "lonx": 99.87758333,
@@ -4374,6 +4430,14 @@
     "is_extra": false
   },
   {
+    "ident": "DOLBO",
+    "laty": 15.28606667,
+    "lonx": 105.22595,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
+  },
+  {
     "ident": "DOLNI",
     "laty": 13.29433889,
     "lonx": 101.18011389,
@@ -4597,6 +4661,14 @@
     "is_terminal": true,
     "is_boundary": false,
     "is_extra": false
+  },
+  {
+    "ident": "DUGIL",
+    "laty": 15.37264167,
+    "lonx": 105.01075556,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
   },
   {
     "ident": "DUGIX",
@@ -5004,6 +5076,14 @@
     "is_extra": false
   },
   {
+    "ident": "ENLEP",
+    "laty": 15.56479444,
+    "lonx": 104.46671944,
+    "is_enroute": true,
+    "is_terminal": false,
+    "is_boundary": false
+  },
+  {
     "ident": "ENLON",
     "laty": 16.89760556,
     "lonx": 98.60164722,
@@ -5218,6 +5298,14 @@
     "is_terminal": true,
     "is_boundary": false,
     "is_extra": false
+  },
+  {
+    "ident": "EXUBI",
+    "laty": 15.10588611,
+    "lonx": 104.682325,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
   },
   {
     "ident": "FAGAS",
@@ -5463,6 +5551,14 @@
     "is_extra": false
   },
   {
+    "ident": "GOPVI",
+    "laty": 15.12643056,
+    "lonx": 104.53539722,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
+  },
+  {
     "ident": "GORDU",
     "laty": 19.06723333,
     "lonx": 100.66074444,
@@ -5506,6 +5602,14 @@
     "is_terminal": true,
     "is_boundary": false,
     "is_extra": false
+  },
+  {
+    "ident": "GOTPO",
+    "laty": 15.10678056,
+    "lonx": 104.90172778,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
   },
   {
     "ident": "GOVDA",
@@ -5616,6 +5720,14 @@
     "is_extra": false
   },
   {
+    "ident": "GUNEP",
+    "laty": 15.30503889,
+    "lonx": 105.11709444,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
+  },
+  {
     "ident": "GUNYA",
     "laty": 12.70306667,
     "lonx": 100.10783889,
@@ -5659,6 +5771,14 @@
     "is_terminal": true,
     "is_boundary": false,
     "is_extra": false
+  },
+  {
+    "ident": "GURNA",
+    "laty": 15.17309167,
+    "lonx": 105.02148333,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
   },
   {
     "ident": "GUROK",
@@ -6415,6 +6535,14 @@
     "is_terminal": true,
     "is_boundary": false,
     "is_extra": false
+  },
+  {
+    "ident": "KABUB",
+    "laty": 15.17237222,
+    "lonx": 104.59167222,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
   },
   {
     "ident": "KABUT",
@@ -7425,6 +7553,14 @@
     "is_extra": false
   },
   {
+    "ident": "MALOL",
+    "laty": 15.31419722,
+    "lonx": 104.9443,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
+  },
+  {
     "ident": "MANAM",
     "laty": 9.86848889,
     "lonx": 98.47437222,
@@ -7965,6 +8101,14 @@
     "is_extra": false
   },
   {
+    "ident": "MUBDA",
+    "laty": 15.19805,
+    "lonx": 104.78861111,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
+  },
+  {
     "ident": "MUBUS",
     "laty": 13.75825833,
     "lonx": 100.72838056,
@@ -8244,6 +8388,14 @@
     "is_extra": false
   },
   {
+    "ident": "NINOM",
+    "laty": 15.14723889,
+    "lonx": 104.70538889,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
+  },
+  {
     "ident": "NIROP",
     "laty": 17.27048333,
     "lonx": 100.24564722,
@@ -8359,6 +8511,14 @@
     "is_terminal": true,
     "is_boundary": false,
     "is_extra": false
+  },
+  {
+    "ident": "NOGEK",
+    "laty": 15.17898333,
+    "lonx": 104.61651667,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
   },
   {
     "ident": "NOGEM",
@@ -8730,6 +8890,14 @@
     "is_extra": false
   },
   {
+    "ident": "OBKIB",
+    "laty": 15.32014167,
+    "lonx": 104.71369444,
+    "is_enroute": true,
+    "is_terminal": false,
+    "is_boundary": false
+  },
+  {
     "ident": "OBLEX",
     "laty": 7.49652778,
     "lonx": 100.54100833,
@@ -8791,6 +8959,14 @@
     "is_terminal": true,
     "is_boundary": false,
     "is_extra": false
+  },
+  {
+    "ident": "OKIDI",
+    "laty": 15.44375833,
+    "lonx": 104.9586,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
   },
   {
     "ident": "OKVES",
@@ -8937,6 +9113,14 @@
     "is_extra": false
   },
   {
+    "ident": "OMDED",
+    "laty": 15.44111667,
+    "lonx": 104.57249722,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
+  },
+  {
     "ident": "OMDIL",
     "laty": 18.18521111,
     "lonx": 99.92950833,
@@ -9054,6 +9238,14 @@
     "is_extra": false
   },
   {
+    "ident": "OPTAD",
+    "laty": 15.231,
+    "lonx": 105.12746944,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
+  },
+  {
     "ident": "OSADI",
     "laty": 18.32461111,
     "lonx": 98.87186111,
@@ -9088,6 +9280,14 @@
     "is_terminal": true,
     "is_boundary": false,
     "is_extra": false
+  },
+  {
+    "ident": "OSNID",
+    "laty": 15.36306389,
+    "lonx": 105.18546389,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
   },
   {
     "ident": "OSNIX",
@@ -9603,6 +9803,14 @@
     "is_extra": false
   },
   {
+    "ident": "PEGBI",
+    "laty": 15.40508611,
+    "lonx": 104.66645556,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
+  },
+  {
     "ident": "PEGSI",
     "laty": 18.96837778,
     "lonx": 97.92221944,
@@ -10071,6 +10279,14 @@
     "is_extra": false
   },
   {
+    "ident": "POTEV",
+    "laty": 15.36459722,
+    "lonx": 105.36841111,
+    "is_enroute": true,
+    "is_terminal": false,
+    "is_boundary": false
+  },
+  {
     "ident": "POTIV",
     "laty": 19.04131667,
     "lonx": 99.03678056,
@@ -10105,6 +10321,14 @@
     "is_terminal": true,
     "is_boundary": false,
     "is_extra": false
+  },
+  {
+    "ident": "POVIV",
+    "laty": 15.22405833,
+    "lonx": 104.60825278,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
   },
   {
     "ident": "POVUP",
@@ -11106,6 +11330,14 @@
     "is_extra": false
   },
   {
+    "ident": "RUSTU",
+    "laty": 15.45683333,
+    "lonx": 104.94254722,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
+  },
+  {
     "ident": "RUTEX",
     "laty": 17.10426389,
     "lonx": 100.11769167,
@@ -11203,6 +11435,22 @@
     "is_terminal": false,
     "is_boundary": false,
     "is_extra": false
+  },
+  {
+    "ident": "SADUP",
+    "laty": 15.0345,
+    "lonx": 104.81125,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
+  },
+  {
+    "ident": "SAGAL",
+    "laty": 15.29928056,
+    "lonx": 104.75609444,
+    "is_enroute": true,
+    "is_terminal": false,
+    "is_boundary": false
   },
   {
     "ident": "SAGAP",
@@ -11365,6 +11613,14 @@
     "is_terminal": true,
     "is_boundary": false,
     "is_extra": false
+  },
+  {
+    "ident": "SAPIL",
+    "laty": 15.19173611,
+    "lonx": 104.79322222,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
   },
   {
     "ident": "SAPUD",
@@ -12879,6 +13135,14 @@
     "is_extra": false
   },
   {
+    "ident": "SUNIN",
+    "laty": 15.365125,
+    "lonx": 105.01770556,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
+  },
+  {
     "ident": "SUPAT",
     "laty": 17.30873333,
     "lonx": 104.236925,
@@ -13617,6 +13881,14 @@
     "is_extra": false
   },
   {
+    "ident": "TOGOK",
+    "laty": 15.17544444,
+    "lonx": 104.52195556,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
+  },
+  {
     "ident": "TOMMY",
     "laty": 7.87906944,
     "lonx": 99.22316944,
@@ -14002,6 +14274,14 @@
     "is_terminal": true,
     "is_boundary": false,
     "is_extra": false
+  },
+  {
+    "ident": "UD129",
+    "laty": 17.43698333,
+    "lonx": 102.51933611,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
   },
   {
     "ident": "UD300",
@@ -14796,6 +15076,38 @@
     "is_extra": false
   },
   {
+    "ident": "UU050",
+    "laty": 15.242825,
+    "lonx": 104.85931389,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
+  },
+  {
+    "ident": "UU051",
+    "laty": 15.24167222,
+    "lonx": 104.86013611,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
+  },
+  {
+    "ident": "UU230",
+    "laty": 15.25971944,
+    "lonx": 104.88117778,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
+  },
+  {
+    "ident": "UU231",
+    "laty": 15.25910556,
+    "lonx": 104.88171111,
+    "is_enroute": false,
+    "is_terminal": true,
+    "is_boundary": false
+  },
+  {
     "ident": "UV101",
     "laty": 16.42881111,
     "lonx": 103.54343611,
@@ -15444,6 +15756,14 @@
     "is_extra": false
   },
   {
+    "ident": "VENPO",
+    "laty": 15.11249444,
+    "lonx": 104.36727222,
+    "is_enroute": true,
+    "is_terminal": false,
+    "is_boundary": false
+  },
+  {
     "ident": "VEPDA",
     "laty": 12.66410556,
     "lonx": 100.72770278,
@@ -15487,6 +15807,14 @@
     "is_terminal": false,
     "is_boundary": false,
     "is_extra": false
+  },
+  {
+    "ident": "VESUD",
+    "laty": 15.35223611,
+    "lonx": 104.64840833,
+    "is_enroute": true,
+    "is_terminal": false,
+    "is_boundary": false
   },
   {
     "ident": "VETIT",
@@ -15876,6 +16204,14 @@
     "is_extra": true
   },
   {
+    "ident": "IGBAB",
+    "laty": 22.73,
+    "lonx": 109.43,
+    "is_enroute": true,
+    "is_terminal": false,
+    "is_boundary": true
+  },
+  {
     "ident": "IKULI",
     "laty": 22.97333333,
     "lonx": 111.58138889,
@@ -15919,6 +16255,14 @@
     "is_terminal": false,
     "is_boundary": true,
     "is_extra": true
+  },
+  {
+    "ident": "OSRIV",
+    "laty": 22.71333333,
+    "lonx": 109.28472222,
+    "is_enroute": true,
+    "is_terminal": false,
+    "is_boundary": true
   },
   {
     "ident": "PAKPU",
@@ -17181,6 +17525,14 @@
     "is_extra": true
   },
   {
+    "ident": "HOMEI",
+    "laty": 24.23444444,
+    "lonx": 120.35666667,
+    "is_enroute": true,
+    "is_terminal": false,
+    "is_boundary": true
+  },
+  {
     "ident": "KADLO",
     "laty": 22.955,
     "lonx": 118.54166667,
@@ -17523,6 +17875,14 @@
     "is_extra": true
   },
   {
+    "ident": "NIMIB",
+    "laty": 10.93505833,
+    "lonx": 104.21881667,
+    "is_enroute": true,
+    "is_terminal": false,
+    "is_boundary": true
+  },
+  {
     "ident": "NUMDI",
     "laty": 10.44527778,
     "lonx": 103.77638889,
@@ -17557,6 +17917,14 @@
     "is_terminal": false,
     "is_boundary": true,
     "is_extra": true
+  },
+  {
+    "ident": "PUKIP",
+    "laty": 11.78171111,
+    "lonx": 104.18751389,
+    "is_enroute": true,
+    "is_terminal": false,
+    "is_boundary": true
   },
   {
     "ident": "RIMSO",
@@ -17595,6 +17963,14 @@
     "is_extra": true
   },
   {
+    "ident": "SUSEL",
+    "laty": 11.92566944,
+    "lonx": 105.54768056,
+    "is_enroute": true,
+    "is_terminal": false,
+    "is_boundary": true
+  },
+  {
     "ident": "TAREG",
     "laty": 13.525,
     "lonx": 106.015,
@@ -17620,6 +17996,14 @@
     "is_terminal": false,
     "is_boundary": true,
     "is_extra": true
+  },
+  {
+    "ident": "UDOPI",
+    "laty": 11.54397222,
+    "lonx": 104.84391667,
+    "is_enroute": true,
+    "is_terminal": false,
+    "is_boundary": true
   },
   {
     "ident": "UKMAL",
@@ -17656,6 +18040,14 @@
     "is_terminal": false,
     "is_boundary": true,
     "is_extra": true
+  },
+  {
+    "ident": "VELVA",
+    "laty": 11.89552778,
+    "lonx": 104.26818889,
+    "is_enroute": true,
+    "is_terminal": false,
+    "is_boundary": true
   },
   {
     "ident": "VEMKO",
