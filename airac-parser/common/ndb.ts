@@ -10,11 +10,17 @@ interface NdbDbData {
   lonx: number;
 }
 
+interface NdbDbExtraRow extends NdbDbData {
+  waypoint_id: number;
+}
+
 export const extractNdbs = async (
   db: Promise<Database>,
   extra: number[],
   boundary: number[]
 ): Promise<Ndb[]> => {
+
+  const boundarySet = new Set(boundary);
 
   const addIsExtra =
     (isExtra: boolean) =>
@@ -41,9 +47,10 @@ export const extractNdbs = async (
   const ids = `(${extra.join(',')})`;
   
   const extraNdbs: Promise<Ndb[]> = (await db)
-    .all<NdbDbData[]>(
+    .all<NdbDbExtraRow[]>(
       SQL`
         SELECT
+          W.waypoint_id AS waypoint_id,
           N.ident, N.name, N.frequency, N.laty, N.lonx
         FROM
           waypoint W
@@ -54,7 +61,16 @@ export const extractNdbs = async (
           AND W.type = 'N'
       `)
     )
-    .then(addIsExtra(true));
-    
+    .then((rows) =>
+      rows.map((r) => {
+        const { waypoint_id, ...rest } = r;
+        const isExtraFlag = !boundarySet.has(waypoint_id); // boundary-linked → NOT extra
+        return {
+          ...rest,
+          is_extra: isExtraFlag
+        } as Ndb;
+      })
+    );
+
   return (await ndbs).concat(await extraNdbs);
 };
