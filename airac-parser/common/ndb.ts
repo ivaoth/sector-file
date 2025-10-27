@@ -16,8 +16,6 @@ export const extractNdbs = async (
   boundary: number[]
 ): Promise<Ndb[]> => {
 
-  const boundarySet = new Set(boundary);
-
   const addIsExtra =
     (isExtra: boolean) =>
     (s: NdbDbData[]): Ndb[] => {
