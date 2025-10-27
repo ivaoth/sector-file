@@ -263,7 +263,11 @@ for (const ndb of ndbs) {
   const dmsLat = decimalToDMS(ndb.laty, true); // Convert latitude to DMS
   const dmsLon = decimalToDMS(ndb.lonx, false); // Convert longitude to DMS
 
-  outNdb += `${ndb.ident};${(ndb.frequency / 100).toFixed(3)};${dmsLat};${dmsLon};\n`;
+  outNdb += `${ndb.ident};${(ndb.frequency / 100).toFixed(3)};${dmsLat};${dmsLon};${
+    ndb.is_extra
+    ? 1
+    : 0
+  };\n`;
 }
 
 writeFileSync(ndbFile, outNdb);
@@ -281,7 +285,19 @@ for (const vor of vors) {
   const dmsLat = decimalToDMS(vor.laty, true); // Convert latitude to DMS
   const dmsLon = decimalToDMS(vor.lonx, false); // Convert longitude to DMS
 
-  outVor += `${vor.ident};${(vor.frequency / 1000).toFixed(3)};${dmsLat};${dmsLon};\n`;
+  outVor += `${vor.ident};${(vor.frequency / 1000).toFixed(3)};${dmsLat};${dmsLon};${
+    vor.is_extra
+    ? 1
+    : 0
+  };${
+    vor.is_tacan
+    ? (vor.is_vor ? 2 : 3)
+    : (vor.is_vor
+    ? (vor.is_vor_only ? 0 : 1)
+    : (vor.is_dme_only ? 4 : 0))
+  };${
+    vor.channel ? `CH${vor.channel}` : ''
+  };\n`;
 }
 
 writeFileSync(vorFile, outVor);
