@@ -3,763 +3,1417 @@
     "ident": "BET",
     "name": "BETONG YALA",
     "frequency": 113100,
+    "channel": null,
     "laty": 5.78547222,
-    "lonx": 101.14408333
+    "lonx": 101.14408333,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "BKK",
     "name": "BANGKOK",
     "frequency": 117700,
+    "channel": null,
     "laty": 13.89355556,
-    "lonx": 100.59619444
+    "lonx": 100.59619444,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "BRM",
     "name": "BURI RAM",
     "frequency": 117200,
+    "channel": null,
     "laty": 15.23955556,
-    "lonx": 103.25877778
+    "lonx": 103.25877778,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "BTG",
     "name": "PATTANI",
     "frequency": 114600,
+    "channel": "93X",
     "laty": 6.78733056,
-    "lonx": 101.15084444
+    "lonx": 101.15084444,
+    "is_vor": false,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": true,
+    "is_extra": false
   },
   {
     "ident": "BTN",
     "name": "NARATHIWAT",
     "frequency": 115200,
+    "channel": "99X",
     "laty": 6.52333333,
-    "lonx": 101.745
+    "lonx": 101.745,
+    "is_vor": false,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": true,
+    "is_extra": false
   },
   {
     "ident": "BUT",
     "name": "U-TAPAO",
     "frequency": 110800,
+    "channel": null,
     "laty": 12.66666667,
-    "lonx": 101.00047222
+    "lonx": 101.00047222,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "CHM",
     "name": "CHIANG MAI",
     "frequency": 116200,
+    "channel": "109X",
     "laty": 18.77552778,
-    "lonx": 98.96075
+    "lonx": 98.96075,
+    "is_vor": false,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": true,
+    "is_extra": false
   },
   {
     "ident": "CMA",
     "name": "CHIANG MAI",
     "frequency": 116900,
+    "channel": null,
     "laty": 18.76613889,
-    "lonx": 98.96122222
+    "lonx": 98.96122222,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "CMP",
     "name": "CHUM PHAE",
     "frequency": 112900,
+    "channel": null,
     "laty": 16.63527778,
-    "lonx": 101.98888889
+    "lonx": 101.98888889,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "CPN",
     "name": "CHUMPHON",
     "frequency": 110000,
+    "channel": null,
     "laty": 10.71119444,
-    "lonx": 99.36558333
+    "lonx": 99.36558333,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "CTR",
     "name": "CHIANG RAI",
     "frequency": 116500,
+    "channel": null,
     "laty": 19.94886111,
-    "lonx": 99.88313889
+    "lonx": 99.88313889,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "HHN",
     "name": "HUA HIN",
     "frequency": 113300,
+    "channel": null,
     "laty": 12.63441667,
-    "lonx": 99.95116667
+    "lonx": 99.95116667,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "HTY",
     "name": "HAT YAI",
     "frequency": 115300,
+    "channel": null,
     "laty": 6.93411111,
-    "lonx": 100.38794444
+    "lonx": 100.38794444,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "KBI",
     "name": "KRABI",
     "frequency": 111000,
+    "channel": null,
     "laty": 8.1075,
-    "lonx": 98.9775
+    "lonx": 98.9775,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "KKN",
     "name": "KHON KAEN",
     "frequency": 114900,
+    "channel": null,
     "laty": 16.47091667,
-    "lonx": 102.788
+    "lonx": 102.788,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "KPS",
     "name": "KAMPHAENG SAEN NAKHON PATHOM",
     "frequency": 114500,
+    "channel": null,
     "laty": 14.16575278,
-    "lonx": 99.95431111
+    "lonx": 99.95431111,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "KRT",
     "name": "KHORAT NAKHON RATCHASIMA",
     "frequency": 113700,
+    "channel": null,
     "laty": 14.91730556,
-    "lonx": 102.13980556
+    "lonx": 102.13980556,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "LOB",
     "name": "LOB BANGKOK",
     "frequency": 116800,
+    "channel": "115X",
     "laty": 14.87620278,
-    "lonx": 100.65985833
+    "lonx": 100.65985833,
+    "is_vor": false,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": true,
+    "is_extra": false
   },
   {
     "ident": "LOY",
     "name": "LOEI",
     "frequency": 115900,
+    "channel": null,
     "laty": 17.44705556,
-    "lonx": 101.72311111
+    "lonx": 101.72311111,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "LPN",
     "name": "LAMPANG",
     "frequency": 114700,
+    "channel": null,
     "laty": 18.27663889,
-    "lonx": 99.50233333
+    "lonx": 99.50233333,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "MHS",
     "name": "MAE HONG SON",
     "frequency": 115500,
+    "channel": null,
     "laty": 19.31975,
-    "lonx": 97.91211111
+    "lonx": 97.91211111,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "MS",
     "name": "MAE SOT TAK",
     "frequency": 116700,
+    "channel": null,
     "laty": 16.70193611,
-    "lonx": 98.53979167
+    "lonx": 98.53979167,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": true,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "MST",
     "name": "MAE SOT TAK",
     "frequency": 116700,
+    "channel": null,
     "laty": 16.69780556,
-    "lonx": 98.54158333
+    "lonx": 98.54158333,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "NAN",
     "name": "NAN",
     "frequency": 115700,
+    "channel": null,
     "laty": 18.80911111,
-    "lonx": 100.78261111
+    "lonx": 100.78261111,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "NKP",
     "name": "NAKHON PHANOM",
     "frequency": 111600,
+    "channel": null,
     "laty": 17.38830556,
-    "lonx": 104.63836111
+    "lonx": 104.63836111,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "NKR",
     "name": "NAKHON RATCHASIMA",
     "frequency": 110200,
+    "channel": null,
     "laty": 14.94655556,
-    "lonx": 102.31122222
+    "lonx": 102.31122222,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "NKS",
     "name": "NAKHON SI THAMMARAT",
     "frequency": 117400,
+    "channel": null,
     "laty": 8.54166667,
-    "lonx": 99.94686111
+    "lonx": 99.94686111,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "NTW",
     "name": "NARATHIWAT",
     "frequency": 116300,
+    "channel": null,
     "laty": 6.52727778,
-    "lonx": 101.74513889
+    "lonx": 101.74513889,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "PAE",
     "name": "PHRAE",
     "frequency": 111800,
+    "channel": null,
     "laty": 18.13413889,
-    "lonx": 100.16625
+    "lonx": 100.16625,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "PCB",
     "name": "PHETCHABUN",
     "frequency": 115400,
+    "channel": null,
     "laty": 16.676,
-    "lonx": 101.19663889
+    "lonx": 101.19663889,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "PCK",
     "name": "PRACHUAP KHIRI KHAN",
     "frequency": 113700,
+    "channel": "84X",
     "laty": 11.786775,
-    "lonx": 99.79172778
+    "lonx": 99.79172778,
+    "is_vor": false,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": true,
+    "is_extra": false
   },
   {
     "ident": "PSL",
     "name": "PHITSANULOK",
     "frequency": 114100,
+    "channel": null,
     "laty": 16.77036111,
-    "lonx": 100.29138889
+    "lonx": 100.29138889,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "PUT",
     "name": "PHUKET",
     "frequency": 116900,
+    "channel": null,
     "laty": 8.11397222,
-    "lonx": 98.307
+    "lonx": 98.307,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "RAN",
     "name": "RANONG",
     "frequency": 113400,
+    "channel": null,
     "laty": 9.77797222,
-    "lonx": 98.58372222
+    "lonx": 98.58372222,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "ROT",
     "name": "ROI ET",
     "frequency": 111200,
+    "channel": null,
     "laty": 16.11683333,
-    "lonx": 103.77208333
+    "lonx": 103.77208333,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "RYN",
     "name": "RAYONG",
     "frequency": 112500,
+    "channel": null,
     "laty": 12.77863889,
-    "lonx": 101.67644444
+    "lonx": 101.67644444,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "SKL",
     "name": "SONGKHLA",
     "frequency": 113500,
+    "channel": null,
     "laty": 7.18879167,
-    "lonx": 100.60419722
+    "lonx": 100.60419722,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "SKN",
     "name": "SAKON NAKHON",
     "frequency": 114200,
+    "channel": null,
     "laty": 17.21411111,
-    "lonx": 104.13677778
+    "lonx": 104.13677778,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "SMU",
     "name": "SAMUI",
     "frequency": 117600,
+    "channel": null,
     "laty": 9.54702778,
-    "lonx": 100.06175
+    "lonx": 100.06175,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "SPN",
     "name": "SA PRAN NAK LOP BURI",
     "frequency": 117300,
+    "channel": null,
     "laty": 14.94833333,
-    "lonx": 100.645
+    "lonx": 100.645,
+    "is_vor": true,
+    "is_vor_only": true,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "SRT",
     "name": "SURAT THANI",
     "frequency": 113200,
+    "channel": "79X",
     "laty": 9.13111111,
-    "lonx": 99.13472222
+    "lonx": 99.13472222,
+    "is_vor": false,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": true,
+    "is_extra": false
   },
   {
     "ident": "STN",
     "name": "SURAT THANI",
     "frequency": 110600,
+    "channel": null,
     "laty": 9.1295,
-    "lonx": 99.13475
+    "lonx": 99.13475,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "SVB",
     "name": "SUVARNABHUMI BANGKOK",
     "frequency": 111400,
+    "channel": null,
     "laty": 13.65902778,
-    "lonx": 100.73144444
+    "lonx": 100.73144444,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "TKL",
     "name": "TAKHLI",
     "frequency": 114800,
+    "channel": "95X",
     "laty": 15.27475833,
-    "lonx": 100.29906111
+    "lonx": 100.29906111,
+    "is_vor": false,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": true,
+    "is_extra": false
   },
   {
     "ident": "TRN",
     "name": "TRANG",
     "frequency": 116600,
+    "channel": null,
     "laty": 7.50891667,
-    "lonx": 99.62602778
+    "lonx": 99.62602778,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "TRT",
     "name": "TRAT",
     "frequency": 109900,
+    "channel": null,
     "laty": 12.27644444,
-    "lonx": 102.31913889
+    "lonx": 102.31913889,
+    "is_vor": false,
+    "is_vor_only": false,
+    "is_dme_only": true,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "UBL",
     "name": "UBON UBON RATCHATHANI",
     "frequency": 112700,
+    "channel": null,
     "laty": 15.24519444,
-    "lonx": 104.86588889
+    "lonx": 104.86588889,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "UDN",
     "name": "UDON THANI",
     "frequency": 114300,
+    "channel": null,
     "laty": 17.38477778,
-    "lonx": 102.77494444
+    "lonx": 102.77494444,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "APU",
     "name": "ANBU TAIPEI",
     "frequency": 112500,
+    "channel": null,
     "laty": 25.17686111,
-    "lonx": 121.52225
+    "lonx": 121.52225,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "HLG",
     "name": "HOULONG",
     "frequency": 114000,
+    "channel": null,
     "laty": 24.55980556,
-    "lonx": 120.72716667
+    "lonx": 120.72716667,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "MKG",
     "name": "MAGONG PENGHU I.",
     "frequency": 115200,
+    "channel": null,
     "laty": 23.59544444,
-    "lonx": 119.63727778
+    "lonx": 119.63727778,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "HKC",
     "name": "KAGOSHIMA",
     "frequency": 113300,
+    "channel": "80X",
     "laty": 31.69722222,
-    "lonx": 130.58294167
+    "lonx": 130.58294167,
+    "is_vor": false,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": true,
+    "is_extra": true
   },
   {
     "ident": "KEC",
     "name": "KUSHIMOTO",
     "frequency": 112900,
+    "channel": "76X",
     "laty": 33.44774167,
-    "lonx": 135.79449444
+    "lonx": 135.79449444,
+    "is_vor": false,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": true,
+    "is_extra": true
   },
   {
     "ident": "SUC",
     "name": "SHIMIZU",
     "frequency": 115200,
+    "channel": "99X",
     "laty": 32.75596944,
-    "lonx": 132.99664722
+    "lonx": 132.99664722,
+    "is_vor": false,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": true,
+    "is_extra": true
   },
   {
     "ident": "AAE",
     "name": "AHMEDABAD",
     "frequency": 113100,
+    "channel": null,
     "laty": 23.06869444,
-    "lonx": 72.62875
+    "lonx": 72.62875,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "AAU",
     "name": "AURANGABAD",
     "frequency": 116300,
+    "channel": null,
     "laty": 19.86088889,
-    "lonx": 75.40605556
+    "lonx": 75.40605556,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "NNP",
     "name": "NAGPUR",
     "frequency": 112700,
+    "channel": null,
     "laty": 21.08197778,
-    "lonx": 79.05617778
+    "lonx": 79.05617778,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "KAT",
     "name": "KATUNAYAKE",
     "frequency": 114100,
+    "channel": null,
     "laty": 7.16125556,
-    "lonx": 79.86850833
+    "lonx": 79.86850833,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "KOS",
     "name": "SIHANOUK",
     "frequency": 116000,
+    "channel": null,
     "laty": 10.58966667,
-    "lonx": 103.64216667
+    "lonx": 103.64216667,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "REP",
     "name": "SIEM REAP",
     "frequency": 112000,
+    "channel": null,
     "laty": 13.36055556,
-    "lonx": 104.21969444
+    "lonx": 104.21969444,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "TIA",
     "name": "TECHO",
     "frequency": 111000,
+    "channel": null,
     "laty": 11.343,
-    "lonx": 104.90394444
+    "lonx": 104.90394444,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "BBN",
     "name": "VARANASI",
     "frequency": 113900,
+    "channel": null,
     "laty": 25.45422222,
-    "lonx": 82.8595
+    "lonx": 82.8595,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "BBS",
     "name": "BHUBANESWAR",
     "frequency": 113500,
+    "channel": null,
     "laty": 20.24422222,
-    "lonx": 85.813
+    "lonx": 85.813,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "CEA",
     "name": "KOLKATA",
     "frequency": 112500,
+    "channel": null,
     "laty": 22.67591667,
-    "lonx": 88.44811111
+    "lonx": 88.44811111,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "JJS",
     "name": "JAMSHEDPUR",
     "frequency": 115400,
+    "channel": null,
     "laty": 22.81319444,
-    "lonx": 86.17394444
+    "lonx": 86.17394444,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "KKJ",
     "name": "KHAJURAHO",
     "frequency": 116400,
+    "channel": null,
     "laty": 24.803,
-    "lonx": 79.913
+    "lonx": 79.913,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "VVZ",
     "name": "VISAKHAPATNAM",
     "frequency": 114000,
+    "channel": null,
     "laty": 17.66883333,
-    "lonx": 83.25286111
+    "lonx": 83.25286111,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "CTG",
     "name": "CHATTOGRAM",
     "frequency": 113400,
+    "channel": null,
     "laty": 22.25775,
-    "lonx": 91.8275
+    "lonx": 91.8275,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "DAC",
     "name": "DHAKA",
     "frequency": 112700,
+    "channel": null,
     "laty": 23.82427778,
-    "lonx": 90.41291667
+    "lonx": 90.41291667,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "RAJ",
     "name": "RAJSHAHI",
     "frequency": 114600,
+    "channel": null,
     "laty": 24.439,
-    "lonx": 88.61522222
+    "lonx": 88.61522222,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "AGG",
     "name": "AGRA",
     "frequency": 112000,
+    "channel": null,
     "laty": 27.15727778,
-    "lonx": 77.95655556
+    "lonx": 77.95655556,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "DPN",
     "name": "DELHI",
     "frequency": 116100,
+    "channel": null,
     "laty": 28.56691667,
-    "lonx": 77.09352778
+    "lonx": 77.09352778,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "LPB",
     "name": "LUANG PHABANG",
     "frequency": 116600,
+    "channel": null,
     "laty": 19.91096111,
-    "lonx": 102.17190833
+    "lonx": 102.17190833,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "PAK",
     "name": "PAKSE",
     "frequency": 115000,
+    "channel": null,
     "laty": 15.19675,
-    "lonx": 105.73805556
+    "lonx": 105.73805556,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "SAV",
     "name": "SAVANNAKHET",
     "frequency": 113500,
+    "channel": null,
     "laty": 16.56213889,
-    "lonx": 104.76666667
+    "lonx": 104.76666667,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "VTN",
     "name": "VIENTIANE",
     "frequency": 117500,
+    "channel": null,
     "laty": 18.01036111,
-    "lonx": 102.54047222
+    "lonx": 102.54047222,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "SMR",
     "name": "SIMARA",
     "frequency": 112900,
+    "channel": null,
     "laty": 27.16416667,
-    "lonx": 84.98222222
+    "lonx": 84.98222222,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "DAN",
     "name": "DA NANG",
     "frequency": 114400,
+    "channel": null,
     "laty": 16.05277778,
-    "lonx": 108.19819444
+    "lonx": 108.19819444,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "NOB",
     "name": "NOI BAI HANOI",
     "frequency": 116100,
+    "channel": null,
     "laty": 21.21302222,
-    "lonx": 105.83493611
+    "lonx": 105.83493611,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "PCA",
     "name": "PHU CAT",
     "frequency": 116300,
+    "channel": null,
     "laty": 13.95725,
-    "lonx": 109.04266667
+    "lonx": 109.04266667,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "PLK",
     "name": "PLEIKU",
     "frequency": 113400,
+    "channel": null,
     "laty": 14.00602778,
-    "lonx": 108.02441667
+    "lonx": 108.02441667,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "PQU",
     "name": "PHU QUOC",
     "frequency": 113000,
+    "channel": null,
     "laty": 10.16529722,
-    "lonx": 104.03894444
+    "lonx": 104.03894444,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "TSH",
     "name": "TAN SON NHAT",
     "frequency": 116800,
+    "channel": null,
     "laty": 10.81830556,
-    "lonx": 106.65055556
+    "lonx": 106.65055556,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "BGO",
     "name": "BAGO",
     "frequency": 112600,
+    "channel": null,
     "laty": 17.31849444,
-    "lonx": 96.519875
+    "lonx": 96.519875,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "DWI",
     "name": "DAWEI",
     "frequency": 112000,
+    "channel": null,
     "laty": 14.10056111,
-    "lonx": 98.20680278
+    "lonx": 98.20680278,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "MDY",
     "name": "MANDALAY",
     "frequency": 112800,
+    "channel": null,
     "laty": 21.93427778,
-    "lonx": 96.12975
+    "lonx": 96.12975,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "PTN",
     "name": "PATHEIN",
     "frequency": 115600,
+    "channel": null,
     "laty": 16.80868889,
-    "lonx": 94.76955
+    "lonx": 94.76955,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "TPG",
     "name": "TANJUNGPINANG",
     "frequency": 114800,
+    "channel": null,
     "laty": 0.90355556,
-    "lonx": 104.51455556
+    "lonx": 104.51455556,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "VAS",
     "name": "ALOR SETAR",
     "frequency": 113600,
+    "channel": null,
     "laty": 6.18566667,
-    "lonx": 100.397
+    "lonx": 100.397,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "VBA",
     "name": "BATU ARANG",
     "frequency": 114700,
+    "channel": null,
     "laty": 3.32508333,
-    "lonx": 101.46088889
+    "lonx": 101.46088889,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "VIH",
     "name": "IPOH",
     "frequency": 117300,
+    "channel": null,
     "laty": 4.57361111,
-    "lonx": 101.09392778
+    "lonx": 101.09392778,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "VJB",
     "name": "JOHOR BAHRU",
     "frequency": 112500,
+    "channel": null,
     "laty": 1.664,
-    "lonx": 103.66088889
+    "lonx": 103.66088889,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "VKB",
     "name": "KOTA BHARU",
     "frequency": 112300,
+    "channel": null,
     "laty": 6.16344444,
-    "lonx": 102.31419444
+    "lonx": 102.31419444,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": false
   },
   {
     "ident": "VKL",
     "name": "KUALA LUMPUR",
     "frequency": 116100,
+    "channel": null,
     "laty": 2.72444444,
-    "lonx": 101.73805556
+    "lonx": 101.73805556,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "VPG",
     "name": "PENANG",
     "frequency": 116200,
+    "channel": null,
     "laty": 5.2794,
-    "lonx": 100.26077222
+    "lonx": 100.26077222,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "VPK",
     "name": "PEKAN",
     "frequency": 115600,
+    "channel": null,
     "laty": 3.38791667,
-    "lonx": 103.42102778
+    "lonx": 103.42102778,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "VPL",
     "name": "LANGKAWI",
     "frequency": 114100,
+    "channel": null,
     "laty": 6.35435,
-    "lonx": 99.74545278
+    "lonx": 99.74545278,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "PU",
     "name": "PAPA UNIFORM SINGAPORE",
     "frequency": 115100,
+    "channel": null,
     "laty": 1.42333333,
-    "lonx": 103.93333333
+    "lonx": 103.93333333,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "SJ",
     "name": "SINJON SINGAPORE",
     "frequency": 113500,
+    "channel": null,
     "laty": 1.22259444,
-    "lonx": 103.85422778
+    "lonx": 103.85422778,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "GYA",
     "name": "GAOYAO",
     "frequency": 116500,
+    "channel": null,
     "laty": 23.07,
-    "lonx": 112.48666667
+    "lonx": 112.48666667,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "HUY",
     "name": "HUAYUAN",
     "frequency": 112000,
+    "channel": null,
     "laty": 28.58,
-    "lonx": 109.45
+    "lonx": 109.45,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "LIN",
     "name": "LINLI",
     "frequency": 117500,
+    "channel": null,
     "laty": 29.35333333,
-    "lonx": 111.64833333
+    "lonx": 111.64833333,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "LON",
     "name": "LONGZHOU",
     "frequency": 112200,
+    "channel": null,
     "laty": 22.35666667,
-    "lonx": 106.86833333
+    "lonx": 106.86833333,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "WUY",
     "name": "NANNING",
     "frequency": 112400,
+    "channel": null,
     "laty": 22.58598889,
-    "lonx": 108.15007222
+    "lonx": 108.15007222,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "WHA",
     "name": "TIANHE",
     "frequency": 112200,
+    "channel": null,
     "laty": 30.78166667,
-    "lonx": 114.20333333
+    "lonx": 114.20333333,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "SGM",
     "name": "XISHAN",
     "frequency": 110600,
+    "channel": null,
     "laty": 25.08166667,
-    "lonx": 102.52
+    "lonx": 102.52,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "XFA",
     "name": "PANLONG",
     "frequency": 110800,
+    "channel": null,
     "laty": 25.40166667,
-    "lonx": 102.93333333
+    "lonx": 102.93333333,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "LPS",
     "name": "LIUPANSHUI",
     "frequency": 116300,
+    "channel": null,
     "laty": 26.64333333,
-    "lonx": 105.03
+    "lonx": 105.03,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   },
   {
     "ident": "QNX",
     "name": "QIANXI",
     "frequency": 113100,
+    "channel": null,
     "laty": 27.04166667,
-    "lonx": 106.03
+    "lonx": 106.03,
+    "is_vor": true,
+    "is_vor_only": false,
+    "is_dme_only": false,
+    "is_tacan": false,
+    "is_extra": true
   }
 ]
