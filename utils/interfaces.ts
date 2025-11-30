@@ -45,18 +45,14 @@ export interface Vor {
   ident: string;
   name: string;
   frequency: number;
+  channel: string;
   laty: number;
   lonx: number;
-}
-
-export interface Ils {
-  ident: string;
-  loc_runway_name: string;
-  loc_airport_ident: string;
-  dme_lonx: number;
-  dme_laty: number;
-  laty: number;
-  lonx: number;
+  is_extra: boolean;
+  is_vor: boolean;
+  is_vor_only: boolean;
+  is_dme_only: boolean;
+  is_tacan: boolean;
 }
 
 export interface Ndb {
@@ -65,6 +61,7 @@ export interface Ndb {
   frequency: number;
   laty: number;
   lonx: number;
+  is_extra: boolean;
 }
 
 export interface Waypoint {

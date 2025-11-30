@@ -42,6 +42,7 @@ import { extractWaypoints } from './waypoint';
   const {
     data: airways,
     extras: extrasFromAirways,
+    boundary: boundaryFromAirways,
     enroute: enrouteFixes
   } = await extractAirways(db);
 
@@ -67,7 +68,7 @@ import { extractWaypoints } from './waypoint';
 
   const buildNdbFile = resolve(buildPath, 'ndbs.json');
 
-  const ndbs = extractNdbs(db, extrasFromAirways);
+  const ndbs = extractNdbs(db, extrasFromAirways, boundaryFromAirways);
 
   outputFileSync(buildNdbFile, JSON.stringify(await ndbs, null, 2));
 
@@ -75,7 +76,7 @@ import { extractWaypoints } from './waypoint';
 
   const buildVorFile = resolve(buildPath, 'vors.json');
 
-  const vors = extractVors(db, extrasFromAirways);
+  const vors = extractVors(db, extrasFromAirways, boundaryFromAirways);
 
   outputFileSync(buildVorFile, JSON.stringify(await vors, null, 2));
 
@@ -83,7 +84,7 @@ import { extractWaypoints } from './waypoint';
 
   const buildWaypointFile = resolve(buildPath, 'waypoints.json');
 
-  const waypoints = extractWaypoints(db, extrasFromAirways, enrouteFixes);
+  const waypoints = extractWaypoints(db, extrasFromAirways, boundaryFromAirways, enrouteFixes);
 
   outputFileSync(buildWaypointFile, JSON.stringify(await waypoints, null, 2));
 
