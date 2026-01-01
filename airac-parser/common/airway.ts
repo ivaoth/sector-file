@@ -24,10 +24,11 @@ export const extractAirways = async (
   db: Promise<Database>
 ): Promise<{
   data: Segment[][];
-  extras: number[];
+  extras: number[];     // all non-VT endpoints (unchanged semantics)
+  boundary: number[];   // NEW: non-VT endpoints directly connected to VT
   enroute: number[];
 }> => {
-  const filteredSegments = (await db).all<SegmentsDbData[]>(SQL`
+const filteredSegments = (await db).all<SegmentsDbData[]>(SQL`
 SELECT
   airway.airway_name AS name,
   airway.airway_fragment_no AS segment_no,
@@ -44,44 +45,63 @@ SELECT
   T2.region AS region_to,
   T1.waypoint_id AS id_from,
   T2.waypoint_id AS id_to
-FROM
-  airway
-JOIN
-  waypoint T1 ON airway.from_waypoint_id = T1.waypoint_id
-JOIN
-  waypoint T2 ON airway.to_waypoint_id = T2.waypoint_id
+FROM airway
+JOIN waypoint T1 ON airway.from_waypoint_id = T1.waypoint_id
+JOIN waypoint T2 ON airway.to_waypoint_id   = T2.waypoint_id
 WHERE
-  (airway.airway_name, airway.airway_fragment_no) IN (
-      SELECT DISTINCT
-          airway_name,
-          airway_fragment_no
-      FROM
-          airway
-      JOIN
-          waypoint ON airway.from_waypoint_id = waypoint.waypoint_id
-      WHERE
-          region = 'VT'
-      UNION
-      SELECT DISTINCT
-          airway_name,
-          airway_fragment_no
-      FROM
-          airway
-      JOIN
-          waypoint ON airway.to_waypoint_id = waypoint.waypoint_id
-      WHERE
-          region = 'VT'
+  (
+    substr(airway.airway_name, 1, 1) IN ('H','J','V','W','Q','T','Y','Z')
+    AND EXISTS (
+      SELECT 1
+      FROM airway a2
+      JOIN waypoint f ON a2.from_waypoint_id = f.waypoint_id
+      JOIN waypoint t ON a2.to_waypoint_id   = t.waypoint_id
+      WHERE a2.airway_name = airway.airway_name
+        AND a2.airway_fragment_no = airway.airway_fragment_no
+        AND f.region = 'VT'
+        AND t.region = 'VT'     -- require at least one VT↔VT segment
+    )
   )
-ORDER BY
-  airway.airway_id ASC;
-  `);
+  OR
+  (
+    substr(airway.airway_name, 1, 1) IN ('A','B','G','R','L','M','N','P')
+    AND EXISTS (
+      SELECT 1
+      FROM airway a3
+      JOIN waypoint f2 ON a3.from_waypoint_id = f2.waypoint_id
+      JOIN waypoint t2 ON a3.to_waypoint_id   = t2.waypoint_id
+      WHERE a3.airway_name = airway.airway_name
+        AND a3.airway_fragment_no = airway.airway_fragment_no
+        AND (f2.region = 'VT' OR t2.region = 'VT') -- touches VT anywhere
+    )
+  )
+  OR
+  (
+    substr(airway.airway_name, 1, 1) NOT IN ('H','J','V','W','Q','T','Y','Z','A','B','G','R','L','M','N','P')
+    AND EXISTS (
+      SELECT 1
+      FROM airway a4
+      JOIN waypoint f3 ON a4.from_waypoint_id = f3.waypoint_id
+      JOIN waypoint t3 ON a4.to_waypoint_id   = t3.waypoint_id
+      WHERE a4.airway_name = airway.airway_name
+        AND a4.airway_fragment_no = airway.airway_fragment_no
+        AND (f3.region = 'VT' OR t3.region = 'VT') -- safe fallback
+    )
+  )
+ORDER BY airway.airway_id ASC;
+`);
 
-  const extras: number[] = [];
+
+  // use Sets to avoid duplicates while preserving insertion order via arrays later
+  const extrasSet = new Set<number>();    // all non-VT endpoints
+  const boundarySet = new Set<number>();  // non-VT endpoint when the other end is VT
   const enroute: number[] = [];
 
   const { data } = (await filteredSegments).reduce(
     (prev, curr) => {
       const { data: currData, ...others } = prev;
+
+      // Track enroute order the same way you did
       if (
         (prev.currentName !== curr.name ||
           prev.currentFragment !== curr.segment_no ||
@@ -93,17 +113,19 @@ ORDER BY
       if (enroute.indexOf(curr.id_to) === -1) {
         enroute.push(curr.id_to);
       }
-      if (curr.region_from !== 'VT') {
-        if (extras.indexOf(curr.id_from) === -1) {
-          extras.push(curr.id_from);
-        }
-      }
-      if (curr.region_to !== 'VT') {
-        if (extras.indexOf(curr.id_to) === -1) {
-          extras.push(curr.id_to);
-        }
-      }
-      const { id_from: _, id_to: __, ...out } = curr;
+
+      // Collect ALL non-VT endpoints in extras (unchanged)
+      if (curr.region_from !== 'VT') extrasSet.add(curr.id_from);
+      if (curr.region_to !== 'VT') extrasSet.add(curr.id_to);
+
+      // NEW: boundary = non-VT endpoint when the other side is VT
+      const fromIsVT = curr.region_from === 'VT';
+      const toIsVT   = curr.region_to === 'VT';
+      if (fromIsVT && !toIsVT) boundarySet.add(curr.id_to);   // VT → non-VT
+      if (!fromIsVT && toIsVT) boundarySet.add(curr.id_from); // non-VT → VT
+
+      // Build grouped segments (unchanged)
+      const { id_from: _a, id_to: _b, ...out } = curr;
       if (
         out.name !== prev.currentName ||
         out.segment_no !== prev.currentFragment ||
@@ -115,11 +137,7 @@ ORDER BY
           currentSequence: out.sequence_no,
           data: [
             ...currData,
-            [
-              {
-                ...out
-              }
-            ]
+            [{ ...out }]
           ]
         };
       } else {
@@ -133,9 +151,7 @@ ORDER BY
             ...otherEle,
             [
               ...lastEle,
-              {
-                ...out
-              }
+              { ...out }
             ]
           ]
         };
@@ -148,5 +164,10 @@ ORDER BY
       data: [] as Segment[][]
     }
   );
-  return { data, extras, enroute };
+
+  // Convert Sets to arrays (insertion order preserved by Set iteration)
+  const extras   = Array.from(extrasSet);
+  const boundary = Array.from(boundarySet);
+
+  return { data, extras, boundary, enroute };
 };
