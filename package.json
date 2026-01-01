@@ -29,7 +29,7 @@
     "@types/archiver": "7.0.0",
     "@types/fs-extra": "11.0.4",
     "@types/inquirer": "9.0.9",
-    "@types/node": "20.19.23",
+    "@types/node": "20.19.27",
     "@types/sqlite3": "5.1.0",
     "@types/xml": "1.0.11",
     "commit-and-tag-version": "12.6.0",
