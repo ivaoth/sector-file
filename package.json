@@ -28,7 +28,7 @@
     "@eslint/js": "10.0.1",
     "@types/archiver": "7.0.0",
     "@types/fs-extra": "11.0.4",
-    "@types/inquirer": "9.0.9",
+    "@types/inquirer": "9.0.10",
     "@types/node": "20.19.39",
     "@types/sqlite3": "5.1.0",
     "@types/xml": "1.0.11",
