@@ -2,6 +2,36 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [2.2609.1](https://github.com/ivaoth/sector-file/compare/v2.2413.1...v2.2609.1) (2026-09-12)
+
+
+### Features
+
+* **aurora/VTBB:** update airport, area, navigation, SID, and STAR data through AIRAC 2510 ([#1769](https://github.com/ivaoth/sector-file/issues/1769)) ([9bc7e91](https://github.com/ivaoth/sector-file/commit/9bc7e91c702578f463aed0ad10622f96d031fcc6))
+* **aurora/VTBB:** update procedures for AIRAC 2507/2509, including VTCP, VTSP, VTSS, and VTUU ([#1773](https://github.com/ivaoth/sector-file/issues/1773)) ([130c598](https://github.com/ivaoth/sector-file/commit/130c59860d38a0a02f5f587a25553179d52c3a42))
+* **aurora/VTCT:** update airport ground layout ([#1776](https://github.com/ivaoth/sector-file/issues/1776)) ([08db1f6](https://github.com/ivaoth/sector-file/commit/08db1f6bd19db15699637ee9ce3fc69c18dfd193))
+* **aurora/VTBB:** add support for hiding extra fixes and remove obsolete ILS data ([#1770](https://github.com/ivaoth/sector-file/issues/1770)) ([a3d49f3](https://github.com/ivaoth/sector-file/commit/a3d49f3e6ca5bba55025bba0c481524778385973))
+* **aurora/VTBB:** improve SID and STAR label placement across multiple airports ([#1775](https://github.com/ivaoth/sector-file/issues/1775)) ([038fe03](https://github.com/ivaoth/sector-file/commit/038fe031e62bcf96c1f4a2427833ba79f1a1cccc))
+* **aurora/VTBB:** overhaul AIRAC parsing and Aurora build generation ([#1782](https://github.com/ivaoth/sector-file/issues/1782)) ([53e918c](https://github.com/ivaoth/sector-file/commit/53e918c7f25aa5eb311d4e9860bebc3806f4054e))
+* **aurora/VTBB:** update sector files for AIRAC 2513 ([#1807](https://github.com/ivaoth/sector-file/issues/1807)) ([0cc3658](https://github.com/ivaoth/sector-file/commit/0cc3658af1e2db981d4b3b67798dd33527007278))
+* **aurora/VTBB:** update Bangkok FIR and adjacent airspace, VTBS and VTUK ground layouts, VTSM PUKOM hold, and add the VTSY ground layout ([4e129e0](https://github.com/ivaoth/sector-file/commit/4e129e01b978dc85405bacc381fd6a64480e524f))
+* **aurora/VTCT:** add new taxiways and update the terminal, pier, and ground layout ([9d6f0a7](https://github.com/ivaoth/sector-file/commit/9d6f0a79b5ffa629c56256df2d3a8fb1ddc783c3))
+
+
+### Bug Fixes
+
+* **aurora/VTUU:** correct IAF speed restrictions ([#1777](https://github.com/ivaoth/sector-file/issues/1777)) ([eccf9ba](https://github.com/ivaoth/sector-file/commit/eccf9ba3b5ee187f0e407988dc93211edbf358c8))
+* **aurora/VTBB:** correct errors in transfer lists, procedures, airspace, and airport sector files ([#1785](https://github.com/ivaoth/sector-file/issues/1785)) ([aad901a](https://github.com/ivaoth/sector-file/commit/aad901a3c18f9bd048b20c0a80a6514359a91540))
+* **aurora/VTBB:** update navigation, airspace, area, airport, and procedure data for AIRAC 2609, including VTBS approach constraints ([#1922](https://github.com/ivaoth/sector-file/issues/1922)) ([ea89165](https://github.com/ivaoth/sector-file/commit/ea8916579effb66eab82aed1c3586acf0702f066))
+* **aurora/VTBB:** update VTBS SID/STAR data, correct VTBD approach speed restrictions, and remove the VTUI ground frequency for AIRAC 2609 ([#1924](https://github.com/ivaoth/sector-file/issues/1924)) ([1840705](https://github.com/ivaoth/sector-file/commit/1840705c85bf76487fc7cd0476b4efa634741e0c))
+
+
+### Maintenance
+
+* update the AIRAC parser and generated airport, airway, airspace, NDB, VOR, and waypoint datasets
+* update the Node.js toolchain to Node.js 24, TypeScript 6, ESLint 10, and current build dependencies
+* update GitHub Actions workflows, including checkout, setup-node, cache, and artifact upload actions
+
 ## [2.2401.1](https://github.com/ivaoth/ivac-sector-file/compare/v2.2301.1...v2.2401.1) (2024-02-06)
 
 
