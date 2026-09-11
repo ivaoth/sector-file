@@ -3,264 +3,217 @@
     "ident": "BR",
     "name": "BURIRUM",
     "frequency": 30300,
-    "laty": 15.23866667,
-    "lonx": 103.25255556,
-    "is_extra": false
+    "laty": 15.23863889,
+    "lonx": 103.25255556
   },
   {
     "ident": "CP",
     "name": "CHUMPHON",
     "frequency": 27900,
-    "laty": 10.71775,
-    "lonx": 99.36611111,
-    "is_extra": false
+    "laty": 10.71772222,
+    "lonx": 99.36611111
   },
   {
     "ident": "CT",
     "name": "CHIANG RAI",
     "frequency": 27700,
     "laty": 19.95975,
-    "lonx": 99.88308333,
-    "is_extra": false
+    "lonx": 99.88308333
   },
   {
     "ident": "HN",
     "name": "HUA HIN",
     "frequency": 21300,
     "laty": 12.645,
-    "lonx": 99.94625,
-    "is_extra": false
+    "lonx": 99.94625
   },
   {
     "ident": "KB",
     "name": "KRABI",
     "frequency": 29900,
     "laty": 8.10541667,
-    "lonx": 98.97452778,
-    "is_extra": false
+    "lonx": 98.97452778
   },
   {
     "ident": "KN",
     "name": "KHON KAEN",
     "frequency": 39300,
-    "laty": 16.46205833,
-    "lonx": 102.78449444,
-    "is_extra": false
+    "laty": 16.46202778,
+    "lonx": 102.7845
   },
   {
     "ident": "KPS",
     "name": "KAMPHAENG SAEN NAKHON PATHOM",
     "frequency": 25100,
     "laty": 14.17034444,
-    "lonx": 99.95686389,
-    "is_extra": false
+    "lonx": 99.95686389
   },
   {
     "ident": "KR",
     "name": "NAKHON RATCHASIMA",
     "frequency": 39900,
-    "laty": 14.95647222,
-    "lonx": 102.31472222,
-    "is_extra": false
+    "laty": 14.95644444,
+    "lonx": 102.31469444
   },
   {
     "ident": "LB",
     "name": "LOP BURI",
     "frequency": 28000,
     "laty": 14.87674167,
-    "lonx": 100.65734722,
-    "is_extra": false
+    "lonx": 100.65734722
   },
   {
     "ident": "LP",
     "name": "LAMPANG",
     "frequency": 39500,
-    "laty": 18.27802222,
-    "lonx": 99.50746667,
-    "is_extra": false
+    "laty": 18.278,
+    "lonx": 99.50747222
   },
   {
     "ident": "LY",
     "name": "LOEI",
     "frequency": 32500,
-    "laty": 17.44863889,
-    "lonx": 101.72652778,
-    "is_extra": false
+    "laty": 17.44861111,
+    "lonx": 101.7265
   },
   {
     "ident": "MH",
     "name": "MAE HONG SON",
     "frequency": 38400,
-    "laty": 19.29884444,
-    "lonx": 97.97516389,
-    "is_extra": false
+    "laty": 19.29891667,
+    "lonx": 97.97530556
   },
   {
     "ident": "MS",
     "name": "MAE SOT TAK",
     "frequency": 31600,
-    "laty": 16.70193611,
-    "lonx": 98.53979167,
-    "is_extra": false
+    "laty": 16.70191667,
+    "lonx": 98.53977778
   },
   {
     "ident": "NN",
     "name": "NAN",
     "frequency": 35500,
     "laty": 18.80722222,
-    "lonx": 100.78664167,
-    "is_extra": false
+    "lonx": 100.78663889
   },
   {
     "ident": "NP",
     "name": "NAKHON PHANOM",
     "frequency": 38300,
-    "laty": 17.39241667,
-    "lonx": 104.64266667,
-    "is_extra": false
+    "laty": 17.39238889,
+    "lonx": 104.64263889
   },
   {
     "ident": "NT",
     "name": "NARATHIWAT",
     "frequency": 38300,
     "laty": 6.52813889,
-    "lonx": 101.74975,
-    "is_extra": false
+    "lonx": 101.74975
   },
   {
     "ident": "PB",
     "name": "PRACHIN BURI",
     "frequency": 20100,
     "laty": 14.11833333,
-    "lonx": 101.37166667,
-    "is_extra": false
+    "lonx": 101.37166667
   },
   {
     "ident": "PC",
     "name": "PHETCHABUN",
     "frequency": 28300,
     "laty": 16.65916667,
-    "lonx": 101.18972222,
-    "is_extra": false
+    "lonx": 101.18972222
   },
   {
     "ident": "PCK",
     "name": "PRACHUAP KHIRI KHAN",
     "frequency": 32000,
     "laty": 11.79163611,
-    "lonx": 99.80000833,
-    "is_extra": false
+    "lonx": 99.80000833
   },
   {
     "ident": "PH",
     "name": "PHETCHABUN",
     "frequency": 28300,
-    "laty": 16.66086944,
-    "lonx": 101.19036111,
-    "is_extra": false
+    "laty": 16.66086111,
+    "lonx": 101.19036111
   },
   {
     "ident": "PR",
     "name": "PHRAE",
     "frequency": 34000,
-    "laty": 18.12948333,
-    "lonx": 100.16136389,
-    "is_extra": false
-  },
-  {
-    "ident": "PT",
-    "name": "PATTANI",
-    "frequency": 20100,
-    "laty": 6.78845833,
-    "lonx": 101.14791944,
-    "is_extra": false
+    "laty": 18.12947222,
+    "lonx": 100.16136111
   },
   {
     "ident": "RE",
     "name": "ROI ET",
     "frequency": 31900,
-    "laty": 16.11069444,
-    "lonx": 103.77822222,
-    "is_extra": false
+    "laty": 16.11066667,
+    "lonx": 103.77822222
   },
   {
     "ident": "RN",
     "name": "RANONG",
     "frequency": 37500,
     "laty": 9.78330556,
-    "lonx": 98.591,
-    "is_extra": false
+    "lonx": 98.591
   },
   {
     "ident": "SK",
     "name": "SONGKHLA",
     "frequency": 41000,
     "laty": 7.1875,
-    "lonx": 100.60388889,
-    "is_extra": false
+    "lonx": 100.60388889
   },
   {
     "ident": "SN",
     "name": "SAKON NAKHON",
     "frequency": 36500,
     "laty": 17.19697222,
-    "lonx": 104.11486111,
-    "is_extra": false
+    "lonx": 104.11483333
   },
   {
     "ident": "THS",
     "name": "SUKHOTHAI",
     "frequency": 29200,
-    "laty": 17.23521389,
-    "lonx": 99.82203056,
-    "is_extra": false
-  },
-  {
-    "ident": "TK",
-    "name": "TAK",
-    "frequency": 33200,
-    "laty": 16.8995,
-    "lonx": 99.25222222,
-    "is_extra": false
+    "laty": 17.23519444,
+    "lonx": 99.82202778
   },
   {
     "ident": "TL",
     "name": "TAKHLI",
     "frequency": 35000,
     "laty": 15.27595833,
-    "lonx": 100.29753056,
-    "is_extra": false
+    "lonx": 100.29753056
   },
   {
     "ident": "TRT",
     "name": "TRAT",
     "frequency": 38400,
     "laty": 12.27447222,
-    "lonx": 102.31391667,
-    "is_extra": false
+    "lonx": 102.31391667
   },
   {
     "ident": "UP",
     "name": "U-TAPHAO",
     "frequency": 41400,
-    "laty": 12.66180833,
-    "lonx": 100.994375,
-    "is_extra": false
+    "laty": 12.66194444,
+    "lonx": 100.995
   },
   {
     "ident": "WN",
     "name": "WATTHANA NAKHON",
     "frequency": 27000,
     "laty": 13.76739444,
-    "lonx": 102.31841111,
-    "is_extra": false
+    "lonx": 102.31841111
   },
   {
     "ident": "MC",
     "name": "MOCCHAU",
     "frequency": 51400,
     "laty": 20.82805556,
-    "lonx": 104.70027778,
-    "is_extra": true
+    "lonx": 104.70027778
   }
 ]
