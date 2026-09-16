@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [2.2609.2](https://github.com/ivaoth/sector-file/compare/v2.2609.1...v2.2609.2) (2026-09-16)
+
+
+### Features
+
+* **aurora:** update VTSP, VTSS, and VTUI airport ground layouts ([#1932](https://github.com/ivaoth/sector-file/issues/1932)) ([770b033](https://github.com/ivaoth/sector-file/commit/770b0332aa630158e9952d33bd162340e7a184e6))
+
 ## [2.2609.1](https://github.com/ivaoth/sector-file/compare/v2.2413.1...v2.2609.1) (2026-09-12)
 
 
