@@ -33,7 +33,7 @@
     "@types/sqlite3": "5.1.0",
     "@types/xml": "1.0.11",
     "commit-and-tag-version": "13.3.0",
-    "eslint": "10.12.0",
+    "eslint": "10.13.0",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-prettier": "5.5.7",
     "prettier": "3.9.10",
