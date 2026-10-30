@@ -10,7 +10,7 @@ jobs:
     - name: "Init: Summon NodeJS"
       uses: actions/setup-node@v7
       with:
-        node-version: 24.x
+        node-version: 26.x
     - name: "Cache: node_modules"
       uses: actions/cache@v6
       with:
@@ -36,7 +36,7 @@ jobs:
     - name: "Init: Summon NodeJS"
       uses: actions/setup-node@v7
       with:
-        node-version: 24.x
+        node-version: 26.x
     - name: "Cache: node_modules"
       uses: actions/cache@v6
       with:
@@ -67,7 +67,7 @@ jobs:
     - name: "Init: Summon NodeJS"
       uses: actions/setup-node@v7
       with:
-        node-version: 24.x
+        node-version: 26.x
     - name: "Cache: node_modules"
       uses: actions/cache@v6
       with:
