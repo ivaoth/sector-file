@@ -18,6 +18,7 @@ import {
   Area,
   AreaDetail
 } from '../utils/interfaces';
+import { adjustLat } from './utils/adjustLat';
 import { formatAirways } from './utils/formatAirways';
 import { zipDirectory } from './utils/zipFolder';
 
@@ -210,30 +211,7 @@ for (const waypoint of waypoints) {
   let dmsLat: string = decimalToDMS(waypoint.laty, true); // Convert latitude to DMS
   const dmsLon: string = decimalToDMS(waypoint.lonx, false); // Convert longitude to DMS
 
-  // Manually adjust MODON's latitude if required
-  if (waypoint.ident === 'MODON') {
-    let [degrees, minutes, seconds, miliseconds] = dmsLat
-      .substring(1) // Strip the direction for processing
-      .split(/[.]/)
-      .map((val) => parseInt(val, 10));
-    miliseconds += 1;
-    if (miliseconds >= 1000) {
-      miliseconds = 0;
-      seconds += 1;
-    }
-    if (seconds >= 60) {
-      seconds = 0;
-      minutes += 1;
-    }
-    if (minutes >= 60) {
-      minutes = 0;
-      degrees += 1;
-    }
-    const direction = dmsLat[0]; // Retrieve direction
-    dmsLat = `${direction}${degrees.toString().padStart(3, '0')}.${minutes
-      .toString().padStart(2, '0')}.${seconds.toString().padStart(2, '0')}.${miliseconds.toString().padStart(3, '0')}`;
-    console.log(`Adjusted MODON: ${dmsLat}`);
-  }
+  dmsLat = adjustLat(waypoint.ident, dmsLat);
 
   outFix += `${waypoint.ident};${dmsLat};${dmsLon};${
     waypoint.is_extra
